@@ -206,7 +206,6 @@ function buildFunnelCard(funnel, data, goal, onPace) {
       <div class="funnel-card-header">
         <div>
           <div class="funnel-name">${escHtml(funnel)}</div>
-          <div class="funnel-sub">Sales ${fmtNum(sales)} / Setter ${fmtNum(setter)}</div>
         </div>
         <span class="badge ${status.cls}">${status.label}</span>
       </div>
@@ -244,7 +243,6 @@ function buildNoGoalCard(funnel, data) {
       <div class="funnel-card-header">
         <div>
           <div class="funnel-name">${escHtml(funnel)}</div>
-          <div class="funnel-sub">Sales ${fmtNum(sales)} / Setter ${fmtNum(setter)}</div>
         </div>
         <span class="badge badge-nogoal">No Goal</span>
       </div>
