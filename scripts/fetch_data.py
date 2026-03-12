@@ -237,11 +237,11 @@ def classify_meeting(meeting, user_id_to_name):
     if RE_EXCLUDE_ENROLLMENT.search(title):
         return "excluded", False
 
-    # ── Step 2: Setter / Discovery — qualifying, flagged ─────────────────────
+    # ── Step 2: Setter / Discovery — excluded (dashboard is sales-only) ──────
     if re.search(r"vending\s+quick\s+discovery", title, re.IGNORECASE):
-        return "qualifying", True
+        return "excluded", False
     if owner_name in SETTER_OWNER_NAMES:
-        return "qualifying", True
+        return "excluded", False
 
     # ── Step 3: First call qualifying titles ─────────────────────────────────
     if not title:  # Blank title = qualifying (GCal sync safety net)
