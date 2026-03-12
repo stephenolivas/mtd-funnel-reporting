@@ -23,11 +23,7 @@
       --green-light: #f0fdf4;
       --amber: #f59e0b;
       --amber-light: #fffbeb;
-      --red: #ef4444;
-      --red-light: #fef2f2;
-      --gray-badge: #f3f4f6;
       --shadow: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
-      --shadow-md: 0 4px 6px -1px rgba(0,0,0,.08), 0 2px 4px -1px rgba(0,0,0,.06);
     }
 
     body {
@@ -38,272 +34,121 @@
       padding: 24px 16px 48px;
     }
 
-    .container {
-      max-width: 720px;
-      margin: 0 auto;
-    }
+    .container { max-width: 720px; margin: 0 auto; }
 
     /* ── Header ── */
-    .header {
-      margin-bottom: 24px;
-    }
-    .header h1 {
-      font-size: 1.75rem;
-      font-weight: 800;
-      color: var(--text);
-      letter-spacing: -0.02em;
-    }
+    .header { margin-bottom: 24px; }
+    .header h1 { font-size: 1.75rem; font-weight: 800; color: var(--text); letter-spacing: -0.02em; }
     .header-meta {
-      margin-top: 4px;
-      font-size: 0.8125rem;
-      color: var(--muted);
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0 8px;
-      align-items: center;
+      margin-top: 4px; font-size: 0.8125rem; color: var(--muted);
+      display: flex; flex-wrap: wrap; gap: 0 6px; align-items: center;
     }
     .header-meta .sep { color: var(--border); }
-    .header-nav {
-      margin-top: 10px;
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
+    .header-nav { margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap; }
     .nav-link {
-      font-size: 0.8rem;
-      font-weight: 500;
-      color: var(--blue);
-      text-decoration: none;
-      padding: 3px 10px;
-      border: 1px solid #dbeafe;
-      border-radius: 999px;
-      background: var(--blue-light);
-      transition: background 0.15s;
+      font-size: 0.8rem; font-weight: 500; color: var(--blue);
+      text-decoration: none; padding: 3px 10px;
+      border: 1px solid #dbeafe; border-radius: 999px;
+      background: var(--blue-light); transition: background 0.15s;
     }
     .nav-link:hover { background: #dbeafe; }
 
     /* ── Summary strip ── */
     .summary-strip {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 10px;
-      margin-bottom: 20px;
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      gap: 10px; margin-bottom: 20px;
     }
-    @media (max-width: 560px) {
-      .summary-strip { grid-template-columns: repeat(2, 1fr); }
-    }
+    @media (max-width: 560px) { .summary-strip { grid-template-columns: repeat(2, 1fr); } }
+
     .stat-card {
-      background: var(--card);
-      border-radius: 14px;
-      padding: 14px 16px 12px;
-      box-shadow: var(--shadow);
+      background: var(--card); border-radius: 14px;
+      padding: 14px 16px 12px; box-shadow: var(--shadow);
     }
     .stat-card .label {
-      font-size: 0.6875rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      color: var(--muted);
-      margin-bottom: 4px;
+      font-size: 0.6875rem; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.06em; color: var(--muted); margin-bottom: 4px;
     }
     .stat-card .value {
-      font-size: 1.875rem;
-      font-weight: 800;
-      line-height: 1;
-      letter-spacing: -0.02em;
+      font-size: 1.875rem; font-weight: 800; line-height: 1; letter-spacing: -0.02em;
     }
-    .stat-card .sub {
-      font-size: 0.75rem;
-      color: var(--muted);
-      margin-top: 2px;
-    }
+    .stat-card .sub { font-size: 0.75rem; color: var(--muted); margin-top: 2px; }
     .value-blue  { color: var(--blue); }
     .value-green { color: var(--green); }
     .value-amber { color: var(--amber); }
-    .value-red   { color: var(--red); }
 
     /* ── Section header ── */
     .section-label {
-      font-size: 0.75rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--muted);
-      margin: 24px 0 10px;
+      font-size: 0.75rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--muted); margin: 24px 0 10px;
     }
 
     /* ── Funnel card ── */
     .funnel-card {
-      background: var(--card);
-      border-radius: 16px;
-      padding: 18px 20px 16px;
-      box-shadow: var(--shadow);
-      margin-bottom: 10px;
+      background: var(--card); border-radius: 16px;
+      padding: 18px 20px 16px; box-shadow: var(--shadow); margin-bottom: 10px;
     }
     .funnel-card-header {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      margin-bottom: 6px;
-      gap: 8px;
+      display: flex; align-items: flex-start;
+      justify-content: space-between; margin-bottom: 2px; gap: 8px;
     }
-    .funnel-name {
-      font-size: 1rem;
-      font-weight: 700;
-      color: var(--text);
-    }
-    .funnel-sub {
-      font-size: 0.75rem;
-      color: var(--light);
-      margin-top: 1px;
-    }
+    .funnel-name { font-size: 1rem; font-weight: 700; color: var(--text); }
+    .funnel-sub  { font-size: 0.75rem; color: var(--light); margin-top: 2px; }
 
     /* ── Badges ── */
     .badge {
-      flex-shrink: 0;
-      font-size: 0.6875rem;
-      font-weight: 700;
-      padding: 3px 10px;
-      border-radius: 999px;
-      white-space: nowrap;
+      flex-shrink: 0; font-size: 0.6875rem; font-weight: 700;
+      padding: 3px 10px; border-radius: 999px; white-space: nowrap;
     }
     .badge-behind { background: var(--amber-light); color: #92400e; }
     .badge-onpace { background: var(--blue-light);  color: #1d4ed8; }
     .badge-hit    { background: var(--green-light); color: #15803d; }
-    .badge-nogoal { background: var(--gray-badge);  color: var(--muted); }
+    .badge-nogoal { background: #f3f4f6; color: var(--muted); }
 
     /* ── Progress bar ── */
     .progress-wrap {
-      position: relative;
-      height: 8px;
-      background: #f3f4f6;
-      border-radius: 999px;
-      margin: 10px 0 12px;
-      overflow: visible;
+      position: relative; height: 8px; background: #f3f4f6;
+      border-radius: 999px; margin: 10px 0 12px; overflow: visible;
     }
     .progress-fill {
-      height: 100%;
-      border-radius: 999px;
-      transition: width 0.4s ease;
-      min-width: 4px;
+      height: 100%; border-radius: 999px; transition: width 0.4s ease; min-width: 4px;
     }
-    .progress-fill-blue   { background: var(--blue); }
-    .progress-fill-green  { background: var(--green); }
-    .progress-fill-amber  { background: var(--amber); }
-    .progress-fill-gray   { background: #d1d5db; }
+    .progress-fill-blue  { background: var(--blue); }
+    .progress-fill-green { background: var(--green); }
+    .progress-fill-amber { background: var(--amber); }
+    .progress-fill-gray  { background: #d1d5db; }
 
     /* Pace tick mark */
     .pace-tick {
-      position: absolute;
-      top: -3px;
-      width: 2px;
-      height: 14px;
-      background: #9ca3af;
-      border-radius: 1px;
-      transform: translateX(-50%);
+      position: absolute; top: -3px; width: 2px; height: 14px;
+      background: #9ca3af; border-radius: 1px; transform: translateX(-50%);
     }
 
     /* ── Stats row ── */
-    .stats-row {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 0;
-    }
-    .stats-row .stat {
-      text-align: left;
-    }
+    .stats-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; }
+    .stats-row .stat { text-align: left; }
     .stats-row .stat-lbl {
-      font-size: 0.6875rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--muted);
-      margin-bottom: 1px;
+      font-size: 0.6875rem; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.05em; color: var(--muted); margin-bottom: 1px;
     }
     .stats-row .stat-val {
-      font-size: 1.25rem;
-      font-weight: 800;
-      letter-spacing: -0.01em;
-      line-height: 1.1;
+      font-size: 1.25rem; font-weight: 800; letter-spacing: -0.01em; line-height: 1.1;
     }
-    .stats-row .stat-val.behind { color: var(--amber); }
-    .stats-row .stat-val.onpace { color: var(--blue); }
-    .stats-row .stat-val.hit    { color: var(--green); }
-    .stats-row .stat-val.muted  { color: var(--muted); }
-    .stats-row .stat-val.plain  { color: var(--text); }
+    .stats-row .stat-val.col-amber { color: var(--amber); }
+    .stats-row .stat-val.col-blue  { color: var(--blue); }
+    .stats-row .stat-val.col-green { color: var(--green); }
+    .stats-row .stat-val.col-muted { color: var(--muted); }
+    .stats-row .stat-val.col-plain { color: var(--text); }
 
-    /* ── Setter section distinction ── */
-    .setter-section-header {
-      background: #f8faff;
-      border: 1px solid #e0e7ff;
-      border-radius: 12px;
-      padding: 10px 16px;
-      margin: 28px 0 10px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .setter-section-header .icon {
-      width: 28px;
-      height: 28px;
-      background: #e0e7ff;
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.875rem;
-    }
-    .setter-section-header .title {
-      font-size: 0.8125rem;
-      font-weight: 700;
-      color: #3730a3;
-    }
-    .setter-section-header .desc {
-      font-size: 0.75rem;
-      color: #6b7280;
-    }
-
-    /* ── No-goal funnel is simpler ── */
-    .no-goal-stats {
-      display: flex;
-      gap: 24px;
-      margin-top: 4px;
-    }
-    .no-goal-stats .stat-lbl {
-      font-size: 0.6875rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--muted);
-    }
-    .no-goal-stats .stat-val {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: var(--text);
-    }
-
-    /* ── Loading / error states ── */
-    .loading {
-      text-align: center;
-      padding: 60px 0;
-      color: var(--muted);
-      font-size: 0.9375rem;
-    }
+    /* ── Loading / error ── */
+    .loading { text-align: center; padding: 60px 0; color: var(--muted); font-size: 0.9375rem; }
     .error-box {
-      background: var(--red-light);
-      color: var(--red);
-      border-radius: 12px;
-      padding: 16px 20px;
-      font-size: 0.875rem;
-      margin-top: 20px;
+      background: #fef2f2; color: #ef4444;
+      border-radius: 12px; padding: 16px 20px; font-size: 0.875rem; margin-top: 20px;
     }
 
-    /* ── Footer ── */
     .footer {
-      text-align: center;
-      margin-top: 40px;
-      font-size: 0.75rem;
-      color: var(--light);
+      text-align: center; margin-top: 40px;
+      font-size: 0.75rem; color: var(--light);
     }
   </style>
 </head>
@@ -325,52 +170,43 @@
 </div>
 
 <script>
-// ── Utilities ─────────────────────────────────────────────────────────────────
-
-function fmtNum(n) {
-  return n == null ? "—" : n.toLocaleString();
-}
-
-function pct(a, b) {
-  return b ? Math.min(100, Math.round(a / b * 100)) : 0;
+function fmtNum(n) { return n == null ? "—" : Number(n).toLocaleString(); }
+function pct(a, b) { return b ? Math.min(100, Math.round(a / b * 100)) : 0; }
+function escHtml(s) {
+  return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 }
 
 function statusInfo(booked, onPace, goal) {
-  if (!goal) return { label: "No Goal", cls: "badge-nogoal", fillCls: "progress-fill-gray", valCls: "muted" };
-  if (booked >= goal) return { label: "✓ Goal Hit", cls: "badge-hit", fillCls: "progress-fill-green", valCls: "hit" };
-  if (booked >= onPace) return { label: "On Pace", cls: "badge-onpace", fillCls: "progress-fill-blue", valCls: "onpace" };
-  return { label: "Behind Pace", cls: "badge-behind", fillCls: "progress-fill-amber", valCls: "behind" };
+  if (!goal) return { label: "No Goal",    cls: "badge-nogoal", fillCls: "progress-fill-gray",  remCls: "col-muted" };
+  if (booked >= goal) return { label: "✓ Goal Hit", cls: "badge-hit",    fillCls: "progress-fill-green", remCls: "col-green" };
+  if (booked >= onPace) return { label: "On Pace",   cls: "badge-onpace", fillCls: "progress-fill-blue",  remCls: "col-muted" };
+  return { label: "Behind Pace", cls: "badge-behind", fillCls: "progress-fill-amber", remCls: "col-amber" };
 }
 
-// ── Card builders ─────────────────────────────────────────────────────────────
-
 function buildFunnelCard(funnel, data, goal, onPace) {
-  const total   = data.total || 0;
-  const sales   = data.sales || 0;
-  const setter  = data.setter || 0;
+  const total     = data.total  || 0;
+  const sales     = data.sales  || 0;
+  const setter    = data.setter || 0;
   const remaining = goal ? Math.max(0, goal - total) : null;
-  const status  = statusInfo(total, onPace, goal);
-  const fillPct = goal ? pct(total, goal) : pct(total, Math.max(total, 1));
-  const pacePct = goal ? pct(onPace, goal) : null;
-  const overGoal = goal && total > goal;
-
-  const subLine = `Sales ${fmtNum(sales)} / Setter ${fmtNum(setter)}`;
+  const overGoal  = goal && total > goal;
+  const status    = statusInfo(total, onPace, goal);
+  const fillPct   = goal ? pct(total, goal) : 100;
+  const pacePct   = goal ? pct(onPace, goal) : null;
 
   const paceTickHtml = pacePct != null
-    ? `<div class="pace-tick" style="left:${Math.min(98, pacePct)}%"></div>`
-    : "";
+    ? `<div class="pace-tick" style="left:${Math.min(98, pacePct)}%"></div>` : "";
 
-  const remainingLabel = overGoal
-    ? `+${fmtNum(total - goal)}`
-    : (remaining != null ? fmtNum(remaining) : "—");
-  const remainingStatLabel = overGoal ? "Over Goal" : "Remaining";
+  const remLabel    = overGoal ? `+${fmtNum(total - goal)}` : (remaining != null ? fmtNum(remaining) : "—");
+  const remStatName = overGoal ? "Over Goal" : "Remaining";
+  const onPaceVal   = goal ? fmtNum(onPace) : "—";
+  const onPaceCls   = goal ? status.remCls : "col-muted";
 
   return `
     <div class="funnel-card">
       <div class="funnel-card-header">
         <div>
           <div class="funnel-name">${escHtml(funnel)}</div>
-          <div class="funnel-sub">${subLine}</div>
+          <div class="funnel-sub">Sales ${fmtNum(sales)} / Setter ${fmtNum(setter)}</div>
         </div>
         <span class="badge ${status.cls}">${status.label}</span>
       </div>
@@ -381,29 +217,28 @@ function buildFunnelCard(funnel, data, goal, onPace) {
       <div class="stats-row">
         <div class="stat">
           <div class="stat-lbl">MTD Booked</div>
-          <div class="stat-val plain">${fmtNum(total)}</div>
+          <div class="stat-val col-plain">${fmtNum(total)}</div>
         </div>
         <div class="stat">
           <div class="stat-lbl">On-Pace</div>
-          <div class="stat-val ${status.valCls}">${goal ? fmtNum(onPace) : "—"}</div>
+          <div class="stat-val ${onPaceCls}">${onPaceVal}</div>
         </div>
         <div class="stat">
           <div class="stat-lbl">Goal</div>
-          <div class="stat-val plain">${goal ? fmtNum(goal) : "—"}</div>
+          <div class="stat-val col-plain">${goal ? fmtNum(goal) : "—"}</div>
         </div>
         <div class="stat">
-          <div class="stat-lbl">${remainingStatLabel}</div>
-          <div class="stat-val ${status.valCls}">${remainingLabel}</div>
+          <div class="stat-lbl">${remStatName}</div>
+          <div class="stat-val ${status.remCls}">${remLabel}</div>
         </div>
       </div>
     </div>`;
 }
 
 function buildNoGoalCard(funnel, data) {
-  const total  = data.total || 0;
-  const sales  = data.sales || 0;
+  const total  = data.total  || 0;
+  const sales  = data.sales  || 0;
   const setter = data.setter || 0;
-
   return `
     <div class="funnel-card">
       <div class="funnel-card-header">
@@ -416,52 +251,22 @@ function buildNoGoalCard(funnel, data) {
       <div class="progress-wrap">
         <div class="progress-fill progress-fill-gray" style="width:100%"></div>
       </div>
-      <div class="stats-row" style="grid-template-columns: 1fr 1fr 1fr;">
+      <div class="stats-row" style="grid-template-columns:1fr 1fr 1fr;">
         <div class="stat">
           <div class="stat-lbl">MTD Booked</div>
-          <div class="stat-val plain">${fmtNum(total)}</div>
+          <div class="stat-val col-plain">${fmtNum(total)}</div>
         </div>
         <div class="stat">
           <div class="stat-lbl">Sales</div>
-          <div class="stat-val plain">${fmtNum(sales)}</div>
+          <div class="stat-val col-plain">${fmtNum(sales)}</div>
         </div>
         <div class="stat">
           <div class="stat-lbl">Setter</div>
-          <div class="stat-val plain">${fmtNum(setter)}</div>
+          <div class="stat-val col-plain">${fmtNum(setter)}</div>
         </div>
       </div>
     </div>`;
 }
-
-function buildSetterCard(funnel, data) {
-  const total  = data.total || 0;
-
-  return `
-    <div class="funnel-card">
-      <div class="funnel-card-header">
-        <div>
-          <div class="funnel-name">${escHtml(funnel)}</div>
-          <div class="funnel-sub">Discovery / Setter calls</div>
-        </div>
-      </div>
-      <div class="stats-row" style="grid-template-columns: 1fr;">
-        <div class="stat">
-          <div class="stat-lbl">MTD Booked</div>
-          <div class="stat-val plain">${fmtNum(total)}</div>
-        </div>
-      </div>
-    </div>`;
-}
-
-function escHtml(s) {
-  return String(s)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
-}
-
-// ── Main render ───────────────────────────────────────────────────────────────
 
 async function loadAndRender() {
   let d;
@@ -475,28 +280,27 @@ async function loadAndRender() {
     return;
   }
 
-  // ── Header ──────────────────────────────────────────────────────────────────
+  // ── Header ────────────────────────────────────────────────────────────────
   const monthLabel = d.month_label || d.month || "";
   document.title = `${monthLabel} Booked Calls`;
   document.getElementById("dash-title").textContent = `${monthLabel} Booked Calls`;
 
-  const genDt = new Date(d.generated_at);
+  const genDt  = new Date(d.generated_at);
   const timeStr = genDt.toLocaleString("en-US", {
-    hour: "numeric", minute: "2-digit", hour12: true,
-    timeZoneName: "short"
+    hour: "numeric", minute: "2-digit", hour12: true, timeZoneName: "short"
   });
   document.getElementById("dash-meta").innerHTML = `
     <span>Month-to-date</span>
     <span class="sep">·</span>
     <span>Days 1–${d.day} of ${d.month_days}</span>
     <span class="sep">·</span>
-    <span>${new Date(d.generated_at).toLocaleDateString("en-US", {month:"short",day:"numeric",year:"numeric"})}</span>
+    <span>${genDt.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"})}</span>
     <span class="sep">·</span>
     <span>Updated ${timeStr}</span>`;
 
-  // ── Summary strip ────────────────────────────────────────────────────────────
-  const s = d.summary;
-  const summaryHtml = `
+  // ── Summary strip ─────────────────────────────────────────────────────────
+  const s = d.summary || {};
+  let html = `
     <div class="summary-strip">
       <div class="stat-card">
         <div class="label">MTD Booked</div>
@@ -520,84 +324,55 @@ async function loadAndRender() {
       </div>
     </div>`;
 
-  // ── Funnel cards ─────────────────────────────────────────────────────────────
-  const goals       = d.goals || {};
-  const fcByFunnel  = d.first_calls?.by_funnel || {};
-  const sdByFunnel  = d.setter_discovery?.by_funnel || {};
+  // ── Funnel cards ──────────────────────────────────────────────────────────
+  const goals     = d.goals     || {};
+  const byFunnel  = d.by_funnel || {};
 
-  const daysInMonth = d.month_days;
-  const daysElapsed = d.day;
+  const daysInMonth = d.month_days || 31;
+  const daysElapsed = d.day || 1;
 
-  // Per-funnel on-pace calc
   function funnelOnPace(goal) {
-    return daysInMonth ? Math.round(goal * daysElapsed / daysInMonth) : 0;
+    return Math.round(goal * daysElapsed / daysInMonth);
   }
 
-  // Sort funnels: goal funnels first (by goal desc), then no-goal funnels (by total desc)
+  // Split into goal-tracked vs no-goal
   const goalFunnels   = [];
   const noGoalFunnels = [];
 
-  const allFCFunnels = Object.keys(fcByFunnel);
-  for (const f of allFCFunnels) {
-    if (goals[f]) goalFunnels.push(f);
-    else noGoalFunnels.push(f);
-  }
-  // Also add goal funnels with 0 bookings so they still appear
+  // Goal funnels: include even if 0 bookings
   for (const f of Object.keys(goals)) {
     if (!goalFunnels.includes(f)) goalFunnels.push(f);
   }
+  // No-goal funnels: only if they have bookings
+  for (const f of Object.keys(byFunnel)) {
+    if (!goals[f] && (byFunnel[f]?.total || 0) > 0) noGoalFunnels.push(f);
+  }
 
+  // Sort goal funnels by goal size desc
   goalFunnels.sort((a, b) => (goals[b] || 0) - (goals[a] || 0));
-  noGoalFunnels.sort((a, b) => ((fcByFunnel[b]?.total || 0) - (fcByFunnel[a]?.total || 0)));
+  // Sort no-goal funnels by total desc
+  noGoalFunnels.sort((a, b) => ((byFunnel[b]?.total || 0) - (byFunnel[a]?.total || 0)));
 
-  let goalCardsHtml = "";
-  for (const f of goalFunnels) {
-    const data   = fcByFunnel[f] || { total: 0, sales: 0, setter: 0 };
-    const goal   = goals[f];
-    const onPace = funnelOnPace(goal);
-    goalCardsHtml += buildFunnelCard(f, data, goal, onPace);
-  }
-
-  let noGoalCardsHtml = "";
-  for (const f of noGoalFunnels) {
-    noGoalCardsHtml += buildNoGoalCard(f, fcByFunnel[f]);
-  }
-
-  // ── Setter section ───────────────────────────────────────────────────────────
-  const setterFunnels = Object.keys(sdByFunnel).sort(
-    (a, b) => (sdByFunnel[b].total || 0) - (sdByFunnel[a].total || 0)
-  );
-  let setterCardsHtml = "";
-  for (const f of setterFunnels) {
-    setterCardsHtml += buildSetterCard(f, sdByFunnel[f]);
-  }
-
-  // ── Compose ─────────────────────────────────────────────────────────────────
-  let html = summaryHtml;
-
+  // Goal-tracked section
   html += `<div class="section-label">First Calls — Goal-Tracked Funnels</div>`;
-  html += goalCardsHtml || `<p style="color:var(--muted);font-size:.875rem">No data yet.</p>`;
+  for (const f of goalFunnels) {
+    html += buildFunnelCard(f, byFunnel[f] || {total:0,sales:0,setter:0}, goals[f], funnelOnPace(goals[f]));
+  }
+  if (!goalFunnels.length) {
+    html += `<p style="color:var(--muted);font-size:.875rem;padding:8px 0">No goal-tracked funnels configured.</p>`;
+  }
 
+  // No-goal section
   if (noGoalFunnels.length > 0) {
     html += `<div class="section-label">First Calls — No-Goal Funnels</div>`;
-    html += noGoalCardsHtml;
-  }
-
-  if (setterFunnels.length > 0) {
-    html += `
-      <div class="setter-section-header">
-        <div class="icon">🔍</div>
-        <div>
-          <div class="title">Setter / Discovery Calls</div>
-          <div class="desc">Meetings owned by Kristin Nelson, Spencer Reynolds, or titled "Vending Quick Discovery" — not counted in first-call totals above.</div>
-        </div>
-      </div>`;
-    html += setterCardsHtml;
+    for (const f of noGoalFunnels) {
+      html += buildNoGoalCard(f, byFunnel[f]);
+    }
   }
 
   document.getElementById("dashboard-body").innerHTML = html;
   document.getElementById("dash-footer").textContent =
-    `Data from Close CRM · Refreshes every 15 min on weekdays · ${timeStr}`;
+    `Data from Close CRM · Refreshes every 15 min weekdays · ${timeStr}`;
 }
 
 loadAndRender();
