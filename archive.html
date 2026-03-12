@@ -206,8 +206,8 @@ async function loadSnapshot(path, title, sub) {
 
   const s = d.summary || {};
   const goals = d.goals || {};
-  const fcByFunnel = d.first_calls?.by_funnel || {};
-  const sdByFunnel = d.setter_discovery?.by_funnel || {};
+  const fcByFunnel = d.by_funnel || d.first_calls?.by_funnel || {};  // support both old + new shape
+  const sdByFunnel = {}; // removed — setter calls are now included in by_funnel totals
 
   let html = `
     <div class="summary-strip">
@@ -236,18 +236,7 @@ async function loadSnapshot(path, title, sub) {
     html += `</tbody></table>`;
   }
 
-  // Setter table
-  const sdRows = Object.entries(sdByFunnel).sort((a, b) => (b[1].total||0) - (a[1].total||0));
-  if (sdRows.length) {
-    html += `<div class="section-label-sm" style="margin-top:14px">Setter / Discovery by Funnel</div>
-    <table class="funnel-table">
-      <thead><tr><th>Funnel</th><th>Total</th></tr></thead>
-      <tbody>`;
-    for (const [f, v] of sdRows) {
-      html += `<tr><td>${escHtml(f)}</td><td class="highlight">${fmtNum(v.total)}</td></tr>`;
-    }
-    html += `</tbody></table>`;
-  }
+  // Note: setter calls are included in by_funnel totals; no separate setter table needed
 
   body.innerHTML = html;
 }
