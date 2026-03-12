@@ -235,9 +235,7 @@ function buildFunnelCard(funnel, data, goal, onPace) {
 }
 
 function buildNoGoalCard(funnel, data) {
-  const total  = data.total  || 0;
-  const sales  = data.sales  || 0;
-  const setter = data.setter || 0;
+  const total = data.total || 0;
   return `
     <div class="funnel-card">
       <div class="funnel-card-header">
@@ -249,18 +247,22 @@ function buildNoGoalCard(funnel, data) {
       <div class="progress-wrap">
         <div class="progress-fill progress-fill-gray" style="width:100%"></div>
       </div>
-      <div class="stats-row" style="grid-template-columns:1fr 1fr 1fr;">
+      <div class="stats-row">
         <div class="stat">
           <div class="stat-lbl">MTD Booked</div>
           <div class="stat-val col-plain">${fmtNum(total)}</div>
         </div>
         <div class="stat">
-          <div class="stat-lbl">Sales</div>
-          <div class="stat-val col-plain">${fmtNum(sales)}</div>
+          <div class="stat-lbl">On-Pace</div>
+          <div class="stat-val col-muted">—</div>
         </div>
         <div class="stat">
-          <div class="stat-lbl">Setter</div>
-          <div class="stat-val col-plain">${fmtNum(setter)}</div>
+          <div class="stat-lbl">Goal</div>
+          <div class="stat-val col-muted">—</div>
+        </div>
+        <div class="stat">
+          <div class="stat-lbl">Total</div>
+          <div class="stat-val col-plain">${fmtNum(total)}</div>
         </div>
       </div>
     </div>`;
