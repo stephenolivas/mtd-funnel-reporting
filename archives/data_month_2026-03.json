@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-13T10:30:11.017445-07:00",
+  "generated_at": "2026-03-13T10:45:13.964719-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -27,6 +27,11 @@
     "total_goal": 1167
   },
   "by_funnel": {
+    "YouTube - OG - Cam": {
+      "total": 63,
+      "sales": 63,
+      "setter": 0
+    },
     "Website": {
       "total": 36,
       "sales": 36,
@@ -38,18 +43,13 @@
       "setter": 0
     },
     "Low Ticket Funnel": {
-      "total": 81,
-      "sales": 81,
+      "total": 80,
+      "sales": 80,
       "setter": 0
     },
     "Meta Ads": {
       "total": 14,
       "sales": 14,
-      "setter": 0
-    },
-    "YouTube - OG - Cam": {
-      "total": 62,
-      "sales": 62,
       "setter": 0
     },
     "Instagram": {
@@ -104,6 +104,19 @@
     }
   },
   "by_funnel_day": {
+    "YouTube - OG - Cam": {
+      "13": 7,
+      "12": 6,
+      "11": 8,
+      "10": 6,
+      "8": 1,
+      "9": 4,
+      "6": 2,
+      "5": 4,
+      "4": 7,
+      "3": 8,
+      "2": 10
+    },
     "Website": {
       "13": 5,
       "12": 2,
@@ -122,7 +135,7 @@
       "3": 1
     },
     "Low Ticket Funnel": {
-      "13": 14,
+      "13": 13,
       "12": 3,
       "11": 4,
       "10": 13,
@@ -143,19 +156,6 @@
       "6": 2,
       "3": 2,
       "2": 1
-    },
-    "YouTube - OG - Cam": {
-      "13": 6,
-      "12": 6,
-      "11": 8,
-      "10": 6,
-      "8": 1,
-      "9": 4,
-      "6": 2,
-      "5": 4,
-      "4": 7,
-      "3": 8,
-      "2": 10
     },
     "Instagram": {
       "13": 10,
