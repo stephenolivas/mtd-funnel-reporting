@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-13T02:45:11.226204-07:00",
+  "generated_at": "2026-03-13T03:00:12.236229-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,16 +20,16 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 370,
+    "mtd_booked": 371,
     "on_pace": 489,
-    "remaining": 797,
-    "eom_projection": 882,
+    "remaining": 796,
+    "eom_projection": 885,
     "total_goal": 1167
   },
   "by_funnel": {
     "YouTube - OG - Cam": {
-      "total": 60,
-      "sales": 60,
+      "total": 61,
+      "sales": 61,
       "setter": 0
     },
     "Low Ticket Funnel": {
@@ -105,7 +105,7 @@
   },
   "by_funnel_day": {
     "YouTube - OG - Cam": {
-      "13": 4,
+      "13": 5,
       "12": 6,
       "11": 8,
       "10": 6,
