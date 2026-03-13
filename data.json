@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-13T08:45:11.029710-07:00",
+  "generated_at": "2026-03-13T09:00:16.915627-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,16 +20,16 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 374,
+    "mtd_booked": 373,
     "on_pace": 489,
-    "remaining": 793,
-    "eom_projection": 892,
+    "remaining": 794,
+    "eom_projection": 889,
     "total_goal": 1167
   },
   "by_funnel": {
     "Low Ticket Funnel": {
-      "total": 82,
-      "sales": 82,
+      "total": 81,
+      "sales": 81,
       "setter": 0
     },
     "Meta Ads": {
@@ -105,7 +105,7 @@
   },
   "by_funnel_day": {
     "Low Ticket Funnel": {
-      "13": 15,
+      "13": 14,
       "12": 3,
       "11": 4,
       "10": 13,
