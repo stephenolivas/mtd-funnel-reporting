@@ -170,6 +170,12 @@
 </div>
 
 <script>
+// Display name overrides — Close funnel name → label shown on card
+const FUNNEL_DISPLAY_NAMES = {
+  "YouTube - OG - Cam": "YouTube",
+};
+function funnelLabel(name) { return FUNNEL_DISPLAY_NAMES[name] || name; }
+
 function fmtNum(n) { return n == null ? "—" : Number(n).toLocaleString(); }
 function pct(a, b) { return b ? Math.min(100, Math.round(a / b * 100)) : 0; }
 function escHtml(s) {
@@ -205,7 +211,7 @@ function buildFunnelCard(funnel, data, goal, onPace) {
     <div class="funnel-card">
       <div class="funnel-card-header">
         <div>
-          <div class="funnel-name">${escHtml(funnel)}</div>
+          <div class="funnel-name">${escHtml(funnelLabel(funnel))}</div>
         </div>
         <span class="badge ${status.cls}">${status.label}</span>
       </div>
@@ -240,7 +246,7 @@ function buildNoGoalCard(funnel, data) {
     <div class="funnel-card">
       <div class="funnel-card-header">
         <div>
-          <div class="funnel-name">${escHtml(funnel)}</div>
+          <div class="funnel-name">${escHtml(funnelLabel(funnel))}</div>
         </div>
         <span class="badge badge-nogoal">No Goal</span>
       </div>
