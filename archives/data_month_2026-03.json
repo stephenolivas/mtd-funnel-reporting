@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-13T07:00:12.349109-07:00",
+  "generated_at": "2026-03-13T07:15:13.804038-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,16 +20,21 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 374,
+    "mtd_booked": 375,
     "on_pace": 489,
-    "remaining": 793,
-    "eom_projection": 892,
+    "remaining": 792,
+    "eom_projection": 894,
     "total_goal": 1167
   },
   "by_funnel": {
+    "Meta Ads": {
+      "total": 14,
+      "sales": 14,
+      "setter": 0
+    },
     "Low Ticket Funnel": {
-      "total": 85,
-      "sales": 85,
+      "total": 84,
+      "sales": 84,
       "setter": 0
     },
     "YouTube - OG - Cam": {
@@ -43,8 +48,8 @@
       "setter": 0
     },
     "Instagram": {
-      "total": 85,
-      "sales": 85,
+      "total": 86,
+      "sales": 86,
       "setter": 0
     },
     "VSL": {
@@ -55,11 +60,6 @@
     "Reactivation Email": {
       "total": 4,
       "sales": 4,
-      "setter": 0
-    },
-    "Meta Ads": {
-      "total": 13,
-      "sales": 13,
       "setter": 0
     },
     "Linkedin": {
@@ -104,8 +104,18 @@
     }
   },
   "by_funnel_day": {
+    "Meta Ads": {
+      "13": 2,
+      "10": 2,
+      "9": 2,
+      "11": 1,
+      "5": 2,
+      "6": 2,
+      "3": 2,
+      "2": 1
+    },
     "Low Ticket Funnel": {
-      "13": 16,
+      "13": 15,
       "12": 3,
       "11": 4,
       "10": 13,
@@ -143,7 +153,7 @@
       "2": 4
     },
     "Instagram": {
-      "13": 10,
+      "13": 11,
       "11": 7,
       "12": 3,
       "10": 7,
@@ -169,16 +179,6 @@
     "Reactivation Email": {
       "13": 2,
       "12": 2
-    },
-    "Meta Ads": {
-      "13": 1,
-      "10": 2,
-      "9": 2,
-      "11": 1,
-      "5": 2,
-      "6": 2,
-      "3": 2,
-      "2": 1
     },
     "Linkedin": {
       "12": 1,
