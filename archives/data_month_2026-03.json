@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-15T23:45:11.447388-07:00",
+  "generated_at": "2026-03-16T00:00:14.361549-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
-  "day": 15,
+  "day": 16,
   "month_days": 31,
   "goals": {
     "Low Ticket Funnel": 400,
@@ -20,46 +20,51 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 379,
-    "on_pace": 565,
-    "remaining": 788,
-    "eom_projection": 783,
+    "mtd_booked": 422,
+    "on_pace": 602,
+    "remaining": 745,
+    "eom_projection": 818,
     "total_goal": 1167
   },
   "by_funnel": {
-    "Internal Webinar": {
-      "total": 11,
-      "sales": 11,
+    "YouTube - OG - Cam": {
+      "total": 71,
+      "sales": 71,
       "setter": 0
     },
     "Website": {
-      "total": 36,
-      "sales": 36,
+      "total": 42,
+      "sales": 42,
       "setter": 0
     },
-    "YouTube - OG - Cam": {
-      "total": 63,
-      "sales": 63,
+    "Unknown (Needs Review)": {
+      "total": 10,
+      "sales": 10,
       "setter": 0
     },
     "Low Ticket Funnel": {
-      "total": 81,
-      "sales": 81,
+      "total": 98,
+      "sales": 98,
+      "setter": 0
+    },
+    "Internal Webinar": {
+      "total": 13,
+      "sales": 13,
+      "setter": 0
+    },
+    "VSL": {
+      "total": 55,
+      "sales": 55,
+      "setter": 0
+    },
+    "Instagram": {
+      "total": 89,
+      "sales": 89,
       "setter": 0
     },
     "Meta Ads": {
       "total": 14,
       "sales": 14,
-      "setter": 0
-    },
-    "Instagram": {
-      "total": 85,
-      "sales": 85,
-      "setter": 0
-    },
-    "VSL": {
-      "total": 54,
-      "sales": 54,
       "setter": 0
     },
     "Reactivation Email": {
@@ -82,11 +87,6 @@
       "sales": 7,
       "setter": 0
     },
-    "Unknown (Needs Review)": {
-      "total": 5,
-      "sales": 5,
-      "setter": 0
-    },
     "Mike Newsletter": {
       "total": 4,
       "sales": 4,
@@ -104,24 +104,8 @@
     }
   },
   "by_funnel_day": {
-    "Internal Webinar": {
-      "4": 4,
-      "2": 6,
-      "3": 1
-    },
-    "Website": {
-      "13": 6,
-      "12": 2,
-      "11": 1,
-      "10": 3,
-      "9": 2,
-      "6": 5,
-      "5": 2,
-      "4": 10,
-      "3": 1,
-      "2": 4
-    },
     "YouTube - OG - Cam": {
+      "16": 8,
       "13": 7,
       "12": 6,
       "11": 8,
@@ -134,7 +118,27 @@
       "3": 8,
       "2": 10
     },
+    "Website": {
+      "16": 6,
+      "13": 6,
+      "12": 2,
+      "11": 1,
+      "10": 3,
+      "9": 2,
+      "6": 5,
+      "5": 2,
+      "4": 10,
+      "3": 1,
+      "2": 4
+    },
+    "Unknown (Needs Review)": {
+      "16": 5,
+      "9": 2,
+      "6": 1,
+      "3": 2
+    },
     "Low Ticket Funnel": {
+      "16": 17,
       "13": 13,
       "14": 1,
       "12": 3,
@@ -148,17 +152,26 @@
       "3": 6,
       "2": 13
     },
-    "Meta Ads": {
-      "13": 2,
-      "10": 2,
-      "9": 2,
-      "11": 1,
-      "5": 2,
-      "6": 2,
-      "3": 2,
-      "2": 1
+    "Internal Webinar": {
+      "16": 2,
+      "4": 4,
+      "2": 6,
+      "3": 1
+    },
+    "VSL": {
+      "16": 1,
+      "13": 3,
+      "12": 3,
+      "11": 2,
+      "10": 3,
+      "9": 3,
+      "6": 19,
+      "5": 5,
+      "4": 9,
+      "3": 7
     },
     "Instagram": {
+      "16": 4,
       "13": 10,
       "11": 7,
       "12": 3,
@@ -171,16 +184,15 @@
       "3": 10,
       "2": 10
     },
-    "VSL": {
-      "13": 3,
-      "12": 3,
-      "11": 2,
-      "10": 3,
-      "9": 3,
-      "6": 19,
-      "5": 5,
-      "4": 9,
-      "3": 7
+    "Meta Ads": {
+      "13": 2,
+      "10": 2,
+      "9": 2,
+      "11": 1,
+      "5": 2,
+      "6": 2,
+      "3": 2,
+      "2": 1
     },
     "Reactivation Email": {
       "13": 2,
@@ -204,11 +216,6 @@
       "6": 1,
       "3": 1,
       "2": 4
-    },
-    "Unknown (Needs Review)": {
-      "9": 2,
-      "6": 1,
-      "3": 2
     },
     "Mike Newsletter": {
       "5": 2,
