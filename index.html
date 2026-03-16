@@ -171,9 +171,7 @@
 
 <script>
 // Display name overrides — Close funnel name → label shown on card
-const FUNNEL_DISPLAY_NAMES = {
-  "YouTube - OG - Cam": "YouTube",
-};
+const FUNNEL_DISPLAY_NAMES = {};
 function funnelLabel(name) { return FUNNEL_DISPLAY_NAMES[name] || name; }
 
 function fmtNum(n) { return n == null ? "—" : Number(n).toLocaleString(); }
