@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T13:45:11.029609-07:00",
+  "generated_at": "2026-03-17T14:00:12.809749-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,21 +20,21 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 462,
+    "mtd_booked": 464,
     "on_pace": 640,
-    "remaining": 705,
-    "eom_projection": 842,
+    "remaining": 703,
+    "eom_projection": 846,
     "total_goal": 1167
   },
   "by_funnel": {
-    "Unknown (Needs Review)": {
-      "total": 6,
-      "sales": 6,
+    "Website": {
+      "total": 47,
+      "sales": 47,
       "setter": 0
     },
     "Instagram": {
-      "total": 115,
-      "sales": 115,
+      "total": 117,
+      "sales": 117,
       "setter": 0
     },
     "Internal Webinar": {
@@ -52,11 +52,6 @@
       "sales": 57,
       "setter": 0
     },
-    "Website": {
-      "total": 46,
-      "sales": 46,
-      "setter": 0
-    },
     "YouTube": {
       "total": 74,
       "sales": 74,
@@ -70,6 +65,11 @@
     "Meta Ads": {
       "total": 16,
       "sales": 16,
+      "setter": 0
+    },
+    "Unknown (Needs Review)": {
+      "total": 5,
+      "sales": 5,
       "setter": 0
     },
     "Reactivation Email": {
@@ -109,13 +109,22 @@
     }
   },
   "by_funnel_day": {
-    "Unknown (Needs Review)": {
-      "17": 2,
+    "Website": {
+      "17": 4,
+      "16": 6,
+      "13": 6,
+      "12": 2,
+      "11": 1,
+      "10": 4,
       "9": 2,
-      "3": 2
+      "6": 5,
+      "5": 2,
+      "4": 10,
+      "3": 1,
+      "2": 4
     },
     "Instagram": {
-      "17": 18,
+      "17": 20,
       "16": 6,
       "13": 10,
       "11": 8,
@@ -166,20 +175,6 @@
       "4": 9,
       "3": 7
     },
-    "Website": {
-      "17": 3,
-      "16": 6,
-      "13": 6,
-      "12": 2,
-      "11": 1,
-      "10": 4,
-      "9": 2,
-      "6": 5,
-      "5": 2,
-      "4": 10,
-      "3": 1,
-      "2": 4
-    },
     "YouTube": {
       "17": 5,
       "16": 6,
@@ -214,6 +209,11 @@
       "6": 2,
       "3": 2,
       "2": 1
+    },
+    "Unknown (Needs Review)": {
+      "17": 1,
+      "9": 2,
+      "3": 2
     },
     "Reactivation Email": {
       "13": 2,
