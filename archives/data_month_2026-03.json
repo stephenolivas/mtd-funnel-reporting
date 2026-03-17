@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T06:30:13.040667-07:00",
+  "generated_at": "2026-03-17T06:45:14.607576-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -58,8 +58,8 @@
       "setter": 0
     },
     "Instagram": {
-      "total": 105,
-      "sales": 105,
+      "total": 106,
+      "sales": 106,
       "setter": 0
     },
     "X": {
@@ -72,14 +72,14 @@
       "sales": 16,
       "setter": 0
     },
-    "Reactivation Email": {
-      "total": 6,
-      "sales": 6,
-      "setter": 0
-    },
     "VSL": {
       "total": 56,
       "sales": 56,
+      "setter": 0
+    },
+    "Reactivation Email": {
+      "total": 5,
+      "sales": 5,
       "setter": 0
     },
     "Sales Reactivation": {
@@ -176,7 +176,7 @@
     },
     "Instagram": {
       "16": 6,
-      "17": 14,
+      "17": 15,
       "13": 10,
       "11": 7,
       "12": 3,
@@ -209,11 +209,6 @@
       "3": 2,
       "2": 1
     },
-    "Reactivation Email": {
-      "17": 2,
-      "13": 2,
-      "12": 2
-    },
     "VSL": {
       "16": 1,
       "17": 1,
@@ -226,6 +221,11 @@
       "5": 5,
       "4": 9,
       "3": 7
+    },
+    "Reactivation Email": {
+      "13": 2,
+      "12": 2,
+      "17": 1
     },
     "Sales Reactivation": {
       "16": 1
