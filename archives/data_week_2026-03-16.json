@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T12:45:13.532019-07:00",
+  "generated_at": "2026-03-17T13:00:16.065250-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,13 +20,18 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 460,
+    "mtd_booked": 461,
     "on_pace": 640,
-    "remaining": 707,
-    "eom_projection": 839,
+    "remaining": 706,
+    "eom_projection": 841,
     "total_goal": 1167
   },
   "by_funnel": {
+    "Instagram": {
+      "total": 115,
+      "sales": 115,
+      "setter": 0
+    },
     "Internal Webinar": {
       "total": 13,
       "sales": 13,
@@ -45,11 +50,6 @@
     "Website": {
       "total": 46,
       "sales": 46,
-      "setter": 0
-    },
-    "Instagram": {
-      "total": 114,
-      "sales": 114,
       "setter": 0
     },
     "YouTube": {
@@ -109,6 +109,21 @@
     }
   },
   "by_funnel_day": {
+    "Instagram": {
+      "17": 18,
+      "16": 6,
+      "13": 10,
+      "11": 8,
+      "12": 3,
+      "10": 6,
+      "9": 11,
+      "8": 1,
+      "6": 14,
+      "5": 11,
+      "4": 2,
+      "3": 11,
+      "2": 14
+    },
     "Internal Webinar": {
       "12": 1,
       "11": 1,
@@ -159,21 +174,6 @@
       "4": 10,
       "3": 1,
       "2": 4
-    },
-    "Instagram": {
-      "17": 17,
-      "16": 6,
-      "13": 10,
-      "11": 8,
-      "12": 3,
-      "10": 6,
-      "9": 11,
-      "8": 1,
-      "6": 14,
-      "5": 11,
-      "4": 2,
-      "3": 11,
-      "2": 14
     },
     "YouTube": {
       "17": 5,
