@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T15:30:10.418418-07:00",
+  "generated_at": "2026-03-17T15:45:12.143929-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 464,
+    "mtd_booked": 463,
     "on_pace": 640,
-    "remaining": 703,
-    "eom_projection": 846,
+    "remaining": 704,
+    "eom_projection": 844,
     "total_goal": 1167
   },
   "by_funnel": {
@@ -53,8 +53,8 @@
       "setter": 0
     },
     "YouTube": {
-      "total": 74,
-      "sales": 74,
+      "total": 73,
+      "sales": 73,
       "setter": 0
     },
     "X": {
@@ -177,7 +177,7 @@
     },
     "YouTube": {
       "17": 5,
-      "16": 6,
+      "16": 5,
       "13": 7,
       "12": 6,
       "11": 8,
