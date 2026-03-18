@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T06:15:10.642777-07:00",
+  "generated_at": "2026-03-18T06:30:17.453224-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -27,9 +27,9 @@
     "total_goal": 1167
   },
   "by_funnel": {
-    "Unknown (Needs Review)": {
-      "total": 9,
-      "sales": 9,
+    "Low Ticket Funnel": {
+      "total": 117,
+      "sales": 117,
       "setter": 0
     },
     "Meta Ads": {
@@ -42,11 +42,6 @@
       "sales": 50,
       "setter": 0
     },
-    "Low Ticket Funnel": {
-      "total": 115,
-      "sales": 115,
-      "setter": 0
-    },
     "Reactivation Email": {
       "total": 6,
       "sales": 6,
@@ -55,6 +50,11 @@
     "YouTube": {
       "total": 78,
       "sales": 78,
+      "setter": 0
+    },
+    "Unknown (Needs Review)": {
+      "total": 7,
+      "sales": 7,
       "setter": 0
     },
     "Internal Webinar": {
@@ -109,11 +109,22 @@
     }
   },
   "by_funnel_day": {
-    "Unknown (Needs Review)": {
-      "18": 4,
-      "17": 1,
-      "9": 2,
-      "3": 2
+    "Low Ticket Funnel": {
+      "18": 10,
+      "17": 10,
+      "16": 15,
+      "13": 13,
+      "14": 1,
+      "12": 3,
+      "11": 4,
+      "10": 14,
+      "9": 10,
+      "6": 4,
+      "7": 1,
+      "5": 6,
+      "4": 7,
+      "3": 6,
+      "2": 13
     },
     "Meta Ads": {
       "18": 3,
@@ -143,23 +154,6 @@
       "3": 1,
       "2": 4
     },
-    "Low Ticket Funnel": {
-      "18": 8,
-      "17": 10,
-      "16": 15,
-      "13": 13,
-      "14": 1,
-      "12": 3,
-      "11": 4,
-      "10": 14,
-      "9": 10,
-      "6": 4,
-      "7": 1,
-      "5": 6,
-      "4": 7,
-      "3": 6,
-      "2": 13
-    },
     "Reactivation Email": {
       "18": 1,
       "13": 2,
@@ -181,6 +175,12 @@
       "4": 7,
       "3": 8,
       "2": 10
+    },
+    "Unknown (Needs Review)": {
+      "18": 2,
+      "17": 1,
+      "9": 2,
+      "3": 2
     },
     "Internal Webinar": {
       "18": 1,
