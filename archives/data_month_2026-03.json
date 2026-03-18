@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T16:30:13.822526-07:00",
+  "generated_at": "2026-03-18T16:45:12.528873-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -28,8 +28,8 @@
   },
   "by_funnel": {
     "Unknown (Needs Review)": {
-      "total": 8,
-      "sales": 8,
+      "total": 7,
+      "sales": 7,
       "setter": 0
     },
     "Internal Webinar": {
@@ -38,8 +38,8 @@
       "setter": 0
     },
     "Low Ticket Funnel": {
-      "total": 115,
-      "sales": 115,
+      "total": 116,
+      "sales": 116,
       "setter": 0
     },
     "Meta Ads": {
@@ -115,7 +115,7 @@
   },
   "by_funnel_day": {
     "Unknown (Needs Review)": {
-      "18": 3,
+      "18": 2,
       "17": 1,
       "9": 2,
       "3": 2
@@ -132,7 +132,7 @@
       "3": 1
     },
     "Low Ticket Funnel": {
-      "18": 9,
+      "18": 10,
       "17": 10,
       "16": 15,
       "13": 13,
