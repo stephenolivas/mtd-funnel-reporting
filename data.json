@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T07:15:11.824978-07:00",
+  "generated_at": "2026-03-19T07:30:15.090009-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -27,9 +27,9 @@
     "total_goal": 1167
   },
   "by_funnel": {
-    "Unknown (Needs Review)": {
-      "total": 12,
-      "sales": 12,
+    "YouTube - OG - Cam": {
+      "total": 4,
+      "sales": 4,
       "setter": 0
     },
     "Low Ticket Funnel": {
@@ -47,9 +47,14 @@
       "sales": 53,
       "setter": 0
     },
+    "Unknown (Needs Review)": {
+      "total": 9,
+      "sales": 9,
+      "setter": 0
+    },
     "Instagram": {
-      "total": 135,
-      "sales": 135,
+      "total": 137,
+      "sales": 137,
       "setter": 0
     },
     "X": {
@@ -65,11 +70,6 @@
     "Reactivation Email": {
       "total": 8,
       "sales": 8,
-      "setter": 0
-    },
-    "YouTube - OG - Cam": {
-      "total": 3,
-      "sales": 3,
       "setter": 0
     },
     "YouTube": {
@@ -114,12 +114,9 @@
     }
   },
   "by_funnel_day": {
-    "Unknown (Needs Review)": {
-      "19": 6,
-      "18": 1,
-      "17": 1,
-      "9": 2,
-      "3": 2
+    "YouTube - OG - Cam": {
+      "19": 3,
+      "18": 1
     },
     "Low Ticket Funnel": {
       "19": 13,
@@ -167,8 +164,15 @@
       "3": 1,
       "2": 4
     },
+    "Unknown (Needs Review)": {
+      "19": 3,
+      "18": 1,
+      "17": 1,
+      "9": 2,
+      "3": 2
+    },
     "Instagram": {
-      "19": 9,
+      "19": 11,
       "18": 9,
       "17": 20,
       "16": 6,
@@ -213,10 +217,6 @@
       "13": 2,
       "12": 2,
       "17": 1
-    },
-    "YouTube - OG - Cam": {
-      "19": 2,
-      "18": 1
     },
     "YouTube": {
       "18": 3,
