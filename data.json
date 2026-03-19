@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T07:00:12.698389-07:00",
+  "generated_at": "2026-03-19T07:15:11.824978-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -28,13 +28,13 @@
   },
   "by_funnel": {
     "Unknown (Needs Review)": {
-      "total": 13,
-      "sales": 13,
+      "total": 12,
+      "sales": 12,
       "setter": 0
     },
     "Low Ticket Funnel": {
-      "total": 129,
-      "sales": 129,
+      "total": 130,
+      "sales": 130,
       "setter": 0
     },
     "Internal Webinar": {
@@ -116,14 +116,14 @@
   "by_funnel_day": {
     "Unknown (Needs Review)": {
       "19": 6,
-      "18": 2,
+      "18": 1,
       "17": 1,
       "9": 2,
       "3": 2
     },
     "Low Ticket Funnel": {
       "19": 13,
-      "18": 10,
+      "18": 11,
       "17": 10,
       "16": 15,
       "13": 13,
