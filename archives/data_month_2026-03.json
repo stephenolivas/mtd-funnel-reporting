@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T15:15:10.956705-07:00",
+  "generated_at": "2026-03-19T15:30:13.866677-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 540,
+    "mtd_booked": 539,
     "on_pace": 715,
-    "remaining": 627,
-    "eom_projection": 881,
+    "remaining": 628,
+    "eom_projection": 879,
     "total_goal": 1167
   },
   "by_funnel": {
@@ -53,8 +53,8 @@
       "setter": 0
     },
     "Instagram": {
-      "total": 135,
-      "sales": 135,
+      "total": 134,
+      "sales": 134,
       "setter": 0
     },
     "Meta Ads": {
@@ -173,7 +173,7 @@
       "3": 2
     },
     "Instagram": {
-      "19": 10,
+      "19": 9,
       "18": 9,
       "17": 20,
       "16": 6,
