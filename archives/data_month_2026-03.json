@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T09:15:13.635065-07:00",
+  "generated_at": "2026-03-19T09:30:12.960102-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 543,
+    "mtd_booked": 541,
     "on_pace": 715,
-    "remaining": 624,
-    "eom_projection": 886,
+    "remaining": 626,
+    "eom_projection": 883,
     "total_goal": 1167
   },
   "by_funnel": {
@@ -38,8 +38,8 @@
       "setter": 0
     },
     "Low Ticket Funnel": {
-      "total": 130,
-      "sales": 130,
+      "total": 129,
+      "sales": 129,
       "setter": 0
     },
     "Website": {
@@ -53,8 +53,8 @@
       "setter": 0
     },
     "Instagram": {
-      "total": 135,
-      "sales": 135,
+      "total": 134,
+      "sales": 134,
       "setter": 0
     },
     "X": {
@@ -131,7 +131,7 @@
       "18": 1
     },
     "Low Ticket Funnel": {
-      "19": 13,
+      "19": 12,
       "18": 11,
       "17": 10,
       "16": 15,
@@ -182,7 +182,7 @@
       "10": 6,
       "9": 11,
       "8": 1,
-      "6": 14,
+      "6": 13,
       "5": 11,
       "4": 2,
       "3": 11,
