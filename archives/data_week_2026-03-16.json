@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T15:00:10.209311-07:00",
+  "generated_at": "2026-03-20T15:15:09.512899-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -28,8 +28,8 @@
   },
   "by_funnel": {
     "Unknown (Needs Review)": {
-      "total": 11,
-      "sales": 11,
+      "total": 14,
+      "sales": 14,
       "setter": 0
     },
     "Low Ticket Funnel": {
@@ -38,8 +38,8 @@
       "setter": 0
     },
     "Reactivation Email": {
-      "total": 13,
-      "sales": 13,
+      "total": 10,
+      "sales": 10,
       "setter": 0
     },
     "YouTube": {
@@ -115,7 +115,7 @@
   },
   "by_funnel_day": {
     "Unknown (Needs Review)": {
-      "20": 2,
+      "20": 5,
       "19": 3,
       "18": 1,
       "17": 1,
@@ -142,7 +142,7 @@
       "2": 13
     },
     "Reactivation Email": {
-      "20": 5,
+      "20": 2,
       "19": 2,
       "18": 1,
       "13": 2,
