@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T08:45:11.508003-07:00",
+  "generated_at": "2026-03-20T09:00:13.839792-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 582,
+    "mtd_booked": 581,
     "on_pace": 753,
-    "remaining": 585,
-    "eom_projection": 902,
+    "remaining": 586,
+    "eom_projection": 901,
     "total_goal": 1167
   },
   "by_funnel": {
@@ -33,8 +33,8 @@
       "setter": 0
     },
     "Low Ticket Funnel": {
-      "total": 135,
-      "sales": 135,
+      "total": 134,
+      "sales": 134,
       "setter": 0
     },
     "Reactivation Email": {
@@ -128,7 +128,7 @@
       "3": 2
     },
     "Low Ticket Funnel": {
-      "20": 7,
+      "20": 6,
       "19": 11,
       "18": 11,
       "17": 10,
