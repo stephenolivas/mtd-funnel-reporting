@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T04:30:12.186340-07:00",
+  "generated_at": "2026-03-24T04:45:11.164448-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 671,
+    "mtd_booked": 669,
     "on_pace": 903,
-    "remaining": 496,
-    "eom_projection": 867,
+    "remaining": 498,
+    "eom_projection": 864,
     "total_goal": 1167
   },
   "by_funnel": {
@@ -38,8 +38,8 @@
       "setter": 0
     },
     "Unknown (Needs Review)": {
-      "total": 19,
-      "sales": 19,
+      "total": 18,
+      "sales": 18,
       "setter": 0
     },
     "Meta Ads": {
@@ -58,8 +58,8 @@
       "setter": 0
     },
     "Instagram": {
-      "total": 156,
-      "sales": 156,
+      "total": 155,
+      "sales": 155,
       "setter": 0
     },
     "Low Ticket Funnel": {
@@ -143,7 +143,7 @@
       "3": 3
     },
     "Unknown (Needs Review)": {
-      "24": 8,
+      "24": 7,
       "20": 3,
       "19": 2,
       "18": 1,
@@ -197,7 +197,7 @@
       "17": 1
     },
     "Instagram": {
-      "24": 9,
+      "24": 8,
       "23": 6,
       "20": 6,
       "19": 9,
