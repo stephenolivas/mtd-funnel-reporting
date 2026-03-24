@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T11:00:13.704778-07:00",
+  "generated_at": "2026-03-24T11:15:12.644853-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 667,
+    "mtd_booked": 666,
     "on_pace": 903,
-    "remaining": 500,
-    "eom_projection": 862,
+    "remaining": 501,
+    "eom_projection": 860,
     "total_goal": 1167
   },
   "by_funnel": {
@@ -63,8 +63,8 @@
       "setter": 0
     },
     "Instagram": {
-      "total": 156,
-      "sales": 156,
+      "total": 155,
+      "sales": 155,
       "setter": 0
     },
     "Unknown (Needs Review)": {
@@ -225,7 +225,7 @@
       "17": 1
     },
     "Instagram": {
-      "24": 8,
+      "24": 7,
       "23": 7,
       "20": 6,
       "19": 9,
