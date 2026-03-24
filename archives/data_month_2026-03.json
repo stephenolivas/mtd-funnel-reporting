@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T06:45:10.716890-07:00",
+  "generated_at": "2026-03-24T07:00:13.291053-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -38,8 +38,8 @@
       "setter": 0
     },
     "Unknown (Needs Review)": {
-      "total": 16,
-      "sales": 16,
+      "total": 15,
+      "sales": 15,
       "setter": 0
     },
     "YouTube": {
@@ -68,8 +68,8 @@
       "setter": 0
     },
     "Low Ticket Funnel": {
-      "total": 158,
-      "sales": 158,
+      "total": 159,
+      "sales": 159,
       "setter": 0
     },
     "X": {
@@ -143,7 +143,7 @@
       "3": 3
     },
     "Unknown (Needs Review)": {
-      "24": 5,
+      "24": 4,
       "20": 3,
       "19": 2,
       "18": 1,
@@ -238,7 +238,7 @@
       "2": 14
     },
     "Low Ticket Funnel": {
-      "24": 10,
+      "24": 11,
       "23": 10,
       "21": 4,
       "20": 7,
