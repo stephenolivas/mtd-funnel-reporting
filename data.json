@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T08:15:17.080501-07:00",
+  "generated_at": "2026-03-25T08:30:13.510704-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -33,13 +33,13 @@
       "setter": 0
     },
     "YouTube": {
-      "total": 115,
-      "sales": 115,
+      "total": 116,
+      "sales": 116,
       "setter": 0
     },
     "Internal Webinar": {
-      "total": 37,
-      "sales": 37,
+      "total": 36,
+      "sales": 36,
       "setter": 0
     },
     "Low Ticket Funnel": {
@@ -133,7 +133,7 @@
       "25": 4,
       "24": 8,
       "23": 11,
-      "20": 8,
+      "20": 9,
       "19": 7,
       "18": 3,
       "17": 5,
@@ -152,7 +152,7 @@
     },
     "Internal Webinar": {
       "24": 6,
-      "25": 8,
+      "25": 7,
       "23": 2,
       "20": 1,
       "2": 7,
