@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T06:45:13.408529-07:00",
+  "generated_at": "2026-03-25T07:00:16.239738-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,21 +20,21 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 697,
+    "mtd_booked": 696,
     "on_pace": 941,
-    "remaining": 470,
-    "eom_projection": 864,
+    "remaining": 471,
+    "eom_projection": 863,
     "total_goal": 1167
   },
   "by_funnel": {
-    "YouTube": {
-      "total": 116,
-      "sales": 116,
-      "setter": 0
-    },
     "Unknown (Needs Review)": {
       "total": 14,
       "sales": 14,
+      "setter": 0
+    },
+    "YouTube": {
+      "total": 115,
+      "sales": 115,
       "setter": 0
     },
     "Internal Webinar": {
@@ -119,8 +119,18 @@
     }
   },
   "by_funnel_day": {
+    "Unknown (Needs Review)": {
+      "25": 2,
+      "24": 1,
+      "20": 3,
+      "19": 2,
+      "18": 1,
+      "17": 1,
+      "9": 2,
+      "3": 2
+    },
     "YouTube": {
-      "25": 5,
+      "25": 4,
       "24": 8,
       "23": 11,
       "20": 8,
@@ -139,16 +149,6 @@
       "4": 7,
       "3": 8,
       "2": 10
-    },
-    "Unknown (Needs Review)": {
-      "25": 2,
-      "24": 1,
-      "20": 3,
-      "19": 2,
-      "18": 1,
-      "17": 1,
-      "9": 2,
-      "3": 2
     },
     "Internal Webinar": {
       "24": 6,
