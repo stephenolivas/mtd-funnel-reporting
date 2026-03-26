@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T07:15:14.050891-07:00",
+  "generated_at": "2026-03-26T07:30:16.418256-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,13 +20,18 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 742,
+    "mtd_booked": 746,
     "on_pace": 979,
-    "remaining": 425,
-    "eom_projection": 885,
+    "remaining": 421,
+    "eom_projection": 889,
     "total_goal": 1167
   },
   "by_funnel": {
+    "Unknown (Needs Review)": {
+      "total": 19,
+      "sales": 19,
+      "setter": 0
+    },
     "YouTube": {
       "total": 121,
       "sales": 121,
@@ -42,24 +47,19 @@
       "sales": 172,
       "setter": 0
     },
-    "Unknown (Needs Review)": {
-      "total": 18,
-      "sales": 18,
+    "Internal Webinar": {
+      "total": 48,
+      "sales": 48,
+      "setter": 0
+    },
+    "Instagram": {
+      "total": 171,
+      "sales": 171,
       "setter": 0
     },
     "Mike Newsletter": {
       "total": 7,
       "sales": 7,
-      "setter": 0
-    },
-    "Internal Webinar": {
-      "total": 47,
-      "sales": 47,
-      "setter": 0
-    },
-    "Instagram": {
-      "total": 169,
-      "sales": 169,
       "setter": 0
     },
     "Reactivation Email": {
@@ -119,6 +119,17 @@
     }
   },
   "by_funnel_day": {
+    "Unknown (Needs Review)": {
+      "26": 5,
+      "25": 2,
+      "24": 1,
+      "20": 3,
+      "19": 2,
+      "18": 1,
+      "17": 1,
+      "9": 2,
+      "3": 2
+    },
     "YouTube": {
       "26": 7,
       "25": 3,
@@ -186,25 +197,8 @@
       "3": 6,
       "2": 13
     },
-    "Unknown (Needs Review)": {
-      "26": 4,
-      "25": 2,
-      "24": 1,
-      "20": 3,
-      "19": 2,
-      "18": 1,
-      "17": 1,
-      "9": 2,
-      "3": 2
-    },
-    "Mike Newsletter": {
-      "26": 1,
-      "20": 2,
-      "5": 2,
-      "2": 2
-    },
     "Internal Webinar": {
-      "26": 9,
+      "26": 10,
       "25": 7,
       "4": 4,
       "9": 1,
@@ -222,8 +216,8 @@
       "3": 1
     },
     "Instagram": {
+      "26": 8,
       "25": 8,
-      "26": 6,
       "24": 7,
       "23": 7,
       "20": 6,
@@ -243,6 +237,12 @@
       "4": 2,
       "3": 11,
       "2": 14
+    },
+    "Mike Newsletter": {
+      "26": 1,
+      "20": 2,
+      "5": 2,
+      "2": 2
     },
     "Reactivation Email": {
       "26": 4,
