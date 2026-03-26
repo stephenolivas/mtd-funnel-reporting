@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T09:45:14.583738-07:00",
+  "generated_at": "2026-03-26T10:00:14.252297-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,21 +20,21 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 747,
+    "mtd_booked": 748,
     "on_pace": 979,
-    "remaining": 420,
-    "eom_projection": 891,
+    "remaining": 419,
+    "eom_projection": 892,
     "total_goal": 1167
   },
   "by_funnel": {
+    "Unknown (Needs Review)": {
+      "total": 17,
+      "sales": 17,
+      "setter": 0
+    },
     "Website": {
       "total": 76,
       "sales": 76,
-      "setter": 0
-    },
-    "Unknown (Needs Review)": {
-      "total": 16,
-      "sales": 16,
       "setter": 0
     },
     "Linkedin": {
@@ -119,6 +119,17 @@
     }
   },
   "by_funnel_day": {
+    "Unknown (Needs Review)": {
+      "26": 4,
+      "24": 1,
+      "25": 1,
+      "20": 3,
+      "19": 2,
+      "18": 1,
+      "17": 1,
+      "9": 2,
+      "3": 2
+    },
     "Website": {
       "26": 5,
       "24": 4,
@@ -139,17 +150,6 @@
       "4": 10,
       "3": 1,
       "2": 4
-    },
-    "Unknown (Needs Review)": {
-      "26": 3,
-      "24": 1,
-      "25": 1,
-      "20": 3,
-      "19": 2,
-      "18": 1,
-      "17": 1,
-      "9": 2,
-      "3": 2
     },
     "Linkedin": {
       "26": 2,
