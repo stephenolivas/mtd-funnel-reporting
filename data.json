@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T07:30:16.418256-07:00",
+  "generated_at": "2026-03-26T07:45:20.325876-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -28,13 +28,13 @@
   },
   "by_funnel": {
     "Unknown (Needs Review)": {
-      "total": 19,
-      "sales": 19,
+      "total": 18,
+      "sales": 18,
       "setter": 0
     },
     "YouTube": {
-      "total": 121,
-      "sales": 121,
+      "total": 122,
+      "sales": 122,
       "setter": 0
     },
     "Website": {
@@ -121,8 +121,8 @@
   "by_funnel_day": {
     "Unknown (Needs Review)": {
       "26": 5,
-      "25": 2,
       "24": 1,
+      "25": 1,
       "20": 3,
       "19": 2,
       "18": 1,
@@ -132,7 +132,7 @@
     },
     "YouTube": {
       "26": 7,
-      "25": 3,
+      "25": 4,
       "24": 8,
       "23": 11,
       "20": 8,
