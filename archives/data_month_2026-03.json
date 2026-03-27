@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T11:00:12.596830-07:00",
+  "generated_at": "2026-03-27T11:15:10.325622-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 787,
+    "mtd_booked": 789,
     "on_pace": 1016,
-    "remaining": 380,
-    "eom_projection": 904,
+    "remaining": 378,
+    "eom_projection": 906,
     "total_goal": 1167
   },
   "by_funnel": {
@@ -48,8 +48,8 @@
       "setter": 0
     },
     "Low Ticket Funnel": {
-      "total": 175,
-      "sales": 175,
+      "total": 176,
+      "sales": 176,
       "setter": 0
     },
     "Unknown (Needs Review)": {
@@ -63,8 +63,8 @@
       "setter": 0
     },
     "Internal Webinar": {
-      "total": 65,
-      "sales": 65,
+      "total": 66,
+      "sales": 66,
       "setter": 0
     },
     "Mike Newsletter": {
@@ -221,7 +221,7 @@
       "7": 1,
       "5": 6,
       "4": 7,
-      "3": 6,
+      "3": 7,
       "2": 13
     },
     "Unknown (Needs Review)": {
@@ -245,9 +245,9 @@
       "3": 1
     },
     "Internal Webinar": {
+      "27": 20,
       "26": 10,
       "25": 7,
-      "27": 19,
       "4": 4,
       "9": 1,
       "24": 6,
