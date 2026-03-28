@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-27T23:45:10.327605-07:00",
+  "generated_at": "2026-03-28T00:00:09.947411-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
-  "day": 27,
+  "day": 28,
   "month_days": 31,
   "goals": {
     "Low Ticket Funnel": 400,
@@ -20,36 +20,36 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 786,
-    "on_pace": 1016,
-    "remaining": 381,
-    "eom_projection": 902,
+    "mtd_booked": 792,
+    "on_pace": 1054,
+    "remaining": 375,
+    "eom_projection": 877,
     "total_goal": 1167
   },
   "by_funnel": {
+    "Website": {
+      "total": 79,
+      "sales": 79,
+      "setter": 0
+    },
     "Internal Webinar": {
       "total": 65,
       "sales": 65,
       "setter": 0
     },
     "YouTube": {
-      "total": 126,
-      "sales": 126,
+      "total": 127,
+      "sales": 127,
       "setter": 0
     },
     "Instagram": {
-      "total": 179,
-      "sales": 179,
+      "total": 180,
+      "sales": 180,
       "setter": 0
     },
     "Reactivation Email": {
       "total": 21,
       "sales": 21,
-      "setter": 0
-    },
-    "Website": {
-      "total": 78,
-      "sales": 78,
       "setter": 0
     },
     "Unknown (Needs Review)": {
@@ -58,8 +58,8 @@
       "setter": 0
     },
     "Low Ticket Funnel": {
-      "total": 175,
-      "sales": 175,
+      "total": 178,
+      "sales": 178,
       "setter": 0
     },
     "Linkedin": {
@@ -104,6 +104,29 @@
     }
   },
   "by_funnel_day": {
+    "Website": {
+      "28": 1,
+      "27": 2,
+      "26": 5,
+      "24": 4,
+      "25": 2,
+      "23": 4,
+      "20": 9,
+      "19": 2,
+      "18": 3,
+      "17": 4,
+      "16": 6,
+      "13": 6,
+      "12": 2,
+      "11": 1,
+      "10": 4,
+      "9": 2,
+      "6": 5,
+      "5": 2,
+      "4": 10,
+      "3": 1,
+      "2": 4
+    },
     "Internal Webinar": {
       "27": 19,
       "26": 10,
@@ -124,6 +147,7 @@
     },
     "YouTube": {
       "27": 5,
+      "28": 1,
       "26": 7,
       "25": 3,
       "24": 8,
@@ -147,6 +171,7 @@
     },
     "Instagram": {
       "27": 8,
+      "28": 1,
       "26": 8,
       "25": 8,
       "24": 8,
@@ -180,28 +205,6 @@
       "12": 2,
       "17": 1
     },
-    "Website": {
-      "27": 2,
-      "26": 5,
-      "24": 4,
-      "25": 2,
-      "23": 4,
-      "20": 9,
-      "19": 2,
-      "18": 3,
-      "17": 4,
-      "16": 6,
-      "13": 6,
-      "12": 2,
-      "11": 1,
-      "10": 4,
-      "9": 2,
-      "6": 5,
-      "5": 2,
-      "4": 10,
-      "3": 1,
-      "2": 4
-    },
     "Unknown (Needs Review)": {
       "16": 1,
       "26": 3,
@@ -216,6 +219,7 @@
       "3": 2
     },
     "Low Ticket Funnel": {
+      "28": 3,
       "27": 4,
       "26": 7,
       "25": 5,
