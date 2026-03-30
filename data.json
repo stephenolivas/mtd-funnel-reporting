@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T08:45:10.678793-07:00",
+  "generated_at": "2026-03-30T09:00:14.151844-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 837,
+    "mtd_booked": 836,
     "on_pace": 1129,
-    "remaining": 330,
-    "eom_projection": 865,
+    "remaining": 331,
+    "eom_projection": 864,
     "total_goal": 1167
   },
   "by_funnel": {
@@ -43,8 +43,8 @@
       "setter": 0
     },
     "Website": {
-      "total": 86,
-      "sales": 86,
+      "total": 85,
+      "sales": 85,
       "setter": 0
     },
     "Internal Webinar": {
@@ -158,7 +158,7 @@
       "3": 2
     },
     "Website": {
-      "30": 7,
+      "30": 6,
       "28": 1,
       "27": 2,
       "26": 5,
