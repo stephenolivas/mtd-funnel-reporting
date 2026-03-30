@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T12:15:10.247763-07:00",
+  "generated_at": "2026-03-30T12:30:12.406126-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -48,8 +48,8 @@
       "setter": 0
     },
     "Internal Webinar": {
-      "total": 77,
-      "sales": 77,
+      "total": 78,
+      "sales": 78,
       "setter": 0
     },
     "YouTube": {
@@ -85,11 +85,6 @@
     "Meta Ads": {
       "total": 26,
       "sales": 26,
-      "setter": 0
-    },
-    "Webinar": {
-      "total": 1,
-      "sales": 1,
       "setter": 0
     },
     "WWWS": {
@@ -187,7 +182,7 @@
       "3": 2
     },
     "Internal Webinar": {
-      "30": 10,
+      "30": 11,
       "27": 20,
       "26": 11,
       "25": 7,
@@ -308,9 +303,6 @@
       "6": 2,
       "3": 2,
       "2": 1
-    },
-    "Webinar": {
-      "30": 1
     },
     "WWWS": {
       "20": 1
