@@ -281,11 +281,23 @@ def fetch_closed_won_mtd(month_start_str, month_end_str, lead_cache):
     month. Uses CURSOR-based pagination — the opportunity endpoint does NOT
     support _skip; using _skip returns duplicate pages and inflates the count.
 
+    For funnel attribution, checks (in order):
+      1. The opp's own funnel custom field
+      2. lead_cache (leads from this month's qualifying meetings)
+      3. Fresh individual lead fetch — covers leads whose first call was in a
+         prior month but who closed this month (common for multi-touch closes)
+
     Returns:
       total:        int — total won opps MTD
       by_funnel:    dict — {funnel_name: count}
     """
     print(f"Fetching closed-won opps ({month_start_str} to {month_end_str})...", flush=True)
+
+    FUNNEL_RENAMES = {"YouTube - OG - Cam": "YouTube", "Instagram Setter": "Instagram"}
+
+    def normalize_funnel(name):
+        name = (name or "").strip()
+        return FUNNEL_RENAMES.get(name, name) if name else None
 
     total     = 0
     by_funnel = {}
@@ -309,29 +321,38 @@ def fetch_closed_won_mtd(month_start_str, month_end_str, lead_cache):
 
         for opp in batch:
             total += 1
-            # Try funnel from opp's own custom field first
-            funnel = (opp.get("custom") or {}).get(CF_OPP_FUNNEL) or \
-                     opp.get(f"custom.{CF_OPP_FUNNEL}") or ""
-            funnel = funnel.strip()
+            lead_id = opp.get("lead_id")
 
-            # Fall back to lead_cache if opp funnel field is blank
-            if not funnel:
-                lead_id = opp.get("lead_id")
-                if lead_id:
-                    lead = lead_cache.get(lead_id)
-                    if lead:
-                        funnel = get_funnel_name(lead)
+            # 1. Try funnel from the opp's own custom field first
+            funnel = normalize_funnel(
+                (opp.get("custom") or {}).get(CF_OPP_FUNNEL) or
+                opp.get(f"custom.{CF_OPP_FUNNEL}")
+            )
+
+            # 2. Fall back to lead_cache (leads already fetched this run)
+            if not funnel and lead_id:
+                cached = lead_cache.get(lead_id)
+                if cached:
+                    funnel = normalize_funnel(get_custom_field(cached, CF_FUNNEL_NAME))
+
+            # 3. Fresh lead fetch — covers won leads whose first call was in a
+            #    prior month (not in this month's meeting pipeline at all)
+            if not funnel and lead_id and lead_id not in lead_cache:
+                print(f"  Fetching lead for won opp (not in cache): {lead_id}", flush=True)
+                try:
+                    fresh = close_get(f"lead/{lead_id}", {"_fields": LEAD_FIELDS})
+                    if fresh:
+                        lead_cache[lead_id] = fresh  # cache it for reuse
+                        funnel = normalize_funnel(get_custom_field(fresh, CF_FUNNEL_NAME))
+                except Exception as e:
+                    print(f"  Warning: could not fetch lead {lead_id}: {e}", flush=True)
 
             if not funnel:
                 funnel = "Unknown (Needs Review)"
 
-            # Merge Instagram Setter → Instagram
-            if funnel == "Instagram Setter":
-                funnel = "Instagram"
-
             by_funnel[funnel] = by_funnel.get(funnel, 0) + 1
 
-        print(f"  Opp page {page}: {len(batch)} won opps (running total: {total})", flush=True)
+        print(f"  Opp page {page}: {len(batch)} won (running total: {total})", flush=True)
 
         cursor = data.get("cursor")
         if not cursor or not batch:
