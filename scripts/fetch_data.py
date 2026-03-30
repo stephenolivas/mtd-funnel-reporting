@@ -54,7 +54,6 @@ EXCLUDED_STATUS_SUBSTRINGS = [
     "Canceled (by Lead)",
     "Outside the US",
     "Lost",
-    "No Show",
 ]
 
 # Setter owners — excluded entirely (dashboard is sales-only)
