@@ -272,7 +272,38 @@ def get_lead_metrics(lead):
     return showed, qualified, closed
 
 
-# ─── Goals ────────────────────────────────────────────────────────────────────
+# ─── Closed-Won MTD (opportunity-based) ──────────────────────────────────────
+
+def fetch_closed_won_mtd(month_start, month_end):
+    """
+    Fetch count of all closed-won opportunities where close_at falls within
+    the current month. Uses the opportunity endpoint with close_at date filter —
+    unlike the meeting endpoint, this filter is actually respected by Close.
+    Returns an integer count.
+    """
+    print(f"Fetching closed-won opportunities ({month_start} to {month_end})...", flush=True)
+    total  = 0
+    params = {
+        "status_type":    "won",
+        "close_at__gte":  f"{month_start}T00:00:00+00:00",
+        "close_at__lte":  f"{month_end}T23:59:59+00:00",
+        "_limit":         100,
+        "_fields":        "id",  # minimal payload — we only need the count
+    }
+    skip = 0
+    while True:
+        params["_skip"] = skip
+        data  = close_get("opportunity/", params)
+        batch = data.get("data", [])
+        total += len(batch)
+        if not data.get("has_more", False):
+            break
+        skip += 100
+    print(f"  Closed-won MTD: {total}", flush=True)
+    return total
+
+
+
 
 def load_goals():
     goals_path = os.path.join(os.path.dirname(__file__), "..", "goals.json")
@@ -432,6 +463,11 @@ def main():
     remaining      = max(0, total_goal - mtd_booked)
     eom_projection = round(mtd_booked * days_in_mo / days_elapsed) if days_elapsed else 0
 
+    # Closed-won count from opportunity endpoint (date_won based — more accurate than lead status)
+    month_start_str = today_pac.strftime("%Y-%m-01")
+    month_end_str   = today_pac.strftime(f"%Y-%m-{days_in_mo:02d}")
+    closed_won_mtd  = fetch_closed_won_mtd(month_start_str, month_end_str)
+
     print(f"Summary — MTD: {mtd_booked} | On-Pace: {on_pace} | "
           f"Remaining: {remaining} | EOM Proj: {eom_projection}", flush=True)
     print(f"In-House:  {inhouse_agg['total']} booked | "
@@ -449,13 +485,14 @@ def main():
         "month_days":    days_in_mo,
         "goals":         goals,
         "summary": {
-            "mtd_booked":     mtd_booked,
-            "on_pace":        on_pace,
-            "remaining":      remaining,
-            "eom_projection": eom_projection,
-            "total_goal":     total_goal,
-            "inhouse":        inhouse_agg,
-            "external":       external_agg,
+            "mtd_booked":      mtd_booked,
+            "on_pace":         on_pace,
+            "remaining":       remaining,
+            "eom_projection":  eom_projection,
+            "total_goal":      total_goal,
+            "closed_won_mtd":  closed_won_mtd,
+            "inhouse":         inhouse_agg,
+            "external":        external_agg,
         },
         "by_funnel":     by_funnel,
         "by_funnel_day": by_funnel_day,
