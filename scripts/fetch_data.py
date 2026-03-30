@@ -263,44 +263,83 @@ def get_funnel_name(lead):
 
 
 def get_lead_metrics(lead):
-    """Return (showed, qualified, closed) booleans for a lead."""
+    """Return (showed, qualified) booleans for a lead."""
     if lead is None:
-        return False, False, False
+        return False, False
     showed    = str(get_custom_field(lead, CF_SHOWED)    or "").strip().lower() == "yes"
     qualified = str(get_custom_field(lead, CF_QUALIFIED) or "").strip().lower() == "yes"
-    closed    = "Closed / Won" in (lead.get("status_label") or "")
-    return showed, qualified, closed
+    return showed, qualified
 
 
 # ─── Closed-Won MTD (opportunity-based) ──────────────────────────────────────
 
-def fetch_closed_won_mtd(month_start, month_end):
+CF_OPP_FUNNEL = "cf_qaCxv0OBskvZKsappkm1EfLSvyhJ2wAmDbYkHdq2NAo"  # Funnel Name DEAL (Opp)
+
+def fetch_closed_won_mtd(month_start_str, month_end_str, lead_cache):
     """
-    Fetch count of all closed-won opportunities where close_at falls within
-    the current month. Uses the opportunity endpoint with close_at date filter —
-    unlike the meeting endpoint, this filter is actually respected by Close.
-    Returns an integer count.
+    Fetch all closed-won opportunities where close_at falls within the current
+    month. Uses CURSOR-based pagination — the opportunity endpoint does NOT
+    support _skip; using _skip returns duplicate pages and inflates the count.
+
+    Returns:
+      total:        int — total won opps MTD
+      by_funnel:    dict — {funnel_name: count}
     """
-    print(f"Fetching closed-won opportunities ({month_start} to {month_end})...", flush=True)
-    total  = 0
-    params = {
-        "status_type":    "won",
-        "close_at__gte":  f"{month_start}T00:00:00+00:00",
-        "close_at__lte":  f"{month_end}T23:59:59+00:00",
-        "_limit":         100,
-        "_fields":        "id",  # minimal payload — we only need the count
-    }
-    skip = 0
+    print(f"Fetching closed-won opps ({month_start_str} to {month_end_str})...", flush=True)
+
+    total     = 0
+    by_funnel = {}
+    cursor    = None
+    page      = 0
+
     while True:
-        params["_skip"] = skip
+        page += 1
+        params = {
+            "status_type":   "won",
+            "close_at__gte": f"{month_start_str}T00:00:00+00:00",
+            "close_at__lte": f"{month_end_str}T23:59:59+00:00",
+            "_limit":        100,
+            "_fields":       f"id,lead_id,custom.{CF_OPP_FUNNEL}",
+        }
+        if cursor:
+            params["_cursor"] = cursor
+
         data  = close_get("opportunity/", params)
         batch = data.get("data", [])
-        total += len(batch)
-        if not data.get("has_more", False):
+
+        for opp in batch:
+            total += 1
+            # Try funnel from opp's own custom field first
+            funnel = (opp.get("custom") or {}).get(CF_OPP_FUNNEL) or \
+                     opp.get(f"custom.{CF_OPP_FUNNEL}") or ""
+            funnel = funnel.strip()
+
+            # Fall back to lead_cache if opp funnel field is blank
+            if not funnel:
+                lead_id = opp.get("lead_id")
+                if lead_id:
+                    lead = lead_cache.get(lead_id)
+                    if lead:
+                        funnel = get_funnel_name(lead)
+
+            if not funnel:
+                funnel = "Unknown (Needs Review)"
+
+            # Merge Instagram Setter → Instagram
+            if funnel == "Instagram Setter":
+                funnel = "Instagram"
+
+            by_funnel[funnel] = by_funnel.get(funnel, 0) + 1
+
+        print(f"  Opp page {page}: {len(batch)} won opps (running total: {total})", flush=True)
+
+        cursor = data.get("cursor")
+        if not cursor or not batch:
             break
-        skip += 100
-    print(f"  Closed-won MTD: {total}", flush=True)
-    return total
+
+    print(f"Closed-won MTD total: {total}", flush=True)
+    print(f"Won by funnel: {by_funnel}", flush=True)
+    return total, by_funnel
 
 
 
@@ -356,13 +395,12 @@ def update_archives(data_dict, today_pac, repo_root):
 # ─── Main ──────────────────────────────────────────────────────────────────────
 
 def blank_metrics():
-    return {"total": 0, "showed": 0, "qualified": 0, "closed": 0}
+    return {"total": 0, "showed": 0, "qualified": 0}
 
-def add_metrics(target, showed, qualified, closed):
+def add_metrics(target, showed, qualified):
     target["total"]     += 1
     target["showed"]    += int(showed)
     target["qualified"] += int(qualified)
-    target["closed"]    += int(closed)
 
 
 def main():
@@ -424,11 +462,11 @@ def main():
             continue  # lead-level excluded
 
         funnel             = get_funnel_name(lead)
-        showed, qualified, closed = get_lead_metrics(lead)
+        showed, qualified  = get_lead_metrics(lead)
 
         if funnel not in by_funnel:
             by_funnel[funnel] = blank_metrics()
-        add_metrics(by_funnel[funnel], showed, qualified, closed)
+        add_metrics(by_funnel[funnel], showed, qualified)
 
         # Day breakdown (for future chart use)
         pac_date = m.get("_pac_date")
@@ -440,16 +478,16 @@ def main():
 
         # In-house vs external aggregate
         if is_inhouse(funnel):
-            add_metrics(inhouse_agg, showed, qualified, closed)
+            add_metrics(inhouse_agg, showed, qualified)
         else:
-            add_metrics(external_agg, showed, qualified, closed)
+            add_metrics(external_agg, showed, qualified)
 
     # Log attribution
     print("\nFunnel attribution:", flush=True)
     for f, v in sorted(by_funnel.items(), key=lambda x: -x[1]["total"]):
         inout = "IN" if is_inhouse(f) else "EX"
         print(f"  [{inout}] {f}: {v['total']} booked | "
-              f"showed {v['showed']} | qualified {v['qualified']} | closed {v['closed']}", flush=True)
+              f"showed {v['showed']} | qualified {v['qualified']}", flush=True)
     print("", flush=True)
 
     # Summary stats
@@ -463,17 +501,17 @@ def main():
     remaining      = max(0, total_goal - mtd_booked)
     eom_projection = round(mtd_booked * days_in_mo / days_elapsed) if days_elapsed else 0
 
-    # Closed-won count from opportunity endpoint (date_won based — more accurate than lead status)
-    month_start_str = today_pac.strftime("%Y-%m-01")
+    # Closed-won from opportunity endpoint — cursor pagination, grouped by funnel
+    month_start_str = f"{today_pac.year}-{today_pac.month:02d}-01"
     month_end_str   = today_pac.strftime(f"%Y-%m-{days_in_mo:02d}")
-    closed_won_mtd  = fetch_closed_won_mtd(month_start_str, month_end_str)
+    closed_won_mtd, won_by_funnel = fetch_closed_won_mtd(month_start_str, month_end_str, lead_cache)
 
     print(f"Summary — MTD: {mtd_booked} | On-Pace: {on_pace} | "
           f"Remaining: {remaining} | EOM Proj: {eom_projection}", flush=True)
     print(f"In-House:  {inhouse_agg['total']} booked | "
-          f"showed {inhouse_agg['showed']} | qualified {inhouse_agg['qualified']} | closed {inhouse_agg['closed']}", flush=True)
+          f"showed {inhouse_agg['showed']} | qualified {inhouse_agg['qualified']}", flush=True)
     print(f"External:  {external_agg['total']} booked | "
-          f"showed {external_agg['showed']} | qualified {external_agg['qualified']} | closed {external_agg['closed']}", flush=True)
+          f"showed {external_agg['showed']} | qualified {external_agg['qualified']}", flush=True)
 
     # Assemble data.json
     data_dict = {
@@ -496,6 +534,7 @@ def main():
         },
         "by_funnel":     by_funnel,
         "by_funnel_day": by_funnel_day,
+        "won_by_funnel": won_by_funnel,
     }
 
     repo_root = os.path.join(os.path.dirname(__file__), "..")
