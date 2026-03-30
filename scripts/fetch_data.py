@@ -1,20 +1,12 @@
 #!/usr/bin/env python3
 """
-MTD Funnel Reporting Dashboard — Data Fetcher
-Fetches meetings from Close CRM, classifies by funnel, writes data.json + archives.
-
-PIPELINE ORDER (critical — do not reorder):
-  1. Paginate ALL meetings (~107 API calls)
-  2. Filter by MTD date range in Python (UTC → Pacific)
-  3. Classify meeting titles in Python (zero API calls)
-  4. Collect unique lead_ids from surviving meetings
-  5. Fetch ONLY those leads individually (~80-200 API calls)
-  6. Apply lead-level exclusions at fetch time
-
-NOTE on setter calls:
-  Setter meetings (Kristin Nelson, Spencer Reynolds, "Vending Quick Discovery") ARE
-  counted in the funnel totals — they are NOT separated out. Each funnel card shows
-  "Sales X / Setter Y" as a breakdown sub-line, but MTD Booked = sales + setter.
+MTD Funnel Reporting Dashboard — Data Fetcher (V3)
+Changes from V2:
+  - Status exclusions expanded: Lost, No Show added (in addition to Canceled, Outside US)
+  - "Instagram Setter" funnel merged into "Instagram"
+  - Per-funnel tracking: showed, qualified, closed (in addition to total)
+  - Summary includes in-house vs external breakdowns + aggregate rates
+  - status_label added to lead fetch for closed detection + expanded exclusions
 """
 
 import json
@@ -31,35 +23,54 @@ from urllib3.util.retry import Retry
 # ─── Config ───────────────────────────────────────────────────────────────────
 
 CLOSE_API_BASE = "https://api.close.com/api/v1"
-CLOSE_API_KEY = os.environ["CLOSE_API_KEY"]
-PACIFIC = ZoneInfo("America/Los_Angeles")
+CLOSE_API_KEY  = os.environ["CLOSE_API_KEY"]
+PACIFIC        = ZoneInfo("America/Los_Angeles")
 
 # Custom field IDs
 CF_FUNNEL_NAME = "cf_xqDQE8fkPsWa0RNEve7hcaxKblCe6489XeZGRDzyPdX"  # Funnel Name DEAL
-CF_LEAD_OWNER  = "cf_gOfS9pFwext58oberEegLyix8hZzeHrxhCZOVh3P3rd"   # Lead Owner (user_id)
+CF_LEAD_OWNER  = "cf_gOfS9pFwext58oberEegLyix8hZzeHrxhCZOVh3P3rd"   # Lead Owner
+CF_SHOWED      = "cf_OPyvpU45RdvjLqfm8V1VWwNxrGKogEH2IBJmfCj0Uhq"  # First Call Show Up (Opp)
+CF_QUALIFIED   = "cf_ZDx7NBQaDzV1yYrFcBMzt6cIYj81dAcswpNN0CQzCPS"  # Qualified (Opp)
 
-# Lead fields to fetch (minimized — 50-100x smaller payload vs full lead object)
 LEAD_FIELDS = (
-    f"id,display_name,status_id,"
+    f"id,display_name,status_id,status_label,"
     f"custom.{CF_FUNNEL_NAME},"
-    f"custom.{CF_LEAD_OWNER}"
+    f"custom.{CF_LEAD_OWNER},"
+    f"custom.{CF_SHOWED},"
+    f"custom.{CF_QUALIFIED}"
 )
 
-# ─── Hard User Exclusions (meeting-level) ─────────────────────────────────────
+# ─── Exclusions ───────────────────────────────────────────────────────────────
 
+# Meeting-owner hard exclusions (user_id)
 EXCLUDED_USER_IDS = {
     "user_5cZRqXu8kb4O1IeBVA98UMcMEhYZUhx1fnCHfSL0YMV",  # Stephen Olivas
     "user_yRF070m26JE67J6CJqzkAB3IqY7btNm1K5RisCglKa6",  # Ahmad Bukhari
 }
 
-# Lead-level status exclusions
-EXCLUDED_STATUS_IDS = {
-    "stat_hWIGHjzyNpl4YjIFSFz3VK4fp2ny10SFJLKAihmo4KT",  # Canceled (by Lead)
-    "stat_YV4ZngDB4IGjLjlOf0YTFEWuKZJ6fhNxVkzQkvKYfdB",  # Outside the US
-}
+# Lead-level status exclusions — matched against status_label substring
+# Covering: Canceled (by Lead), Outside the US, Lost, No Show
+EXCLUDED_STATUS_SUBSTRINGS = [
+    "Canceled (by Lead)",
+    "Outside the US",
+    "Lost",
+    "No Show",
+]
 
-# Setter owners — counted in funnel totals, flagged for breakdown sub-line
+# Setter owners — excluded entirely (dashboard is sales-only)
 SETTER_OWNER_NAMES = {"Kristin Nelson", "Spencer Reynolds"}
+
+# ─── In-House vs External ─────────────────────────────────────────────────────
+
+INHOUSE_FUNNELS = {
+    "YouTube", "Meta Ads", "VSL", "Website", "Internal Webinar",
+    "Mike Newsletter", "TikTok", "Side Hustle Nation", "WWWS",
+    "Passivepreneurs", "Reactivation Email", "Reactivation Scrapers",
+}
+# Everything else (Low Ticket Funnel, Instagram, X, LinkedIn, etc.) = External
+
+def is_inhouse(funnel_name):
+    return funnel_name in INHOUSE_FUNNELS
 
 # ─── Session Setup ─────────────────────────────────────────────────────────────
 
@@ -70,7 +81,7 @@ session.mount("https://", HTTPAdapter(max_retries=Retry(total=0)))
 
 def close_get(endpoint, params=None):
     """Single Close API GET with 0.5s throttle + retry on 429."""
-    time.sleep(0.5)  # Global throttle — DO NOT REMOVE
+    time.sleep(0.5)
     url = f"{CLOSE_API_BASE}/{endpoint}"
     for attempt in range(5):
         try:
@@ -92,35 +103,22 @@ def close_get(endpoint, params=None):
 # ─── Custom Field Helper ───────────────────────────────────────────────────────
 
 def get_custom_field(lead, field_id):
-    """
-    Close API returns _fields-filtered custom fields in TWO possible shapes:
-      1. Nested:  lead["custom"][field_id]         (standard full-object response)
-      2. Flat:    lead[f"custom.{field_id}"]       (when using _fields param)
-
-    We check both so the code is robust regardless of API behavior.
-    """
-    # Try nested first (most common for full objects)
+    """Handle both nested lead['custom'][field_id] and flat lead['custom.field_id'] shapes."""
     nested = (lead.get("custom") or {}).get(field_id)
     if nested not in (None, ""):
         return nested
-
-    # Try flat key (Close flattens _fields-selected custom attrs in some responses)
     flat = lead.get(f"custom.{field_id}")
     if flat not in (None, ""):
         return flat
-
     return None
 
 
 # ─── User Name Resolution ──────────────────────────────────────────────────────
 
 def fetch_users():
-    """Returns {user_id: display_name} for the org."""
     print("Fetching org users...", flush=True)
     data = close_get("user/", {"_limit": 100})
-    users = {}
-    for u in data.get("data", []):
-        users[u["id"]] = u.get("display_name", "Unknown")
+    users = {u["id"]: u.get("display_name", "Unknown") for u in data.get("data", [])}
     print(f"  Loaded {len(users)} users", flush=True)
     return users
 
@@ -128,27 +126,18 @@ def fetch_users():
 # ─── Meeting Pagination ────────────────────────────────────────────────────────
 
 def fetch_all_meetings():
-    """
-    Paginate ALL meetings from Close API.
-    IMPORTANT: Date filter params are silently ignored by Close — we MUST paginate
-    everything and filter in Python after UTC → Pacific conversion.
-    """
+    """Paginate ALL meetings. Close silently ignores date filters — filter in Python."""
     print("Fetching all meetings (paginating)...", flush=True)
-    all_meetings = []
-    skip = 0
-    limit = 100
-    page = 0
-
+    all_meetings, skip, page = [], 0, 0
     while True:
         page += 1
-        data = close_get("activity/meeting/", {"_skip": skip, "_limit": limit})
+        data  = close_get("activity/meeting/", {"_skip": skip, "_limit": 100})
         batch = data.get("data", [])
         all_meetings.extend(batch)
         print(f"  Page {page}: {len(batch)} meetings (total: {len(all_meetings)})", flush=True)
         if not data.get("has_more", False):
             break
-        skip += limit
-
+        skip += 100
     print(f"Total meetings fetched: {len(all_meetings)}", flush=True)
     return all_meetings
 
@@ -156,16 +145,12 @@ def fetch_all_meetings():
 # ─── Date Filtering ────────────────────────────────────────────────────────────
 
 def parse_meeting_date_pacific(meeting):
-    """
-    Returns the Pacific-local date of a meeting, or None if unparseable.
-    CRITICAL: A 4 PM PST meeting is stored as midnight UTC the NEXT day.
-    Without UTC→Pacific conversion, late-afternoon meetings get the wrong date.
-    """
+    """Convert UTC starts_at → Pacific date. Critical: 4 PM PST = midnight UTC next day."""
     for field in ("starts_at", "activity_at", "date_start"):
         raw = meeting.get(field)
         if raw:
             try:
-                ts = raw.replace("Z", "+00:00")
+                ts     = raw.replace("Z", "+00:00")
                 dt_utc = datetime.fromisoformat(ts)
                 if dt_utc.tzinfo is None:
                     dt_utc = dt_utc.replace(tzinfo=timezone.utc)
@@ -176,13 +161,12 @@ def parse_meeting_date_pacific(meeting):
 
 
 def filter_mtd_meetings(meetings, today_pac):
-    """Keep only meetings from the 1st of the current month through today (Pacific)."""
     month_start = date(today_pac.year, today_pac.month, 1)
     result = []
     for m in meetings:
         d = parse_meeting_date_pacific(m)
         if d and month_start <= d <= today_pac:
-            m["_pac_date"] = d  # stash for day-of-month breakdown
+            m["_pac_date"] = d
             result.append(m)
     print(f"MTD meetings ({month_start} to {today_pac}): {len(result)}", flush=True)
     return result
@@ -190,14 +174,8 @@ def filter_mtd_meetings(meetings, today_pac):
 
 # ─── Title Classification ──────────────────────────────────────────────────────
 
-RE_EXCLUDE_FOLLOWUP = re.compile(
-    r"follow[\s-]?up|fallow\s+up|f/u|next\s+steps|rescheduled?|reschedule",
-    re.IGNORECASE
-)
-RE_EXCLUDE_ENROLLMENT = re.compile(
-    r"enrollment|silver\s+start\s*up|bronze\s+enrollment|questions\s+on\s+enrollment",
-    re.IGNORECASE
-)
+RE_EXCLUDE_FOLLOWUP   = re.compile(r"follow[\s-]?up|fallow\s+up|f/u|next\s+steps|rescheduled?|reschedule", re.IGNORECASE)
+RE_EXCLUDE_ENROLLMENT = re.compile(r"enrollment|silver\s+start\s*up|bronze\s+enrollment|questions\s+on\s+enrollment", re.IGNORECASE)
 
 FIRST_CALL_PATTERNS = [
     re.compile(r"vending\s+strategy\s+call", re.IGNORECASE),
@@ -209,60 +187,46 @@ FIRST_CALL_PATTERNS = [
 
 
 def classify_meeting(meeting, user_id_to_name):
-    """
-    Returns: (status, is_setter)
-      status:    'qualifying' or 'excluded'
-      is_setter: True if owned by Kristin/Spencer or Quick Discovery title
-
-    Setter meetings ARE qualifying — they count toward funnel totals.
-    The is_setter flag only drives the Sales/Setter sub-line breakdown.
-    """
     title      = (meeting.get("title") or "").strip()
     user_id    = meeting.get("user_id", "")
     owner_name = user_id_to_name.get(user_id, "Unknown")
 
-    # ── Hard user exclusion (meeting owner) ──────────────────────────────────
-    if user_id in EXCLUDED_USER_IDS:
-        return "excluded", False
-    if owner_name == "Unknown" and user_id and user_id not in user_id_to_name:
-        return "excluded", False
+    if user_id in EXCLUDED_USER_IDS:                          return "excluded"
+    if owner_name == "Unknown" and user_id and user_id not in user_id_to_name: return "excluded"
+    if title.startswith("Canceled:"):                         return "excluded"
+    if RE_EXCLUDE_FOLLOWUP.search(title):                     return "excluded"
+    if "Anthony" in title and "Q&A" in title:                 return "excluded"
+    if RE_EXCLUDE_ENROLLMENT.search(title):                   return "excluded"
 
-    # ── Step 1: Hard title excludes ──────────────────────────────────────────
-    if title.startswith("Canceled:"):
-        return "excluded", False
-    if RE_EXCLUDE_FOLLOWUP.search(title):
-        return "excluded", False
-    if "Anthony" in title and "Q&A" in title:
-        return "excluded", False
-    if RE_EXCLUDE_ENROLLMENT.search(title):
-        return "excluded", False
+    # Setter / Discovery — excluded (sales-only dashboard)
+    if re.search(r"vending\s+quick\s+discovery", title, re.IGNORECASE): return "excluded"
+    if owner_name in SETTER_OWNER_NAMES:                      return "excluded"
 
-    # ── Step 2: Setter / Discovery — excluded (dashboard is sales-only) ──────
-    if re.search(r"vending\s+quick\s+discovery", title, re.IGNORECASE):
-        return "excluded", False
-    if owner_name in SETTER_OWNER_NAMES:
-        return "excluded", False
-
-    # ── Step 3: First call qualifying titles ─────────────────────────────────
-    if not title:  # Blank title = qualifying (GCal sync safety net)
-        return "qualifying", False
+    # Qualifying first-call titles
+    if not title:                                             return "qualifying"
     for pattern in FIRST_CALL_PATTERNS:
-        if pattern.search(title):
-            return "qualifying", False
+        if pattern.search(title):                             return "qualifying"
 
-    return "excluded", False
+    return "excluded"
 
 
-# ─── Lead Fetching & Exclusion ─────────────────────────────────────────────────
+# ─── Lead Fetching ─────────────────────────────────────────────────────────────
+
+def is_lead_excluded(lead):
+    """Return True if this lead should be excluded based on status_label."""
+    status_label = lead.get("status_label") or ""
+    # Also check flat key in case _fields flattens it
+    if not status_label:
+        status_label = lead.get("status_label") or ""
+    for substring in EXCLUDED_STATUS_SUBSTRINGS:
+        if substring in status_label:
+            return True
+    return False
+
 
 def fetch_lead(lead_id, lead_cache):
-    """
-    Fetch a single lead with minimal fields. Returns lead dict or None if excluded.
-    Exclusion applied immediately — don't fetch-all-then-filter.
-    """
     if lead_id in lead_cache:
         return lead_cache[lead_id]
-
     try:
         lead = close_get(f"lead/{lead_id}", {"_fields": LEAD_FIELDS})
     except Exception as e:
@@ -270,13 +234,14 @@ def fetch_lead(lead_id, lead_cache):
         lead_cache[lead_id] = None
         return None
 
-    status_id = lead.get("status_id", "")
-    owner_id  = get_custom_field(lead, CF_LEAD_OWNER) or ""
-
-    if status_id in EXCLUDED_STATUS_IDS:
+    # Lead-owner exclusion
+    owner_id = get_custom_field(lead, CF_LEAD_OWNER) or ""
+    if owner_id in EXCLUDED_USER_IDS:
         lead_cache[lead_id] = None
         return None
-    if owner_id in EXCLUDED_USER_IDS:
+
+    # Status exclusion (expanded: Lost, No Show, Canceled, Outside US)
+    if is_lead_excluded(lead):
         lead_cache[lead_id] = None
         return None
 
@@ -285,11 +250,27 @@ def fetch_lead(lead_id, lead_cache):
 
 
 def get_funnel_name(lead):
-    """Extract funnel name from lead custom field."""
+    """Extract funnel name, merging 'Instagram Setter' → 'Instagram'."""
     if lead is None:
         return "Unknown (Needs Review)"
     funnel = get_custom_field(lead, CF_FUNNEL_NAME)
-    return funnel.strip() if funnel and funnel.strip() else "Unknown (Needs Review)"
+    if not funnel or not funnel.strip():
+        return "Unknown (Needs Review)"
+    funnel = funnel.strip()
+    # Merge Instagram Setter into Instagram
+    if funnel == "Instagram Setter":
+        return "Instagram"
+    return funnel
+
+
+def get_lead_metrics(lead):
+    """Return (showed, qualified, closed) booleans for a lead."""
+    if lead is None:
+        return False, False, False
+    showed    = str(get_custom_field(lead, CF_SHOWED)    or "").strip().lower() == "yes"
+    qualified = str(get_custom_field(lead, CF_QUALIFIED) or "").strip().lower() == "yes"
+    closed    = "Closed / Won" in (lead.get("status_label") or "")
+    return showed, qualified, closed
 
 
 # ─── Goals ────────────────────────────────────────────────────────────────────
@@ -301,7 +282,7 @@ def load_goals():
             data = json.load(f)
         return data["goals"] if "goals" in data else data
     except FileNotFoundError:
-        print("Warning: goals.json not found — using empty goals", flush=True)
+        print("Warning: goals.json not found", flush=True)
         return {}
     except Exception as e:
         print(f"Warning: could not load goals.json: {e}", flush=True)
@@ -333,77 +314,63 @@ def update_archives(data_dict, today_pac, repo_root):
 
     save_json_file(os.path.join(archives_dir, f"data_week_{week_key}.json"), data_dict)
     save_json_file(os.path.join(archives_dir, f"data_month_{month_key}.json"), data_dict)
-    print(f"  Saved weekly ({week_key}) and monthly ({month_key}) archives", flush=True)
 
     index_path = os.path.join(archives_dir, "index.json")
     index = load_json_file(index_path) or {"weeks": [], "months": []}
-
     if week_key  not in index["weeks"]:  index["weeks"].append(week_key);   index["weeks"].sort(reverse=True)
     if month_key not in index["months"]: index["months"].append(month_key); index["months"].sort(reverse=True)
-
     save_json_file(index_path, index)
-    print("  Updated archive index", flush=True)
+    print(f"  Archives updated: week={week_key}, month={month_key}", flush=True)
 
 
 # ─── Main ──────────────────────────────────────────────────────────────────────
 
+def blank_metrics():
+    return {"total": 0, "showed": 0, "qualified": 0, "closed": 0}
+
+def add_metrics(target, showed, qualified, closed):
+    target["total"]     += 1
+    target["showed"]    += int(showed)
+    target["qualified"] += int(qualified)
+    target["closed"]    += int(closed)
+
+
 def main():
     print("=" * 60, flush=True)
-    print("MTD Funnel Dashboard — fetch_data.py", flush=True)
+    print("MTD Funnel Dashboard V3 — fetch_data.py", flush=True)
 
-    now_pac      = datetime.now(tz=PACIFIC)
-    today_pac    = now_pac.date()
-    tz_label     = now_pac.strftime("%Z")
+    now_pac    = datetime.now(tz=PACIFIC)
+    today_pac  = now_pac.date()
+    tz_label   = now_pac.strftime("%Z")
 
-    print(f"Run time: {now_pac.strftime('%Y-%m-%d %H:%M %Z')}", flush=True)
+    print(f"Run time:   {now_pac.strftime('%Y-%m-%d %H:%M %Z')}", flush=True)
     print(f"MTD window: {today_pac.year}-{today_pac.month:02d}-01 to {today_pac}", flush=True)
     print("=" * 60, flush=True)
 
-    # Step 1: Users
     user_id_to_name = fetch_users()
+    all_meetings    = fetch_all_meetings()
+    mtd_meetings    = filter_mtd_meetings(all_meetings, today_pac)
 
-    # Step 2: All meetings
-    all_meetings = fetch_all_meetings()
-
-    # Step 3: MTD filter
-    mtd_meetings = filter_mtd_meetings(all_meetings, today_pac)
-
-    # Step 4: Classify titles
+    # Classify titles
     print("Classifying meeting titles...", flush=True)
-    qualifying_meetings = []
-    excluded_meetings   = []
-
+    qualifying, excluded = [], []
     for m in mtd_meetings:
-        status, is_setter = classify_meeting(m, user_id_to_name)
-        if status == "qualifying":
-            m["_is_setter"] = is_setter
-            qualifying_meetings.append(m)
+        if classify_meeting(m, user_id_to_name) == "qualifying":
+            qualifying.append(m)
         else:
-            excluded_meetings.append(m)
+            excluded.append(m)
+    print(f"  Qualifying: {len(qualifying)}  |  Excluded: {len(excluded)}", flush=True)
 
-    sales_count  = sum(1 for m in qualifying_meetings if not m["_is_setter"])
-    setter_count = sum(1 for m in qualifying_meetings if m["_is_setter"])
-    print(f"  Qualifying: {len(qualifying_meetings)} ({sales_count} sales / {setter_count} setter)", flush=True)
-    print(f"  Excluded:   {len(excluded_meetings)}", flush=True)
-
-    # Audit log: sample titles
-    def sample_titles(meetings, label, n=5):
-        titles = [m.get("title") or "(blank)" for m in meetings[:n]]
-        if titles:
-            print(f"\nSample {label} titles:", flush=True)
-            for t in titles:
-                print(f"  - {t}", flush=True)
-
-    sample_titles([m for m in qualifying_meetings if not m["_is_setter"]], "SALES (first call)")
-    sample_titles([m for m in qualifying_meetings if m["_is_setter"]], "SETTER")
-    sample_titles(excluded_meetings, "EXCLUDED")
+    # Audit sample
+    for label, meetings in [("QUALIFYING", qualifying[:5]), ("EXCLUDED", excluded[:5])]:
+        print(f"\nSample {label}:", flush=True)
+        for m in meetings:
+            print(f"  - {m.get('title') or '(blank)'}", flush=True)
     print("", flush=True)
 
-    # Step 5: Unique lead_ids
-    unique_lead_ids = list({m.get("lead_id") for m in qualifying_meetings if m.get("lead_id")})
+    # Fetch leads (only from qualifying meetings)
+    unique_lead_ids = list({m.get("lead_id") for m in qualifying if m.get("lead_id")})
     print(f"Unique leads to fetch: {len(unique_lead_ids)}", flush=True)
-
-    # Step 6: Fetch only those leads
     lead_cache = {}
     for i, lead_id in enumerate(unique_lead_ids, 1):
         if i % 25 == 0:
@@ -413,30 +380,27 @@ def main():
     excluded_leads = sum(1 for v in lead_cache.values() if v is None)
     print(f"Lead fetch complete. Excluded leads: {excluded_leads}", flush=True)
 
-    # ── Build funnel breakdown ─────────────────────────────────────────────────
-
+    # Build funnel breakdown
     by_funnel     = {}
     by_funnel_day = {}
 
-    for m in qualifying_meetings:
-        lead_id   = m.get("lead_id")
-        lead      = lead_cache.get(lead_id) if lead_id else None
+    inhouse_agg  = blank_metrics()
+    external_agg = blank_metrics()
 
-        # Skip meetings whose lead was excluded at lead-level
+    for m in qualifying:
+        lead_id = m.get("lead_id")
+        lead    = lead_cache.get(lead_id) if lead_id else None
         if lead_id and lead is None:
-            continue
+            continue  # lead-level excluded
 
-        funnel    = get_funnel_name(lead)
-        is_setter = m["_is_setter"]
+        funnel             = get_funnel_name(lead)
+        showed, qualified, closed = get_lead_metrics(lead)
 
         if funnel not in by_funnel:
-            by_funnel[funnel] = {"total": 0, "sales": 0, "setter": 0}
-        by_funnel[funnel]["total"] += 1
-        if is_setter:
-            by_funnel[funnel]["setter"] += 1
-        else:
-            by_funnel[funnel]["sales"] += 1
+            by_funnel[funnel] = blank_metrics()
+        add_metrics(by_funnel[funnel], showed, qualified, closed)
 
+        # Day breakdown (for future chart use)
         pac_date = m.get("_pac_date")
         if pac_date:
             day_str = str(pac_date.day)
@@ -444,14 +408,21 @@ def main():
                 by_funnel_day[funnel] = {}
             by_funnel_day[funnel][day_str] = by_funnel_day[funnel].get(day_str, 0) + 1
 
-    # Log funnel attribution
-    print("\nFunnel attribution results:", flush=True)
+        # In-house vs external aggregate
+        if is_inhouse(funnel):
+            add_metrics(inhouse_agg, showed, qualified, closed)
+        else:
+            add_metrics(external_agg, showed, qualified, closed)
+
+    # Log attribution
+    print("\nFunnel attribution:", flush=True)
     for f, v in sorted(by_funnel.items(), key=lambda x: -x[1]["total"]):
-        print(f"  {f}: {v['total']} ({v['sales']} sales / {v['setter']} setter)", flush=True)
+        inout = "IN" if is_inhouse(f) else "EX"
+        print(f"  [{inout}] {f}: {v['total']} booked | "
+              f"showed {v['showed']} | qualified {v['qualified']} | closed {v['closed']}", flush=True)
     print("", flush=True)
 
-    # ── Summary stats ──────────────────────────────────────────────────────────
-
+    # Summary stats
     goals        = load_goals()
     days_in_mo   = calendar.monthrange(today_pac.year, today_pac.month)[1]
     days_elapsed = today_pac.day
@@ -462,11 +433,14 @@ def main():
     remaining      = max(0, total_goal - mtd_booked)
     eom_projection = round(mtd_booked * days_in_mo / days_elapsed) if days_elapsed else 0
 
-    print(f"Summary — MTD Booked: {mtd_booked} | On-Pace: {on_pace} | "
-          f"Remaining: {remaining} | EOM Projection: {eom_projection}", flush=True)
+    print(f"Summary — MTD: {mtd_booked} | On-Pace: {on_pace} | "
+          f"Remaining: {remaining} | EOM Proj: {eom_projection}", flush=True)
+    print(f"In-House:  {inhouse_agg['total']} booked | "
+          f"showed {inhouse_agg['showed']} | qualified {inhouse_agg['qualified']} | closed {inhouse_agg['closed']}", flush=True)
+    print(f"External:  {external_agg['total']} booked | "
+          f"showed {external_agg['showed']} | qualified {external_agg['qualified']} | closed {external_agg['closed']}", flush=True)
 
-    # ── Assemble data.json ─────────────────────────────────────────────────────
-
+    # Assemble data.json
     data_dict = {
         "generated_at":  now_pac.isoformat(),
         "generated_tz":  tz_label,
@@ -481,17 +455,17 @@ def main():
             "remaining":      remaining,
             "eom_projection": eom_projection,
             "total_goal":     total_goal,
+            "inhouse":        inhouse_agg,
+            "external":       external_agg,
         },
         "by_funnel":     by_funnel,
         "by_funnel_day": by_funnel_day,
     }
 
     repo_root = os.path.join(os.path.dirname(__file__), "..")
-    data_path = os.path.join(repo_root, "data.json")
-    save_json_file(data_path, data_dict)
-    print(f"Wrote {data_path}", flush=True)
+    save_json_file(os.path.join(repo_root, "data.json"), data_dict)
+    print(f"Wrote data.json", flush=True)
 
-    print("Updating archives...", flush=True)
     update_archives(data_dict, today_pac, repo_root)
 
     print("=" * 60, flush=True)
