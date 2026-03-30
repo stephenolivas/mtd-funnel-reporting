@@ -23,6 +23,10 @@
       --green-light: #f0fdf4;
       --amber: #f59e0b;
       --amber-light: #fffbeb;
+      --purple: #8b5cf6;
+      --purple-light: #f5f3ff;
+      --indigo: #6366f1;
+      --indigo-light: #eef2ff;
       --shadow: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
     }
 
@@ -37,12 +41,9 @@
     .container { max-width: 720px; margin: 0 auto; }
 
     /* ── Header ── */
-    .header { margin-bottom: 24px; }
-    .header h1 { font-size: 1.75rem; font-weight: 800; color: var(--text); letter-spacing: -0.02em; }
-    .header-meta {
-      margin-top: 4px; font-size: 0.8125rem; color: var(--muted);
-      display: flex; flex-wrap: wrap; gap: 0 6px; align-items: center;
-    }
+    .header { margin-bottom: 20px; }
+    .header h1 { font-size: 1.75rem; font-weight: 800; letter-spacing: -0.02em; }
+    .header-meta { margin-top: 4px; font-size: 0.8125rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 0 6px; }
     .header-meta .sep { color: var(--border); }
     .header-nav { margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap; }
     .nav-link {
@@ -53,10 +54,10 @@
     }
     .nav-link:hover { background: #dbeafe; }
 
-    /* ── Summary strip ── */
+    /* ── Summary strip — row 1: 4 pace tiles ── */
     .summary-strip {
       display: grid; grid-template-columns: repeat(4, 1fr);
-      gap: 10px; margin-bottom: 20px;
+      gap: 10px; margin-bottom: 10px;
     }
     @media (max-width: 560px) { .summary-strip { grid-template-columns: repeat(2, 1fr); } }
 
@@ -68,13 +69,39 @@
       font-size: 0.6875rem; font-weight: 600; text-transform: uppercase;
       letter-spacing: 0.06em; color: var(--muted); margin-bottom: 4px;
     }
-    .stat-card .value {
-      font-size: 1.875rem; font-weight: 800; line-height: 1; letter-spacing: -0.02em;
+    .stat-card .value { font-size: 1.875rem; font-weight: 800; line-height: 1; letter-spacing: -0.02em; }
+    .stat-card .sub   { font-size: 0.75rem; color: var(--muted); margin-top: 2px; }
+    .val-blue   { color: var(--blue); }
+    .val-green  { color: var(--green); }
+    .val-amber  { color: var(--amber); }
+    .val-purple { color: var(--purple); }
+    .val-indigo { color: var(--indigo); }
+
+    /* ── Summary strip — row 2: in-house/external + rates ── */
+    .summary-strip-2 {
+      display: grid; grid-template-columns: repeat(5, 1fr);
+      gap: 10px; margin-bottom: 20px;
     }
-    .stat-card .sub { font-size: 0.75rem; color: var(--muted); margin-top: 2px; }
-    .value-blue  { color: var(--blue); }
-    .value-green { color: var(--green); }
-    .value-amber { color: var(--amber); }
+    @media (max-width: 640px) { .summary-strip-2 { grid-template-columns: repeat(2, 1fr); } }
+
+    .stat-card-sm {
+      background: var(--card); border-radius: 12px;
+      padding: 11px 14px 10px; box-shadow: var(--shadow);
+    }
+    .stat-card-sm .label {
+      font-size: 0.625rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.06em; color: var(--muted); margin-bottom: 3px;
+    }
+    .stat-card-sm .value { font-size: 1.25rem; font-weight: 800; line-height: 1; letter-spacing: -0.01em; }
+    .stat-card-sm .sub   { font-size: 0.6875rem; color: var(--muted); margin-top: 2px; }
+
+    /* rate divider line between in/ex */
+    .stat-card-sm .rate-row {
+      display: flex; gap: 6px; align-items: baseline; margin-top: 2px;
+    }
+    .stat-card-sm .rate-item { font-size: 0.6875rem; color: var(--muted); }
+    .stat-card-sm .rate-item span { font-weight: 700; color: var(--text); }
+    .stat-card-sm .rate-divider { width: 1px; height: 10px; background: var(--border); }
 
     /* ── Section header ── */
     .section-label {
@@ -85,14 +112,13 @@
     /* ── Funnel card ── */
     .funnel-card {
       background: var(--card); border-radius: 16px;
-      padding: 18px 20px 16px; box-shadow: var(--shadow); margin-bottom: 10px;
+      padding: 18px 20px 14px; box-shadow: var(--shadow); margin-bottom: 10px;
     }
     .funnel-card-header {
       display: flex; align-items: flex-start;
-      justify-content: space-between; margin-bottom: 2px; gap: 8px;
+      justify-content: space-between; gap: 8px; margin-bottom: 2px;
     }
     .funnel-name { font-size: 1rem; font-weight: 700; color: var(--text); }
-    .funnel-sub  { font-size: 0.75rem; color: var(--light); margin-top: 2px; }
 
     /* ── Badges ── */
     .badge {
@@ -109,23 +135,18 @@
       position: relative; height: 8px; background: #f3f4f6;
       border-radius: 999px; margin: 10px 0 12px; overflow: visible;
     }
-    .progress-fill {
-      height: 100%; border-radius: 999px; transition: width 0.4s ease; min-width: 4px;
-    }
-    .progress-fill-blue  { background: var(--blue); }
-    .progress-fill-green { background: var(--green); }
-    .progress-fill-amber { background: var(--amber); }
-    .progress-fill-gray  { background: #d1d5db; }
-
-    /* Pace tick mark */
+    .progress-fill { height: 100%; border-radius: 999px; min-width: 4px; }
+    .fill-blue   { background: var(--blue); }
+    .fill-green  { background: var(--green); }
+    .fill-amber  { background: var(--amber); }
+    .fill-gray   { background: #d1d5db; }
     .pace-tick {
       position: absolute; top: -3px; width: 2px; height: 14px;
       background: #9ca3af; border-radius: 1px; transform: translateX(-50%);
     }
 
-    /* ── Stats row ── */
-    .stats-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; }
-    .stats-row .stat { text-align: left; }
+    /* ── Stats row (pace stats) ── */
+    .stats-row { display: grid; grid-template-columns: repeat(4, 1fr); }
     .stats-row .stat-lbl {
       font-size: 0.6875rem; font-weight: 600; text-transform: uppercase;
       letter-spacing: 0.05em; color: var(--muted); margin-bottom: 1px;
@@ -133,23 +154,40 @@
     .stats-row .stat-val {
       font-size: 1.25rem; font-weight: 800; letter-spacing: -0.01em; line-height: 1.1;
     }
-    .stats-row .stat-val.col-amber { color: var(--amber); }
-    .stats-row .stat-val.col-blue  { color: var(--blue); }
-    .stats-row .stat-val.col-green { color: var(--green); }
-    .stats-row .stat-val.col-muted { color: var(--muted); }
-    .stats-row .stat-val.col-plain { color: var(--text); }
+    .col-amber  { color: var(--amber); }
+    .col-blue   { color: var(--blue); }
+    .col-green  { color: var(--green); }
+    .col-muted  { color: var(--muted); }
+    .col-plain  { color: var(--text); }
+
+    /* ── Conversion row ── */
+    .conv-row {
+      display: flex; gap: 0;
+      border-top: 1px solid #f3f4f6;
+      margin-top: 12px; padding-top: 10px;
+    }
+    .conv-item {
+      flex: 1; display: flex; flex-direction: column; align-items: flex-start;
+      padding-right: 12px; border-right: 1px solid #f3f4f6;
+    }
+    .conv-item:last-child { border-right: none; padding-right: 0; padding-left: 12px; flex: none; }
+    .conv-item:not(:first-child):not(:last-child) { padding-left: 12px; }
+    .conv-item:first-child { padding-left: 0; }
+    .conv-lbl {
+      font-size: 0.625rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.06em; color: var(--muted); margin-bottom: 2px;
+    }
+    .conv-val { font-size: 0.9375rem; font-weight: 700; color: var(--text); }
+    .conv-pct { font-size: 0.75rem; font-weight: 500; color: var(--muted); margin-left: 3px; }
+    .conv-val.show-color { color: var(--blue); }
+    .conv-val.qual-color { color: var(--purple); }
+    .conv-val.close-color { color: var(--green); }
 
     /* ── Loading / error ── */
-    .loading { text-align: center; padding: 60px 0; color: var(--muted); font-size: 0.9375rem; }
-    .error-box {
-      background: #fef2f2; color: #ef4444;
-      border-radius: 12px; padding: 16px 20px; font-size: 0.875rem; margin-top: 20px;
-    }
+    .loading { text-align: center; padding: 60px 0; color: var(--muted); }
+    .error-box { background: #fef2f2; color: #ef4444; border-radius: 12px; padding: 16px 20px; font-size: 0.875rem; margin-top: 20px; }
 
-    .footer {
-      text-align: center; margin-top: 40px;
-      font-size: 0.75rem; color: var(--light);
-    }
+    .footer { text-align: center; margin-top: 40px; font-size: 0.75rem; color: var(--light); }
   </style>
 </head>
 <body>
@@ -170,51 +208,73 @@
 </div>
 
 <script>
-// Display name overrides — Close funnel name → label shown on card
-const FUNNEL_DISPLAY_NAMES = {};
-function funnelLabel(name) { return FUNNEL_DISPLAY_NAMES[name] || name; }
+// ── In-house funnels (must match Close funnel names exactly) ────────────────
+const INHOUSE_FUNNELS = new Set([
+  "YouTube","Meta Ads","VSL","Website","Internal Webinar",
+  "Mike Newsletter","TikTok","Side Hustle Nation","WWWS",
+  "Passivepreneurs","Reactivation Email","Reactivation Scrapers"
+]);
 
+// ── Utilities ─────────────────────────────────────────────────────────────────
 function fmtNum(n) { return n == null ? "—" : Number(n).toLocaleString(); }
-function pct(a, b) { return b ? Math.min(100, Math.round(a / b * 100)) : 0; }
+function pct(a, b) { return (b && b > 0) ? Math.min(100, Math.round(a / b * 100)) : 0; }
+function fmtPct(a, b) { return b > 0 ? `${pct(a,b)}%` : "—"; }
 function escHtml(s) {
   return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 }
 
 function statusInfo(booked, onPace, goal) {
-  if (!goal) return { label: "No Goal",    cls: "badge-nogoal", fillCls: "progress-fill-gray",  remCls: "col-muted" };
-  if (booked >= goal) return { label: "✓ Goal Hit", cls: "badge-hit",    fillCls: "progress-fill-green", remCls: "col-green" };
-  if (booked >= onPace) return { label: "On Pace",   cls: "badge-onpace", fillCls: "progress-fill-blue",  remCls: "col-muted" };
-  return { label: "Behind Pace", cls: "badge-behind", fillCls: "progress-fill-amber", remCls: "col-amber" };
+  if (!goal) return { label:"No Goal",    badge:"badge-nogoal", fill:"fill-gray",  remCls:"col-muted" };
+  if (booked >= goal)   return { label:"✓ Goal Hit", badge:"badge-hit",    fill:"fill-green", remCls:"col-green" };
+  if (booked >= onPace) return { label:"On Pace",    badge:"badge-onpace", fill:"fill-blue",  remCls:"col-muted" };
+  return                       { label:"Behind Pace",badge:"badge-behind", fill:"fill-amber", remCls:"col-amber" };
 }
 
+// ── Conversion row builder ────────────────────────────────────────────────────
+function buildConvRow(data) {
+  const total     = data.total     || 0;
+  const showed    = data.showed    || 0;
+  const qualified = data.qualified || 0;
+  const closed    = data.closed    || 0;
+
+  return `
+    <div class="conv-row">
+      <div class="conv-item">
+        <div class="conv-lbl">Showed</div>
+        <div><span class="conv-val show-color">${fmtNum(showed)}</span><span class="conv-pct">${fmtPct(showed, total)}</span></div>
+      </div>
+      <div class="conv-item">
+        <div class="conv-lbl">Qualified</div>
+        <div><span class="conv-val qual-color">${fmtNum(qualified)}</span><span class="conv-pct">${fmtPct(qualified, total)}</span></div>
+      </div>
+      <div class="conv-item" style="flex:1;padding-left:12px;border-left:0;">
+        <div class="conv-lbl">Closed</div>
+        <div><span class="conv-val close-color">${fmtNum(closed)}</span><span class="conv-pct">${fmtPct(closed, total)}</span></div>
+      </div>
+    </div>`;
+}
+
+// ── Funnel card builders ──────────────────────────────────────────────────────
 function buildFunnelCard(funnel, data, goal, onPace) {
-  const total     = data.total  || 0;
-  const sales     = data.sales  || 0;
-  const setter    = data.setter || 0;
+  const total    = data.total || 0;
+  const overGoal = goal && total > goal;
+  const status   = statusInfo(total, onPace, goal);
+  const fillPct  = goal ? Math.min(100, Math.round(total / goal * 100)) : 100;
+  const pacePct  = goal ? Math.min(98, Math.round(onPace / goal * 100)) : null;
   const remaining = goal ? Math.max(0, goal - total) : null;
-  const overGoal  = goal && total > goal;
-  const status    = statusInfo(total, onPace, goal);
-  const fillPct   = goal ? pct(total, goal) : 100;
-  const pacePct   = goal ? pct(onPace, goal) : null;
-
-  const paceTickHtml = pacePct != null
-    ? `<div class="pace-tick" style="left:${Math.min(98, pacePct)}%"></div>` : "";
-
-  const remLabel    = overGoal ? `+${fmtNum(total - goal)}` : (remaining != null ? fmtNum(remaining) : "—");
-  const remStatName = overGoal ? "Over Goal" : "Remaining";
-  const onPaceVal   = goal ? fmtNum(onPace) : "—";
-  const onPaceCls   = goal ? status.remCls : "col-muted";
+  const remLabel  = overGoal ? `+${fmtNum(total - goal)}` : (remaining != null ? fmtNum(remaining) : "—");
+  const remName   = overGoal ? "Over Goal" : "Remaining";
+  const onPaceVal = goal ? fmtNum(onPace) : "—";
+  const paceTickHtml = pacePct != null ? `<div class="pace-tick" style="left:${pacePct}%"></div>` : "";
 
   return `
     <div class="funnel-card">
       <div class="funnel-card-header">
-        <div>
-          <div class="funnel-name">${escHtml(funnelLabel(funnel))}</div>
-        </div>
-        <span class="badge ${status.cls}">${status.label}</span>
+        <div class="funnel-name">${escHtml(funnel)}</div>
+        <span class="badge ${status.badge}">${status.label}</span>
       </div>
       <div class="progress-wrap">
-        <div class="progress-fill ${status.fillCls}" style="width:${fillPct}%"></div>
+        <div class="progress-fill ${status.fill}" style="width:${fillPct}%"></div>
         ${paceTickHtml}
       </div>
       <div class="stats-row">
@@ -224,17 +284,18 @@ function buildFunnelCard(funnel, data, goal, onPace) {
         </div>
         <div class="stat">
           <div class="stat-lbl">On-Pace</div>
-          <div class="stat-val ${onPaceCls}">${onPaceVal}</div>
+          <div class="stat-val ${goal ? status.remCls : 'col-muted'}">${onPaceVal}</div>
         </div>
         <div class="stat">
           <div class="stat-lbl">Goal</div>
           <div class="stat-val col-plain">${goal ? fmtNum(goal) : "—"}</div>
         </div>
         <div class="stat">
-          <div class="stat-lbl">${remStatName}</div>
+          <div class="stat-lbl">${remName}</div>
           <div class="stat-val ${status.remCls}">${remLabel}</div>
         </div>
       </div>
+      ${buildConvRow(data)}
     </div>`;
 }
 
@@ -243,35 +304,23 @@ function buildNoGoalCard(funnel, data) {
   return `
     <div class="funnel-card">
       <div class="funnel-card-header">
-        <div>
-          <div class="funnel-name">${escHtml(funnelLabel(funnel))}</div>
-        </div>
+        <div class="funnel-name">${escHtml(funnel)}</div>
         <span class="badge badge-nogoal">No Goal</span>
       </div>
       <div class="progress-wrap">
-        <div class="progress-fill progress-fill-gray" style="width:100%"></div>
+        <div class="progress-fill fill-gray" style="width:100%"></div>
       </div>
       <div class="stats-row">
-        <div class="stat">
-          <div class="stat-lbl">MTD Booked</div>
-          <div class="stat-val col-plain">${fmtNum(total)}</div>
-        </div>
-        <div class="stat">
-          <div class="stat-lbl">On-Pace</div>
-          <div class="stat-val col-muted">—</div>
-        </div>
-        <div class="stat">
-          <div class="stat-lbl">Goal</div>
-          <div class="stat-val col-muted">—</div>
-        </div>
-        <div class="stat">
-          <div class="stat-lbl">Total</div>
-          <div class="stat-val col-plain">${fmtNum(total)}</div>
-        </div>
+        <div class="stat"><div class="stat-lbl">MTD Booked</div><div class="stat-val col-plain">${fmtNum(total)}</div></div>
+        <div class="stat"><div class="stat-lbl">On-Pace</div><div class="stat-val col-muted">—</div></div>
+        <div class="stat"><div class="stat-lbl">Goal</div><div class="stat-val col-muted">—</div></div>
+        <div class="stat"><div class="stat-lbl">Total</div><div class="stat-val col-plain">${fmtNum(total)}</div></div>
       </div>
+      ${buildConvRow(data)}
     </div>`;
 }
 
+// ── Main render ───────────────────────────────────────────────────────────────
 async function loadAndRender() {
   let d;
   try {
@@ -286,87 +335,115 @@ async function loadAndRender() {
 
   // ── Header ────────────────────────────────────────────────────────────────
   const monthLabel = d.month_label || d.month || "";
-  document.title = `${monthLabel} Booked Calls`;
+  document.title   = `${monthLabel} Booked Calls`;
   document.getElementById("dash-title").textContent = `${monthLabel} Booked Calls`;
 
-  const genDt  = new Date(d.generated_at);
-  const timeStr = genDt.toLocaleString("en-US", {
-    hour: "numeric", minute: "2-digit", hour12: true, timeZoneName: "short"
-  });
+  const genDt   = new Date(d.generated_at);
+  const timeStr = genDt.toLocaleString("en-US", { hour:"numeric", minute:"2-digit", hour12:true, timeZoneName:"short" });
   document.getElementById("dash-meta").innerHTML = `
-    <span>Month-to-date</span>
-    <span class="sep">·</span>
-    <span>Days 1–${d.day} of ${d.month_days}</span>
-    <span class="sep">·</span>
-    <span>${genDt.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"})}</span>
-    <span class="sep">·</span>
+    <span>Month-to-date</span><span class="sep">·</span>
+    <span>Days 1–${d.day} of ${d.month_days}</span><span class="sep">·</span>
+    <span>${genDt.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"})}</span><span class="sep">·</span>
     <span>Updated ${timeStr}</span>`;
 
-  // ── Summary strip ─────────────────────────────────────────────────────────
-  const s = d.summary || {};
+  // ── Summary data ──────────────────────────────────────────────────────────
+  const s        = d.summary || {};
+  const inhouse  = s.inhouse  || {};
+  const external = s.external || {};
+  const allTotal = (inhouse.total || 0) + (external.total || 0);
+
+  // Row 1: pace tiles
   let html = `
     <div class="summary-strip">
       <div class="stat-card">
         <div class="label">MTD Booked</div>
-        <div class="value value-blue">${fmtNum(s.mtd_booked)}</div>
+        <div class="value val-blue">${fmtNum(s.mtd_booked)}</div>
         <div class="sub">vs ${fmtNum(s.total_goal)} goal</div>
       </div>
       <div class="stat-card">
         <div class="label">On-Pace</div>
-        <div class="value value-blue">${fmtNum(s.on_pace)}</div>
+        <div class="value val-blue">${fmtNum(s.on_pace)}</div>
         <div class="sub">expected by day ${d.day}</div>
       </div>
       <div class="stat-card">
         <div class="label">Remaining</div>
-        <div class="value value-amber">${fmtNum(s.remaining)}</div>
+        <div class="value val-amber">${fmtNum(s.remaining)}</div>
         <div class="sub">to hit goal</div>
       </div>
       <div class="stat-card">
         <div class="label">EOM Projection</div>
-        <div class="value value-green">${fmtNum(s.eom_projection)}</div>
+        <div class="value val-green">${fmtNum(s.eom_projection)}</div>
         <div class="sub">at current pace</div>
       </div>
     </div>`;
 
-  // ── Funnel cards ──────────────────────────────────────────────────────────
-  const goals     = d.goals     || {};
-  const byFunnel  = d.by_funnel || {};
+  // Row 2: in-house / external / show / qualified / closed
+  function rateRow(agg) {
+    const ih = inhouse[agg]  || 0;
+    const ex = external[agg] || 0;
+    const tot = (inhouse.total || 0) + (external.total || 0);
+    const ihT = inhouse.total  || 0;
+    const exT = external.total || 0;
+    return `
+      <div class="rate-row">
+        <div class="rate-item">IN <span>${fmtPct(ih, ihT)}</span></div>
+        <div class="rate-divider"></div>
+        <div class="rate-item">EX <span>${fmtPct(ex, exT)}</span></div>
+      </div>`;
+  }
 
+  html += `
+    <div class="summary-strip-2">
+      <div class="stat-card-sm">
+        <div class="label">In-House</div>
+        <div class="value val-indigo">${fmtNum(inhouse.total)}</div>
+        <div class="sub">${fmtPct(inhouse.total, allTotal)} of total</div>
+      </div>
+      <div class="stat-card-sm">
+        <div class="label">External</div>
+        <div class="value val-purple">${fmtNum(external.total)}</div>
+        <div class="sub">${fmtPct(external.total, allTotal)} of total</div>
+      </div>
+      <div class="stat-card-sm">
+        <div class="label">Show Rate</div>
+        <div class="value val-blue">${fmtPct((inhouse.showed||0)+(external.showed||0), allTotal)}</div>
+        ${rateRow("showed")}
+      </div>
+      <div class="stat-card-sm">
+        <div class="label">Qualified Rate</div>
+        <div class="value val-purple">${fmtPct((inhouse.qualified||0)+(external.qualified||0), allTotal)}</div>
+        ${rateRow("qualified")}
+      </div>
+      <div class="stat-card-sm">
+        <div class="label">Close Rate</div>
+        <div class="value val-green">${fmtPct((inhouse.closed||0)+(external.closed||0), allTotal)}</div>
+        ${rateRow("closed")}
+      </div>
+    </div>`;
+
+  // ── Funnel cards ──────────────────────────────────────────────────────────
+  const goals      = d.goals      || {};
+  const byFunnel   = d.by_funnel  || {};
   const daysInMonth = d.month_days || 31;
-  const daysElapsed = d.day || 1;
+  const daysElapsed = d.day        || 1;
 
   function funnelOnPace(goal) {
     return Math.round(goal * daysElapsed / daysInMonth);
   }
 
-  // Split into goal-tracked vs no-goal
-  const goalFunnels   = [];
-  const noGoalFunnels = [];
+  const goalFunnels   = Object.keys(goals).sort((a,b) => (goals[b]||0) - (goals[a]||0));
+  const noGoalFunnels = Object.keys(byFunnel)
+    .filter(f => !goals[f] && (byFunnel[f]?.total || 0) > 0)
+    .sort((a,b) => (byFunnel[b]?.total||0) - (byFunnel[a]?.total||0));
 
-  // Goal funnels: include even if 0 bookings
-  for (const f of Object.keys(goals)) {
-    if (!goalFunnels.includes(f)) goalFunnels.push(f);
-  }
-  // No-goal funnels: only if they have bookings
-  for (const f of Object.keys(byFunnel)) {
-    if (!goals[f] && (byFunnel[f]?.total || 0) > 0) noGoalFunnels.push(f);
-  }
-
-  // Sort goal funnels by goal size desc
-  goalFunnels.sort((a, b) => (goals[b] || 0) - (goals[a] || 0));
-  // Sort no-goal funnels by total desc
-  noGoalFunnels.sort((a, b) => ((byFunnel[b]?.total || 0) - (byFunnel[a]?.total || 0)));
-
-  // Goal-tracked section
   html += `<div class="section-label">First Calls — Goal-Tracked Funnels</div>`;
   for (const f of goalFunnels) {
-    html += buildFunnelCard(f, byFunnel[f] || {total:0,sales:0,setter:0}, goals[f], funnelOnPace(goals[f]));
+    html += buildFunnelCard(f, byFunnel[f] || {total:0,showed:0,qualified:0,closed:0}, goals[f], funnelOnPace(goals[f]));
   }
   if (!goalFunnels.length) {
     html += `<p style="color:var(--muted);font-size:.875rem;padding:8px 0">No goal-tracked funnels configured.</p>`;
   }
 
-  // No-goal section
   if (noGoalFunnels.length > 0) {
     html += `<div class="section-label">First Calls — No-Goal Funnels</div>`;
     for (const f of noGoalFunnels) {
@@ -376,7 +453,7 @@ async function loadAndRender() {
 
   document.getElementById("dashboard-body").innerHTML = html;
   document.getElementById("dash-footer").textContent =
-    `Data from Close CRM · Refreshes every 15 min weekdays · ${timeStr}`;
+    `Sales calls only · Excludes No Shows, Lost, Canceled, Outside US · Refreshes every 15 min weekdays · ${timeStr}`;
 }
 
 loadAndRender();
