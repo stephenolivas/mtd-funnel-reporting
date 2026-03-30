@@ -232,11 +232,11 @@ function statusInfo(booked, onPace, goal) {
 }
 
 // ── Conversion row builder ────────────────────────────────────────────────────
-function buildConvRow(data) {
+function buildConvRow(data, wonCount) {
   const total     = data.total     || 0;
   const showed    = data.showed    || 0;
   const qualified = data.qualified || 0;
-  const closed    = data.closed    || 0;
+  const won       = wonCount       || 0;
 
   return `
     <div class="conv-row">
@@ -250,13 +250,13 @@ function buildConvRow(data) {
       </div>
       <div class="conv-item" style="flex:1;padding-left:12px;border-left:0;">
         <div class="conv-lbl">Won *</div>
-        <div><span class="conv-val close-color">${fmtNum(closed)}</span><span class="conv-sep">|</span><span class="conv-pct">${fmtPct(closed, total)}</span></div>
+        <div><span class="conv-val close-color">${fmtNum(won)}</span><span class="conv-sep">|</span><span class="conv-pct">${fmtPct(won, total)}</span></div>
       </div>
     </div>`;
 }
 
 // ── Funnel card builders ──────────────────────────────────────────────────────
-function buildFunnelCard(funnel, data, goal, onPace) {
+function buildFunnelCard(funnel, data, goal, onPace, wonCount) {
   const total    = data.total || 0;
   const overGoal = goal && total > goal;
   const status   = statusInfo(total, onPace, goal);
@@ -296,11 +296,11 @@ function buildFunnelCard(funnel, data, goal, onPace) {
           <div class="stat-val ${status.remCls}">${remLabel}</div>
         </div>
       </div>
-      ${buildConvRow(data)}
+      ${buildConvRow(data, wonCount)}
     </div>`;
 }
 
-function buildNoGoalCard(funnel, data) {
+function buildNoGoalCard(funnel, data, wonCount) {
   const total = data.total || 0;
   return `
     <div class="funnel-card">
@@ -317,7 +317,7 @@ function buildNoGoalCard(funnel, data) {
         <div class="stat"><div class="stat-lbl">Goal</div><div class="stat-val col-muted">—</div></div>
         <div class="stat"><div class="stat-lbl">Total</div><div class="stat-val col-plain">${fmtNum(total)}</div></div>
       </div>
-      ${buildConvRow(data)}
+      ${buildConvRow(data, wonCount)}
     </div>`;
 }
 
@@ -437,9 +437,11 @@ async function loadAndRender() {
     .filter(f => !goals[f] && (byFunnel[f]?.total || 0) > 0)
     .sort((a,b) => (byFunnel[b]?.total||0) - (byFunnel[a]?.total||0));
 
+  const wonByFunnel = d.won_by_funnel || {};
+
   html += `<div class="section-label">First Calls — Goal-Tracked Funnels</div>`;
   for (const f of goalFunnels) {
-    html += buildFunnelCard(f, byFunnel[f] || {total:0,showed:0,qualified:0,closed:0}, goals[f], funnelOnPace(goals[f]));
+    html += buildFunnelCard(f, byFunnel[f] || {total:0,showed:0,qualified:0}, goals[f], funnelOnPace(goals[f]), wonByFunnel[f] || 0);
   }
   if (!goalFunnels.length) {
     html += `<p style="color:var(--muted);font-size:.875rem;padding:8px 0">No goal-tracked funnels configured.</p>`;
@@ -448,7 +450,7 @@ async function loadAndRender() {
   if (noGoalFunnels.length > 0) {
     html += `<div class="section-label">First Calls — No-Goal Funnels</div>`;
     for (const f of noGoalFunnels) {
-      html += buildNoGoalCard(f, byFunnel[f]);
+      html += buildNoGoalCard(f, byFunnel[f], wonByFunnel[f] || 0);
     }
   }
 
