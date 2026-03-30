@@ -179,6 +179,7 @@
     }
     .conv-val { font-size: 0.9375rem; font-weight: 700; color: var(--text); }
     .conv-pct { font-size: 0.75rem; font-weight: 500; color: var(--muted); margin-left: 3px; }
+    .conv-sep  { font-size: 0.75rem; color: #d1d5db; margin: 0 5px; }
     .conv-val.show-color { color: var(--blue); }
     .conv-val.qual-color { color: var(--purple); }
     .conv-val.close-color { color: var(--green); }
@@ -241,15 +242,15 @@ function buildConvRow(data) {
     <div class="conv-row">
       <div class="conv-item">
         <div class="conv-lbl">Showed</div>
-        <div><span class="conv-val show-color">${fmtNum(showed)}</span><span class="conv-pct">${fmtPct(showed, total)}</span></div>
+        <div><span class="conv-val show-color">${fmtNum(showed)}</span><span class="conv-sep">|</span><span class="conv-pct">${fmtPct(showed, total)}</span></div>
       </div>
       <div class="conv-item">
         <div class="conv-lbl">Qualified</div>
-        <div><span class="conv-val qual-color">${fmtNum(qualified)}</span><span class="conv-pct">${fmtPct(qualified, total)}</span></div>
+        <div><span class="conv-val qual-color">${fmtNum(qualified)}</span><span class="conv-sep">|</span><span class="conv-pct">${fmtPct(qualified, total)}</span></div>
       </div>
       <div class="conv-item" style="flex:1;padding-left:12px;border-left:0;">
-        <div class="conv-lbl">Closed</div>
-        <div><span class="conv-val close-color">${fmtNum(closed)}</span><span class="conv-pct">${fmtPct(closed, total)}</span></div>
+        <div class="conv-lbl">Won *</div>
+        <div><span class="conv-val close-color">${fmtNum(closed)}</span><span class="conv-sep">|</span><span class="conv-pct">${fmtPct(closed, total)}</span></div>
       </div>
     </div>`;
 }
@@ -415,9 +416,9 @@ async function loadAndRender() {
         ${rateRow("qualified")}
       </div>
       <div class="stat-card-sm">
-        <div class="label">Close Rate</div>
-        <div class="value val-green">${fmtPct((inhouse.closed||0)+(external.closed||0), allTotal)}</div>
-        ${rateRow("closed")}
+        <div class="label">Close Rate *</div>
+        <div class="value val-green">${fmtPct(s.closed_won_mtd || 0, allTotal)}</div>
+        <div class="sub">${fmtNum(s.closed_won_mtd)} won / ${fmtNum(allTotal)} booked</div>
       </div>
     </div>`;
 
@@ -452,8 +453,9 @@ async function loadAndRender() {
   }
 
   document.getElementById("dashboard-body").innerHTML = html;
-  document.getElementById("dash-footer").textContent =
-    `Sales calls only · Excludes No Shows, Lost, Canceled, Outside US · Refreshes every 15 min weekdays · ${timeStr}`;
+  document.getElementById("dash-footer").innerHTML =
+    `Sales calls only &middot; Excludes Lost, Canceled, Outside US &middot; Refreshes every 15 min weekdays &middot; ${timeStr}<br>
+    <span style="font-size:0.7rem;color:var(--light)">* Close Rate is calculated as MTD Closed/Won opportunities divided by total booked calls. It is intended to gauge relative funnel performance only and may not match the MTD close rate reported in other sources. Do not use this metric to evaluate individual sales performance.</span>`;
 }
 
 loadAndRender();
