@@ -273,23 +273,17 @@ def get_lead_metrics(lead):
 
 # ─── Closed-Won MTD (opportunity-based) ──────────────────────────────────────
 
-CF_OPP_FUNNEL = "cf_qaCxv0OBskvZKsappkm1EfLSvyhJ2wAmDbYkHdq2NAo"  # Funnel Name DEAL (Opp)
-
 def fetch_closed_won_mtd(month_start_str, month_end_str, lead_cache):
     """
     Fetch all closed-won opportunities where close_at falls within the current
-    month. Uses CURSOR-based pagination — the opportunity endpoint does NOT
-    support _skip; using _skip returns duplicate pages and inflates the count.
+    month. Uses CURSOR-based pagination.
 
-    For funnel attribution, checks (in order):
-      1. The opp's own funnel custom field
-      2. lead_cache (leads from this month's qualifying meetings)
-      3. Fresh individual lead fetch — covers leads whose first call was in a
-         prior month but who closed this month (common for multi-touch closes)
+    Funnel attribution always comes from the LEAD's CF_FUNNEL_NAME field
+    (cf_xqDQE8fkPsWa0RNEve7hcaxKblCe6489XeZGRDzyPdX) — the single source of
+    truth. The opportunity object has no reliable funnel field.
 
-    Returns:
-      total:        int — total won opps MTD
-      by_funnel:    dict — {funnel_name: count}
+    For leads already in lead_cache (booked this month): free lookup.
+    For leads NOT in cache (booked in a prior month): fresh individual fetch.
     """
     print(f"Fetching closed-won opps ({month_start_str} to {month_end_str})...", flush=True)
 
@@ -311,9 +305,7 @@ def fetch_closed_won_mtd(month_start_str, month_end_str, lead_cache):
             "close_at__gte": f"{month_start_str}T00:00:00+00:00",
             "close_at__lte": f"{month_end_str}T23:59:59+00:00",
             "_limit":        100,
-            # NOTE: Do NOT use _fields here — Close silently drops custom fields
-            # when _fields is specified on the opportunity endpoint.
-            # The full opp object is ~5KB, acceptable for ~100 records/month.
+            "_fields":       "id,lead_id",  # only need lead_id — funnel comes from lead
         }
         if cursor:
             params["_cursor"] = cursor
@@ -322,31 +314,26 @@ def fetch_closed_won_mtd(month_start_str, month_end_str, lead_cache):
         batch = data.get("data", [])
 
         for opp in batch:
-            total += 1
+            total  += 1
             lead_id = opp.get("lead_id")
+            funnel  = None
 
-            # 1. Read funnel from the opp's own custom field — this is authoritative.
-            #    Full opp object returns custom fields as opp["custom"][field_id].
-            #    We do NOT use _fields on this request (Close drops custom fields silently).
-            opp_custom = opp.get("custom") or {}
-            funnel = normalize_funnel(opp_custom.get(CF_OPP_FUNNEL))
+            if lead_id:
+                # Check cache first (leads from this month's qualifying meetings)
+                lead = lead_cache.get(lead_id)
 
-            # 2. Only fall back to lead if opp field is genuinely blank
-            if not funnel and lead_id:
-                cached = lead_cache.get(lead_id)
-                if cached:
-                    funnel = normalize_funnel(get_custom_field(cached, CF_FUNNEL_NAME))
+                # Not in cache = prior-month lead; fetch it now
+                if lead is None and lead_id not in lead_cache:
+                    print(f"  Fetching prior-month lead for won opp: {lead_id}", flush=True)
+                    try:
+                        lead = close_get(f"lead/{lead_id}", {"_fields": LEAD_FIELDS})
+                        lead_cache[lead_id] = lead  # cache for reuse
+                    except Exception as e:
+                        print(f"  Warning: could not fetch lead {lead_id}: {e}", flush=True)
+                        lead_cache[lead_id] = None
 
-            # 3. Fresh lead fetch only if opp field blank AND lead not in cache
-            if not funnel and lead_id and lead_id not in lead_cache:
-                print(f"  Fetching lead for won opp (not in cache): {lead_id}", flush=True)
-                try:
-                    fresh = close_get(f"lead/{lead_id}", {"_fields": LEAD_FIELDS})
-                    if fresh:
-                        lead_cache[lead_id] = fresh
-                        funnel = normalize_funnel(get_custom_field(fresh, CF_FUNNEL_NAME))
-                except Exception as e:
-                    print(f"  Warning: could not fetch lead {lead_id}: {e}", flush=True)
+                if lead:
+                    funnel = normalize_funnel(get_custom_field(lead, CF_FUNNEL_NAME))
 
             if not funnel:
                 funnel = "Unknown (Needs Review)"
