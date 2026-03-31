@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T11:45:12.075178-07:00",
+  "generated_at": "2026-03-31T12:00:16.971097-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,28 +20,28 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 753,
+    "mtd_booked": 754,
     "on_pace": 1167,
-    "remaining": 414,
-    "eom_projection": 753,
+    "remaining": 413,
+    "eom_projection": 754,
     "total_goal": 1167,
     "closed_won_mtd": 96,
     "inhouse": {
-      "total": 375,
-      "showed": 216,
+      "total": 376,
+      "showed": 217,
       "qualified": 190
     },
     "external": {
       "total": 378,
-      "showed": 245,
-      "qualified": 218
+      "showed": 246,
+      "qualified": 219
     }
   },
   "by_funnel": {
     "Low Ticket Funnel": {
       "total": 174,
-      "showed": 102,
-      "qualified": 93
+      "showed": 103,
+      "qualified": 94
     },
     "YouTube": {
       "total": 112,
@@ -69,8 +69,8 @@
       "qualified": 31
     },
     "Reactivation Email": {
-      "total": 21,
-      "showed": 17,
+      "total": 22,
+      "showed": 18,
       "qualified": 11
     },
     "X": {
@@ -249,7 +249,7 @@
       "3": 1
     },
     "Reactivation Email": {
-      "30": 5,
+      "30": 6,
       "26": 3,
       "27": 2,
       "24": 3,
