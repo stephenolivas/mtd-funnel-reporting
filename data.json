@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T12:05:17.507659-07:00",
+  "generated_at": "2026-03-31T12:15:12.751779-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,28 +20,28 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 754,
+    "mtd_booked": 752,
     "on_pace": 1167,
-    "remaining": 413,
-    "eom_projection": 754,
+    "remaining": 415,
+    "eom_projection": 752,
     "total_goal": 1167,
     "closed_won_mtd": 96,
     "inhouse": {
-      "total": 376,
-      "showed": 217,
-      "qualified": 190
+      "total": 375,
+      "showed": 216,
+      "qualified": 189
     },
     "external": {
-      "total": 378,
-      "showed": 247,
+      "total": 377,
+      "showed": 248,
       "qualified": 220
     }
   },
   "by_funnel": {
     "Low Ticket Funnel": {
-      "total": 174,
+      "total": 173,
       "showed": 103,
-      "qualified": 94
+      "qualified": 93
     },
     "YouTube": {
       "total": 112,
@@ -51,7 +51,7 @@
     "Website": {
       "total": 79,
       "showed": 56,
-      "qualified": 53
+      "qualified": 52
     },
     "Instagram": {
       "total": 163,
@@ -60,8 +60,8 @@
     },
     "Unknown (Needs Review)": {
       "total": 15,
-      "showed": 10,
-      "qualified": 8
+      "showed": 11,
+      "qualified": 9
     },
     "Internal Webinar": {
       "total": 79,
@@ -69,8 +69,8 @@
       "qualified": 31
     },
     "Reactivation Email": {
-      "total": 22,
-      "showed": 18,
+      "total": 21,
+      "showed": 17,
       "qualified": 11
     },
     "X": {
@@ -122,7 +122,7 @@
       "21": 2,
       "20": 7,
       "19": 11,
-      "18": 9,
+      "18": 8,
       "17": 9,
       "16": 14,
       "13": 12,
@@ -249,7 +249,7 @@
       "3": 1
     },
     "Reactivation Email": {
-      "30": 6,
+      "30": 5,
       "26": 3,
       "27": 2,
       "24": 3,
