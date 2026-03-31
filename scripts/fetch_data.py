@@ -249,17 +249,11 @@ def fetch_lead(lead_id, lead_cache):
 
 
 def get_funnel_name(lead):
-    """Extract funnel name, merging 'Instagram Setter' → 'Instagram'."""
+    """Extract funnel name from lead custom field."""
     if lead is None:
         return "Unknown (Needs Review)"
     funnel = get_custom_field(lead, CF_FUNNEL_NAME)
-    if not funnel or not funnel.strip():
-        return "Unknown (Needs Review)"
-    funnel = funnel.strip()
-    # Merge Instagram Setter into Instagram
-    if funnel == "Instagram Setter":
-        return "Instagram"
-    return funnel
+    return funnel.strip() if funnel and funnel.strip() else "Unknown (Needs Review)"
 
 
 def get_lead_metrics(lead):
@@ -273,39 +267,41 @@ def get_lead_metrics(lead):
 
 # ─── Closed-Won MTD (opportunity-based) ──────────────────────────────────────
 
+# The opp-level funnel field — this is what Close UI filters on and what your
+# CSV exports use. It lives as a TOP-LEVEL key on the opportunity object:
+# opp["cf_qaCxv0OBskvZKsappkm1EfLSvyhJ2wAmDbYkHdq2NAo"]
+# NOT nested under opp["custom"] — that's a lead-only structure.
+# CF_OPP_FUNNEL removed — only CF_FUNNEL_NAME on the lead is used.
+
 def fetch_closed_won_mtd(month_start_str, month_end_str, lead_cache):
     """
     Fetch all closed-won opportunities where close_at falls within the current
     month. Uses CURSOR-based pagination.
 
-    Funnel attribution always comes from the LEAD's CF_FUNNEL_NAME field
-    (cf_xqDQE8fkPsWa0RNEve7hcaxKblCe6489XeZGRDzyPdX) — the single source of
-    truth. The opportunity object has no reliable funnel field.
+    Funnel attribution: always reads CF_FUNNEL_NAME from the LEAD — the single
+    source of truth (cf_xqDQE8fkPsWa0RNEve7hcaxKblCe6489XeZGRDzyPdX).
 
-    For leads already in lead_cache (booked this month): free lookup.
-    For leads NOT in cache (booked in a prior month): fresh individual fetch.
+    Deduplication: counts each unique lead_id once, even if they have multiple
+    won opps (add-ons, upgrades). This matches how Close UI counts leads.
+
+    Exclusions: skips leads owned by excluded users (Ahmad, Stephen test records).
     """
     print(f"Fetching closed-won opps ({month_start_str} to {month_end_str})...", flush=True)
 
-    FUNNEL_RENAMES = {"YouTube - OG - Cam": "YouTube", "Instagram Setter": "Instagram"}
-
-    def normalize_funnel(name):
-        name = (name or "").strip()
-        return FUNNEL_RENAMES.get(name, name) if name else None
-
-    total     = 0
-    by_funnel = {}
-    cursor    = None
-    page      = 0
+    total         = 0
+    by_funnel     = {}
+    seen_lead_ids = set()   # dedup — one lead can have multiple won opps
+    cursor        = None
+    page          = 0
 
     while True:
-        page += 1
+        page  += 1
         params = {
             "status_type":   "won",
             "close_at__gte": f"{month_start_str}T00:00:00+00:00",
             "close_at__lte": f"{month_end_str}T23:59:59+00:00",
             "_limit":        100,
-            "_fields":       "id,lead_id",  # only need lead_id — funnel comes from lead
+            "_fields":       "id,lead_id",  # funnel comes from lead, not opp
         }
         if cursor:
             params["_cursor"] = cursor
@@ -314,33 +310,45 @@ def fetch_closed_won_mtd(month_start_str, month_end_str, lead_cache):
         batch = data.get("data", [])
 
         for opp in batch:
-            total  += 1
             lead_id = opp.get("lead_id")
-            funnel  = None
+            if not lead_id:
+                continue
 
-            if lead_id:
-                # Check cache first (leads from this month's qualifying meetings)
-                lead = lead_cache.get(lead_id)
+            # Skip duplicate leads (add-ons/upgrades = multiple opps on one lead)
+            # Close UI counts unique leads — we must match that behavior
+            if lead_id in seen_lead_ids:
+                print(f"  Skipping duplicate lead_id: {lead_id}", flush=True)
+                continue
+            seen_lead_ids.add(lead_id)
 
-                # Not in cache = prior-month lead; fetch it now
-                if lead is None and lead_id not in lead_cache:
-                    print(f"  Fetching prior-month lead for won opp: {lead_id}", flush=True)
-                    try:
-                        lead = close_get(f"lead/{lead_id}", {"_fields": LEAD_FIELDS})
-                        lead_cache[lead_id] = lead  # cache for reuse
-                    except Exception as e:
-                        print(f"  Warning: could not fetch lead {lead_id}: {e}", flush=True)
-                        lead_cache[lead_id] = None
+            # Fetch lead — from cache (already fetched in meeting pipeline) or fresh
+            lead = lead_cache.get(lead_id)
+            if lead is None and lead_id not in lead_cache:
+                print(f"  Fetching prior-month lead for won opp: {lead_id}", flush=True)
+                try:
+                    lead = close_get(f"lead/{lead_id}", {"_fields": LEAD_FIELDS})
+                    lead_cache[lead_id] = lead
+                except Exception as e:
+                    print(f"  Warning: could not fetch lead {lead_id}: {e}", flush=True)
+                    lead_cache[lead_id] = None
 
-                if lead:
-                    funnel = normalize_funnel(get_custom_field(lead, CF_FUNNEL_NAME))
+            if not lead:
+                continue
 
+            # Apply same owner exclusion as meeting pipeline (skips test/internal records)
+            owner_id = get_custom_field(lead, CF_LEAD_OWNER) or ""
+            if owner_id in EXCLUDED_USER_IDS:
+                print(f"  Skipping won lead — excluded owner: {lead_id}", flush=True)
+                continue
+
+            funnel = (get_custom_field(lead, CF_FUNNEL_NAME) or "").strip()
             if not funnel:
                 funnel = "Unknown (Needs Review)"
 
+            total += 1
             by_funnel[funnel] = by_funnel.get(funnel, 0) + 1
 
-        print(f"  Opp page {page}: {len(batch)} won (running total: {total})", flush=True)
+        print(f"  Opp page {page}: {len(batch)} fetched (unique leads counted so far: {total})", flush=True)
 
         cursor = data.get("cursor")
         if not cursor or not batch:
@@ -349,8 +357,6 @@ def fetch_closed_won_mtd(month_start_str, month_end_str, lead_cache):
     print(f"Closed-won MTD total: {total}", flush=True)
     print(f"Won by funnel: {by_funnel}", flush=True)
     return total, by_funnel
-
-
 
 
 def load_goals():
