@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T14:54:47.887954-07:00",
+  "generated_at": "2026-03-31T15:00:16.072507-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -33,7 +33,7 @@
     },
     "external": {
       "total": 376,
-      "showed": 249,
+      "showed": 250,
       "qualified": 222
     }
   },
@@ -55,7 +55,7 @@
     },
     "Instagram": {
       "total": 163,
-      "showed": 115,
+      "showed": 116,
       "qualified": 102
     },
     "Unknown (Needs Review)": {
