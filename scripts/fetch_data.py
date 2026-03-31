@@ -272,35 +272,45 @@ def get_lead_metrics(lead):
 # NOT nested under opp["custom"] — that's a lead-only structure.
 # CF_OPP_FUNNEL removed — only CF_FUNNEL_NAME on the lead is used.
 
-def fetch_closed_won_mtd(month_start_str, month_end_str, lead_cache):
+# Minimal fields needed for won-opp lead check — status_id + funnel + owner
+WON_LEAD_FIELDS = (
+    f"id,status_id,"
+    f"custom.{CF_FUNNEL_NAME},"
+    f"custom.{CF_LEAD_OWNER}"
+)
+
+def fetch_closed_won_mtd(month_start_str, month_end_str):
     """
-    Fetch all closed-won opportunities where close_at falls within the current
-    month. Uses CURSOR-based pagination.
+    Count closed-won leads for the current month, grouped by funnel.
 
-    Funnel attribution: always reads CF_FUNNEL_NAME from the LEAD — the single
-    source of truth (cf_xqDQE8fkPsWa0RNEve7hcaxKblCe6489XeZGRDzyPdX).
+    Exactly mirrors the Close UI filter:
+      - Current lead status = Closed/Won  (checked via status_id)
+      - Opportunity close date = this month  (close_at range filter)
+      - Funnel = CF_FUNNEL_NAME on the lead  (cf_xqDQE8fk...)
 
-    Deduplication: counts each unique lead_id once, even if they have multiple
-    won opps (add-ons, upgrades). This matches how Close UI counts leads.
+    Each lead counted once (deduped by lead_id — add-ons create multiple opps).
+    Excluded owners (Ahmad/Stephen test records) are skipped.
 
-    Exclusions: skips leads owned by excluded users (Ahmad, Stephen test records).
+    NOTE: Lead cache is intentionally NOT used here. The meeting pipeline may
+    have cached leads with stale status data from earlier in the run. A fresh
+    minimal fetch (status_id + funnel field only) guarantees current status.
     """
     print(f"Fetching closed-won opps ({month_start_str} to {month_end_str})...", flush=True)
 
     total         = 0
     by_funnel     = {}
-    seen_lead_ids = set()   # dedup — one lead can have multiple won opps
+    seen_lead_ids = set()
     cursor        = None
     page          = 0
 
     while True:
-        page  += 1
+        page += 1
         params = {
             "status_type":   "won",
             "close_at__gte": f"{month_start_str}T00:00:00+00:00",
             "close_at__lte": f"{month_end_str}T23:59:59+00:00",
             "_limit":        100,
-            "_fields":       "id,lead_id",  # funnel comes from lead, not opp
+            "_fields":       "id,lead_id",
         }
         if cursor:
             params["_cursor"] = cursor
@@ -313,40 +323,33 @@ def fetch_closed_won_mtd(month_start_str, month_end_str, lead_cache):
             if not lead_id:
                 continue
 
-            # Skip duplicate leads (add-ons/upgrades = multiple opps on one lead)
-            # Close UI counts unique leads — we must match that behavior
+            # One lead can have multiple won opps (add-ons, upgrades) — count once
             if lead_id in seen_lead_ids:
-                print(f"  Skipping duplicate lead_id: {lead_id}", flush=True)
+                print(f"  Dedup skip: {lead_id}", flush=True)
                 continue
             seen_lead_ids.add(lead_id)
 
-            # Fetch lead — from cache (already fetched in meeting pipeline) or fresh
-            lead = lead_cache.get(lead_id)
-            if lead is None and lead_id not in lead_cache:
-                print(f"  Fetching prior-month lead for won opp: {lead_id}", flush=True)
-                try:
-                    lead = close_get(f"lead/{lead_id}", {"_fields": LEAD_FIELDS})
-                    lead_cache[lead_id] = lead
-                except Exception as e:
-                    print(f"  Warning: could not fetch lead {lead_id}: {e}", flush=True)
-                    lead_cache[lead_id] = None
+            # Always fetch fresh — do NOT use lead_cache here.
+            # Cache may hold stale status from the meeting pipeline step.
+            try:
+                lead = close_get(f"lead/{lead_id}", {"_fields": WON_LEAD_FIELDS})
+            except Exception as e:
+                print(f"  Warning: could not fetch lead {lead_id}: {e}", flush=True)
+                continue
 
             if not lead:
                 continue
 
-            # Apply same owner exclusion as meeting pipeline (skips test/internal records)
+            # Skip excluded owners (Ahmad/Stephen test records)
             owner_id = get_custom_field(lead, CF_LEAD_OWNER) or ""
             if owner_id in EXCLUDED_USER_IDS:
-                print(f"  Skipping won lead — excluded owner: {lead_id}", flush=True)
+                print(f"  Skip excluded owner: {lead_id}", flush=True)
                 continue
 
-            # Only count leads whose CURRENT status is Closed/Won — matches Close UI's
-            # "Current status: Closed/Won" filter exactly.
-            # NOTE: status_label is NOT returned by Close API even when requested via _fields.
-            # Use status_id instead — it IS reliably returned.
-            current_status_id = (lead.get("status_id") or "").strip()
-            if current_status_id != CLOSED_WON_STATUS_ID:
-                print(f"  Skipping won lead — status_id '{current_status_id}' != Closed/Won: {lead_id}", flush=True)
+            # Only count if current lead status is STILL Closed/Won
+            # Matches Close UI "Current status: Closed/Won" filter exactly
+            if lead.get("status_id") != CLOSED_WON_STATUS_ID:
+                print(f"  Skip non-CW status ({lead.get('status_id')}): {lead_id}", flush=True)
                 continue
 
             funnel = (get_custom_field(lead, CF_FUNNEL_NAME) or "").strip()
@@ -356,7 +359,7 @@ def fetch_closed_won_mtd(month_start_str, month_end_str, lead_cache):
             total += 1
             by_funnel[funnel] = by_funnel.get(funnel, 0) + 1
 
-        print(f"  Opp page {page}: {len(batch)} fetched (unique leads counted so far: {total})", flush=True)
+        print(f"  Page {page}: {len(batch)} opps | counted so far: {total}", flush=True)
 
         cursor = data.get("cursor")
         if not cursor or not batch:
@@ -527,7 +530,7 @@ def main():
     # Closed-won from opportunity endpoint — cursor pagination, grouped by funnel
     month_start_str = f"{today_pac.year}-{today_pac.month:02d}-01"
     month_end_str   = today_pac.strftime(f"%Y-%m-{days_in_mo:02d}")
-    closed_won_mtd, won_by_funnel = fetch_closed_won_mtd(month_start_str, month_end_str, lead_cache)
+    closed_won_mtd, won_by_funnel = fetch_closed_won_mtd(month_start_str, month_end_str)
 
     print(f"Summary — MTD: {mtd_booked} | On-Pace: {on_pace} | "
           f"Remaining: {remaining} | EOM Proj: {eom_projection}", flush=True)
