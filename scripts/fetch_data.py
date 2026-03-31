@@ -310,7 +310,9 @@ def fetch_closed_won_mtd(month_start_str, month_end_str):
             "close_at__gte": f"{month_start_str}T00:00:00+00:00",
             "close_at__lte": f"{month_end_str}T23:59:59+00:00",
             "_limit":        100,
-            "_fields":       "id,lead_id",
+            # NOTE: Do NOT add _fields here. Close silently ignores close_at date
+            # filters when _fields is specified on the opportunity endpoint — same
+            # bug as the meeting endpoint. Without _fields, the filter works correctly.
         }
         if cursor:
             params["_cursor"] = cursor
