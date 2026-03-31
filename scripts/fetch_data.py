@@ -341,6 +341,15 @@ def fetch_closed_won_mtd(month_start_str, month_end_str, lead_cache):
                 print(f"  Skipping won lead — excluded owner: {lead_id}", flush=True)
                 continue
 
+            # Only count leads whose CURRENT status is Closed/Won — matches Close UI's
+            # "Current status: Closed/Won" filter exactly. A lead whose opp was won in
+            # March but whose status was later changed (e.g., to Follow Up for an upsell)
+            # would be excluded here, just as Close UI excludes them.
+            current_status = (lead.get("status_label") or "").strip()
+            if "Closed / Won" not in current_status:
+                print(f"  Skipping won lead — current status is '{current_status}', not Closed/Won: {lead_id}", flush=True)
+                continue
+
             funnel = (get_custom_field(lead, CF_FUNNEL_NAME) or "").strip()
             if not funnel:
                 funnel = "Unknown (Needs Review)"
