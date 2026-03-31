@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T14:00:13.526560-07:00",
+  "generated_at": "2026-03-31T14:15:12.417681-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 751,
+    "mtd_booked": 752,
     "on_pace": 1167,
-    "remaining": 416,
-    "eom_projection": 751,
+    "remaining": 415,
+    "eom_projection": 752,
     "total_goal": 1167,
     "closed_won_mtd": 95,
     "inhouse": {
@@ -32,9 +32,9 @@
       "qualified": 190
     },
     "external": {
-      "total": 377,
-      "showed": 249,
-      "qualified": 222
+      "total": 378,
+      "showed": 250,
+      "qualified": 223
     }
   },
   "by_funnel": {
@@ -54,14 +54,14 @@
       "qualified": 71
     },
     "Instagram": {
-      "total": 163,
-      "showed": 115,
-      "qualified": 102
+      "total": 165,
+      "showed": 117,
+      "qualified": 104
     },
     "Unknown (Needs Review)": {
-      "total": 15,
-      "showed": 11,
-      "qualified": 9
+      "total": 14,
+      "showed": 10,
+      "qualified": 8
     },
     "Internal Webinar": {
       "total": 79,
@@ -194,13 +194,13 @@
       "29": 1,
       "27": 7,
       "26": 8,
-      "25": 8,
+      "25": 9,
       "23": 6,
       "24": 6,
       "19": 8,
       "20": 5,
       "18": 8,
-      "17": 18,
+      "17": 19,
       "16": 6,
       "13": 8,
       "21": 1,
@@ -220,7 +220,6 @@
       "29": 1,
       "16": 1,
       "26": 3,
-      "25": 1,
       "20": 2,
       "19": 2,
       "18": 1,
@@ -329,10 +328,10 @@
   },
   "won_by_funnel": {
     "Website": 16,
-    "Instagram": 17,
+    "Instagram": 18,
     "YouTube": 27,
     "Low Ticket Funnel": 19,
-    "Internal Webinar": 12,
+    "Internal Webinar": 11,
     "Reactivation Email": 1,
     "Meta Ads": 1,
     "Linkedin": 1,
