@@ -48,13 +48,16 @@ EXCLUDED_USER_IDS = {
     "user_yRF070m26JE67J6CJqzkAB3IqY7btNm1K5RisCglKa6",  # Ahmad Bukhari
 }
 
-# Lead-level status exclusions — matched against status_label substring
-# Covering: Canceled (by Lead), Outside the US, Lost, No Show
-EXCLUDED_STATUS_SUBSTRINGS = [
-    "Canceled (by Lead)",
-    "Outside the US",
-    "Lost",
-]
+# Lead-level status exclusions — matched against status_id (status_label not returned by _fields)
+EXCLUDED_STATUS_IDS = {
+    "stat_hWIGHjzyNpl4YjIFSFz3VK4fp2ny10SFJLKAihmo4KT",  # Canceled (by Lead)
+    "stat_YV4ZngDB4IGjLjlOf0YTFEWuKZJ6fhNxVkzQkvKYfdB",  # Outside the US
+    "stat_aR2jBa8YnTNZmHAnPsnlQuinBdaXpSBCkZGP3UvoBlV",  # Lost
+}
+
+# Status ID for Closed/Won — used to match Close UI's "Current status: Closed/Won" filter.
+# Close API does not return status_label via _fields; status_id IS reliably returned.
+CLOSED_WON_STATUS_ID = "stat_0oW3iRpVp9z5DJq0cuwI1HgR0XhHAhykEPPIq4TFsxd"
 
 # Setter owners — excluded entirely (dashboard is sales-only)
 SETTER_OWNER_NAMES = {"Kristin Nelson", "Spencer Reynolds"}
@@ -212,15 +215,11 @@ def classify_meeting(meeting, user_id_to_name):
 # ─── Lead Fetching ─────────────────────────────────────────────────────────────
 
 def is_lead_excluded(lead):
-    """Return True if this lead should be excluded based on status_label."""
-    status_label = lead.get("status_label") or ""
-    # Also check flat key in case _fields flattens it
-    if not status_label:
-        status_label = lead.get("status_label") or ""
-    for substring in EXCLUDED_STATUS_SUBSTRINGS:
-        if substring in status_label:
-            return True
-    return False
+    """Return True if this lead should be excluded based on status_id.
+    Uses status_id (not status_label) — Close API does not return status_label via _fields.
+    """
+    status_id = (lead.get("status_id") or "").strip()
+    return status_id in EXCLUDED_STATUS_IDS
 
 
 def fetch_lead(lead_id, lead_cache):
@@ -342,12 +341,12 @@ def fetch_closed_won_mtd(month_start_str, month_end_str, lead_cache):
                 continue
 
             # Only count leads whose CURRENT status is Closed/Won — matches Close UI's
-            # "Current status: Closed/Won" filter exactly. A lead whose opp was won in
-            # March but whose status was later changed (e.g., to Follow Up for an upsell)
-            # would be excluded here, just as Close UI excludes them.
-            current_status = (lead.get("status_label") or "").strip()
-            if "Closed / Won" not in current_status:
-                print(f"  Skipping won lead — current status is '{current_status}', not Closed/Won: {lead_id}", flush=True)
+            # "Current status: Closed/Won" filter exactly.
+            # NOTE: status_label is NOT returned by Close API even when requested via _fields.
+            # Use status_id instead — it IS reliably returned.
+            current_status_id = (lead.get("status_id") or "").strip()
+            if current_status_id != CLOSED_WON_STATUS_ID:
+                print(f"  Skipping won lead — status_id '{current_status_id}' != Closed/Won: {lead_id}", flush=True)
                 continue
 
             funnel = (get_custom_field(lead, CF_FUNNEL_NAME) or "").strip()
