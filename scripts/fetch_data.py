@@ -358,6 +358,7 @@ def fetch_closed_won_mtd(month_start_str, month_end_str):
 
             total += 1
             by_funnel[funnel] = by_funnel.get(funnel, 0) + 1
+            print(f"  COUNTED: {funnel} | {lead_id}", flush=True)
 
         print(f"  Page {page}: {len(batch)} opps | counted so far: {total}", flush=True)
 
