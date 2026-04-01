@@ -456,7 +456,7 @@ async function loadAndRender() {
 
   document.getElementById("dashboard-body").innerHTML = html;
   document.getElementById("dash-footer").innerHTML =
-    `Sales calls only &middot; Excludes Lost, Canceled, Outside US &middot; Refreshes every 15 min weekdays &middot; ${timeStr}<br>
+    `Sales calls only &middot; Excludes Canceled (by Lead) &amp; Outside US &middot; Refreshes every 15 min weekdays &middot; ${timeStr}<br>
     <span style="font-size:0.7rem;color:var(--light)">* Close Rate is calculated as MTD Closed/Won opportunities divided by total booked calls. It is intended to gauge relative funnel performance only and may not match the MTD close rate reported in other sources. Do not use this metric to evaluate individual sales performance.</span>`;
 }
 
