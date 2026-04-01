@@ -283,36 +283,38 @@ def fetch_closed_won_mtd(month_start_str, month_end_str):
     """
     Count closed-won leads for the current month, grouped by funnel.
 
+    IMPORTANT: The Close opportunity endpoint silently ignores close_at date
+    filters — same bug as the meeting endpoint. We MUST paginate ALL won opps
+    and filter by close_at in Python after fetching.
+
     Exactly mirrors the Close UI filter:
       - Current lead status = Closed/Won  (checked via status_id)
-      - Opportunity close date = this month  (close_at range filter)
+      - Opportunity close date = this month  (filtered in Python)
       - Funnel = CF_FUNNEL_NAME on the lead  (cf_xqDQE8fk...)
 
     Each lead counted once (deduped by lead_id — add-ons create multiple opps).
     Excluded owners (Ahmad/Stephen test records) are skipped.
-
-    NOTE: Lead cache is intentionally NOT used here. The meeting pipeline may
-    have cached leads with stale status data from earlier in the run. A fresh
-    minimal fetch (status_id + funnel field only) guarantees current status.
     """
-    print(f"Fetching closed-won opps ({month_start_str} to {month_end_str})...", flush=True)
+    print(f"Fetching ALL won opps (filtering {month_start_str} to {month_end_str} in Python)...", flush=True)
+
+    # Parse MTD window boundaries for Python-side filtering
+    month_start_dt = datetime.fromisoformat(f"{month_start_str}T00:00:00+00:00")
+    month_end_dt   = datetime.fromisoformat(f"{month_end_str}T23:59:59+00:00")
 
     total         = 0
     by_funnel     = {}
     seen_lead_ids = set()
     cursor        = None
     page          = 0
+    skipped_date  = 0
 
     while True:
         page += 1
         params = {
-            "status_type":   "won",
-            "close_at__gte": f"{month_start_str}T00:00:00+00:00",
-            "close_at__lte": f"{month_end_str}T23:59:59+00:00",
-            "_limit":        100,
-            # NOTE: Do NOT add _fields here. Close silently ignores close_at date
-            # filters when _fields is specified on the opportunity endpoint — same
-            # bug as the meeting endpoint. Without _fields, the filter works correctly.
+            "status_type": "won",
+            "_limit":      100,
+            # No close_at filters — Close silently ignores them on this endpoint.
+            # We filter by close_at in Python below, same as the meeting endpoint.
         }
         if cursor:
             params["_cursor"] = cursor
@@ -321,18 +323,31 @@ def fetch_closed_won_mtd(month_start_str, month_end_str):
         batch = data.get("data", [])
 
         for opp in batch:
+            # Filter by close_at in Python
+            close_at_raw = opp.get("close_at") or ""
+            if close_at_raw:
+                try:
+                    close_dt = datetime.fromisoformat(close_at_raw.replace("Z", "+00:00"))
+                    if not (month_start_dt <= close_dt <= month_end_dt):
+                        skipped_date += 1
+                        continue
+                except (ValueError, TypeError):
+                    skipped_date += 1
+                    continue
+            else:
+                skipped_date += 1
+                continue
+
             lead_id = opp.get("lead_id")
             if not lead_id:
                 continue
 
             # One lead can have multiple won opps (add-ons, upgrades) — count once
             if lead_id in seen_lead_ids:
-                print(f"  Dedup skip: {lead_id}", flush=True)
                 continue
             seen_lead_ids.add(lead_id)
 
-            # Always fetch fresh — do NOT use lead_cache here.
-            # Cache may hold stale status from the meeting pipeline step.
+            # Always fetch lead fresh — do NOT use lead_cache (may have stale status)
             try:
                 lead = close_get(f"lead/{lead_id}", {"_fields": WON_LEAD_FIELDS})
             except Exception as e:
@@ -345,11 +360,9 @@ def fetch_closed_won_mtd(month_start_str, month_end_str):
             # Skip excluded owners (Ahmad/Stephen test records)
             owner_id = get_custom_field(lead, CF_LEAD_OWNER) or ""
             if owner_id in EXCLUDED_USER_IDS:
-                print(f"  Skip excluded owner: {lead_id}", flush=True)
                 continue
 
             # Only count if current lead status is STILL Closed/Won
-            # Matches Close UI "Current status: Closed/Won" filter exactly
             if lead.get("status_id") != CLOSED_WON_STATUS_ID:
                 print(f"  Skip non-CW status ({lead.get('status_id')}): {lead_id}", flush=True)
                 continue
@@ -362,7 +375,7 @@ def fetch_closed_won_mtd(month_start_str, month_end_str):
             by_funnel[funnel] = by_funnel.get(funnel, 0) + 1
             print(f"  COUNTED: {funnel} | {lead_id}", flush=True)
 
-        print(f"  Page {page}: {len(batch)} opps | counted so far: {total}", flush=True)
+        print(f"  Page {page}: {len(batch)} opps fetched | in-window counted so far: {total} | skipped date: {skipped_date}", flush=True)
 
         cursor = data.get("cursor")
         if not cursor or not batch:
