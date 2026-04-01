@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T17:00:10.957824-07:00",
+  "generated_at": "2026-03-31T17:15:12.057763-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 95,
     "inhouse": {
       "total": 375,
-      "showed": 218,
-      "qualified": 193
+      "showed": 220,
+      "qualified": 195
     },
     "external": {
       "total": 376,
@@ -40,8 +40,8 @@
   "by_funnel": {
     "Website": {
       "total": 79,
-      "showed": 57,
-      "qualified": 55
+      "showed": 58,
+      "qualified": 56
     },
     "Low Ticket Funnel": {
       "total": 173,
@@ -65,8 +65,8 @@
     },
     "Internal Webinar": {
       "total": 80,
-      "showed": 37,
-      "qualified": 32
+      "showed": 38,
+      "qualified": 33
     },
     "Reactivation Email": {
       "total": 21,
