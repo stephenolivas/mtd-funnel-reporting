@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T10:00:16.275146-07:00",
+  "generated_at": "2026-04-01T10:15:13.450909-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 15,
-      "showed": 2,
-      "qualified": 3
+      "showed": 4,
+      "qualified": 5
     },
     "external": {
       "total": 18,
@@ -40,8 +40,8 @@
   "by_funnel": {
     "YouTube": {
       "total": 6,
-      "showed": 1,
-      "qualified": 1
+      "showed": 3,
+      "qualified": 3
     },
     "X": {
       "total": 1,
