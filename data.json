@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T17:15:12.057763-07:00",
+  "generated_at": "2026-03-31T17:30:12.830491-07:00",
   "generated_tz": "PDT",
   "month": "2026-03",
   "month_label": "March 2026",
@@ -20,20 +20,20 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 751,
+    "mtd_booked": 750,
     "on_pace": 1167,
-    "remaining": 416,
-    "eom_projection": 751,
+    "remaining": 417,
+    "eom_projection": 750,
     "total_goal": 1167,
     "closed_won_mtd": 95,
     "inhouse": {
-      "total": 375,
+      "total": 374,
       "showed": 220,
       "qualified": 195
     },
     "external": {
       "total": 376,
-      "showed": 251,
+      "showed": 252,
       "qualified": 222
     }
   },
@@ -49,13 +49,13 @@
       "qualified": 94
     },
     "YouTube": {
-      "total": 111,
-      "showed": 80,
-      "qualified": 70
+      "total": 110,
+      "showed": 79,
+      "qualified": 69
     },
     "Instagram": {
       "total": 163,
-      "showed": 116,
+      "showed": 117,
       "qualified": 102
     },
     "Unknown (Needs Review)": {
@@ -65,8 +65,8 @@
     },
     "Internal Webinar": {
       "total": 80,
-      "showed": 38,
-      "qualified": 33
+      "showed": 39,
+      "qualified": 34
     },
     "Reactivation Email": {
       "total": 21,
@@ -171,7 +171,7 @@
       "26": 5,
       "25": 3,
       "24": 7,
-      "23": 9,
+      "23": 8,
       "20": 6,
       "19": 7,
       "18": 2,
