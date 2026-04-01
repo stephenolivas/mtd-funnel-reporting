@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T14:45:10.649943-07:00",
+  "generated_at": "2026-04-01T15:00:16.148395-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 16,
-      "showed": 7,
-      "qualified": 9
+      "showed": 8,
+      "qualified": 10
     },
     "external": {
       "total": 18,
@@ -70,8 +70,8 @@
     },
     "Reactivation Email": {
       "total": 1,
-      "showed": 0,
-      "qualified": 0
+      "showed": 1,
+      "qualified": 1
     },
     "Mike Newsletter": {
       "total": 1,
