@@ -52,7 +52,6 @@ EXCLUDED_USER_IDS = {
 EXCLUDED_STATUS_IDS = {
     "stat_hWIGHjzyNpl4YjIFSFz3VK4fp2ny10SFJLKAihmo4KT",  # Canceled (by Lead)
     "stat_YV4ZngDB4IGjLjlOf0YTFEWuKZJ6fhNxVkzQkvKYfdB",  # Outside the US
-    "stat_aR2jBa8YnTNZmHAnPsnlQuinBdaXpSBCkZGP3UvoBlV",  # Lost
 }
 
 # Status ID for Closed/Won — used to match Close UI's "Current status: Closed/Won" filter.
