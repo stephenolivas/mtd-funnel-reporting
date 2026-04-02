@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T09:45:12.536004-07:00",
+  "generated_at": "2026-04-02T10:00:13.443568-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -20,14 +20,14 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 66,
+    "mtd_booked": 65,
     "on_pace": 66,
-    "remaining": 921,
-    "eom_projection": 990,
+    "remaining": 922,
+    "eom_projection": 975,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 30,
+      "total": 29,
       "showed": 10,
       "qualified": 13
     },
@@ -68,15 +68,15 @@
       "showed": 0,
       "qualified": 0
     },
-    "Reactivation Email": {
-      "total": 3,
-      "showed": 1,
-      "qualified": 1
-    },
     "Webinar": {
       "total": 1,
       "showed": 0,
       "qualified": 0
+    },
+    "Reactivation Email": {
+      "total": 2,
+      "showed": 1,
+      "qualified": 1
     },
     "Mike Newsletter": {
       "total": 2,
@@ -113,11 +113,11 @@
     "X": {
       "1": 1
     },
-    "Reactivation Email": {
-      "2": 2,
-      "1": 1
-    },
     "Webinar": {
+      "2": 1
+    },
+    "Reactivation Email": {
+      "1": 1,
       "2": 1
     },
     "Mike Newsletter": {
