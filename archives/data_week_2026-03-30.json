@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T11:30:10.629013-07:00",
+  "generated_at": "2026-04-02T11:45:09.730150-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 30,
-      "showed": 10,
-      "qualified": 13
+      "showed": 11,
+      "qualified": 14
     },
     "external": {
       "total": 35,
@@ -45,8 +45,8 @@
     },
     "Meta Ads": {
       "total": 3,
-      "showed": 1,
-      "qualified": 1
+      "showed": 2,
+      "qualified": 2
     },
     "Low Ticket Funnel": {
       "total": 21,
