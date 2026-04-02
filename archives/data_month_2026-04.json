@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T14:00:13.565269-07:00",
+  "generated_at": "2026-04-02T14:15:14.119768-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -33,7 +33,7 @@
     },
     "external": {
       "total": 35,
-      "showed": 14,
+      "showed": 15,
       "qualified": 17
     }
   },
@@ -70,7 +70,7 @@
     },
     "Webinar": {
       "total": 1,
-      "showed": 0,
+      "showed": 1,
       "qualified": 0
     },
     "Reactivation Email": {
