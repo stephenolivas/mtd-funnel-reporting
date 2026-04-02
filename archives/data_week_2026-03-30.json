@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T18:15:12.611438-07:00",
+  "generated_at": "2026-04-01T18:30:12.092723-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -29,7 +29,7 @@
     "inhouse": {
       "total": 17,
       "showed": 10,
-      "qualified": 11
+      "qualified": 12
     },
     "external": {
       "total": 17,
@@ -81,7 +81,7 @@
     "Internal Webinar": {
       "total": 4,
       "showed": 0,
-      "qualified": 0
+      "qualified": 1
     },
     "Website": {
       "total": 2,
