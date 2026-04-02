@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-01T23:45:15.688093-07:00",
+  "generated_at": "2026-04-02T00:00:14.102075-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
-  "day": 1,
+  "day": 2,
   "month_days": 30,
   "goals": {
     "Low Ticket Funnel": 200,
@@ -20,31 +20,46 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 34,
-    "on_pace": 33,
-    "remaining": 953,
-    "eom_projection": 1020,
+    "mtd_booked": 70,
+    "on_pace": 66,
+    "remaining": 917,
+    "eom_projection": 1050,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 17,
+      "total": 28,
       "showed": 10,
       "qualified": 12
     },
     "external": {
-      "total": 17,
-      "showed": 3,
-      "qualified": 5
+      "total": 42,
+      "showed": 5,
+      "qualified": 7
     }
   },
   "by_funnel": {
     "Unknown (Needs Review)": {
-      "total": 2,
+      "total": 8,
       "showed": 0,
       "qualified": 0
     },
+    "Internal Webinar": {
+      "total": 8,
+      "showed": 0,
+      "qualified": 1
+    },
+    "Low Ticket Funnel": {
+      "total": 22,
+      "showed": 2,
+      "qualified": 3
+    },
+    "Instagram": {
+      "total": 11,
+      "showed": 3,
+      "qualified": 4
+    },
     "YouTube": {
-      "total": 7,
+      "total": 12,
       "showed": 5,
       "qualified": 6
     },
@@ -58,29 +73,14 @@
       "showed": 1,
       "qualified": 1
     },
-    "Instagram": {
-      "total": 4,
-      "showed": 2,
-      "qualified": 2
-    },
-    "Low Ticket Funnel": {
-      "total": 10,
-      "showed": 1,
-      "qualified": 3
-    },
     "Reactivation Email": {
-      "total": 1,
+      "total": 3,
       "showed": 1,
       "qualified": 1
     },
     "Mike Newsletter": {
       "total": 1,
       "showed": 1,
-      "qualified": 1
-    },
-    "Internal Webinar": {
-      "total": 4,
-      "showed": 0,
       "qualified": 1
     },
     "Website": {
@@ -91,9 +91,23 @@
   },
   "by_funnel_day": {
     "Unknown (Needs Review)": {
+      "2": 6,
       "1": 2
     },
+    "Internal Webinar": {
+      "2": 4,
+      "1": 4
+    },
+    "Low Ticket Funnel": {
+      "2": 12,
+      "1": 10
+    },
+    "Instagram": {
+      "2": 7,
+      "1": 4
+    },
     "YouTube": {
+      "2": 5,
       "1": 7
     },
     "X": {
@@ -102,20 +116,12 @@
     "Meta Ads": {
       "1": 2
     },
-    "Instagram": {
-      "1": 4
-    },
-    "Low Ticket Funnel": {
-      "1": 10
-    },
     "Reactivation Email": {
+      "2": 2,
       "1": 1
     },
     "Mike Newsletter": {
       "1": 1
-    },
-    "Internal Webinar": {
-      "1": 4
     },
     "Website": {
       "1": 2
