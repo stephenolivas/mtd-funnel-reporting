@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T09:15:14.150476-07:00",
+  "generated_at": "2026-04-03T09:30:13.184384-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -27,12 +27,12 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 41,
-      "showed": 15,
-      "qualified": 18
+      "total": 42,
+      "showed": 16,
+      "qualified": 19
     },
     "external": {
-      "total": 57,
+      "total": 56,
       "showed": 22,
       "qualified": 25
     }
@@ -49,9 +49,9 @@
       "qualified": 10
     },
     "YouTube": {
-      "total": 21,
-      "showed": 7,
-      "qualified": 7
+      "total": 22,
+      "showed": 8,
+      "qualified": 8
     },
     "Linkedin": {
       "total": 2,
@@ -74,7 +74,7 @@
       "qualified": 2
     },
     "Unknown (Needs Review)": {
-      "total": 2,
+      "total": 1,
       "showed": 0,
       "qualified": 0
     },
@@ -116,7 +116,7 @@
       "2": 7
     },
     "YouTube": {
-      "3": 6,
+      "3": 7,
       "2": 8,
       "1": 7
     },
@@ -137,7 +137,7 @@
       "1": 2
     },
     "Unknown (Needs Review)": {
-      "3": 2
+      "3": 1
     },
     "Internal Webinar": {
       "3": 3,
