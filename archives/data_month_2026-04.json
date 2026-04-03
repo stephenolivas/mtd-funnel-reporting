@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T16:15:10.884765-07:00",
+  "generated_at": "2026-04-03T16:30:12.366032-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -29,7 +29,7 @@
     "inhouse": {
       "total": 37,
       "showed": 20,
-      "qualified": 21
+      "qualified": 20
     },
     "external": {
       "total": 54,
@@ -51,7 +51,7 @@
     "YouTube": {
       "total": 19,
       "showed": 11,
-      "qualified": 11
+      "qualified": 10
     },
     "Linkedin": {
       "total": 1,
