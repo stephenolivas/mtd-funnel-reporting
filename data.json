@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T06:00:13.116583-07:00",
+  "generated_at": "2026-04-03T06:15:13.560371-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -29,7 +29,7 @@
     "inhouse": {
       "total": 44,
       "showed": 14,
-      "qualified": 16
+      "qualified": 17
     },
     "external": {
       "total": 54,
@@ -66,7 +66,7 @@
     "Reactivation Email": {
       "total": 8,
       "showed": 2,
-      "qualified": 1
+      "qualified": 2
     },
     "YouTube": {
       "total": 17,
