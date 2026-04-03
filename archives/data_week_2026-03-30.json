@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T10:00:11.323358-07:00",
+  "generated_at": "2026-04-03T10:15:10.264609-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -29,7 +29,7 @@
     "inhouse": {
       "total": 42,
       "showed": 16,
-      "qualified": 19
+      "qualified": 18
     },
     "external": {
       "total": 56,
@@ -101,7 +101,7 @@
     "Mike Newsletter": {
       "total": 2,
       "showed": 1,
-      "qualified": 1
+      "qualified": 0
     }
   },
   "by_funnel_day": {
