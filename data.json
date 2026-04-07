@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T14:45:13.661753-07:00",
+  "generated_at": "2026-04-07T15:00:13.585634-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -33,8 +33,8 @@
     },
     "external": {
       "total": 97,
-      "showed": 51,
-      "qualified": 46
+      "showed": 52,
+      "qualified": 47
     }
   },
   "by_funnel": {
@@ -50,8 +50,8 @@
     },
     "Low Ticket Funnel": {
       "total": 47,
-      "showed": 21,
-      "qualified": 20
+      "showed": 22,
+      "qualified": 21
     },
     "Instagram": {
       "total": 41,
