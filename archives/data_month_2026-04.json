@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T14:15:10.813491-07:00",
+  "generated_at": "2026-04-07T14:30:12.872439-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -20,16 +20,16 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 164,
+    "mtd_booked": 163,
     "on_pace": 230,
-    "remaining": 823,
-    "eom_projection": 703,
+    "remaining": 824,
+    "eom_projection": 699,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 67,
-      "showed": 38,
-      "qualified": 34
+      "total": 66,
+      "showed": 37,
+      "qualified": 33
     },
     "external": {
       "total": 97,
@@ -87,11 +87,6 @@
       "total": 1,
       "showed": 0,
       "qualified": 0
-    },
-    "Passivepreneurs": {
-      "total": 1,
-      "showed": 1,
-      "qualified": 1
     },
     "Referred": {
       "total": 1,
@@ -163,9 +158,6 @@
     },
     "Unknown (Needs Review)": {
       "3": 1
-    },
-    "Passivepreneurs": {
-      "1": 1
     },
     "Referred": {
       "3": 1
