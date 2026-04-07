@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T11:45:14.683342-07:00",
+  "generated_at": "2026-04-07T12:00:16.966668-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -39,9 +39,9 @@
   },
   "by_funnel": {
     "YouTube": {
-      "total": 33,
-      "showed": 21,
-      "qualified": 19
+      "total": 32,
+      "showed": 20,
+      "qualified": 18
     },
     "Website": {
       "total": 11,
@@ -88,6 +88,11 @@
       "showed": 0,
       "qualified": 0
     },
+    "Passivepreneurs": {
+      "total": 1,
+      "showed": 1,
+      "qualified": 1
+    },
     "Referred": {
       "total": 1,
       "showed": 1,
@@ -105,7 +110,7 @@
       "6": 8,
       "3": 5,
       "2": 7,
-      "1": 7
+      "1": 6
     },
     "Website": {
       "7": 3,
@@ -158,6 +163,9 @@
     },
     "Unknown (Needs Review)": {
       "3": 1
+    },
+    "Passivepreneurs": {
+      "1": 1
     },
     "Referred": {
       "3": 1
