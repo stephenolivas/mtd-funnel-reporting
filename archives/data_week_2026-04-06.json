@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-06T20:00:12.608749-07:00",
+  "generated_at": "2026-04-06T20:15:09.858914-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 55,
-      "showed": 34,
-      "qualified": 28
+      "showed": 35,
+      "qualified": 29
     },
     "external": {
       "total": 71,
@@ -40,8 +40,8 @@
   "by_funnel": {
     "Reactivation Email": {
       "total": 4,
-      "showed": 2,
-      "qualified": 2
+      "showed": 3,
+      "qualified": 3
     },
     "Unknown (Needs Review)": {
       "total": 2,
