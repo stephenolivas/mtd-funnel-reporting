@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T04:30:12.409837-07:00",
+  "generated_at": "2026-04-08T04:45:12.698197-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -38,20 +38,15 @@
     }
   },
   "by_funnel": {
-    "Unknown (Needs Review)": {
-      "total": 2,
-      "showed": 0,
-      "qualified": 0
+    "Instagram": {
+      "total": 54,
+      "showed": 27,
+      "qualified": 23
     },
     "Internal Webinar": {
       "total": 20,
       "showed": 5,
       "qualified": 4
-    },
-    "Instagram": {
-      "total": 53,
-      "showed": 27,
-      "qualified": 23
     },
     "Low Ticket Funnel": {
       "total": 65,
@@ -88,6 +83,11 @@
       "showed": 3,
       "qualified": 3
     },
+    "Unknown (Needs Review)": {
+      "total": 1,
+      "showed": 0,
+      "qualified": 0
+    },
     "Referred": {
       "total": 1,
       "showed": 1,
@@ -100,9 +100,13 @@
     }
   },
   "by_funnel_day": {
-    "Unknown (Needs Review)": {
-      "8": 1,
-      "3": 1
+    "Instagram": {
+      "8": 13,
+      "7": 11,
+      "6": 9,
+      "3": 9,
+      "1": 5,
+      "2": 7
     },
     "Internal Webinar": {
       "8": 7,
@@ -111,14 +115,6 @@
       "3": 2,
       "2": 2,
       "1": 4
-    },
-    "Instagram": {
-      "8": 12,
-      "7": 11,
-      "6": 9,
-      "3": 9,
-      "1": 5,
-      "2": 7
     },
     "Low Ticket Funnel": {
       "8": 18,
@@ -166,6 +162,9 @@
       "6": 2,
       "3": 1,
       "1": 1
+    },
+    "Unknown (Needs Review)": {
+      "3": 1
     },
     "Referred": {
       "3": 1
