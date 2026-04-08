@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T03:45:11.997212-07:00",
+  "generated_at": "2026-04-08T04:00:14.296919-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 211,
+    "mtd_booked": 212,
     "on_pace": 263,
-    "remaining": 776,
-    "eom_projection": 791,
+    "remaining": 775,
+    "eom_projection": 795,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,12 +32,17 @@
       "qualified": 37
     },
     "external": {
-      "total": 129,
+      "total": 130,
       "showed": 57,
       "qualified": 50
     }
   },
   "by_funnel": {
+    "Unknown (Needs Review)": {
+      "total": 2,
+      "showed": 0,
+      "qualified": 0
+    },
     "Internal Webinar": {
       "total": 20,
       "showed": 5,
@@ -83,11 +88,6 @@
       "showed": 3,
       "qualified": 3
     },
-    "Unknown (Needs Review)": {
-      "total": 1,
-      "showed": 0,
-      "qualified": 0
-    },
     "Referred": {
       "total": 1,
       "showed": 1,
@@ -100,6 +100,10 @@
     }
   },
   "by_funnel_day": {
+    "Unknown (Needs Review)": {
+      "8": 1,
+      "3": 1
+    },
     "Internal Webinar": {
       "8": 7,
       "7": 3,
@@ -162,9 +166,6 @@
       "6": 2,
       "3": 1,
       "1": 1
-    },
-    "Unknown (Needs Review)": {
-      "3": 1
     },
     "Referred": {
       "3": 1
