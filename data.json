@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T08:45:20.653460-07:00",
+  "generated_at": "2026-04-08T09:00:26.213740-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -27,12 +27,12 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 83,
+      "total": 85,
       "showed": 45,
       "qualified": 37
     },
     "external": {
-      "total": 134,
+      "total": 132,
       "showed": 59,
       "qualified": 52
     }
@@ -44,9 +44,14 @@
       "qualified": 24
     },
     "Unknown (Needs Review)": {
-      "total": 4,
+      "total": 2,
       "showed": 0,
       "qualified": 0
+    },
+    "YouTube": {
+      "total": 40,
+      "showed": 22,
+      "qualified": 19
     },
     "Internal Webinar": {
       "total": 20,
@@ -57,11 +62,6 @@
       "total": 65,
       "showed": 26,
       "qualified": 24
-    },
-    "YouTube": {
-      "total": 38,
-      "showed": 22,
-      "qualified": 19
     },
     "Website": {
       "total": 12,
@@ -109,8 +109,16 @@
       "2": 7
     },
     "Unknown (Needs Review)": {
-      "8": 3,
+      "8": 1,
       "3": 1
+    },
+    "YouTube": {
+      "8": 8,
+      "7": 6,
+      "6": 8,
+      "3": 5,
+      "2": 7,
+      "1": 6
     },
     "Internal Webinar": {
       "8": 7,
@@ -127,14 +135,6 @@
       "3": 6,
       "2": 10,
       "1": 10
-    },
-    "YouTube": {
-      "8": 6,
-      "7": 6,
-      "6": 8,
-      "3": 5,
-      "2": 7,
-      "1": 6
     },
     "Website": {
       "8": 1,
