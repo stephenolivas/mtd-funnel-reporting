@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T12:15:20.889989-07:00",
+  "generated_at": "2026-04-08T12:30:47.720802-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 84,
-      "showed": 47,
-      "qualified": 40
+      "showed": 46,
+      "qualified": 39
     },
     "external": {
       "total": 134,
@@ -54,7 +54,7 @@
       "qualified": 26
     },
     "YouTube": {
-      "total": 40,
+      "total": 41,
       "showed": 24,
       "qualified": 21
     },
@@ -69,9 +69,9 @@
       "qualified": 28
     },
     "Website": {
-      "total": 12,
-      "showed": 11,
-      "qualified": 9
+      "total": 11,
+      "showed": 10,
+      "qualified": 8
     },
     "Meta Ads": {
       "total": 8,
@@ -120,7 +120,7 @@
       "2": 7
     },
     "YouTube": {
-      "8": 8,
+      "8": 9,
       "7": 6,
       "6": 8,
       "3": 5,
@@ -144,7 +144,6 @@
       "1": 10
     },
     "Website": {
-      "8": 1,
       "7": 3,
       "6": 5,
       "3": 1,
