@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T16:00:13.335119-07:00",
+  "generated_at": "2026-04-09T16:15:09.702439-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -27,13 +27,13 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 102,
-      "showed": 54,
+      "total": 103,
+      "showed": 55,
       "qualified": 44
     },
     "external": {
-      "total": 161,
-      "showed": 93,
+      "total": 160,
+      "showed": 92,
       "qualified": 79
     }
   },
@@ -48,10 +48,10 @@
       "showed": 41,
       "qualified": 35
     },
-    "Instagram": {
-      "total": 70,
-      "showed": 45,
-      "qualified": 36
+    "WWWS": {
+      "total": 1,
+      "showed": 1,
+      "qualified": 0
     },
     "YouTube": {
       "total": 45,
@@ -62,6 +62,11 @@
       "total": 1,
       "showed": 0,
       "qualified": 0
+    },
+    "Instagram": {
+      "total": 69,
+      "showed": 44,
+      "qualified": 36
     },
     "Internal Webinar": {
       "total": 30,
@@ -123,14 +128,8 @@
       "2": 10,
       "1": 10
     },
-    "Instagram": {
-      "9": 12,
-      "8": 17,
-      "7": 11,
-      "6": 9,
-      "3": 9,
-      "1": 5,
-      "2": 7
+    "WWWS": {
+      "9": 1
     },
     "YouTube": {
       "9": 5,
@@ -143,6 +142,15 @@
     },
     "VSL": {
       "9": 1
+    },
+    "Instagram": {
+      "9": 11,
+      "8": 17,
+      "7": 11,
+      "6": 9,
+      "3": 9,
+      "1": 5,
+      "2": 7
     },
     "Internal Webinar": {
       "9": 11,
