@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-08T23:45:13.525204-07:00",
+  "generated_at": "2026-04-09T00:00:15.420046-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
-  "day": 8,
+  "day": 9,
   "month_days": 30,
   "goals": {
     "Low Ticket Funnel": 200,
@@ -20,48 +20,63 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 218,
-    "on_pace": 263,
-    "remaining": 769,
-    "eom_projection": 818,
+    "mtd_booked": 261,
+    "on_pace": 296,
+    "remaining": 726,
+    "eom_projection": 870,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 84,
+      "total": 104,
       "showed": 48,
       "qualified": 40
     },
     "external": {
-      "total": 134,
+      "total": 157,
       "showed": 80,
       "qualified": 69
     }
   },
   "by_funnel": {
+    "Unknown (Needs Review)": {
+      "total": 6,
+      "showed": 0,
+      "qualified": 0
+    },
+    "Low Ticket Funnel": {
+      "total": 73,
+      "showed": 36,
+      "qualified": 29
+    },
+    "Instagram": {
+      "total": 67,
+      "showed": 38,
+      "qualified": 32
+    },
+    "Internal Webinar": {
+      "total": 32,
+      "showed": 5,
+      "qualified": 5
+    },
     "X": {
       "total": 6,
       "showed": 3,
       "qualified": 6
     },
-    "Instagram": {
-      "total": 58,
-      "showed": 38,
-      "qualified": 32
-    },
     "YouTube": {
-      "total": 40,
+      "total": 44,
       "showed": 25,
       "qualified": 22
     },
-    "Internal Webinar": {
-      "total": 19,
-      "showed": 5,
-      "qualified": 5
+    "Linkedin": {
+      "total": 4,
+      "showed": 2,
+      "qualified": 1
     },
-    "Low Ticket Funnel": {
-      "total": 65,
-      "showed": 36,
-      "qualified": 29
+    "Reactivation Email": {
+      "total": 6,
+      "showed": 3,
+      "qualified": 3
     },
     "Website": {
       "total": 11,
@@ -69,24 +84,9 @@
       "qualified": 8
     },
     "Meta Ads": {
-      "total": 8,
+      "total": 9,
       "showed": 3,
       "qualified": 2
-    },
-    "Reactivation Email": {
-      "total": 4,
-      "showed": 3,
-      "qualified": 3
-    },
-    "Linkedin": {
-      "total": 3,
-      "showed": 2,
-      "qualified": 1
-    },
-    "Unknown (Needs Review)": {
-      "total": 1,
-      "showed": 0,
-      "qualified": 0
     },
     "Passivepreneurs": {
       "total": 1,
@@ -105,14 +105,21 @@
     }
   },
   "by_funnel_day": {
-    "X": {
-      "8": 1,
-      "7": 1,
-      "6": 1,
-      "3": 2,
-      "1": 1
+    "Unknown (Needs Review)": {
+      "9": 5,
+      "3": 1
+    },
+    "Low Ticket Funnel": {
+      "9": 8,
+      "8": 17,
+      "7": 17,
+      "6": 5,
+      "3": 6,
+      "2": 10,
+      "1": 10
     },
     "Instagram": {
+      "9": 9,
       "8": 17,
       "7": 11,
       "6": 9,
@@ -120,15 +127,8 @@
       "1": 5,
       "2": 7
     },
-    "YouTube": {
-      "8": 8,
-      "7": 6,
-      "6": 8,
-      "3": 5,
-      "2": 7,
-      "1": 6
-    },
     "Internal Webinar": {
+      "9": 13,
       "8": 6,
       "7": 3,
       "6": 2,
@@ -136,13 +136,33 @@
       "2": 2,
       "1": 4
     },
-    "Low Ticket Funnel": {
-      "8": 17,
-      "7": 17,
-      "6": 5,
-      "3": 6,
-      "2": 10,
-      "1": 10
+    "X": {
+      "8": 1,
+      "7": 1,
+      "6": 1,
+      "3": 2,
+      "1": 1
+    },
+    "YouTube": {
+      "8": 8,
+      "9": 4,
+      "7": 6,
+      "6": 8,
+      "3": 5,
+      "2": 7,
+      "1": 6
+    },
+    "Linkedin": {
+      "9": 1,
+      "8": 1,
+      "6": 1,
+      "3": 1
+    },
+    "Reactivation Email": {
+      "9": 2,
+      "6": 2,
+      "3": 1,
+      "1": 1
     },
     "Website": {
       "7": 3,
@@ -153,23 +173,11 @@
     "Meta Ads": {
       "8": 1,
       "7": 1,
+      "9": 1,
       "6": 1,
       "3": 2,
       "2": 1,
       "1": 2
-    },
-    "Reactivation Email": {
-      "6": 2,
-      "3": 1,
-      "1": 1
-    },
-    "Linkedin": {
-      "8": 1,
-      "6": 1,
-      "3": 1
-    },
-    "Unknown (Needs Review)": {
-      "3": 1
     },
     "Passivepreneurs": {
       "1": 1
