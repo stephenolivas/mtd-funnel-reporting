@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T00:15:10.287876-07:00",
+  "generated_at": "2026-04-09T00:30:14.332483-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 261,
+    "mtd_booked": 262,
     "on_pace": 296,
-    "remaining": 726,
-    "eom_projection": 870,
+    "remaining": 725,
+    "eom_projection": 873,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,14 +32,14 @@
       "qualified": 40
     },
     "external": {
-      "total": 157,
+      "total": 158,
       "showed": 80,
       "qualified": 69
     }
   },
   "by_funnel": {
     "Unknown (Needs Review)": {
-      "total": 6,
+      "total": 7,
       "showed": 0,
       "qualified": 0
     },
@@ -106,7 +106,7 @@
   },
   "by_funnel_day": {
     "Unknown (Needs Review)": {
-      "9": 5,
+      "9": 6,
       "3": 1
     },
     "Low Ticket Funnel": {
