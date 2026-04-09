@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T11:45:12.288826-07:00",
+  "generated_at": "2026-04-09T12:00:11.559681-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -34,7 +34,7 @@
     "external": {
       "total": 160,
       "showed": 88,
-      "qualified": 75
+      "qualified": 76
     }
   },
   "by_funnel": {
@@ -51,7 +51,7 @@
     "Low Ticket Funnel": {
       "total": 75,
       "showed": 40,
-      "qualified": 33
+      "qualified": 34
     },
     "VSL": {
       "total": 1,
