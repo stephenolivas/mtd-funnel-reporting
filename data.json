@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T13:45:10.505408-07:00",
+  "generated_at": "2026-04-13T14:00:14.553372-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -20,24 +20,29 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 345,
+    "mtd_booked": 346,
     "on_pace": 428,
-    "remaining": 642,
-    "eom_projection": 796,
+    "remaining": 641,
+    "eom_projection": 798,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 133,
+      "total": 134,
       "showed": 71,
       "qualified": 58
     },
     "external": {
       "total": 212,
-      "showed": 123,
+      "showed": 124,
       "qualified": 100
     }
   },
   "by_funnel": {
+    "Website": {
+      "total": 19,
+      "showed": 14,
+      "qualified": 10
+    },
     "Unknown (Needs Review)": {
       "total": 6,
       "showed": 3,
@@ -45,7 +50,7 @@
     },
     "Instagram": {
       "total": 101,
-      "showed": 60,
+      "showed": 61,
       "qualified": 47
     },
     "LinkedIn Ads": {
@@ -72,11 +77,6 @@
       "total": 52,
       "showed": 34,
       "qualified": 29
-    },
-    "Website": {
-      "total": 18,
-      "showed": 14,
-      "qualified": 10
     },
     "Linkedin": {
       "total": 6,
@@ -125,6 +125,14 @@
     }
   },
   "by_funnel_day": {
+    "Website": {
+      "13": 4,
+      "10": 4,
+      "7": 3,
+      "6": 5,
+      "3": 1,
+      "1": 2
+    },
     "Unknown (Needs Review)": {
       "13": 1,
       "10": 1,
@@ -188,14 +196,6 @@
       "3": 5,
       "2": 7,
       "1": 6
-    },
-    "Website": {
-      "13": 3,
-      "10": 4,
-      "7": 3,
-      "6": 5,
-      "3": 1,
-      "1": 2
     },
     "Linkedin": {
       "13": 2,
