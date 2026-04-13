@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T06:15:13.101142-07:00",
+  "generated_at": "2026-04-13T06:30:13.797860-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -33,7 +33,7 @@
     },
     "external": {
       "total": 213,
-      "showed": 114,
+      "showed": 115,
       "qualified": 96
     }
   },
@@ -55,7 +55,7 @@
     },
     "Instagram": {
       "total": 103,
-      "showed": 53,
+      "showed": 54,
       "qualified": 44
     },
     "Internal Webinar": {
