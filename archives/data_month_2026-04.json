@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T15:00:13.742305-07:00",
+  "generated_at": "2026-04-13T15:15:13.238155-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -33,7 +33,7 @@
     },
     "external": {
       "total": 208,
-      "showed": 125,
+      "showed": 126,
       "qualified": 99
     }
   },
@@ -50,7 +50,7 @@
     },
     "Instagram": {
       "total": 101,
-      "showed": 61,
+      "showed": 62,
       "qualified": 47
     },
     "LinkedIn Ads": {
@@ -59,7 +59,7 @@
       "qualified": 0
     },
     "Meta Ads": {
-      "total": 12,
+      "total": 13,
       "showed": 6,
       "qualified": 5
     },
@@ -69,7 +69,7 @@
       "qualified": 41
     },
     "Internal Webinar": {
-      "total": 39,
+      "total": 38,
       "showed": 10,
       "qualified": 11
     },
@@ -160,7 +160,7 @@
       "13": 1
     },
     "Meta Ads": {
-      "13": 2,
+      "13": 3,
       "10": 2,
       "8": 1,
       "7": 1,
@@ -182,7 +182,7 @@
       "1": 10
     },
     "Internal Webinar": {
-      "13": 6,
+      "13": 5,
       "10": 3,
       "9": 11,
       "8": 6,
