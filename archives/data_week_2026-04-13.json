@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T14:30:11.817860-07:00",
+  "generated_at": "2026-04-13T14:45:09.568986-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,12 +28,12 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 137,
-      "showed": 72,
-      "qualified": 59
+      "showed": 74,
+      "qualified": 60
     },
     "external": {
       "total": 208,
-      "showed": 123,
+      "showed": 124,
       "qualified": 99
     }
   },
@@ -45,7 +45,7 @@
     },
     "YouTube": {
       "total": 54,
-      "showed": 34,
+      "showed": 35,
       "qualified": 29
     },
     "Instagram": {
@@ -60,8 +60,8 @@
     },
     "Meta Ads": {
       "total": 12,
-      "showed": 5,
-      "qualified": 4
+      "showed": 6,
+      "qualified": 5
     },
     "Low Ticket Funnel": {
       "total": 89,
@@ -75,7 +75,7 @@
     },
     "Linkedin": {
       "total": 5,
-      "showed": 3,
+      "showed": 4,
       "qualified": 2
     },
     "Unknown (Needs Review)": {
