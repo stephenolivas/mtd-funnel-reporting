@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-13T23:45:10.246264-07:00",
+  "generated_at": "2026-04-14T00:00:16.998165-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
-  "day": 13,
+  "day": 14,
   "month_days": 30,
   "goals": {
     "Low Ticket Funnel": 200,
@@ -20,38 +20,43 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 345,
-    "on_pace": 428,
-    "remaining": 642,
-    "eom_projection": 796,
+    "mtd_booked": 397,
+    "on_pace": 461,
+    "remaining": 590,
+    "eom_projection": 851,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 137,
-      "showed": 81,
-      "qualified": 66
+      "total": 149,
+      "showed": 82,
+      "qualified": 67
     },
     "external": {
-      "total": 208,
+      "total": 248,
       "showed": 131,
       "qualified": 105
     }
   },
   "by_funnel": {
     "Website": {
-      "total": 20,
+      "total": 22,
       "showed": 17,
       "qualified": 13
     },
-    "YouTube": {
-      "total": 54,
-      "showed": 37,
-      "qualified": 31
-    },
     "Instagram": {
-      "total": 101,
+      "total": 126,
       "showed": 66,
       "qualified": 51
+    },
+    "Low Ticket Funnel": {
+      "total": 99,
+      "showed": 54,
+      "qualified": 43
+    },
+    "YouTube": {
+      "total": 56,
+      "showed": 37,
+      "qualified": 31
     },
     "LinkedIn Ads": {
       "total": 1,
@@ -59,22 +64,22 @@
       "qualified": 0
     },
     "Meta Ads": {
-      "total": 13,
+      "total": 16,
       "showed": 6,
       "qualified": 5
     },
-    "Low Ticket Funnel": {
-      "total": 89,
-      "showed": 54,
-      "qualified": 43
+    "VSL": {
+      "total": 5,
+      "showed": 1,
+      "qualified": 1
     },
     "Internal Webinar": {
-      "total": 38,
+      "total": 39,
       "showed": 12,
       "qualified": 13
     },
     "Linkedin": {
-      "total": 5,
+      "total": 10,
       "showed": 4,
       "qualified": 2
     },
@@ -87,11 +92,6 @@
       "total": 4,
       "showed": 3,
       "qualified": 1
-    },
-    "VSL": {
-      "total": 1,
-      "showed": 0,
-      "qualified": 0
     },
     "Reactivation Scrapers": {
       "total": 1,
@@ -127,6 +127,7 @@
   "by_funnel_day": {
     "Website": {
       "13": 4,
+      "14": 2,
       "10": 4,
       "9": 1,
       "7": 3,
@@ -134,18 +135,8 @@
       "3": 1,
       "1": 2
     },
-    "YouTube": {
-      "13": 8,
-      "9": 5,
-      "10": 1,
-      "8": 8,
-      "7": 6,
-      "6": 8,
-      "3": 5,
-      "2": 7,
-      "1": 6
-    },
     "Instagram": {
+      "14": 25,
       "13": 18,
       "10": 13,
       "9": 11,
@@ -156,20 +147,8 @@
       "1": 5,
       "2": 8
     },
-    "LinkedIn Ads": {
-      "13": 1
-    },
-    "Meta Ads": {
-      "13": 3,
-      "10": 2,
-      "8": 1,
-      "7": 1,
-      "6": 1,
-      "3": 2,
-      "2": 1,
-      "1": 2
-    },
     "Low Ticket Funnel": {
+      "14": 10,
       "13": 4,
       "11": 1,
       "9": 11,
@@ -181,8 +160,39 @@
       "2": 10,
       "1": 10
     },
+    "YouTube": {
+      "13": 8,
+      "14": 2,
+      "9": 5,
+      "10": 1,
+      "8": 8,
+      "7": 6,
+      "6": 8,
+      "3": 5,
+      "2": 7,
+      "1": 6
+    },
+    "LinkedIn Ads": {
+      "13": 1
+    },
+    "Meta Ads": {
+      "13": 3,
+      "14": 3,
+      "10": 2,
+      "8": 1,
+      "7": 1,
+      "6": 1,
+      "3": 2,
+      "2": 1,
+      "1": 2
+    },
+    "VSL": {
+      "14": 4,
+      "9": 1
+    },
     "Internal Webinar": {
       "13": 5,
+      "14": 1,
       "10": 3,
       "9": 11,
       "8": 6,
@@ -193,6 +203,7 @@
       "1": 4
     },
     "Linkedin": {
+      "14": 5,
       "13": 1,
       "9": 1,
       "8": 1,
@@ -208,9 +219,6 @@
       "13": 2,
       "9": 1,
       "10": 1
-    },
-    "VSL": {
-      "9": 1
     },
     "Reactivation Scrapers": {
       "10": 1
