@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T16:45:27.256335-07:00",
+  "generated_at": "2026-04-14T17:00:16.114718-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 152,
-      "showed": 88,
-      "qualified": 72
+      "showed": 89,
+      "qualified": 73
     },
     "external": {
       "total": 233,
@@ -65,8 +65,8 @@
     },
     "Meta Ads": {
       "total": 16,
-      "showed": 6,
-      "qualified": 5
+      "showed": 7,
+      "qualified": 6
     },
     "VSL": {
       "total": 5,
