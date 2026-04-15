@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T08:00:14.324198-07:00",
+  "generated_at": "2026-04-15T08:15:13.947088-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -54,9 +54,9 @@
       "qualified": 33
     },
     "Meta Ads": {
-      "total": 18,
-      "showed": 7,
-      "qualified": 6
+      "total": 17,
+      "showed": 6,
+      "qualified": 5
     },
     "Website": {
       "total": 26,
@@ -69,9 +69,9 @@
       "qualified": 15
     },
     "VSL": {
-      "total": 7,
-      "showed": 1,
-      "qualified": 1
+      "total": 8,
+      "showed": 2,
+      "qualified": 2
     },
     "LinkedIn Ads": {
       "total": 1,
@@ -168,7 +168,7 @@
     "Meta Ads": {
       "15": 2,
       "13": 3,
-      "14": 3,
+      "14": 2,
       "10": 2,
       "8": 1,
       "7": 1,
@@ -203,7 +203,7 @@
     },
     "VSL": {
       "15": 2,
-      "14": 4,
+      "14": 5,
       "9": 1
     },
     "LinkedIn Ads": {
