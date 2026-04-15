@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T15:00:12.251412-07:00",
+  "generated_at": "2026-04-15T15:15:12.314446-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -33,15 +33,15 @@
     },
     "external": {
       "total": 256,
-      "showed": 151,
-      "qualified": 120
+      "showed": 152,
+      "qualified": 121
     }
   },
   "by_funnel": {
     "Low Ticket Funnel": {
       "total": 107,
-      "showed": 61,
-      "qualified": 49
+      "showed": 62,
+      "qualified": 50
     },
     "Unknown (Needs Review)": {
       "total": 6,
