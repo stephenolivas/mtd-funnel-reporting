@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T16:15:10.513919-07:00",
+  "generated_at": "2026-04-15T16:30:11.562928-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -27,13 +27,13 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 170,
-      "showed": 97,
+      "total": 171,
+      "showed": 98,
       "qualified": 78
     },
     "external": {
-      "total": 256,
-      "showed": 156,
+      "total": 255,
+      "showed": 155,
       "qualified": 124
     }
   },
@@ -43,20 +43,20 @@
       "showed": 64,
       "qualified": 52
     },
+    "YouTube": {
+      "total": 69,
+      "showed": 46,
+      "qualified": 37
+    },
     "Unknown (Needs Review)": {
-      "total": 6,
-      "showed": 3,
+      "total": 5,
+      "showed": 2,
       "qualified": 1
     },
     "Instagram": {
       "total": 126,
       "showed": 79,
       "qualified": 60
-    },
-    "YouTube": {
-      "total": 68,
-      "showed": 45,
-      "qualified": 37
     },
     "Meta Ads": {
       "total": 17,
@@ -139,8 +139,21 @@
       "2": 10,
       "1": 10
     },
+    "YouTube": {
+      "15": 11,
+      "14": 3,
+      "13": 9,
+      "9": 5,
+      "10": 1,
+      "8": 8,
+      "7": 6,
+      "6": 8,
+      "3": 5,
+      "2": 7,
+      "1": 6
+    },
     "Unknown (Needs Review)": {
-      "15": 2,
+      "15": 1,
       "10": 1,
       "9": 2,
       "3": 1
@@ -157,19 +170,6 @@
       "3": 9,
       "1": 5,
       "2": 7
-    },
-    "YouTube": {
-      "14": 3,
-      "15": 10,
-      "13": 9,
-      "9": 5,
-      "10": 1,
-      "8": 8,
-      "7": 6,
-      "6": 8,
-      "3": 5,
-      "2": 7,
-      "1": 6
     },
     "Meta Ads": {
       "15": 2,
