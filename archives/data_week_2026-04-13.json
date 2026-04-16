@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T14:45:11.069574-07:00",
+  "generated_at": "2026-04-16T15:00:14.203205-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -20,28 +20,33 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 457,
+    "mtd_booked": 458,
     "on_pace": 526,
-    "remaining": 530,
-    "eom_projection": 857,
+    "remaining": 529,
+    "eom_projection": 859,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 182,
+      "total": 183,
       "showed": 107,
       "qualified": 85
     },
     "external": {
       "total": 275,
-      "showed": 167,
-      "qualified": 133
+      "showed": 168,
+      "qualified": 134
     }
   },
   "by_funnel": {
+    "Website": {
+      "total": 27,
+      "showed": 23,
+      "qualified": 16
+    },
     "Low Ticket Funnel": {
       "total": 117,
-      "showed": 72,
-      "qualified": 57
+      "showed": 73,
+      "qualified": 58
     },
     "Internal Webinar": {
       "total": 46,
@@ -62,11 +67,6 @@
       "total": 5,
       "showed": 4,
       "qualified": 4
-    },
-    "Website": {
-      "total": 26,
-      "showed": 23,
-      "qualified": 16
     },
     "Meta Ads": {
       "total": 18,
@@ -130,6 +130,18 @@
     }
   },
   "by_funnel_day": {
+    "Website": {
+      "16": 3,
+      "15": 2,
+      "13": 4,
+      "14": 2,
+      "10": 4,
+      "9": 1,
+      "7": 3,
+      "6": 5,
+      "3": 1,
+      "1": 2
+    },
     "Low Ticket Funnel": {
       "16": 10,
       "15": 11,
@@ -192,18 +204,6 @@
       "6": 2,
       "3": 1,
       "1": 1
-    },
-    "Website": {
-      "16": 2,
-      "15": 2,
-      "13": 4,
-      "14": 2,
-      "10": 4,
-      "9": 1,
-      "7": 3,
-      "6": 5,
-      "3": 1,
-      "1": 2
     },
     "Meta Ads": {
       "16": 1,
