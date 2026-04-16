@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T16:45:11.295791-07:00",
+  "generated_at": "2026-04-15T17:00:15.418085-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,24 +28,24 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 171,
-      "showed": 98,
-      "qualified": 78
+      "showed": 100,
+      "qualified": 79
     },
     "external": {
       "total": 255,
-      "showed": 155,
+      "showed": 156,
       "qualified": 124
     }
   },
   "by_funnel": {
     "Low Ticket Funnel": {
       "total": 107,
-      "showed": 64,
+      "showed": 65,
       "qualified": 52
     },
     "YouTube": {
       "total": 69,
-      "showed": 46,
+      "showed": 47,
       "qualified": 37
     },
     "Unknown (Needs Review)": {
@@ -60,8 +60,8 @@
     },
     "Meta Ads": {
       "total": 17,
-      "showed": 7,
-      "qualified": 5
+      "showed": 8,
+      "qualified": 6
     },
     "Website": {
       "total": 24,
