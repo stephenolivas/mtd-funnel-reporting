@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T16:30:15.770628-07:00",
+  "generated_at": "2026-04-17T16:45:11.456923-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,25 +28,25 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 194,
-      "showed": 117,
-      "qualified": 90
+      "showed": 118,
+      "qualified": 91
     },
     "external": {
       "total": 301,
-      "showed": 190,
+      "showed": 191,
       "qualified": 152
     }
   },
   "by_funnel": {
     "Instagram": {
       "total": 149,
-      "showed": 91,
+      "showed": 92,
       "qualified": 69
     },
     "Website": {
       "total": 32,
-      "showed": 27,
-      "qualified": 20
+      "showed": 28,
+      "qualified": 21
     },
     "Unknown (Needs Review)": {
       "total": 5,
