@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T14:30:12.008521-07:00",
+  "generated_at": "2026-04-17T14:45:10.540258-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -69,14 +69,19 @@
       "qualified": 15
     },
     "YouTube": {
-      "total": 74,
-      "showed": 51,
-      "qualified": 39
+      "total": 72,
+      "showed": 49,
+      "qualified": 38
     },
     "Reactivation Email": {
       "total": 6,
       "showed": 5,
       "qualified": 5
+    },
+    "WWWS": {
+      "total": 6,
+      "showed": 5,
+      "qualified": 2
     },
     "VSL": {
       "total": 8,
@@ -101,11 +106,6 @@
     "Website - OG - Cam": {
       "total": 1,
       "showed": 1,
-      "qualified": 1
-    },
-    "WWWS": {
-      "total": 4,
-      "showed": 3,
       "qualified": 1
     },
     "X": {
@@ -211,7 +211,7 @@
     "YouTube": {
       "15": 11,
       "16": 2,
-      "17": 3,
+      "17": 1,
       "14": 3,
       "13": 9,
       "9": 5,
@@ -229,6 +229,12 @@
       "6": 2,
       "3": 1,
       "1": 1
+    },
+    "WWWS": {
+      "17": 2,
+      "13": 2,
+      "9": 1,
+      "10": 1
     },
     "VSL": {
       "17": 1,
@@ -256,11 +262,6 @@
     },
     "Website - OG - Cam": {
       "16": 1
-    },
-    "WWWS": {
-      "13": 2,
-      "9": 1,
-      "10": 1
     },
     "X": {
       "8": 1,
