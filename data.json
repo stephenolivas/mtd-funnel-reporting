@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T12:45:11.159423-07:00",
+  "generated_at": "2026-04-17T13:00:15.164525-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 194,
-      "showed": 112,
-      "qualified": 86
+      "showed": 113,
+      "qualified": 87
     },
     "external": {
       "total": 301,
@@ -75,8 +75,8 @@
     },
     "Reactivation Email": {
       "total": 6,
-      "showed": 4,
-      "qualified": 4
+      "showed": 5,
+      "qualified": 5
     },
     "VSL": {
       "total": 8,
