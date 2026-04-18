@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-17T23:45:09.214497-07:00",
+  "generated_at": "2026-04-18T00:00:13.077676-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
-  "day": 17,
+  "day": 18,
   "month_days": 30,
   "goals": {
     "Low Ticket Funnel": 200,
@@ -20,19 +20,19 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 495,
-    "on_pace": 559,
-    "remaining": 492,
-    "eom_projection": 874,
+    "mtd_booked": 498,
+    "on_pace": 592,
+    "remaining": 489,
+    "eom_projection": 830,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 194,
+      "total": 195,
       "showed": 118,
       "qualified": 91
     },
     "external": {
-      "total": 301,
+      "total": 303,
       "showed": 192,
       "qualified": 154
     }
@@ -48,25 +48,25 @@
       "showed": 28,
       "qualified": 21
     },
+    "Low Ticket Funnel": {
+      "total": 128,
+      "showed": 82,
+      "qualified": 67
+    },
+    "Internal Webinar": {
+      "total": 47,
+      "showed": 16,
+      "qualified": 15
+    },
     "Unknown (Needs Review)": {
       "total": 5,
       "showed": 2,
       "qualified": 1
     },
-    "Low Ticket Funnel": {
-      "total": 126,
-      "showed": 82,
-      "qualified": 67
-    },
     "Meta Ads": {
       "total": 20,
       "showed": 10,
       "qualified": 7
-    },
-    "Internal Webinar": {
-      "total": 46,
-      "showed": 16,
-      "qualified": 15
     },
     "YouTube": {
       "total": 72,
@@ -158,13 +158,8 @@
       "3": 1,
       "1": 2
     },
-    "Unknown (Needs Review)": {
-      "17": 1,
-      "10": 1,
-      "9": 2,
-      "3": 1
-    },
     "Low Ticket Funnel": {
+      "18": 2,
       "16": 10,
       "15": 11,
       "17": 9,
@@ -180,6 +175,27 @@
       "2": 10,
       "1": 10
     },
+    "Internal Webinar": {
+      "18": 1,
+      "16": 3,
+      "15": 3,
+      "13": 5,
+      "14": 2,
+      "10": 3,
+      "9": 11,
+      "8": 6,
+      "7": 3,
+      "6": 2,
+      "3": 2,
+      "2": 2,
+      "1": 4
+    },
+    "Unknown (Needs Review)": {
+      "17": 1,
+      "10": 1,
+      "9": 2,
+      "3": 1
+    },
     "Meta Ads": {
       "17": 2,
       "16": 1,
@@ -193,20 +209,6 @@
       "3": 2,
       "2": 1,
       "1": 2
-    },
-    "Internal Webinar": {
-      "16": 3,
-      "15": 3,
-      "13": 5,
-      "14": 2,
-      "10": 3,
-      "9": 11,
-      "8": 6,
-      "7": 3,
-      "6": 2,
-      "3": 2,
-      "2": 2,
-      "1": 4
     },
     "YouTube": {
       "15": 11,
