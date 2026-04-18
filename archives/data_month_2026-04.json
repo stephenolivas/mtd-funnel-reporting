@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T17:00:12.575692-07:00",
+  "generated_at": "2026-04-17T17:15:09.796374-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -33,14 +33,14 @@
     },
     "external": {
       "total": 301,
-      "showed": 191,
+      "showed": 192,
       "qualified": 153
     }
   },
   "by_funnel": {
     "Instagram": {
       "total": 149,
-      "showed": 92,
+      "showed": 93,
       "qualified": 70
     },
     "Website": {
