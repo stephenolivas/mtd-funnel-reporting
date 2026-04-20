@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T11:30:12.738206-07:00",
+  "generated_at": "2026-04-20T11:45:13.435526-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 213,
-      "showed": 125,
-      "qualified": 94
+      "showed": 126,
+      "qualified": 95
     },
     "external": {
       "total": 320,
@@ -75,8 +75,8 @@
     },
     "Internal Webinar": {
       "total": 49,
-      "showed": 18,
-      "qualified": 16
+      "showed": 19,
+      "qualified": 17
     },
     "Meta Ads": {
       "total": 21,
