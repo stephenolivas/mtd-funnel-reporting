@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T10:30:11.804269-07:00",
+  "generated_at": "2026-04-20T10:45:12.184908-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -29,7 +29,7 @@
     "inhouse": {
       "total": 213,
       "showed": 124,
-      "qualified": 93
+      "qualified": 94
     },
     "external": {
       "total": 321,
@@ -56,10 +56,10 @@
     "YouTube": {
       "total": 81,
       "showed": 53,
-      "qualified": 40
+      "qualified": 41
     },
     "Website": {
-      "total": 33,
+      "total": 32,
       "showed": 27,
       "qualified": 20
     },
@@ -68,15 +68,15 @@
       "showed": 4,
       "qualified": 7
     },
-    "Internal Webinar": {
-      "total": 52,
-      "showed": 18,
-      "qualified": 16
-    },
     "VSL": {
-      "total": 10,
+      "total": 14,
       "showed": 3,
       "qualified": 3
+    },
+    "Internal Webinar": {
+      "total": 49,
+      "showed": 18,
+      "qualified": 16
     },
     "Meta Ads": {
       "total": 21,
@@ -188,7 +188,7 @@
     },
     "Website": {
       "17": 4,
-      "20": 2,
+      "20": 1,
       "16": 3,
       "15": 2,
       "13": 4,
@@ -209,28 +209,29 @@
       "3": 2,
       "1": 1
     },
-    "Internal Webinar": {
+    "VSL": {
       "18": 1,
-      "20": 5,
+      "20": 3,
+      "17": 2,
+      "15": 1,
+      "14": 5,
+      "10": 1,
+      "9": 1
+    },
+    "Internal Webinar": {
+      "20": 4,
       "16": 3,
       "15": 3,
       "13": 5,
       "14": 2,
-      "10": 3,
       "9": 11,
+      "10": 2,
       "8": 6,
       "7": 3,
       "6": 2,
       "3": 2,
       "2": 2,
       "1": 4
-    },
-    "VSL": {
-      "20": 1,
-      "17": 2,
-      "15": 1,
-      "14": 5,
-      "9": 1
     },
     "Meta Ads": {
       "17": 2,
