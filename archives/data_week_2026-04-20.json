@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T14:30:13.796257-07:00",
+  "generated_at": "2026-04-20T14:45:11.912606-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 213,
-      "showed": 128,
-      "qualified": 98
+      "showed": 129,
+      "qualified": 99
     },
     "external": {
       "total": 317,
@@ -45,8 +45,8 @@
     },
     "YouTube": {
       "total": 82,
-      "showed": 55,
-      "qualified": 43
+      "showed": 56,
+      "qualified": 44
     },
     "Instagram": {
       "total": 160,
