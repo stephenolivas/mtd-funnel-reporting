@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T10:15:11.003852-07:00",
+  "generated_at": "2026-04-20T10:30:11.804269-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -20,24 +20,29 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 535,
+    "mtd_booked": 534,
     "on_pace": 658,
-    "remaining": 452,
-    "eom_projection": 802,
+    "remaining": 453,
+    "eom_projection": 801,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 215,
-      "showed": 122,
+      "total": 213,
+      "showed": 124,
       "qualified": 93
     },
     "external": {
-      "total": 320,
+      "total": 321,
       "showed": 193,
       "qualified": 154
     }
   },
   "by_funnel": {
+    "Low Ticket Funnel": {
+      "total": 132,
+      "showed": 82,
+      "qualified": 67
+    },
     "Unknown (Needs Review)": {
       "total": 5,
       "showed": 2,
@@ -48,20 +53,15 @@
       "showed": 94,
       "qualified": 71
     },
-    "Low Ticket Funnel": {
-      "total": 131,
-      "showed": 82,
-      "qualified": 67
-    },
     "YouTube": {
-      "total": 82,
-      "showed": 51,
+      "total": 81,
+      "showed": 53,
       "qualified": 40
     },
     "Website": {
-      "total": 34,
-      "showed": 28,
-      "qualified": 21
+      "total": 33,
+      "showed": 27,
+      "qualified": 20
     },
     "X": {
       "total": 8,
@@ -75,8 +75,8 @@
     },
     "VSL": {
       "total": 10,
-      "showed": 2,
-      "qualified": 2
+      "showed": 3,
+      "qualified": 3
     },
     "Meta Ads": {
       "total": 21,
@@ -130,6 +130,24 @@
     }
   },
   "by_funnel_day": {
+    "Low Ticket Funnel": {
+      "20": 4,
+      "18": 2,
+      "16": 10,
+      "15": 11,
+      "17": 9,
+      "14": 7,
+      "13": 4,
+      "11": 1,
+      "9": 11,
+      "10": 8,
+      "8": 17,
+      "7": 17,
+      "6": 5,
+      "3": 6,
+      "2": 10,
+      "1": 10
+    },
     "Unknown (Needs Review)": {
       "20": 1,
       "10": 1,
@@ -152,26 +170,8 @@
       "1": 5,
       "2": 7
     },
-    "Low Ticket Funnel": {
-      "20": 3,
-      "18": 2,
-      "16": 10,
-      "15": 11,
-      "17": 9,
-      "14": 7,
-      "13": 4,
-      "11": 1,
-      "9": 11,
-      "10": 8,
-      "8": 17,
-      "7": 17,
-      "6": 5,
-      "3": 6,
-      "2": 10,
-      "1": 10
-    },
     "YouTube": {
-      "20": 9,
+      "20": 8,
       "15": 11,
       "16": 2,
       "17": 1,
@@ -187,7 +187,7 @@
       "1": 6
     },
     "Website": {
-      "17": 5,
+      "17": 4,
       "20": 2,
       "16": 3,
       "15": 2,
@@ -226,8 +226,8 @@
       "1": 4
     },
     "VSL": {
-      "20": 2,
-      "17": 1,
+      "20": 1,
+      "17": 2,
       "15": 1,
       "14": 5,
       "9": 1
