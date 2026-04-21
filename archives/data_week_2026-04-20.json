@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T10:45:15.537686-07:00",
+  "generated_at": "2026-04-21T11:00:13.392305-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -20,38 +20,38 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 572,
+    "mtd_booked": 574,
     "on_pace": 691,
-    "remaining": 415,
-    "eom_projection": 817,
+    "remaining": 413,
+    "eom_projection": 820,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 233,
-      "showed": 136,
+      "showed": 137,
       "qualified": 105
     },
     "external": {
-      "total": 339,
-      "showed": 208,
+      "total": 341,
+      "showed": 209,
       "qualified": 168
     }
   },
   "by_funnel": {
+    "Low Ticket Funnel": {
+      "total": 139,
+      "showed": 87,
+      "qualified": 72
+    },
     "YouTube": {
       "total": 90,
       "showed": 57,
       "qualified": 45
     },
     "Instagram": {
-      "total": 175,
-      "showed": 103,
+      "total": 176,
+      "showed": 104,
       "qualified": 79
-    },
-    "Low Ticket Funnel": {
-      "total": 138,
-      "showed": 87,
-      "qualified": 72
     },
     "Reactivation Scrapers": {
       "total": 3,
@@ -75,7 +75,7 @@
     },
     "VSL": {
       "total": 17,
-      "showed": 3,
+      "showed": 4,
       "qualified": 3
     },
     "Internal Webinar": {
@@ -130,6 +130,25 @@
     }
   },
   "by_funnel_day": {
+    "Low Ticket Funnel": {
+      "21": 7,
+      "20": 4,
+      "18": 2,
+      "16": 10,
+      "15": 11,
+      "17": 9,
+      "14": 7,
+      "13": 4,
+      "11": 1,
+      "9": 11,
+      "10": 8,
+      "8": 17,
+      "7": 17,
+      "6": 5,
+      "3": 6,
+      "2": 10,
+      "1": 10
+    },
     "YouTube": {
       "21": 8,
       "20": 9,
@@ -148,7 +167,7 @@
       "1": 6
     },
     "Instagram": {
-      "21": 14,
+      "21": 15,
       "20": 13,
       "17": 13,
       "15": 10,
@@ -163,25 +182,6 @@
       "3": 9,
       "1": 5,
       "2": 7
-    },
-    "Low Ticket Funnel": {
-      "21": 6,
-      "20": 4,
-      "18": 2,
-      "16": 10,
-      "15": 11,
-      "17": 9,
-      "14": 7,
-      "13": 4,
-      "11": 1,
-      "9": 11,
-      "10": 8,
-      "8": 17,
-      "7": 17,
-      "6": 5,
-      "3": 6,
-      "2": 10,
-      "1": 10
     },
     "Reactivation Scrapers": {
       "21": 1,
