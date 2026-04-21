@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T10:30:12.513116-07:00",
+  "generated_at": "2026-04-21T10:45:15.537686-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -20,21 +20,21 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 575,
+    "mtd_booked": 572,
     "on_pace": 691,
-    "remaining": 412,
-    "eom_projection": 821,
+    "remaining": 415,
+    "eom_projection": 817,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 236,
+      "total": 233,
       "showed": 136,
       "qualified": 105
     },
     "external": {
       "total": 339,
-      "showed": 207,
-      "qualified": 167
+      "showed": 208,
+      "qualified": 168
     }
   },
   "by_funnel": {
@@ -45,8 +45,8 @@
     },
     "Instagram": {
       "total": 175,
-      "showed": 102,
-      "qualified": 78
+      "showed": 103,
+      "qualified": 79
     },
     "Low Ticket Funnel": {
       "total": 138,
@@ -58,25 +58,25 @@
       "showed": 2,
       "qualified": 0
     },
-    "Meta Ads": {
-      "total": 22,
-      "showed": 13,
-      "qualified": 10
-    },
-    "VSL": {
-      "total": 19,
-      "showed": 3,
-      "qualified": 3
-    },
     "Website": {
       "total": 36,
       "showed": 28,
       "qualified": 21
     },
+    "Meta Ads": {
+      "total": 21,
+      "showed": 13,
+      "qualified": 10
+    },
     "WWWS": {
       "total": 7,
       "showed": 5,
       "qualified": 2
+    },
+    "VSL": {
+      "total": 17,
+      "showed": 3,
+      "qualified": 3
     },
     "Internal Webinar": {
       "total": 51,
@@ -188,32 +188,6 @@
       "16": 1,
       "10": 1
     },
-    "Meta Ads": {
-      "21": 3,
-      "20": 1,
-      "17": 1,
-      "16": 1,
-      "15": 2,
-      "13": 3,
-      "14": 2,
-      "10": 1,
-      "8": 1,
-      "7": 1,
-      "6": 1,
-      "3": 2,
-      "2": 1,
-      "1": 2
-    },
-    "VSL": {
-      "21": 4,
-      "18": 1,
-      "20": 2,
-      "17": 3,
-      "15": 1,
-      "14": 5,
-      "10": 2,
-      "9": 1
-    },
     "Website": {
       "21": 4,
       "17": 4,
@@ -229,12 +203,38 @@
       "3": 1,
       "1": 2
     },
+    "Meta Ads": {
+      "21": 2,
+      "20": 1,
+      "17": 1,
+      "16": 1,
+      "15": 2,
+      "13": 3,
+      "14": 2,
+      "10": 1,
+      "8": 1,
+      "7": 1,
+      "6": 1,
+      "3": 2,
+      "2": 1,
+      "1": 2
+    },
     "WWWS": {
       "21": 1,
       "17": 2,
       "13": 2,
       "9": 1,
       "10": 1
+    },
+    "VSL": {
+      "21": 2,
+      "18": 1,
+      "20": 2,
+      "17": 3,
+      "15": 1,
+      "14": 5,
+      "10": 2,
+      "9": 1
     },
     "Internal Webinar": {
       "21": 2,
