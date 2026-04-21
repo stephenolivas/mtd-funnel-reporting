@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T10:15:11.396958-07:00",
+  "generated_at": "2026-04-21T10:30:12.513116-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,13 +28,13 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 236,
-      "showed": 135,
-      "qualified": 104
+      "showed": 136,
+      "qualified": 105
     },
     "external": {
       "total": 339,
-      "showed": 206,
-      "qualified": 166
+      "showed": 207,
+      "qualified": 167
     }
   },
   "by_funnel": {
@@ -50,8 +50,8 @@
     },
     "Low Ticket Funnel": {
       "total": 138,
-      "showed": 86,
-      "qualified": 71
+      "showed": 87,
+      "qualified": 72
     },
     "Reactivation Scrapers": {
       "total": 3,
@@ -70,8 +70,8 @@
     },
     "Website": {
       "total": 36,
-      "showed": 27,
-      "qualified": 20
+      "showed": 28,
+      "qualified": 21
     },
     "WWWS": {
       "total": 7,
