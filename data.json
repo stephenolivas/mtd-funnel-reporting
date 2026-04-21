@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T06:45:16.668449-07:00",
+  "generated_at": "2026-04-21T07:00:16.129558-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -27,21 +27,21 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 236,
+      "total": 237,
       "showed": 134,
       "qualified": 103
     },
     "external": {
-      "total": 340,
+      "total": 339,
       "showed": 204,
       "qualified": 164
     }
   },
   "by_funnel": {
-    "Unknown (Needs Review)": {
-      "total": 5,
-      "showed": 2,
-      "qualified": 1
+    "YouTube": {
+      "total": 90,
+      "showed": 57,
+      "qualified": 45
     },
     "Instagram": {
       "total": 175,
@@ -57,11 +57,6 @@
       "total": 3,
       "showed": 2,
       "qualified": 0
-    },
-    "YouTube": {
-      "total": 89,
-      "showed": 57,
-      "qualified": 45
     },
     "Meta Ads": {
       "total": 23,
@@ -108,6 +103,11 @@
       "showed": 1,
       "qualified": 1
     },
+    "Unknown (Needs Review)": {
+      "total": 4,
+      "showed": 2,
+      "qualified": 1
+    },
     "X": {
       "total": 7,
       "showed": 4,
@@ -130,11 +130,22 @@
     }
   },
   "by_funnel_day": {
-    "Unknown (Needs Review)": {
-      "21": 1,
+    "YouTube": {
+      "21": 8,
+      "20": 9,
+      "15": 11,
+      "16": 2,
+      "17": 1,
+      "14": 3,
+      "13": 9,
+      "9": 5,
       "10": 1,
-      "9": 2,
-      "3": 1
+      "8": 8,
+      "7": 6,
+      "6": 9,
+      "3": 5,
+      "2": 7,
+      "1": 6
     },
     "Instagram": {
       "21": 14,
@@ -176,23 +187,6 @@
       "21": 1,
       "16": 1,
       "10": 1
-    },
-    "YouTube": {
-      "20": 9,
-      "21": 7,
-      "15": 11,
-      "16": 2,
-      "17": 1,
-      "14": 3,
-      "13": 9,
-      "9": 5,
-      "10": 1,
-      "8": 8,
-      "7": 6,
-      "6": 9,
-      "3": 5,
-      "2": 7,
-      "1": 6
     },
     "Meta Ads": {
       "21": 3,
@@ -282,6 +276,11 @@
     },
     "Website - OG - Cam": {
       "16": 1
+    },
+    "Unknown (Needs Review)": {
+      "10": 1,
+      "9": 2,
+      "3": 1
     },
     "X": {
       "8": 1,
