@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T08:15:17.825964-07:00",
+  "generated_at": "2026-04-23T08:30:13.735322-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -20,21 +20,21 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 660,
+    "mtd_booked": 659,
     "on_pace": 757,
-    "remaining": 327,
-    "eom_projection": 861,
+    "remaining": 328,
+    "eom_projection": 860,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 269,
+      "total": 268,
       "showed": 155,
       "qualified": 116
     },
     "external": {
       "total": 391,
       "showed": 243,
-      "qualified": 192
+      "qualified": 194
     }
   },
   "by_funnel": {
@@ -51,7 +51,7 @@
     "Low Ticket Funnel": {
       "total": 159,
       "showed": 101,
-      "qualified": 79
+      "qualified": 81
     },
     "Internal Webinar": {
       "total": 58,
@@ -64,7 +64,7 @@
       "qualified": 3
     },
     "YouTube": {
-      "total": 100,
+      "total": 99,
       "showed": 68,
       "qualified": 50
     },
@@ -220,8 +220,8 @@
     },
     "YouTube": {
       "22": 5,
-      "23": 5,
       "21": 8,
+      "23": 4,
       "20": 9,
       "15": 11,
       "16": 2,
