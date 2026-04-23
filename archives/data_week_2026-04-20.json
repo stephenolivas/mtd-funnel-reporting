@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T09:45:14.152144-07:00",
+  "generated_at": "2026-04-23T10:00:16.109560-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 265,
-      "showed": 155,
-      "qualified": 116
+      "showed": 157,
+      "qualified": 117
     },
     "external": {
       "total": 389,
@@ -40,8 +40,8 @@
   "by_funnel": {
     "Meta Ads": {
       "total": 25,
-      "showed": 13,
-      "qualified": 10
+      "showed": 14,
+      "qualified": 11
     },
     "Instagram": {
       "total": 206,
@@ -55,7 +55,7 @@
     },
     "Internal Webinar": {
       "total": 58,
-      "showed": 21,
+      "showed": 22,
       "qualified": 19
     },
     "VSL": {
