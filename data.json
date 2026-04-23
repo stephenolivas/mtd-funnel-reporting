@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T12:30:14.477099-07:00",
+  "generated_at": "2026-04-23T12:45:13.726254-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -20,14 +20,14 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 655,
+    "mtd_booked": 656,
     "on_pace": 757,
-    "remaining": 332,
-    "eom_projection": 854,
+    "remaining": 331,
+    "eom_projection": 856,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 265,
+      "total": 266,
       "showed": 160,
       "qualified": 120
     },
@@ -38,6 +38,11 @@
     }
   },
   "by_funnel": {
+    "Website": {
+      "total": 45,
+      "showed": 35,
+      "qualified": 27
+    },
     "Unknown (Needs Review)": {
       "total": 5,
       "showed": 2,
@@ -49,9 +54,9 @@
       "qualified": 84
     },
     "Meta Ads": {
-      "total": 25,
-      "showed": 14,
-      "qualified": 11
+      "total": 27,
+      "showed": 15,
+      "qualified": 12
     },
     "Instagram": {
       "total": 205,
@@ -59,9 +64,9 @@
       "qualified": 102
     },
     "Internal Webinar": {
-      "total": 58,
-      "showed": 23,
-      "qualified": 20
+      "total": 56,
+      "showed": 22,
+      "qualified": 19
     },
     "VSL": {
       "total": 21,
@@ -72,11 +77,6 @@
       "total": 99,
       "showed": 68,
       "qualified": 50
-    },
-    "Website": {
-      "total": 44,
-      "showed": 35,
-      "qualified": 27
     },
     "Reactivation Scrapers": {
       "total": 3,
@@ -130,6 +130,23 @@
     }
   },
   "by_funnel_day": {
+    "Website": {
+      "23": 5,
+      "22": 4,
+      "21": 4,
+      "17": 4,
+      "20": 1,
+      "16": 3,
+      "15": 2,
+      "13": 4,
+      "14": 2,
+      "10": 4,
+      "9": 1,
+      "7": 3,
+      "6": 5,
+      "3": 1,
+      "1": 2
+    },
     "Unknown (Needs Review)": {
       "23": 1,
       "10": 1,
@@ -165,9 +182,10 @@
       "17": 1,
       "16": 1,
       "15": 2,
-      "13": 3,
+      "13": 4,
       "14": 2,
       "10": 1,
+      "9": 1,
       "8": 1,
       "7": 1,
       "6": 1,
@@ -201,9 +219,9 @@
       "20": 4,
       "16": 3,
       "15": 3,
-      "13": 5,
+      "13": 4,
       "14": 2,
-      "9": 11,
+      "9": 10,
       "10": 2,
       "8": 6,
       "7": 3,
@@ -241,23 +259,6 @@
       "3": 5,
       "2": 7,
       "1": 6
-    },
-    "Website": {
-      "23": 4,
-      "22": 4,
-      "21": 4,
-      "17": 4,
-      "20": 1,
-      "16": 3,
-      "15": 2,
-      "13": 4,
-      "14": 2,
-      "10": 4,
-      "9": 1,
-      "7": 3,
-      "6": 5,
-      "3": 1,
-      "1": 2
     },
     "Reactivation Scrapers": {
       "21": 1,
