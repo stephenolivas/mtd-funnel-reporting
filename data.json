@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T13:00:13.981562-07:00",
+  "generated_at": "2026-04-24T13:15:11.659329-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -20,16 +20,16 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 694,
+    "mtd_booked": 693,
     "on_pace": 790,
-    "remaining": 293,
-    "eom_projection": 868,
+    "remaining": 294,
+    "eom_projection": 866,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 285,
-      "showed": 167,
-      "qualified": 123
+      "total": 284,
+      "showed": 168,
+      "qualified": 125
     },
     "external": {
       "total": 409,
@@ -40,8 +40,8 @@
   "by_funnel": {
     "YouTube": {
       "total": 105,
-      "showed": 71,
-      "qualified": 52
+      "showed": 72,
+      "qualified": 53
     },
     "Low Ticket Funnel": {
       "total": 165,
@@ -54,14 +54,14 @@
       "qualified": 108
     },
     "Meta Ads": {
-      "total": 31,
+      "total": 30,
       "showed": 15,
       "qualified": 12
     },
     "Internal Webinar": {
       "total": 61,
       "showed": 24,
-      "qualified": 18
+      "qualified": 19
     },
     "VSL": {
       "total": 22,
@@ -194,8 +194,8 @@
     },
     "Meta Ads": {
       "23": 3,
-      "24": 5,
       "22": 1,
+      "24": 4,
       "21": 2,
       "20": 1,
       "17": 1,
