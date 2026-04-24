@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T12:45:12.004733-07:00",
+  "generated_at": "2026-04-24T13:00:13.981562-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -33,8 +33,8 @@
     },
     "external": {
       "total": 409,
-      "showed": 264,
-      "qualified": 213
+      "showed": 265,
+      "qualified": 214
     }
   },
   "by_funnel": {
@@ -50,8 +50,8 @@
     },
     "Instagram": {
       "total": 216,
-      "showed": 135,
-      "qualified": 107
+      "showed": 136,
+      "qualified": 108
     },
     "Meta Ads": {
       "total": 31,
