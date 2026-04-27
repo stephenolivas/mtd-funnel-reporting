@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T09:30:10.868639-07:00",
+  "generated_at": "2026-04-27T09:45:13.064379-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,13 +28,13 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 299,
-      "showed": 178,
-      "qualified": 131
+      "showed": 179,
+      "qualified": 132
     },
     "external": {
       "total": 430,
-      "showed": 273,
-      "qualified": 220
+      "showed": 274,
+      "qualified": 221
     }
   },
   "by_funnel": {
@@ -50,8 +50,8 @@
     },
     "Low Ticket Funnel": {
       "total": 173,
-      "showed": 113,
-      "qualified": 90
+      "showed": 114,
+      "qualified": 91
     },
     "Website": {
       "total": 49,
@@ -60,8 +60,8 @@
     },
     "YouTube": {
       "total": 112,
-      "showed": 76,
-      "qualified": 55
+      "showed": 77,
+      "qualified": 56
     },
     "VSL": {
       "total": 25,
