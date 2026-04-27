@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T09:45:13.064379-07:00",
+  "generated_at": "2026-04-27T10:00:15.390240-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 299,
-      "showed": 179,
-      "qualified": 132
+      "showed": 180,
+      "qualified": 133
     },
     "external": {
       "total": 430,
@@ -40,8 +40,8 @@
   "by_funnel": {
     "Meta Ads": {
       "total": 32,
-      "showed": 15,
-      "qualified": 12
+      "showed": 16,
+      "qualified": 13
     },
     "Instagram": {
       "total": 227,
