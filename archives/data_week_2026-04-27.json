@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T11:45:14.776936-07:00",
+  "generated_at": "2026-04-27T12:00:15.991363-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -20,24 +20,29 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 727,
+    "mtd_booked": 728,
     "on_pace": 888,
-    "remaining": 260,
-    "eom_projection": 808,
+    "remaining": 259,
+    "eom_projection": 809,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 299,
-      "showed": 181,
-      "qualified": 133
+      "showed": 182,
+      "qualified": 134
     },
     "external": {
-      "total": 428,
-      "showed": 275,
+      "total": 429,
+      "showed": 276,
       "qualified": 222
     }
   },
   "by_funnel": {
+    "Unknown (Needs Review)": {
+      "total": 5,
+      "showed": 2,
+      "qualified": 1
+    },
     "Meta Ads": {
       "total": 32,
       "showed": 16,
@@ -45,7 +50,7 @@
     },
     "Instagram": {
       "total": 227,
-      "showed": 140,
+      "showed": 141,
       "qualified": 111
     },
     "Low Ticket Funnel": {
@@ -60,8 +65,8 @@
     },
     "YouTube": {
       "total": 112,
-      "showed": 78,
-      "qualified": 56
+      "showed": 79,
+      "qualified": 57
     },
     "VSL": {
       "total": 25,
@@ -113,11 +118,6 @@
       "showed": 1,
       "qualified": 1
     },
-    "Unknown (Needs Review)": {
-      "total": 4,
-      "showed": 2,
-      "qualified": 1
-    },
     "Passivepreneurs": {
       "total": 1,
       "showed": 1,
@@ -135,6 +135,12 @@
     }
   },
   "by_funnel_day": {
+    "Unknown (Needs Review)": {
+      "27": 1,
+      "10": 1,
+      "9": 2,
+      "3": 1
+    },
     "Meta Ads": {
       "27": 2,
       "23": 3,
@@ -323,11 +329,6 @@
     },
     "Website - OG - Cam": {
       "16": 1
-    },
-    "Unknown (Needs Review)": {
-      "10": 1,
-      "9": 2,
-      "3": 1
     },
     "Passivepreneurs": {
       "1": 1
