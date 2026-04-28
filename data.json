@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T14:15:12.628107-07:00",
+  "generated_at": "2026-04-28T14:30:22.999064-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 313,
-      "showed": 189,
-      "qualified": 141
+      "showed": 190,
+      "qualified": 142
     },
     "external": {
       "total": 455,
@@ -60,8 +60,8 @@
     },
     "Meta Ads": {
       "total": 35,
-      "showed": 16,
-      "qualified": 13
+      "showed": 17,
+      "qualified": 14
     },
     "Unknown (Needs Review)": {
       "total": 6,
