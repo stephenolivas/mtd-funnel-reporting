@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T15:45:10.468771-07:00",
+  "generated_at": "2026-04-29T16:00:13.298359-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,20 +28,20 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 328,
-      "showed": 199,
-      "qualified": 147
+      "showed": 200,
+      "qualified": 148
     },
     "external": {
       "total": 484,
-      "showed": 319,
-      "qualified": 252
+      "showed": 320,
+      "qualified": 253
     }
   },
   "by_funnel": {
     "Instagram": {
       "total": 260,
-      "showed": 167,
-      "qualified": 131
+      "showed": 168,
+      "qualified": 132
     },
     "LTF - Quiz Funnel": {
       "total": 4,
@@ -75,8 +75,8 @@
     },
     "YouTube": {
       "total": 122,
-      "showed": 87,
-      "qualified": 63
+      "showed": 88,
+      "qualified": 64
     },
     "VSL": {
       "total": 29,
