@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T13:45:13.630603-07:00",
+  "generated_at": "2026-04-29T14:00:17.231438-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -33,15 +33,15 @@
     },
     "external": {
       "total": 485,
-      "showed": 314,
-      "qualified": 248
+      "showed": 315,
+      "qualified": 249
     }
   },
   "by_funnel": {
     "Instagram": {
       "total": 260,
-      "showed": 163,
-      "qualified": 128
+      "showed": 164,
+      "qualified": 129
     },
     "LTF - Quiz Funnel": {
       "total": 4,
