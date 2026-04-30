@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T15:45:10.259191-07:00",
+  "generated_at": "2026-04-30T16:00:19.727635-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -28,7 +28,7 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 339,
-      "showed": 206,
+      "showed": 207,
       "qualified": 151
     },
     "external": {
@@ -45,7 +45,7 @@
     },
     "YouTube": {
       "total": 127,
-      "showed": 92,
+      "showed": 93,
       "qualified": 66
     },
     "LTF - Quiz Funnel": {
