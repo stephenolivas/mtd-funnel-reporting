@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T09:15:11.565361-07:00",
+  "generated_at": "2026-04-30T09:30:12.796713-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -20,20 +20,20 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 848,
+    "mtd_booked": 846,
     "on_pace": 987,
-    "remaining": 139,
-    "eom_projection": 848,
+    "remaining": 141,
+    "eom_projection": 846,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 340,
+      "total": 339,
       "showed": 201,
       "qualified": 149
     },
     "external": {
-      "total": 508,
-      "showed": 321,
+      "total": 507,
+      "showed": 322,
       "qualified": 254
     }
   },
@@ -49,14 +49,9 @@
       "qualified": 65
     },
     "Instagram": {
-      "total": 269,
+      "total": 268,
       "showed": 170,
       "qualified": 134
-    },
-    "Meta Ads": {
-      "total": 38,
-      "showed": 17,
-      "qualified": 14
     },
     "LTF - Quiz Funnel": {
       "total": 10,
@@ -70,13 +65,18 @@
     },
     "Linkedin": {
       "total": 15,
-      "showed": 10,
+      "showed": 11,
       "qualified": 6
     },
     "Internal Webinar": {
       "total": 68,
       "showed": 29,
       "qualified": 23
+    },
+    "Meta Ads": {
+      "total": 37,
+      "showed": 17,
+      "qualified": 14
     },
     "Website": {
       "total": 60,
@@ -167,7 +167,7 @@
     },
     "Instagram": {
       "30": 9,
-      "29": 16,
+      "29": 15,
       "28": 15,
       "27": 11,
       "24": 10,
@@ -188,29 +188,6 @@
       "3": 9,
       "1": 5,
       "2": 8
-    },
-    "Meta Ads": {
-      "30": 2,
-      "28": 3,
-      "29": 1,
-      "27": 2,
-      "23": 3,
-      "22": 1,
-      "24": 4,
-      "21": 2,
-      "20": 1,
-      "17": 1,
-      "16": 1,
-      "15": 2,
-      "13": 4,
-      "14": 2,
-      "10": 1,
-      "9": 1,
-      "8": 1,
-      "6": 1,
-      "3": 2,
-      "2": 1,
-      "1": 2
     },
     "LTF - Quiz Funnel": {
       "30": 6,
@@ -280,6 +257,29 @@
       "3": 2,
       "2": 2,
       "1": 4
+    },
+    "Meta Ads": {
+      "28": 3,
+      "29": 1,
+      "27": 2,
+      "30": 1,
+      "23": 3,
+      "22": 1,
+      "24": 4,
+      "21": 2,
+      "20": 1,
+      "17": 1,
+      "16": 1,
+      "15": 2,
+      "13": 4,
+      "14": 2,
+      "10": 1,
+      "9": 1,
+      "8": 1,
+      "6": 1,
+      "3": 2,
+      "2": 1,
+      "1": 2
     },
     "Website": {
       "28": 3,
