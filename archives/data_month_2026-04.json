@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T04:30:15.406386-07:00",
+  "generated_at": "2026-04-30T04:45:10.835587-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
@@ -44,14 +44,14 @@
       "qualified": 65
     },
     "Instagram": {
-      "total": 268,
-      "showed": 168,
-      "qualified": 132
+      "total": 269,
+      "showed": 169,
+      "qualified": 133
     },
     "Unknown (Needs Review)": {
-      "total": 8,
-      "showed": 3,
-      "qualified": 1
+      "total": 7,
+      "showed": 2,
+      "qualified": 0
     },
     "LTF - Quiz Funnel": {
       "total": 10,
@@ -174,7 +174,7 @@
       "16": 10,
       "14": 17,
       "13": 17,
-      "10": 13,
+      "10": 14,
       "9": 11,
       "8": 17,
       "7": 11,
@@ -187,7 +187,6 @@
       "30": 2,
       "27": 1,
       "28": 1,
-      "10": 1,
       "9": 2,
       "3": 1
     },
