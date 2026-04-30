@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-29T23:45:12.144887-07:00",
+  "generated_at": "2026-04-30T00:00:22.132652-07:00",
   "generated_tz": "PDT",
   "month": "2026-04",
   "month_label": "April 2026",
-  "day": 29,
+  "day": 30,
   "month_days": 30,
   "goals": {
     "Low Ticket Funnel": 200,
@@ -20,66 +20,71 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 811,
-    "on_pace": 954,
-    "remaining": 176,
-    "eom_projection": 839,
+    "mtd_booked": 847,
+    "on_pace": 987,
+    "remaining": 140,
+    "eom_projection": 847,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 328,
+      "total": 339,
       "showed": 201,
       "qualified": 149
     },
     "external": {
-      "total": 483,
+      "total": 508,
       "showed": 320,
       "qualified": 253
     }
   },
   "by_funnel": {
     "Instagram": {
-      "total": 259,
+      "total": 268,
       "showed": 168,
       "qualified": 132
     },
+    "Unknown (Needs Review)": {
+      "total": 8,
+      "showed": 3,
+      "qualified": 1
+    },
     "LTF - Quiz Funnel": {
-      "total": 4,
+      "total": 10,
       "showed": 1,
       "qualified": 1
     },
+    "Linkedin": {
+      "total": 15,
+      "showed": 10,
+      "qualified": 6
+    },
     "Low Ticket Funnel": {
-      "total": 186,
+      "total": 193,
       "showed": 127,
       "qualified": 99
     },
     "Internal Webinar": {
-      "total": 68,
+      "total": 69,
       "showed": 29,
       "qualified": 23
     },
     "Meta Ads": {
-      "total": 36,
+      "total": 37,
       "showed": 17,
       "qualified": 14
     },
-    "Unknown (Needs Review)": {
-      "total": 6,
-      "showed": 3,
-      "qualified": 1
-    },
     "Website": {
-      "total": 56,
+      "total": 60,
       "showed": 45,
       "qualified": 35
     },
     "YouTube": {
-      "total": 122,
+      "total": 125,
       "showed": 89,
       "qualified": 65
     },
     "VSL": {
-      "total": 29,
+      "total": 31,
       "showed": 6,
       "qualified": 4
     },
@@ -87,11 +92,6 @@
       "total": 2,
       "showed": 2,
       "qualified": 2
-    },
-    "Linkedin": {
-      "total": 14,
-      "showed": 10,
-      "qualified": 6
     },
     "X": {
       "total": 9,
@@ -136,6 +136,7 @@
   },
   "by_funnel_day": {
     "Instagram": {
+      "30": 9,
       "29": 16,
       "28": 15,
       "27": 11,
@@ -158,11 +159,36 @@
       "1": 5,
       "2": 8
     },
+    "Unknown (Needs Review)": {
+      "30": 2,
+      "27": 1,
+      "28": 1,
+      "10": 1,
+      "9": 2,
+      "3": 1
+    },
     "LTF - Quiz Funnel": {
+      "30": 6,
       "28": 2,
       "29": 2
     },
+    "Linkedin": {
+      "30": 1,
+      "28": 1,
+      "27": 1,
+      "24": 1,
+      "21": 1,
+      "17": 2,
+      "13": 1,
+      "15": 1,
+      "14": 2,
+      "9": 1,
+      "8": 1,
+      "6": 1,
+      "3": 1
+    },
     "Low Ticket Funnel": {
+      "30": 7,
       "28": 6,
       "29": 10,
       "27": 7,
@@ -194,6 +220,7 @@
       "23": 5,
       "24": 4,
       "22": 2,
+      "30": 1,
       "25": 1,
       "21": 2,
       "20": 4,
@@ -214,6 +241,7 @@
       "28": 3,
       "29": 1,
       "27": 2,
+      "30": 1,
       "23": 3,
       "22": 1,
       "24": 4,
@@ -232,15 +260,9 @@
       "2": 1,
       "1": 2
     },
-    "Unknown (Needs Review)": {
-      "27": 1,
-      "28": 1,
-      "10": 1,
-      "9": 2,
-      "3": 1
-    },
     "Website": {
       "28": 3,
+      "30": 4,
       "29": 5,
       "23": 4,
       "22": 4,
@@ -261,6 +283,7 @@
     },
     "YouTube": {
       "28": 3,
+      "30": 3,
       "29": 7,
       "24": 6,
       "27": 7,
@@ -283,6 +306,7 @@
       "1": 6
     },
     "VSL": {
+      "30": 2,
       "29": 1,
       "28": 3,
       "27": 3,
@@ -300,20 +324,6 @@
     "Website - OG - Cam": {
       "29": 1,
       "16": 1
-    },
-    "Linkedin": {
-      "28": 1,
-      "27": 1,
-      "24": 1,
-      "21": 1,
-      "17": 2,
-      "13": 1,
-      "15": 1,
-      "14": 2,
-      "9": 1,
-      "8": 1,
-      "6": 1,
-      "3": 1
     },
     "X": {
       "28": 1,
