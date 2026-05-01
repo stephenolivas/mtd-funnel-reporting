@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T15:15:14.150170-07:00",
+  "generated_at": "2026-05-01T15:30:13.520029-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -29,24 +29,24 @@
     "inhouse": {
       "total": 16,
       "showed": 4,
-      "qualified": 3
+      "qualified": 4
     },
     "external": {
       "total": 24,
-      "showed": 10,
-      "qualified": 5
+      "showed": 11,
+      "qualified": 6
     }
   },
   "by_funnel": {
     "Reactivation Email": {
       "total": 1,
       "showed": 0,
-      "qualified": 0
+      "qualified": 1
     },
     "Low Ticket Funnel": {
       "total": 8,
-      "showed": 3,
-      "qualified": 1
+      "showed": 4,
+      "qualified": 2
     },
     "Instagram": {
       "total": 14,
