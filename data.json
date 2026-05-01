@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T04:45:11.707860-07:00",
+  "generated_at": "2026-05-01T05:00:12.852137-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 41,
+    "mtd_booked": 42,
     "on_pace": 32,
-    "remaining": 946,
-    "eom_projection": 1271,
+    "remaining": 945,
+    "eom_projection": 1302,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,12 +32,17 @@
       "qualified": 0
     },
     "external": {
-      "total": 22,
+      "total": 23,
       "showed": 0,
       "qualified": 0
     }
   },
   "by_funnel": {
+    "Low Ticket Funnel": {
+      "total": 8,
+      "showed": 0,
+      "qualified": 0
+    },
     "Instagram": {
       "total": 12,
       "showed": 0,
@@ -55,11 +60,6 @@
     },
     "Website": {
       "total": 6,
-      "showed": 0,
-      "qualified": 0
-    },
-    "Low Ticket Funnel": {
-      "total": 7,
       "showed": 0,
       "qualified": 0
     },
@@ -95,6 +95,9 @@
     }
   },
   "by_funnel_day": {
+    "Low Ticket Funnel": {
+      "1": 8
+    },
     "Instagram": {
       "1": 12
     },
@@ -106,9 +109,6 @@
     },
     "Website": {
       "1": 6
-    },
-    "Low Ticket Funnel": {
-      "1": 7
     },
     "Meta Ads": {
       "1": 3
