@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T16:15:10.362368-07:00",
+  "generated_at": "2026-05-01T16:30:10.162075-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 16,
-      "showed": 5,
-      "qualified": 4
+      "showed": 6,
+      "qualified": 5
     },
     "external": {
       "total": 24,
@@ -55,8 +55,8 @@
     },
     "Website": {
       "total": 6,
-      "showed": 2,
-      "qualified": 1
+      "showed": 3,
+      "qualified": 2
     },
     "LTF - Quiz Funnel": {
       "total": 1,
