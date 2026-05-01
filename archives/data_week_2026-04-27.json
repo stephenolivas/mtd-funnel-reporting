@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T07:00:17.734665-07:00",
+  "generated_at": "2026-05-01T07:15:17.049558-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -27,12 +27,12 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 19,
+      "total": 17,
       "showed": 0,
       "qualified": 0
     },
     "external": {
-      "total": 23,
+      "total": 25,
       "showed": 1,
       "qualified": 1
     }
@@ -44,17 +44,7 @@
       "qualified": 0
     },
     "Instagram": {
-      "total": 12,
-      "showed": 0,
-      "qualified": 0
-    },
-    "Unknown (Needs Review)": {
-      "total": 1,
-      "showed": 0,
-      "qualified": 0
-    },
-    "Reactivation Email": {
-      "total": 2,
+      "total": 15,
       "showed": 0,
       "qualified": 0
     },
@@ -99,13 +89,7 @@
       "1": 8
     },
     "Instagram": {
-      "1": 12
-    },
-    "Unknown (Needs Review)": {
-      "1": 1
-    },
-    "Reactivation Email": {
-      "1": 2
+      "1": 15
     },
     "Website": {
       "1": 6
