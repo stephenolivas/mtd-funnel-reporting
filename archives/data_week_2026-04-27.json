@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T17:30:12.100521-07:00",
+  "generated_at": "2026-05-01T17:45:12.171159-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -27,31 +27,26 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 16,
-      "showed": 6,
-      "qualified": 5
+      "total": 15,
+      "showed": 5,
+      "qualified": 4
     },
     "external": {
-      "total": 24,
-      "showed": 11,
-      "qualified": 6
+      "total": 25,
+      "showed": 12,
+      "qualified": 7
     }
   },
   "by_funnel": {
-    "Reactivation Email": {
-      "total": 1,
-      "showed": 1,
-      "qualified": 1
+    "Instagram": {
+      "total": 15,
+      "showed": 6,
+      "qualified": 4
     },
     "Low Ticket Funnel": {
       "total": 8,
       "showed": 4,
       "qualified": 2
-    },
-    "Instagram": {
-      "total": 14,
-      "showed": 5,
-      "qualified": 3
     },
     "Website": {
       "total": 6,
@@ -90,14 +85,11 @@
     }
   },
   "by_funnel_day": {
-    "Reactivation Email": {
-      "1": 1
+    "Instagram": {
+      "1": 15
     },
     "Low Ticket Funnel": {
       "1": 8
-    },
-    "Instagram": {
-      "1": 14
     },
     "Website": {
       "1": 6
