@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T16:00:12.919560-07:00",
+  "generated_at": "2026-05-04T16:15:11.762479-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -33,14 +33,14 @@
     },
     "external": {
       "total": 57,
-      "showed": 27,
+      "showed": 29,
       "qualified": 17
     }
   },
   "by_funnel": {
     "Unknown (Needs Review)": {
       "total": 5,
-      "showed": 0,
+      "showed": 1,
       "qualified": 0
     },
     "Reactivation Email": {
@@ -75,7 +75,7 @@
     },
     "Instagram": {
       "total": 28,
-      "showed": 15,
+      "showed": 16,
       "qualified": 10
     },
     "VSL": {
