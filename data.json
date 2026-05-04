@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T16:15:11.762479-07:00",
+  "generated_at": "2026-05-04T16:30:20.431045-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -28,24 +28,24 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 25,
-      "showed": 8,
+      "showed": 9,
       "qualified": 8
     },
     "external": {
       "total": 57,
-      "showed": 29,
-      "qualified": 17
+      "showed": 31,
+      "qualified": 20
     }
   },
   "by_funnel": {
     "Unknown (Needs Review)": {
       "total": 5,
       "showed": 1,
-      "qualified": 0
+      "qualified": 1
     },
     "Reactivation Email": {
       "total": 1,
-      "showed": 0,
+      "showed": 1,
       "qualified": 0
     },
     "LTF - Quiz Funnel": {
@@ -65,8 +65,8 @@
     },
     "Low Ticket Funnel": {
       "total": 14,
-      "showed": 7,
-      "qualified": 4
+      "showed": 8,
+      "qualified": 5
     },
     "YouTube": {
       "total": 6,
@@ -75,8 +75,8 @@
     },
     "Instagram": {
       "total": 28,
-      "showed": 16,
-      "qualified": 10
+      "showed": 17,
+      "qualified": 11
     },
     "VSL": {
       "total": 2,
