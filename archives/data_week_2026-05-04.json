@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T09:30:14.893877-07:00",
+  "generated_at": "2026-05-04T09:45:21.193507-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 79,
+    "mtd_booked": 78,
     "on_pace": 127,
-    "remaining": 908,
-    "eom_projection": 612,
+    "remaining": 909,
+    "eom_projection": 604,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,8 +32,8 @@
       "qualified": 5
     },
     "external": {
-      "total": 53,
-      "showed": 16,
+      "total": 52,
+      "showed": 15,
       "qualified": 8
     }
   },
@@ -54,8 +54,8 @@
       "qualified": 0
     },
     "Low Ticket Funnel": {
-      "total": 13,
-      "showed": 4,
+      "total": 12,
+      "showed": 3,
       "qualified": 2
     },
     "LTF - Quiz Funnel": {
@@ -103,7 +103,7 @@
     },
     "Low Ticket Funnel": {
       "4": 5,
-      "1": 8
+      "1": 7
     },
     "LTF - Quiz Funnel": {
       "4": 6,
