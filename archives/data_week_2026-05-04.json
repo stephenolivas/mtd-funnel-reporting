@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T00:45:19.073809-07:00",
+  "generated_at": "2026-05-05T01:00:12.235916-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 135,
+    "mtd_booked": 136,
     "on_pace": 159,
-    "remaining": 852,
-    "eom_projection": 837,
+    "remaining": 851,
+    "eom_projection": 843,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,12 +32,17 @@
       "qualified": 9
     },
     "external": {
-      "total": 99,
+      "total": 100,
       "showed": 33,
       "qualified": 22
     }
   },
   "by_funnel": {
+    "Unknown (Needs Review)": {
+      "total": 11,
+      "showed": 1,
+      "qualified": 1
+    },
     "LTF - Quiz Funnel": {
       "total": 24,
       "showed": 3,
@@ -45,11 +50,6 @@
     },
     "Internal Webinar": {
       "total": 4,
-      "showed": 1,
-      "qualified": 1
-    },
-    "Unknown (Needs Review)": {
-      "total": 10,
       "showed": 1,
       "qualified": 1
     },
@@ -100,6 +100,11 @@
     }
   },
   "by_funnel_day": {
+    "Unknown (Needs Review)": {
+      "5": 6,
+      "1": 1,
+      "4": 4
+    },
     "LTF - Quiz Funnel": {
       "5": 17,
       "4": 6,
@@ -109,11 +114,6 @@
       "5": 1,
       "4": 1,
       "1": 2
-    },
-    "Unknown (Needs Review)": {
-      "5": 5,
-      "1": 1,
-      "4": 4
     },
     "Reactivation Email": {
       "4": 1
