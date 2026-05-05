@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T06:15:20.669079-07:00",
+  "generated_at": "2026-05-05T06:30:24.650182-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -38,6 +38,11 @@
     }
   },
   "by_funnel": {
+    "Low Ticket Funnel": {
+      "total": 24,
+      "showed": 11,
+      "qualified": 8
+    },
     "Unknown (Needs Review)": {
       "total": 12,
       "showed": 1,
@@ -57,11 +62,6 @@
       "total": 1,
       "showed": 1,
       "qualified": 0
-    },
-    "Low Ticket Funnel": {
-      "total": 23,
-      "showed": 11,
-      "qualified": 8
     },
     "Website": {
       "total": 11,
@@ -83,11 +83,6 @@
       "showed": 17,
       "qualified": 11
     },
-    "Linkedin": {
-      "total": 2,
-      "showed": 1,
-      "qualified": 1
-    },
     "VSL": {
       "total": 2,
       "showed": 1,
@@ -97,9 +92,19 @@
       "total": 2,
       "showed": 1,
       "qualified": 0
+    },
+    "Linkedin": {
+      "total": 1,
+      "showed": 1,
+      "qualified": 1
     }
   },
   "by_funnel_day": {
+    "Low Ticket Funnel": {
+      "5": 10,
+      "4": 6,
+      "1": 8
+    },
     "Unknown (Needs Review)": {
       "5": 7,
       "1": 1,
@@ -117,11 +122,6 @@
     },
     "Reactivation Email": {
       "4": 1
-    },
-    "Low Ticket Funnel": {
-      "5": 9,
-      "4": 6,
-      "1": 8
     },
     "Website": {
       "4": 2,
@@ -143,16 +143,15 @@
       "5": 10,
       "1": 15
     },
-    "Linkedin": {
-      "5": 1,
-      "4": 1
-    },
     "VSL": {
       "1": 2
     },
     "X": {
       "4": 1,
       "1": 1
+    },
+    "Linkedin": {
+      "4": 1
     }
   },
   "won_by_funnel": {}
