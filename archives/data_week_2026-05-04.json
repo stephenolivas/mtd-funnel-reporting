@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T20:45:10.837994-07:00",
+  "generated_at": "2026-05-05T21:00:19.470431-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -39,7 +39,7 @@
   },
   "by_funnel": {
     "LTF - Quiz Funnel": {
-      "total": 23,
+      "total": 22,
       "showed": 6,
       "qualified": 5
     },
@@ -74,7 +74,7 @@
       "qualified": 1
     },
     "Instagram": {
-      "total": 39,
+      "total": 40,
       "showed": 23,
       "qualified": 16
     },
@@ -101,7 +101,7 @@
   },
   "by_funnel_day": {
     "LTF - Quiz Funnel": {
-      "5": 16,
+      "5": 15,
       "4": 6,
       "1": 1
     },
@@ -135,7 +135,7 @@
       "1": 2
     },
     "Instagram": {
-      "5": 9,
+      "5": 10,
       "4": 15,
       "1": 15
     },
