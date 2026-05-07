@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T05:15:11.260439-07:00",
+  "generated_at": "2026-05-07T05:30:13.482180-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 255,
+    "mtd_booked": 256,
     "on_pace": 223,
-    "remaining": 732,
-    "eom_projection": 1129,
+    "remaining": 731,
+    "eom_projection": 1134,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,12 +32,17 @@
       "qualified": 23
     },
     "external": {
-      "total": 180,
+      "total": 181,
       "showed": 66,
       "qualified": 48
     }
   },
   "by_funnel": {
+    "Unknown (Needs Review)": {
+      "total": 7,
+      "showed": 0,
+      "qualified": 0
+    },
     "LTF - Quiz Funnel": {
       "total": 70,
       "showed": 11,
@@ -52,11 +57,6 @@
       "total": 32,
       "showed": 19,
       "qualified": 15
-    },
-    "Unknown (Needs Review)": {
-      "total": 6,
-      "showed": 0,
-      "qualified": 0
     },
     "VSL": {
       "total": 5,
@@ -100,6 +100,10 @@
     }
   },
   "by_funnel_day": {
+    "Unknown (Needs Review)": {
+      "7": 6,
+      "1": 1
+    },
     "LTF - Quiz Funnel": {
       "7": 24,
       "6": 24,
@@ -120,10 +124,6 @@
       "5": 9,
       "4": 6,
       "1": 8
-    },
-    "Unknown (Needs Review)": {
-      "7": 5,
-      "1": 1
     },
     "VSL": {
       "7": 1,
