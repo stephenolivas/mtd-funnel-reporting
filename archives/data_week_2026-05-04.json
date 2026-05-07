@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T16:45:10.632004-07:00",
+  "generated_at": "2026-05-06T17:00:12.393929-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -33,15 +33,15 @@
     },
     "external": {
       "total": 131,
-      "showed": 62,
-      "qualified": 46
+      "showed": 65,
+      "qualified": 47
     }
   },
   "by_funnel": {
     "LTF - Quiz Funnel": {
       "total": 46,
-      "showed": 8,
-      "qualified": 6
+      "showed": 10,
+      "qualified": 7
     },
     "Reactivation Email": {
       "total": 2,
@@ -60,7 +60,7 @@
     },
     "Instagram": {
       "total": 53,
-      "showed": 32,
+      "showed": 33,
       "qualified": 24
     },
     "Internal Webinar": {
