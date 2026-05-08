@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T16:15:19.270849-07:00",
+  "generated_at": "2026-05-08T16:30:16.727000-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -28,20 +28,20 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 88,
-      "showed": 40,
+      "showed": 41,
       "qualified": 31
     },
     "external": {
       "total": 225,
-      "showed": 88,
-      "qualified": 58
+      "showed": 91,
+      "qualified": 61
     }
   },
   "by_funnel": {
     "Low Ticket Funnel": {
       "total": 36,
-      "showed": 22,
-      "qualified": 16
+      "showed": 23,
+      "qualified": 17
     },
     "Unknown (Needs Review)": {
       "total": 4,
@@ -50,8 +50,8 @@
     },
     "Instagram": {
       "total": 86,
-      "showed": 48,
-      "qualified": 32
+      "showed": 50,
+      "qualified": 34
     },
     "Internal Webinar": {
       "total": 14,
@@ -75,7 +75,7 @@
     },
     "YouTube": {
       "total": 30,
-      "showed": 19,
+      "showed": 20,
       "qualified": 16
     },
     "VSL": {
