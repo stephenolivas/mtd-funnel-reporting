@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T13:00:12.945752-07:00",
+  "generated_at": "2026-05-08T13:15:17.244218-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -28,13 +28,13 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 88,
-      "showed": 38,
-      "qualified": 30
+      "showed": 39,
+      "qualified": 31
     },
     "external": {
       "total": 226,
-      "showed": 85,
-      "qualified": 55
+      "showed": 86,
+      "qualified": 56
     }
   },
   "by_funnel": {
@@ -75,8 +75,8 @@
     },
     "YouTube": {
       "total": 30,
-      "showed": 18,
-      "qualified": 15
+      "showed": 19,
+      "qualified": 16
     },
     "VSL": {
       "total": 6,
@@ -85,8 +85,8 @@
     },
     "Linkedin": {
       "total": 3,
-      "showed": 2,
-      "qualified": 1
+      "showed": 3,
+      "qualified": 2
     },
     "X": {
       "total": 4,
