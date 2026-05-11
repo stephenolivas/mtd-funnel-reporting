@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T10:30:22.092192-07:00",
+  "generated_at": "2026-05-11T10:45:12.066295-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,28 +20,28 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 382,
+    "mtd_booked": 381,
     "on_pace": 350,
-    "remaining": 605,
-    "eom_projection": 1077,
+    "remaining": 606,
+    "eom_projection": 1074,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 100,
-      "showed": 40,
-      "qualified": 31
+      "total": 99,
+      "showed": 39,
+      "qualified": 30
     },
     "external": {
       "total": 282,
-      "showed": 94,
-      "qualified": 64
+      "showed": 95,
+      "qualified": 65
     }
   },
   "by_funnel": {
     "Instagram": {
       "total": 104,
-      "showed": 51,
-      "qualified": 36
+      "showed": 52,
+      "qualified": 37
     },
     "Unknown (Needs Review)": {
       "total": 7,
@@ -69,9 +69,9 @@
       "qualified": 1
     },
     "Website": {
-      "total": 27,
-      "showed": 13,
-      "qualified": 10
+      "total": 26,
+      "showed": 12,
+      "qualified": 9
     },
     "X": {
       "total": 5,
@@ -149,7 +149,7 @@
     "Website": {
       "11": 3,
       "8": 2,
-      "5": 5,
+      "5": 4,
       "7": 8,
       "4": 4,
       "1": 5
