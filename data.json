@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T13:30:13.203919-07:00",
+  "generated_at": "2026-05-11T13:45:21.517842-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -27,17 +27,22 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 95,
-      "showed": 40,
-      "qualified": 31
+      "total": 96,
+      "showed": 41,
+      "qualified": 32
     },
     "external": {
-      "total": 281,
-      "showed": 102,
-      "qualified": 69
+      "total": 280,
+      "showed": 101,
+      "qualified": 68
     }
   },
   "by_funnel": {
+    "YouTube": {
+      "total": 34,
+      "showed": 20,
+      "qualified": 17
+    },
     "Instagram": {
       "total": 105,
       "showed": 53,
@@ -49,14 +54,9 @@
       "qualified": 0
     },
     "LTF - Quiz Funnel": {
-      "total": 121,
-      "showed": 16,
-      "qualified": 8
-    },
-    "YouTube": {
-      "total": 33,
-      "showed": 20,
-      "qualified": 17
+      "total": 120,
+      "showed": 15,
+      "qualified": 7
     },
     "Low Ticket Funnel": {
       "total": 40,
@@ -65,8 +65,8 @@
     },
     "Website": {
       "total": 25,
-      "showed": 12,
-      "qualified": 9
+      "showed": 13,
+      "qualified": 10
     },
     "Internal Webinar": {
       "total": 16,
@@ -95,6 +95,15 @@
     }
   },
   "by_funnel_day": {
+    "YouTube": {
+      "11": 5,
+      "8": 4,
+      "7": 7,
+      "5": 7,
+      "4": 4,
+      "6": 4,
+      "1": 3
+    },
     "Instagram": {
       "11": 16,
       "8": 15,
@@ -116,17 +125,8 @@
       "7": 27,
       "6": 24,
       "5": 14,
-      "4": 7,
+      "4": 6,
       "1": 1
-    },
-    "YouTube": {
-      "11": 4,
-      "8": 4,
-      "7": 7,
-      "5": 7,
-      "4": 4,
-      "6": 4,
-      "1": 3
     },
     "Low Ticket Funnel": {
       "11": 4,
