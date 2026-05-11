@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T10:00:23.243513-07:00",
+  "generated_at": "2026-05-11T10:15:13.688422-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -33,7 +33,7 @@
     },
     "external": {
       "total": 282,
-      "showed": 93,
+      "showed": 94,
       "qualified": 64
     }
   },
@@ -50,7 +50,7 @@
     },
     "LTF - Quiz Funnel": {
       "total": 122,
-      "showed": 13,
+      "showed": 14,
       "qualified": 7
     },
     "YouTube": {
