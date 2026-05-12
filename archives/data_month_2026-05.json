@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T10:00:21.022477-07:00",
+  "generated_at": "2026-05-12T10:15:15.949529-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,26 +20,26 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 456,
+    "mtd_booked": 454,
     "on_pace": 382,
-    "remaining": 531,
-    "eom_projection": 1178,
+    "remaining": 533,
+    "eom_projection": 1173,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 109,
-      "showed": 46,
-      "qualified": 36
+      "showed": 47,
+      "qualified": 37
     },
     "external": {
-      "total": 347,
+      "total": 345,
       "showed": 110,
       "qualified": 76
     }
   },
   "by_funnel": {
     "Low Ticket Funnel": {
-      "total": 49,
+      "total": 48,
       "showed": 27,
       "qualified": 20
     },
@@ -50,8 +50,8 @@
     },
     "YouTube": {
       "total": 40,
-      "showed": 23,
-      "qualified": 21
+      "showed": 24,
+      "qualified": 22
     },
     "Instagram": {
       "total": 119,
@@ -59,7 +59,7 @@
       "qualified": 42
     },
     "LTF - Quiz Funnel": {
-      "total": 161,
+      "total": 160,
       "showed": 18,
       "qualified": 9
     },
@@ -96,7 +96,7 @@
   },
   "by_funnel_day": {
     "Low Ticket Funnel": {
-      "12": 9,
+      "12": 8,
       "11": 4,
       "8": 4,
       "7": 5,
@@ -133,7 +133,7 @@
       "1": 15
     },
     "LTF - Quiz Funnel": {
-      "12": 41,
+      "12": 40,
       "11": 28,
       "8": 20,
       "7": 27,
