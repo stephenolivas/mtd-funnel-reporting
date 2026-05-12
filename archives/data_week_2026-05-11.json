@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T14:30:19.224149-07:00",
+  "generated_at": "2026-05-12T14:45:20.773331-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,24 +20,29 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 457,
+    "mtd_booked": 458,
     "on_pace": 382,
-    "remaining": 530,
-    "eom_projection": 1181,
+    "remaining": 529,
+    "eom_projection": 1183,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 116,
       "showed": 51,
-      "qualified": 39
+      "qualified": 40
     },
     "external": {
-      "total": 341,
-      "showed": 116,
+      "total": 342,
+      "showed": 117,
       "qualified": 84
     }
   },
   "by_funnel": {
+    "Low Ticket Funnel": {
+      "total": 49,
+      "showed": 28,
+      "qualified": 21
+    },
     "Unknown (Needs Review)": {
       "total": 2,
       "showed": 0,
@@ -47,11 +52,6 @@
       "total": 121,
       "showed": 62,
       "qualified": 47
-    },
-    "Low Ticket Funnel": {
-      "total": 48,
-      "showed": 28,
-      "qualified": 21
     },
     "YouTube": {
       "total": 40,
@@ -65,7 +65,7 @@
     },
     "LTF - Quiz Funnel": {
       "total": 160,
-      "showed": 18,
+      "showed": 19,
       "qualified": 10
     },
     "Internal Webinar": {
@@ -76,7 +76,7 @@
     "Website": {
       "total": 30,
       "showed": 14,
-      "qualified": 10
+      "qualified": 11
     },
     "X": {
       "total": 6,
@@ -95,6 +95,16 @@
     }
   },
   "by_funnel_day": {
+    "Low Ticket Funnel": {
+      "6": 5,
+      "12": 8,
+      "11": 4,
+      "8": 4,
+      "7": 5,
+      "5": 9,
+      "4": 6,
+      "1": 8
+    },
     "Unknown (Needs Review)": {
       "12": 1,
       "1": 1
@@ -109,16 +119,6 @@
       "5": 11,
       "4": 15,
       "1": 15
-    },
-    "Low Ticket Funnel": {
-      "12": 8,
-      "11": 4,
-      "8": 4,
-      "7": 5,
-      "6": 4,
-      "5": 9,
-      "4": 6,
-      "1": 8
     },
     "YouTube": {
       "12": 6,
