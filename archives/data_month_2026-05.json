@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T16:45:16.472153-07:00",
+  "generated_at": "2026-05-11T17:00:14.623181-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -27,14 +27,14 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 96,
-      "showed": 44,
+      "total": 97,
+      "showed": 45,
       "qualified": 34
     },
     "external": {
-      "total": 279,
+      "total": 278,
       "showed": 107,
-      "qualified": 73
+      "qualified": 74
     }
   },
   "by_funnel": {
@@ -45,16 +45,11 @@
     },
     "Instagram": {
       "total": 105,
-      "showed": 56,
-      "qualified": 40
-    },
-    "Unknown (Needs Review)": {
-      "total": 7,
-      "showed": 1,
-      "qualified": 0
+      "showed": 57,
+      "qualified": 41
     },
     "LTF - Quiz Funnel": {
-      "total": 119,
+      "total": 120,
       "showed": 17,
       "qualified": 9
     },
@@ -63,14 +58,19 @@
       "showed": 27,
       "qualified": 20
     },
+    "Unknown (Needs Review)": {
+      "total": 5,
+      "showed": 0,
+      "qualified": 0
+    },
     "Website": {
       "total": 25,
       "showed": 13,
       "qualified": 10
     },
     "Internal Webinar": {
-      "total": 16,
-      "showed": 4,
+      "total": 17,
+      "showed": 5,
       "qualified": 1
     },
     "X": {
@@ -114,13 +114,8 @@
       "4": 15,
       "1": 15
     },
-    "Unknown (Needs Review)": {
-      "11": 3,
-      "8": 3,
-      "1": 1
-    },
     "LTF - Quiz Funnel": {
-      "11": 27,
+      "11": 28,
       "8": 20,
       "7": 27,
       "6": 24,
@@ -137,6 +132,11 @@
       "4": 6,
       "1": 8
     },
+    "Unknown (Needs Review)": {
+      "11": 1,
+      "8": 3,
+      "1": 1
+    },
     "Website": {
       "11": 2,
       "8": 2,
@@ -146,7 +146,7 @@
       "1": 5
     },
     "Internal Webinar": {
-      "11": 2,
+      "11": 3,
       "8": 5,
       "7": 4,
       "6": 1,
