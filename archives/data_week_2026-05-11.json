@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T14:00:22.381928-07:00",
+  "generated_at": "2026-05-12T14:15:11.999531-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -27,31 +27,31 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 111,
-      "showed": 50,
+      "total": 116,
+      "showed": 51,
       "qualified": 39
     },
     "external": {
-      "total": 346,
-      "showed": 117,
+      "total": 341,
+      "showed": 116,
       "qualified": 84
     }
   },
   "by_funnel": {
     "Unknown (Needs Review)": {
-      "total": 8,
-      "showed": 1,
+      "total": 2,
+      "showed": 0,
       "qualified": 0
+    },
+    "Instagram": {
+      "total": 121,
+      "showed": 62,
+      "qualified": 47
     },
     "Low Ticket Funnel": {
       "total": 48,
       "showed": 28,
       "qualified": 21
-    },
-    "Instagram": {
-      "total": 120,
-      "showed": 62,
-      "qualified": 47
     },
     "YouTube": {
       "total": 40,
@@ -73,15 +73,15 @@
       "showed": 7,
       "qualified": 3
     },
+    "Website": {
+      "total": 30,
+      "showed": 14,
+      "qualified": 10
+    },
     "X": {
       "total": 6,
       "showed": 4,
       "qualified": 3
-    },
-    "Website": {
-      "total": 27,
-      "showed": 13,
-      "qualified": 10
     },
     "VSL": {
       "total": 7,
@@ -89,17 +89,26 @@
       "qualified": 1
     },
     "Meta Ads": {
-      "total": 15,
+      "total": 17,
       "showed": 4,
       "qualified": 3
     }
   },
   "by_funnel_day": {
     "Unknown (Needs Review)": {
-      "12": 4,
-      "11": 1,
-      "8": 2,
+      "12": 1,
       "1": 1
+    },
+    "Instagram": {
+      "12": 16,
+      "11": 16,
+      "8": 15,
+      "9": 3,
+      "7": 17,
+      "6": 13,
+      "5": 11,
+      "4": 15,
+      "1": 15
     },
     "Low Ticket Funnel": {
       "12": 8,
@@ -110,17 +119,6 @@
       "5": 9,
       "4": 6,
       "1": 8
-    },
-    "Instagram": {
-      "12": 15,
-      "11": 16,
-      "8": 15,
-      "9": 3,
-      "7": 17,
-      "6": 13,
-      "5": 11,
-      "4": 15,
-      "1": 15
     },
     "YouTube": {
       "12": 6,
@@ -158,6 +156,15 @@
       "4": 1,
       "1": 2
     },
+    "Website": {
+      "12": 4,
+      "11": 3,
+      "8": 2,
+      "5": 4,
+      "7": 8,
+      "4": 4,
+      "1": 5
+    },
     "X": {
       "12": 1,
       "11": 1,
@@ -165,15 +172,6 @@
       "7": 1,
       "4": 1,
       "1": 1
-    },
-    "Website": {
-      "11": 2,
-      "12": 2,
-      "8": 2,
-      "5": 4,
-      "7": 8,
-      "4": 4,
-      "1": 5
     },
     "VSL": {
       "12": 1,
@@ -183,8 +181,8 @@
       "1": 3
     },
     "Meta Ads": {
+      "8": 4,
       "7": 1,
-      "8": 2,
       "6": 2,
       "5": 3,
       "9": 1,
