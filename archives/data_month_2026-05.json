@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T10:30:13.491775-07:00",
+  "generated_at": "2026-05-12T10:45:19.417853-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 454,
+    "mtd_booked": 453,
     "on_pace": 382,
-    "remaining": 533,
-    "eom_projection": 1173,
+    "remaining": 534,
+    "eom_projection": 1170,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,9 +32,9 @@
       "qualified": 37
     },
     "external": {
-      "total": 345,
+      "total": 344,
       "showed": 111,
-      "qualified": 77
+      "qualified": 78
     }
   },
   "by_funnel": {
@@ -59,9 +59,9 @@
       "qualified": 43
     },
     "LTF - Quiz Funnel": {
-      "total": 160,
+      "total": 159,
       "showed": 18,
-      "qualified": 9
+      "qualified": 10
     },
     "Internal Webinar": {
       "total": 20,
@@ -133,7 +133,7 @@
       "1": 15
     },
     "LTF - Quiz Funnel": {
-      "12": 40,
+      "12": 39,
       "11": 28,
       "8": 20,
       "7": 27,
