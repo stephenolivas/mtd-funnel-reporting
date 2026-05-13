@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T15:00:21.476312-07:00",
+  "generated_at": "2026-05-13T15:15:10.503992-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -28,20 +28,20 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 137,
-      "showed": 60,
+      "showed": 61,
       "qualified": 49
     },
     "external": {
       "total": 432,
-      "showed": 143,
-      "qualified": 100
+      "showed": 144,
+      "qualified": 101
     }
   },
   "by_funnel": {
     "LTF - Quiz Funnel": {
       "total": 233,
-      "showed": 31,
-      "qualified": 16
+      "showed": 32,
+      "qualified": 17
     },
     "Low Ticket Funnel": {
       "total": 55,
@@ -70,7 +70,7 @@
     },
     "Meta Ads": {
       "total": 19,
-      "showed": 4,
+      "showed": 5,
       "qualified": 3
     },
     "Website": {
