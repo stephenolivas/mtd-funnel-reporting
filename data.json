@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T14:00:15.824523-07:00",
+  "generated_at": "2026-05-13T14:15:20.203535-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -29,18 +29,18 @@
     "inhouse": {
       "total": 137,
       "showed": 57,
-      "qualified": 44
+      "qualified": 45
     },
     "external": {
       "total": 432,
-      "showed": 141,
+      "showed": 142,
       "qualified": 99
     }
   },
   "by_funnel": {
     "LTF - Quiz Funnel": {
       "total": 233,
-      "showed": 30,
+      "showed": 31,
       "qualified": 16
     },
     "Low Ticket Funnel": {
@@ -56,7 +56,7 @@
     "YouTube": {
       "total": 48,
       "showed": 27,
-      "qualified": 24
+      "qualified": 25
     },
     "Internal Webinar": {
       "total": 25,
