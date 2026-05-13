@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T12:30:15.081485-07:00",
+  "generated_at": "2026-05-13T12:45:12.304849-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -33,15 +33,15 @@
     },
     "external": {
       "total": 432,
-      "showed": 133,
-      "qualified": 92
+      "showed": 135,
+      "qualified": 94
     }
   },
   "by_funnel": {
     "LTF - Quiz Funnel": {
       "total": 234,
-      "showed": 25,
-      "qualified": 12
+      "showed": 27,
+      "qualified": 14
     },
     "Low Ticket Funnel": {
       "total": 55,
