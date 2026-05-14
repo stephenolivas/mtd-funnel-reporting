@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T11:45:19.448647-07:00",
+  "generated_at": "2026-05-14T12:00:21.986279-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -28,13 +28,13 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 155,
-      "showed": 65,
-      "qualified": 57
+      "showed": 66,
+      "qualified": 58
     },
     "external": {
       "total": 488,
       "showed": 155,
-      "qualified": 111
+      "qualified": 112
     }
   },
   "by_funnel": {
@@ -55,8 +55,8 @@
     },
     "Website": {
       "total": 43,
-      "showed": 18,
-      "qualified": 16
+      "showed": 19,
+      "qualified": 17
     },
     "Internal Webinar": {
       "total": 27,
@@ -66,7 +66,7 @@
     "LTF - Quiz Funnel": {
       "total": 274,
       "showed": 36,
-      "qualified": 20
+      "qualified": 21
     },
     "YouTube": {
       "total": 53,
