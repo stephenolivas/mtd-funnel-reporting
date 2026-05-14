@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T07:00:14.519251-07:00",
+  "generated_at": "2026-05-14T07:15:16.555585-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -27,12 +27,12 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 156,
+      "total": 157,
       "showed": 63,
       "qualified": 53
     },
     "external": {
-      "total": 490,
+      "total": 489,
       "showed": 150,
       "qualified": 107
     }
@@ -43,9 +43,9 @@
       "showed": 73,
       "qualified": 56
     },
-    "Unknown (Needs Review)": {
-      "total": 4,
-      "showed": 0,
+    "Reactivation Email": {
+      "total": 2,
+      "showed": 1,
       "qualified": 0
     },
     "Website": {
@@ -73,15 +73,15 @@
       "showed": 33,
       "qualified": 25
     },
+    "Unknown (Needs Review)": {
+      "total": 3,
+      "showed": 0,
+      "qualified": 0
+    },
     "Meta Ads": {
       "total": 20,
       "showed": 5,
       "qualified": 4
-    },
-    "Reactivation Email": {
-      "total": 1,
-      "showed": 1,
-      "qualified": 0
     },
     "VSL": {
       "total": 9,
@@ -113,10 +113,9 @@
       "4": 15,
       "1": 15
     },
-    "Unknown (Needs Review)": {
-      "14": 2,
-      "13": 1,
-      "1": 1
+    "Reactivation Email": {
+      "14": 1,
+      "13": 1
     },
     "Website": {
       "14": 10,
@@ -177,6 +176,11 @@
       "4": 6,
       "1": 8
     },
+    "Unknown (Needs Review)": {
+      "13": 1,
+      "14": 1,
+      "1": 1
+    },
     "Meta Ads": {
       "13": 2,
       "14": 1,
@@ -187,9 +191,6 @@
       "9": 1,
       "4": 4,
       "1": 2
-    },
-    "Reactivation Email": {
-      "13": 1
     },
     "VSL": {
       "14": 1,
