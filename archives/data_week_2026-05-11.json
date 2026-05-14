@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T02:30:11.542144-07:00",
+  "generated_at": "2026-05-14T02:45:12.098998-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -39,7 +39,7 @@
   },
   "by_funnel": {
     "Unknown (Needs Review)": {
-      "total": 7,
+      "total": 8,
       "showed": 0,
       "qualified": 0
     },
@@ -49,7 +49,7 @@
       "qualified": 4
     },
     "LTF - Quiz Funnel": {
-      "total": 278,
+      "total": 277,
       "showed": 35,
       "qualified": 20
     },
@@ -101,7 +101,7 @@
   },
   "by_funnel_day": {
     "Unknown (Needs Review)": {
-      "14": 5,
+      "14": 6,
       "13": 1,
       "1": 1
     },
@@ -120,7 +120,7 @@
     "LTF - Quiz Funnel": {
       "14": 46,
       "13": 70,
-      "12": 41,
+      "12": 40,
       "11": 28,
       "8": 21,
       "7": 27,
