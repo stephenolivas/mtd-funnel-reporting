@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T11:30:22.265515-07:00",
+  "generated_at": "2026-05-14T11:45:19.448647-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 644,
+    "mtd_booked": 643,
     "on_pace": 446,
-    "remaining": 343,
-    "eom_projection": 1426,
+    "remaining": 344,
+    "eom_projection": 1424,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,9 +32,9 @@
       "qualified": 57
     },
     "external": {
-      "total": 489,
-      "showed": 156,
-      "qualified": 112
+      "total": 488,
+      "showed": 155,
+      "qualified": 111
     }
   },
   "by_funnel": {
@@ -44,9 +44,9 @@
       "qualified": 1
     },
     "Instagram": {
-      "total": 142,
-      "showed": 77,
-      "qualified": 60
+      "total": 141,
+      "showed": 76,
+      "qualified": 59
     },
     "Reactivation Email": {
       "total": 2,
@@ -120,7 +120,7 @@
       "7": 17,
       "6": 12,
       "5": 9,
-      "4": 16,
+      "4": 15,
       "1": 15
     },
     "Reactivation Email": {
