@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T14:00:18.175165-07:00",
+  "generated_at": "2026-05-15T14:15:10.481871-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,21 +20,21 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 689,
+    "mtd_booked": 690,
     "on_pace": 478,
-    "remaining": 298,
-    "eom_projection": 1424,
+    "remaining": 297,
+    "eom_projection": 1426,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 157,
-      "showed": 71,
-      "qualified": 63
+      "total": 159,
+      "showed": 73,
+      "qualified": 64
     },
     "external": {
-      "total": 532,
-      "showed": 174,
-      "qualified": 127
+      "total": 531,
+      "showed": 173,
+      "qualified": 126
     }
   },
   "by_funnel": {
@@ -49,9 +49,9 @@
       "qualified": 4
     },
     "LTF - Quiz Funnel": {
-      "total": 313,
-      "showed": 41,
-      "qualified": 25
+      "total": 312,
+      "showed": 40,
+      "qualified": 24
     },
     "YouTube": {
       "total": 56,
@@ -59,9 +59,9 @@
       "qualified": 34
     },
     "Website": {
-      "total": 47,
-      "showed": 20,
-      "qualified": 18
+      "total": 49,
+      "showed": 21,
+      "qualified": 19
     },
     "X": {
       "total": 10,
@@ -85,7 +85,7 @@
     },
     "Reactivation Email": {
       "total": 1,
-      "showed": 0,
+      "showed": 1,
       "qualified": 0
     },
     "VSL": {
@@ -124,9 +124,9 @@
       "1": 2
     },
     "LTF - Quiz Funnel": {
-      "15": 31,
-      "14": 42,
-      "13": 72,
+      "15": 32,
+      "14": 41,
+      "13": 71,
       "12": 39,
       "11": 31,
       "8": 23,
@@ -151,8 +151,8 @@
     },
     "Website": {
       "15": 5,
-      "14": 8,
-      "13": 3,
+      "14": 9,
+      "13": 4,
       "12": 5,
       "11": 3,
       "8": 2,
