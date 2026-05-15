@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T12:15:13.549131-07:00",
+  "generated_at": "2026-05-15T12:30:11.564454-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 688,
+    "mtd_booked": 689,
     "on_pace": 478,
-    "remaining": 299,
-    "eom_projection": 1422,
+    "remaining": 298,
+    "eom_projection": 1424,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,12 +32,17 @@
       "qualified": 62
     },
     "external": {
-      "total": 531,
+      "total": 532,
       "showed": 173,
       "qualified": 126
     }
   },
   "by_funnel": {
+    "Unknown (Needs Review)": {
+      "total": 8,
+      "showed": 2,
+      "qualified": 1
+    },
     "Meta Ads": {
       "total": 19,
       "showed": 5,
@@ -57,11 +62,6 @@
       "total": 47,
       "showed": 20,
       "qualified": 18
-    },
-    "Unknown (Needs Review)": {
-      "total": 7,
-      "showed": 2,
-      "qualified": 1
     },
     "X": {
       "total": 10,
@@ -105,6 +105,12 @@
     }
   },
   "by_funnel_day": {
+    "Unknown (Needs Review)": {
+      "15": 2,
+      "14": 4,
+      "13": 1,
+      "1": 1
+    },
     "Meta Ads": {
       "15": 2,
       "13": 2,
@@ -154,12 +160,6 @@
       "7": 8,
       "4": 4,
       "1": 5
-    },
-    "Unknown (Needs Review)": {
-      "14": 4,
-      "15": 1,
-      "13": 1,
-      "1": 1
     },
     "X": {
       "15": 2,
