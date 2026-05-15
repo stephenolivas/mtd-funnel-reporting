@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-14T23:45:13.186866-07:00",
+  "generated_at": "2026-05-15T00:00:15.799083-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
-  "day": 14,
+  "day": 15,
   "month_days": 31,
   "goals": {
     "Low Ticket Funnel": 200,
@@ -20,66 +20,76 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 637,
-    "on_pace": 446,
-    "remaining": 350,
-    "eom_projection": 1410,
+    "mtd_booked": 695,
+    "on_pace": 478,
+    "remaining": 292,
+    "eom_projection": 1436,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 154,
-      "showed": 69,
+      "total": 164,
+      "showed": 70,
       "qualified": 62
     },
     "external": {
-      "total": 483,
-      "showed": 166,
-      "qualified": 121
+      "total": 531,
+      "showed": 167,
+      "qualified": 122
     }
   },
   "by_funnel": {
     "Unknown (Needs Review)": {
-      "total": 6,
+      "total": 15,
       "showed": 2,
       "qualified": 1
     },
-    "Instagram": {
-      "total": 139,
-      "showed": 82,
-      "qualified": 64
-    },
     "Website": {
-      "total": 43,
+      "total": 48,
       "showed": 20,
       "qualified": 18
     },
+    "Instagram": {
+      "total": 148,
+      "showed": 82,
+      "qualified": 64
+    },
+    "Website - OG - Cam": {
+      "total": 1,
+      "showed": 0,
+      "qualified": 0
+    },
+    "X": {
+      "total": 11,
+      "showed": 6,
+      "qualified": 4
+    },
     "Internal Webinar": {
-      "total": 27,
-      "showed": 8,
+      "total": 28,
+      "showed": 9,
       "qualified": 4
     },
     "LTF - Quiz Funnel": {
-      "total": 271,
-      "showed": 38,
-      "qualified": 24
+      "total": 296,
+      "showed": 39,
+      "qualified": 25
     },
     "YouTube": {
-      "total": 53,
+      "total": 55,
       "showed": 33,
       "qualified": 33
     },
     "Low Ticket Funnel": {
-      "total": 55,
+      "total": 56,
       "showed": 34,
       "qualified": 25
     },
     "Meta Ads": {
-      "total": 20,
+      "total": 21,
       "showed": 5,
       "qualified": 4
     },
     "Reactivation Email": {
-      "total": 1,
+      "total": 2,
       "showed": 1,
       "qualified": 0
     },
@@ -87,11 +97,6 @@
       "total": 9,
       "showed": 2,
       "qualified": 2
-    },
-    "X": {
-      "total": 8,
-      "showed": 6,
-      "qualified": 4
     },
     "Linkedin": {
       "total": 4,
@@ -106,11 +111,25 @@
   },
   "by_funnel_day": {
     "Unknown (Needs Review)": {
+      "15": 9,
       "14": 4,
       "13": 1,
       "1": 1
     },
+    "Website": {
+      "15": 5,
+      "14": 8,
+      "13": 4,
+      "12": 5,
+      "11": 3,
+      "8": 2,
+      "5": 4,
+      "7": 8,
+      "4": 4,
+      "1": 5
+    },
     "Instagram": {
+      "15": 9,
       "14": 10,
       "13": 12,
       "12": 16,
@@ -123,20 +142,24 @@
       "4": 15,
       "1": 15
     },
-    "Website": {
-      "14": 8,
-      "13": 4,
-      "12": 5,
-      "11": 3,
-      "8": 2,
-      "5": 4,
-      "7": 8,
-      "4": 4,
-      "1": 5
+    "Website - OG - Cam": {
+      "15": 1
+    },
+    "X": {
+      "15": 3,
+      "13": 1,
+      "14": 1,
+      "12": 1,
+      "11": 1,
+      "8": 1,
+      "7": 1,
+      "4": 1,
+      "1": 1
     },
     "Internal Webinar": {
       "14": 2,
       "13": 3,
+      "15": 1,
       "12": 5,
       "11": 3,
       "8": 5,
@@ -148,6 +171,7 @@
     },
     "LTF - Quiz Funnel": {
       "14": 41,
+      "15": 25,
       "13": 70,
       "12": 39,
       "11": 28,
@@ -161,6 +185,7 @@
     "YouTube": {
       "14": 5,
       "13": 8,
+      "15": 2,
       "12": 6,
       "11": 5,
       "8": 4,
@@ -173,6 +198,7 @@
     "Low Ticket Funnel": {
       "13": 7,
       "6": 5,
+      "15": 1,
       "12": 7,
       "11": 4,
       "8": 4,
@@ -183,6 +209,7 @@
     },
     "Meta Ads": {
       "13": 2,
+      "15": 1,
       "14": 1,
       "8": 4,
       "7": 1,
@@ -193,6 +220,7 @@
       "1": 2
     },
     "Reactivation Email": {
+      "15": 1,
       "13": 1
     },
     "VSL": {
@@ -203,16 +231,6 @@
       "8": 1,
       "4": 1,
       "1": 3
-    },
-    "X": {
-      "13": 1,
-      "14": 1,
-      "12": 1,
-      "11": 1,
-      "8": 1,
-      "7": 1,
-      "4": 1,
-      "1": 1
     },
     "Linkedin": {
       "12": 1,
