@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T11:15:12.887395-07:00",
+  "generated_at": "2026-05-15T11:30:16.393991-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -27,13 +27,13 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 166,
-      "showed": 71,
+      "total": 164,
+      "showed": 70,
       "qualified": 62
     },
     "external": {
-      "total": 525,
-      "showed": 172,
+      "total": 527,
+      "showed": 173,
       "qualified": 126
     }
   },
@@ -44,8 +44,8 @@
       "qualified": 4
     },
     "LTF - Quiz Funnel": {
-      "total": 302,
-      "showed": 40,
+      "total": 307,
+      "showed": 41,
       "qualified": 25
     },
     "YouTube": {
@@ -64,7 +64,7 @@
       "qualified": 1
     },
     "Instagram": {
-      "total": 146,
+      "total": 143,
       "showed": 83,
       "qualified": 65
     },
@@ -73,19 +73,19 @@
       "showed": 8,
       "qualified": 6
     },
-    "Internal Webinar": {
-      "total": 28,
-      "showed": 9,
-      "qualified": 4
-    },
     "Low Ticket Funnel": {
       "total": 56,
       "showed": 35,
       "qualified": 26
     },
+    "Internal Webinar": {
+      "total": 27,
+      "showed": 9,
+      "qualified": 4
+    },
     "Reactivation Email": {
-      "total": 2,
-      "showed": 1,
+      "total": 1,
+      "showed": 0,
       "qualified": 0
     },
     "VSL": {
@@ -119,10 +119,10 @@
     },
     "LTF - Quiz Funnel": {
       "15": 31,
-      "14": 41,
-      "13": 70,
+      "14": 42,
+      "13": 71,
       "12": 39,
-      "11": 28,
+      "11": 31,
       "8": 21,
       "7": 27,
       "6": 24,
@@ -166,7 +166,7 @@
       "14": 10,
       "13": 11,
       "12": 16,
-      "11": 16,
+      "11": 13,
       "8": 15,
       "9": 2,
       "7": 17,
@@ -186,19 +186,6 @@
       "4": 1,
       "1": 1
     },
-    "Internal Webinar": {
-      "14": 2,
-      "13": 3,
-      "15": 1,
-      "12": 5,
-      "11": 3,
-      "8": 5,
-      "7": 4,
-      "6": 1,
-      "5": 1,
-      "4": 1,
-      "1": 2
-    },
     "Low Ticket Funnel": {
       "13": 7,
       "6": 5,
@@ -211,9 +198,21 @@
       "4": 6,
       "1": 8
     },
-    "Reactivation Email": {
+    "Internal Webinar": {
+      "14": 1,
+      "13": 3,
       "15": 1,
-      "13": 1
+      "12": 5,
+      "11": 3,
+      "8": 5,
+      "7": 4,
+      "6": 1,
+      "5": 1,
+      "4": 1,
+      "1": 2
+    },
+    "Reactivation Email": {
+      "15": 1
     },
     "VSL": {
       "14": 1,
