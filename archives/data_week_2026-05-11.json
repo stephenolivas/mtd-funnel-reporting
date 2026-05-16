@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-15T23:45:19.217619-07:00",
+  "generated_at": "2026-05-16T00:00:13.215157-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
-  "day": 15,
+  "day": 16,
   "month_days": 31,
   "goals": {
     "Low Ticket Funnel": 200,
@@ -20,16 +20,16 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 693,
-    "on_pace": 478,
-    "remaining": 294,
-    "eom_projection": 1432,
+    "mtd_booked": 694,
+    "on_pace": 509,
+    "remaining": 293,
+    "eom_projection": 1345,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 160,
+      "total": 161,
       "showed": 75,
-      "qualified": 67
+      "qualified": 68
     },
     "external": {
       "total": 533,
@@ -73,6 +73,11 @@
       "showed": 8,
       "qualified": 6
     },
+    "Reactivation Email": {
+      "total": 2,
+      "showed": 1,
+      "qualified": 1
+    },
     "Low Ticket Funnel": {
       "total": 56,
       "showed": 35,
@@ -82,11 +87,6 @@
       "total": 26,
       "showed": 9,
       "qualified": 4
-    },
-    "Reactivation Email": {
-      "total": 1,
-      "showed": 1,
-      "qualified": 0
     },
     "VSL": {
       "total": 7,
@@ -186,6 +186,10 @@
       "4": 1,
       "1": 1
     },
+    "Reactivation Email": {
+      "16": 1,
+      "15": 1
+    },
     "Low Ticket Funnel": {
       "13": 7,
       "6": 5,
@@ -210,9 +214,6 @@
       "5": 1,
       "4": 1,
       "1": 2
-    },
-    "Reactivation Email": {
-      "15": 1
     },
     "VSL": {
       "14": 1,
