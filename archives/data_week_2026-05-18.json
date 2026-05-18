@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T12:30:14.420728-07:00",
+  "generated_at": "2026-05-18T12:45:13.442136-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 750,
+    "mtd_booked": 749,
     "on_pace": 573,
-    "remaining": 237,
-    "eom_projection": 1292,
+    "remaining": 238,
+    "eom_projection": 1290,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,7 +32,7 @@
       "qualified": 74
     },
     "external": {
-      "total": 572,
+      "total": 571,
       "showed": 190,
       "qualified": 139
     }
@@ -49,14 +49,19 @@
       "qualified": 28
     },
     "Unknown (Needs Review)": {
-      "total": 9,
-      "showed": 3,
+      "total": 8,
+      "showed": 2,
       "qualified": 1
     },
     "No Attribution": {
       "total": 1,
       "showed": 1,
       "qualified": 1
+    },
+    "Instagram": {
+      "total": 152,
+      "showed": 92,
+      "qualified": 73
     },
     "YouTube": {
       "total": 61,
@@ -73,13 +78,8 @@
       "showed": 36,
       "qualified": 27
     },
-    "Instagram": {
-      "total": 151,
-      "showed": 91,
-      "qualified": 73
-    },
     "X": {
-      "total": 14,
+      "total": 13,
       "showed": 8,
       "qualified": 6
     },
@@ -139,7 +139,7 @@
       "1": 2
     },
     "Unknown (Needs Review)": {
-      "18": 5,
+      "18": 4,
       "15": 1,
       "13": 1,
       "14": 1,
@@ -147,6 +147,21 @@
     },
     "No Attribution": {
       "18": 1
+    },
+    "Instagram": {
+      "18": 10,
+      "15": 9,
+      "14": 9,
+      "13": 10,
+      "12": 16,
+      "11": 13,
+      "8": 15,
+      "9": 3,
+      "7": 17,
+      "6": 12,
+      "5": 8,
+      "4": 15,
+      "1": 15
     },
     "YouTube": {
       "18": 5,
@@ -190,23 +205,8 @@
       "4": 6,
       "1": 8
     },
-    "Instagram": {
-      "18": 9,
-      "15": 9,
-      "14": 9,
-      "13": 10,
-      "12": 16,
-      "11": 13,
-      "8": 15,
-      "9": 3,
-      "7": 17,
-      "6": 12,
-      "5": 8,
-      "4": 15,
-      "1": 15
-    },
     "X": {
-      "18": 4,
+      "18": 3,
       "15": 2,
       "13": 1,
       "14": 1,
