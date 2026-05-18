@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T11:15:26.266563-07:00",
+  "generated_at": "2026-05-18T11:30:24.352391-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,14 +20,14 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 750,
+    "mtd_booked": 751,
     "on_pace": 573,
-    "remaining": 237,
-    "eom_projection": 1292,
+    "remaining": 236,
+    "eom_projection": 1293,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 177,
+      "total": 178,
       "showed": 79,
       "qualified": 73
     },
@@ -38,6 +38,11 @@
     }
   },
   "by_funnel": {
+    "Internal Webinar": {
+      "total": 28,
+      "showed": 9,
+      "qualified": 4
+    },
     "LTF - Quiz Funnel": {
       "total": 336,
       "showed": 47,
@@ -83,11 +88,6 @@
       "showed": 5,
       "qualified": 4
     },
-    "Internal Webinar": {
-      "total": 27,
-      "showed": 9,
-      "qualified": 4
-    },
     "VSL": {
       "total": 8,
       "showed": 3,
@@ -110,6 +110,20 @@
     }
   },
   "by_funnel_day": {
+    "Internal Webinar": {
+      "18": 2,
+      "14": 1,
+      "13": 3,
+      "15": 1,
+      "12": 5,
+      "11": 3,
+      "8": 5,
+      "7": 3,
+      "6": 1,
+      "5": 1,
+      "4": 1,
+      "1": 2
+    },
     "LTF - Quiz Funnel": {
       "18": 21,
       "15": 33,
@@ -214,20 +228,6 @@
       "5": 3,
       "9": 1,
       "4": 3,
-      "1": 2
-    },
-    "Internal Webinar": {
-      "18": 1,
-      "14": 1,
-      "13": 3,
-      "15": 1,
-      "12": 5,
-      "11": 3,
-      "8": 5,
-      "7": 3,
-      "6": 1,
-      "5": 1,
-      "4": 1,
       "1": 2
     },
     "VSL": {
