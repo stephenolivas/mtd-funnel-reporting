@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T06:45:12.739352-07:00",
+  "generated_at": "2026-05-18T07:00:14.086806-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,14 +20,14 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 755,
+    "mtd_booked": 757,
     "on_pace": 573,
-    "remaining": 232,
-    "eom_projection": 1300,
+    "remaining": 230,
+    "eom_projection": 1304,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 175,
+      "total": 177,
       "showed": 77,
       "qualified": 70
     },
@@ -38,6 +38,11 @@
     }
   },
   "by_funnel": {
+    "Unknown (Needs Review)": {
+      "total": 16,
+      "showed": 4,
+      "qualified": 3
+    },
     "YouTube": {
       "total": 62,
       "showed": 36,
@@ -49,14 +54,14 @@
       "qualified": 28
     },
     "Website": {
-      "total": 55,
+      "total": 57,
       "showed": 23,
       "qualified": 22
     },
-    "Unknown (Needs Review)": {
-      "total": 17,
-      "showed": 4,
-      "qualified": 3
+    "Low Ticket Funnel": {
+      "total": 59,
+      "showed": 35,
+      "qualified": 26
     },
     "X": {
       "total": 14,
@@ -67,11 +72,6 @@
       "total": 20,
       "showed": 5,
       "qualified": 4
-    },
-    "Low Ticket Funnel": {
-      "total": 58,
-      "showed": 35,
-      "qualified": 26
     },
     "Instagram": {
       "total": 154,
@@ -105,6 +105,14 @@
     }
   },
   "by_funnel_day": {
+    "Unknown (Needs Review)": {
+      "18": 7,
+      "17": 2,
+      "14": 4,
+      "15": 1,
+      "13": 1,
+      "1": 1
+    },
     "YouTube": {
       "18": 6,
       "15": 3,
@@ -134,7 +142,7 @@
       "1": 2
     },
     "Website": {
-      "18": 4,
+      "18": 6,
       "15": 5,
       "14": 9,
       "13": 5,
@@ -147,13 +155,19 @@
       "4": 4,
       "1": 5
     },
-    "Unknown (Needs Review)": {
-      "18": 8,
-      "17": 2,
-      "14": 4,
+    "Low Ticket Funnel": {
+      "18": 2,
+      "17": 1,
+      "13": 7,
+      "6": 5,
       "15": 1,
-      "13": 1,
-      "1": 1
+      "12": 7,
+      "11": 4,
+      "8": 4,
+      "7": 5,
+      "5": 9,
+      "4": 6,
+      "1": 8
     },
     "X": {
       "18": 4,
@@ -179,20 +193,6 @@
       "9": 1,
       "4": 3,
       "1": 2
-    },
-    "Low Ticket Funnel": {
-      "17": 1,
-      "13": 7,
-      "18": 1,
-      "6": 5,
-      "15": 1,
-      "12": 7,
-      "11": 4,
-      "8": 4,
-      "7": 5,
-      "5": 9,
-      "4": 6,
-      "1": 8
     },
     "Instagram": {
       "18": 11,
