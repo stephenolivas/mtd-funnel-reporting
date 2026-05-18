@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T11:00:24.859313-07:00",
+  "generated_at": "2026-05-18T11:15:26.266563-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 751,
+    "mtd_booked": 750,
     "on_pace": 573,
-    "remaining": 236,
-    "eom_projection": 1293,
+    "remaining": 237,
+    "eom_projection": 1292,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,7 +32,7 @@
       "qualified": 73
     },
     "external": {
-      "total": 574,
+      "total": 573,
       "showed": 189,
       "qualified": 138
     }
@@ -53,11 +53,6 @@
       "showed": 0,
       "qualified": 0
     },
-    "Low Ticket Funnel": {
-      "total": 59,
-      "showed": 36,
-      "qualified": 27
-    },
     "YouTube": {
       "total": 60,
       "showed": 36,
@@ -67,6 +62,11 @@
       "total": 59,
       "showed": 25,
       "qualified": 25
+    },
+    "Low Ticket Funnel": {
+      "total": 58,
+      "showed": 36,
+      "qualified": 27
     },
     "Instagram": {
       "total": 151,
@@ -134,20 +134,6 @@
     "No Attribution": {
       "18": 1
     },
-    "Low Ticket Funnel": {
-      "18": 4,
-      "17": 1,
-      "13": 7,
-      "6": 5,
-      "15": 1,
-      "12": 6,
-      "11": 4,
-      "8": 4,
-      "7": 4,
-      "5": 9,
-      "4": 6,
-      "1": 8
-    },
     "YouTube": {
       "18": 4,
       "15": 3,
@@ -175,6 +161,20 @@
       "7": 8,
       "4": 4,
       "1": 5
+    },
+    "Low Ticket Funnel": {
+      "18": 3,
+      "17": 1,
+      "13": 7,
+      "6": 5,
+      "15": 1,
+      "12": 6,
+      "11": 4,
+      "8": 4,
+      "7": 4,
+      "5": 9,
+      "4": 6,
+      "1": 8
     },
     "Instagram": {
       "18": 9,
