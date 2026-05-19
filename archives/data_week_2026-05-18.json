@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T23:45:12.899976-07:00",
+  "generated_at": "2026-05-19T00:00:15.141980-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
-  "day": 18,
+  "day": 19,
   "month_days": 31,
   "goals": {
     "Low Ticket Funnel": 200,
@@ -20,63 +20,73 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 747,
-    "on_pace": 573,
-    "remaining": 240,
-    "eom_projection": 1286,
+    "mtd_booked": 794,
+    "on_pace": 605,
+    "remaining": 193,
+    "eom_projection": 1295,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 178,
+      "total": 193,
       "showed": 92,
       "qualified": 76
     },
     "external": {
-      "total": 569,
-      "showed": 202,
-      "qualified": 150
+      "total": 601,
+      "showed": 203,
+      "qualified": 152
     }
   },
   "by_funnel": {
+    "Webinar": {
+      "total": 1,
+      "showed": 0,
+      "qualified": 0
+    },
+    "Low Ticket Funnel": {
+      "total": 64,
+      "showed": 36,
+      "qualified": 27
+    },
     "LTF - Quiz Funnel": {
-      "total": 336,
-      "showed": 52,
-      "qualified": 33
+      "total": 343,
+      "showed": 53,
+      "qualified": 35
     },
     "Unknown (Needs Review)": {
-      "total": 5,
+      "total": 8,
       "showed": 3,
       "qualified": 2
     },
     "Instagram": {
-      "total": 153,
+      "total": 167,
       "showed": 98,
       "qualified": 78
     },
-    "YouTube": {
-      "total": 62,
-      "showed": 43,
-      "qualified": 38
-    },
     "Website": {
-      "total": 58,
+      "total": 64,
       "showed": 31,
       "qualified": 26
     },
-    "Low Ticket Funnel": {
-      "total": 58,
-      "showed": 36,
-      "qualified": 27
+    "Meta Ads": {
+      "total": 24,
+      "showed": 5,
+      "qualified": 4
+    },
+    "Linkedin": {
+      "total": 5,
+      "showed": 4,
+      "qualified": 3
+    },
+    "YouTube": {
+      "total": 68,
+      "showed": 43,
+      "qualified": 38
     },
     "X": {
       "total": 13,
       "showed": 9,
       "qualified": 7
-    },
-    "Meta Ads": {
-      "total": 21,
-      "showed": 5,
-      "qualified": 4
     },
     "Internal Webinar": {
       "total": 27,
@@ -93,11 +103,6 @@
       "showed": 1,
       "qualified": 0
     },
-    "Linkedin": {
-      "total": 4,
-      "showed": 4,
-      "qualified": 3
-    },
     "Reactivation Scrapers": {
       "total": 1,
       "showed": 0,
@@ -105,8 +110,27 @@
     }
   },
   "by_funnel_day": {
+    "Webinar": {
+      "19": 1
+    },
+    "Low Ticket Funnel": {
+      "19": 6,
+      "18": 3,
+      "17": 1,
+      "13": 7,
+      "6": 5,
+      "15": 1,
+      "12": 6,
+      "11": 4,
+      "8": 4,
+      "7": 4,
+      "5": 9,
+      "4": 6,
+      "1": 8
+    },
     "LTF - Quiz Funnel": {
       "18": 21,
+      "19": 7,
       "15": 33,
       "14": 44,
       "13": 71,
@@ -121,6 +145,7 @@
     },
     "Unknown (Needs Review)": {
       "18": 1,
+      "19": 3,
       "15": 1,
       "13": 1,
       "14": 1,
@@ -128,6 +153,7 @@
     },
     "Instagram": {
       "18": 11,
+      "19": 14,
       "15": 9,
       "14": 9,
       "13": 10,
@@ -141,22 +167,8 @@
       "4": 15,
       "1": 15
     },
-    "YouTube": {
-      "18": 5,
-      "15": 3,
-      "16": 1,
-      "14": 5,
-      "13": 8,
-      "12": 6,
-      "11": 5,
-      "8": 4,
-      "7": 7,
-      "5": 7,
-      "4": 4,
-      "6": 4,
-      "1": 3
-    },
     "Website": {
+      "19": 6,
       "18": 5,
       "17": 3,
       "15": 5,
@@ -170,19 +182,42 @@
       "4": 4,
       "1": 5
     },
-    "Low Ticket Funnel": {
-      "18": 3,
-      "17": 1,
-      "13": 7,
-      "6": 5,
-      "15": 1,
+    "Meta Ads": {
+      "19": 3,
+      "18": 1,
+      "15": 2,
+      "13": 2,
+      "14": 1,
+      "7": 1,
+      "8": 2,
+      "6": 2,
+      "5": 3,
+      "9": 1,
+      "4": 4,
+      "1": 2
+    },
+    "Linkedin": {
+      "19": 1,
+      "12": 1,
+      "8": 1,
+      "6": 1,
+      "4": 1
+    },
+    "YouTube": {
+      "18": 5,
+      "19": 6,
+      "15": 3,
+      "16": 1,
+      "14": 5,
+      "13": 8,
       "12": 6,
-      "11": 4,
+      "11": 5,
       "8": 4,
-      "7": 4,
-      "5": 9,
-      "4": 6,
-      "1": 8
+      "7": 7,
+      "5": 7,
+      "4": 4,
+      "6": 4,
+      "1": 3
     },
     "X": {
       "18": 3,
@@ -195,19 +230,6 @@
       "7": 1,
       "4": 1,
       "1": 1
-    },
-    "Meta Ads": {
-      "18": 1,
-      "15": 2,
-      "13": 2,
-      "14": 1,
-      "7": 1,
-      "8": 2,
-      "6": 2,
-      "5": 3,
-      "9": 1,
-      "4": 4,
-      "1": 2
     },
     "Internal Webinar": {
       "18": 1,
@@ -234,12 +256,6 @@
     },
     "Reactivation Email": {
       "15": 1
-    },
-    "Linkedin": {
-      "12": 1,
-      "8": 1,
-      "6": 1,
-      "4": 1
     },
     "Reactivation Scrapers": {
       "12": 1
