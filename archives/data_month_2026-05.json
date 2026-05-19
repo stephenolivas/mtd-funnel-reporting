@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T10:00:16.130431-07:00",
+  "generated_at": "2026-05-19T10:15:12.971246-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -28,7 +28,7 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 193,
-      "showed": 93,
+      "showed": 94,
       "qualified": 77
     },
     "external": {
@@ -90,7 +90,7 @@
     },
     "YouTube": {
       "total": 67,
-      "showed": 43,
+      "showed": 44,
       "qualified": 38
     },
     "VSL": {
