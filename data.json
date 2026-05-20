@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T08:30:15.279462-07:00",
+  "generated_at": "2026-05-20T08:45:16.495785-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -27,19 +27,19 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 207,
+      "total": 208,
       "showed": 103,
       "qualified": 82
     },
     "external": {
-      "total": 624,
-      "showed": 217,
+      "total": 623,
+      "showed": 218,
       "qualified": 166
     }
   },
   "by_funnel": {
     "Internal Webinar": {
-      "total": 36,
+      "total": 37,
       "showed": 10,
       "qualified": 5
     },
@@ -47,11 +47,6 @@
       "total": 67,
       "showed": 39,
       "qualified": 28
-    },
-    "LTF - Quiz Funnel": {
-      "total": 347,
-      "showed": 52,
-      "qualified": 36
     },
     "Instagram": {
       "total": 178,
@@ -62,6 +57,11 @@
       "total": 15,
       "showed": 10,
       "qualified": 8
+    },
+    "LTF - Quiz Funnel": {
+      "total": 346,
+      "showed": 53,
+      "qualified": 36
     },
     "Unknown (Needs Review)": {
       "total": 10,
@@ -121,7 +121,7 @@
   },
   "by_funnel_day": {
     "Internal Webinar": {
-      "20": 7,
+      "20": 8,
       "19": 2,
       "18": 1,
       "14": 1,
@@ -151,22 +151,6 @@
       "5": 9,
       "4": 6,
       "1": 8
-    },
-    "LTF - Quiz Funnel": {
-      "20": 7,
-      "18": 21,
-      "19": 6,
-      "15": 33,
-      "14": 44,
-      "13": 71,
-      "12": 38,
-      "11": 30,
-      "8": 23,
-      "7": 28,
-      "6": 24,
-      "5": 14,
-      "4": 6,
-      "1": 2
     },
     "Instagram": {
       "20": 12,
@@ -198,6 +182,22 @@
       "7": 1,
       "4": 1,
       "1": 1
+    },
+    "LTF - Quiz Funnel": {
+      "20": 6,
+      "18": 21,
+      "19": 6,
+      "15": 33,
+      "14": 44,
+      "13": 71,
+      "12": 38,
+      "11": 30,
+      "8": 23,
+      "7": 28,
+      "6": 24,
+      "5": 14,
+      "4": 6,
+      "1": 2
     },
     "Unknown (Needs Review)": {
       "20": 2,
