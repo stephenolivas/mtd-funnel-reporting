@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T05:15:12.921251-07:00",
+  "generated_at": "2026-05-20T05:30:16.366529-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -27,12 +27,12 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 211,
+      "total": 210,
       "showed": 102,
       "qualified": 81
     },
     "external": {
-      "total": 624,
+      "total": 625,
       "showed": 218,
       "qualified": 167
     }
@@ -59,7 +59,7 @@
       "qualified": 4
     },
     "LTF - Quiz Funnel": {
-      "total": 346,
+      "total": 347,
       "showed": 52,
       "qualified": 36
     },
@@ -89,7 +89,7 @@
       "qualified": 1
     },
     "Website": {
-      "total": 66,
+      "total": 65,
       "showed": 34,
       "qualified": 27
     },
@@ -187,7 +187,7 @@
       "1": 2
     },
     "LTF - Quiz Funnel": {
-      "20": 6,
+      "20": 7,
       "18": 21,
       "19": 6,
       "15": 33,
@@ -251,7 +251,7 @@
     "Website": {
       "19": 5,
       "18": 5,
-      "20": 4,
+      "20": 3,
       "17": 3,
       "15": 5,
       "14": 9,
