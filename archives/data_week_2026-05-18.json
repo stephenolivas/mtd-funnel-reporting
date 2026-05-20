@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T20:15:12.642288-07:00",
+  "generated_at": "2026-05-19T20:30:11.283430-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -33,7 +33,7 @@
     },
     "external": {
       "total": 596,
-      "showed": 215,
+      "showed": 216,
       "qualified": 165
     }
   },
@@ -65,7 +65,7 @@
     },
     "LTF - Quiz Funnel": {
       "total": 340,
-      "showed": 51,
+      "showed": 52,
       "qualified": 36
     },
     "Unknown (Needs Review)": {
