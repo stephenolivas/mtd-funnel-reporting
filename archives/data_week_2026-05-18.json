@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T16:15:12.957876-07:00",
+  "generated_at": "2026-05-20T16:30:13.106391-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -64,9 +64,9 @@
       "qualified": 36
     },
     "Unknown (Needs Review)": {
-      "total": 10,
-      "showed": 6,
-      "qualified": 4
+      "total": 9,
+      "showed": 5,
+      "qualified": 3
     },
     "Meta Ads": {
       "total": 27,
@@ -74,9 +74,9 @@
       "qualified": 7
     },
     "Instagram": {
-      "total": 177,
-      "showed": 112,
-      "qualified": 92
+      "total": 178,
+      "showed": 113,
+      "qualified": 93
     },
     "Reactivation Email": {
       "total": 2,
@@ -200,7 +200,7 @@
       "1": 2
     },
     "Unknown (Needs Review)": {
-      "20": 2,
+      "20": 1,
       "18": 1,
       "19": 3,
       "15": 1,
@@ -225,7 +225,7 @@
       "1": 2
     },
     "Instagram": {
-      "20": 11,
+      "20": 12,
       "18": 11,
       "19": 11,
       "15": 9,
