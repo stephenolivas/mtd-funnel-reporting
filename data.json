@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T08:30:20.058032-07:00",
+  "generated_at": "2026-05-21T08:45:14.115000-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,28 +20,28 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 873,
+    "mtd_booked": 875,
     "on_pace": 669,
-    "remaining": 114,
-    "eom_projection": 1289,
+    "remaining": 112,
+    "eom_projection": 1292,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 232,
-      "showed": 113,
-      "qualified": 92
+      "total": 236,
+      "showed": 115,
+      "qualified": 94
     },
     "external": {
-      "total": 641,
-      "showed": 241,
-      "qualified": 185
+      "total": 639,
+      "showed": 239,
+      "qualified": 183
     }
   },
   "by_funnel": {
     "Low Ticket Funnel": {
-      "total": 73,
-      "showed": 46,
-      "qualified": 34
+      "total": 71,
+      "showed": 44,
+      "qualified": 32
     },
     "Instagram": {
       "total": 190,
@@ -53,20 +53,20 @@
       "showed": 8,
       "qualified": 7
     },
+    "Internal Webinar": {
+      "total": 51,
+      "showed": 17,
+      "qualified": 10
+    },
     "YouTube": {
       "total": 72,
       "showed": 50,
       "qualified": 42
     },
     "Website": {
-      "total": 72,
+      "total": 74,
       "showed": 37,
       "qualified": 32
-    },
-    "Internal Webinar": {
-      "total": 49,
-      "showed": 15,
-      "qualified": 8
     },
     "X": {
       "total": 16,
@@ -121,8 +121,8 @@
   },
   "by_funnel_day": {
     "Low Ticket Funnel": {
-      "21": 5,
-      "20": 6,
+      "21": 4,
+      "20": 5,
       "19": 5,
       "18": 3,
       "17": 1,
@@ -172,6 +172,23 @@
       "4": 4,
       "1": 2
     },
+    "Internal Webinar": {
+      "21": 13,
+      "20": 9,
+      "19": 2,
+      "18": 1,
+      "14": 1,
+      "13": 3,
+      "15": 1,
+      "12": 5,
+      "11": 3,
+      "8": 5,
+      "7": 3,
+      "6": 1,
+      "5": 1,
+      "4": 1,
+      "1": 2
+    },
     "YouTube": {
       "21": 3,
       "20": 2,
@@ -191,7 +208,7 @@
       "1": 3
     },
     "Website": {
-      "21": 6,
+      "21": 7,
       "19": 5,
       "20": 4,
       "18": 5,
@@ -199,30 +216,13 @@
       "15": 5,
       "14": 9,
       "13": 5,
-      "12": 4,
+      "12": 5,
       "11": 3,
       "8": 2,
       "5": 4,
       "7": 8,
       "4": 4,
       "1": 5
-    },
-    "Internal Webinar": {
-      "20": 8,
-      "21": 12,
-      "19": 2,
-      "18": 1,
-      "14": 1,
-      "13": 3,
-      "15": 1,
-      "12": 5,
-      "11": 3,
-      "8": 5,
-      "7": 3,
-      "6": 1,
-      "5": 1,
-      "4": 1,
-      "1": 2
     },
     "X": {
       "20": 2,
