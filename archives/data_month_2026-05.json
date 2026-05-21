@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T14:30:13.145847-07:00",
+  "generated_at": "2026-05-21T14:45:12.393955-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -27,21 +27,21 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 236,
+      "total": 237,
       "showed": 121,
       "qualified": 98
     },
     "external": {
-      "total": 637,
+      "total": 636,
       "showed": 239,
       "qualified": 184
     }
   },
   "by_funnel": {
-    "Unknown (Needs Review)": {
-      "total": 11,
-      "showed": 6,
-      "qualified": 4
+    "Reactivation Email": {
+      "total": 2,
+      "showed": 1,
+      "qualified": 0
     },
     "Low Ticket Funnel": {
       "total": 71,
@@ -83,6 +83,11 @@
       "showed": 55,
       "qualified": 37
     },
+    "Unknown (Needs Review)": {
+      "total": 10,
+      "showed": 6,
+      "qualified": 4
+    },
     "Webinar": {
       "total": 1,
       "showed": 1,
@@ -103,11 +108,6 @@
       "showed": 1,
       "qualified": 1
     },
-    "Reactivation Email": {
-      "total": 1,
-      "showed": 1,
-      "qualified": 0
-    },
     "VSL": {
       "total": 7,
       "showed": 2,
@@ -120,15 +120,9 @@
     }
   },
   "by_funnel_day": {
-    "Unknown (Needs Review)": {
-      "21": 2,
-      "20": 1,
-      "18": 1,
-      "19": 3,
-      "15": 1,
-      "13": 1,
-      "14": 1,
-      "1": 1
+    "Reactivation Email": {
+      "21": 1,
+      "15": 1
     },
     "Low Ticket Funnel": {
       "21": 4,
@@ -265,6 +259,16 @@
       "4": 6,
       "1": 2
     },
+    "Unknown (Needs Review)": {
+      "20": 1,
+      "18": 1,
+      "21": 1,
+      "19": 3,
+      "15": 1,
+      "13": 1,
+      "14": 1,
+      "1": 1
+    },
     "Webinar": {
       "19": 1
     },
@@ -280,9 +284,6 @@
     },
     "Sales Reactivation": {
       "20": 1
-    },
-    "Reactivation Email": {
-      "15": 1
     },
     "VSL": {
       "14": 1,
