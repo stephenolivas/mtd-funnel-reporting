@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T08:15:12.601650-07:00",
+  "generated_at": "2026-05-22T08:30:12.659301-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -33,18 +33,13 @@
     },
     "external": {
       "total": 656,
-      "showed": 246,
-      "qualified": 190
+      "showed": 247,
+      "qualified": 192
     }
   },
   "by_funnel": {
-    "Unknown (Needs Review)": {
-      "total": 15,
-      "showed": 6,
-      "qualified": 4
-    },
     "LTF - Quiz Funnel": {
-      "total": 348,
+      "total": 353,
       "showed": 55,
       "qualified": 37
     },
@@ -79,9 +74,9 @@
       "qualified": 37
     },
     "Instagram": {
-      "total": 197,
-      "showed": 121,
-      "qualified": 101
+      "total": 198,
+      "showed": 123,
+      "qualified": 103
     },
     "X": {
       "total": 16,
@@ -92,6 +87,11 @@
       "total": 1,
       "showed": 1,
       "qualified": 1
+    },
+    "Unknown (Needs Review)": {
+      "total": 9,
+      "showed": 5,
+      "qualified": 4
     },
     "Linkedin": {
       "total": 5,
@@ -120,20 +120,9 @@
     }
   },
   "by_funnel_day": {
-    "Unknown (Needs Review)": {
-      "22": 5,
-      "20": 1,
-      "18": 1,
-      "21": 1,
-      "19": 3,
-      "15": 1,
-      "13": 1,
-      "14": 1,
-      "1": 1
-    },
     "LTF - Quiz Funnel": {
-      "22": 3,
-      "20": 5,
+      "22": 7,
+      "20": 6,
       "18": 21,
       "21": 1,
       "19": 6,
@@ -249,7 +238,7 @@
       "21": 9,
       "20": 13,
       "18": 12,
-      "19": 10,
+      "19": 11,
       "15": 9,
       "14": 9,
       "13": 11,
@@ -279,6 +268,16 @@
     },
     "Webinar": {
       "19": 1
+    },
+    "Unknown (Needs Review)": {
+      "18": 1,
+      "21": 1,
+      "19": 2,
+      "22": 1,
+      "15": 1,
+      "13": 1,
+      "14": 1,
+      "1": 1
     },
     "Linkedin": {
       "19": 1,
