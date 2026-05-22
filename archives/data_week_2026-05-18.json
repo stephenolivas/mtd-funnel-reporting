@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T11:15:13.549926-07:00",
+  "generated_at": "2026-05-22T11:30:18.331998-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -29,7 +29,7 @@
     "inhouse": {
       "total": 252,
       "showed": 129,
-      "qualified": 107
+      "qualified": 108
     },
     "external": {
       "total": 655,
@@ -71,7 +71,7 @@
     "Website": {
       "total": 83,
       "showed": 44,
-      "qualified": 39
+      "qualified": 40
     },
     "Instagram": {
       "total": 198,
