@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T14:15:10.658812-07:00",
+  "generated_at": "2026-05-26T14:30:12.872077-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -27,14 +27,14 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 276,
-      "showed": 148,
-      "qualified": 123
+      "total": 275,
+      "showed": 149,
+      "qualified": 122
     },
     "external": {
-      "total": 670,
-      "showed": 257,
-      "qualified": 203
+      "total": 671,
+      "showed": 258,
+      "qualified": 204
     }
   },
   "by_funnel": {
@@ -44,9 +44,14 @@
       "qualified": 2
     },
     "Reactivation Email": {
-      "total": 7,
+      "total": 6,
       "showed": 2,
-      "qualified": 1
+      "qualified": 0
+    },
+    "Instagram": {
+      "total": 204,
+      "showed": 131,
+      "qualified": 111
     },
     "Low Ticket Funnel": {
       "total": 78,
@@ -60,7 +65,7 @@
     },
     "Internal Webinar": {
       "total": 57,
-      "showed": 23,
+      "showed": 24,
       "qualified": 11
     },
     "X": {
@@ -77,11 +82,6 @@
       "total": 353,
       "showed": 56,
       "qualified": 38
-    },
-    "Instagram": {
-      "total": 203,
-      "showed": 130,
-      "qualified": 110
     },
     "Website": {
       "total": 84,
@@ -135,9 +135,30 @@
       "1": 1
     },
     "Reactivation Email": {
-      "26": 5,
+      "26": 4,
       "15": 1,
       "7": 1
+    },
+    "Instagram": {
+      "26": 4,
+      "22": 8,
+      "21": 9,
+      "25": 2,
+      "20": 13,
+      "18": 12,
+      "19": 12,
+      "15": 9,
+      "14": 9,
+      "13": 11,
+      "12": 16,
+      "11": 14,
+      "8": 15,
+      "9": 3,
+      "7": 16,
+      "6": 12,
+      "5": 9,
+      "4": 15,
+      "1": 15
     },
     "Low Ticket Funnel": {
       "25": 1,
@@ -252,27 +273,6 @@
       "5": 14,
       "4": 6,
       "1": 2
-    },
-    "Instagram": {
-      "26": 3,
-      "22": 8,
-      "21": 9,
-      "25": 2,
-      "20": 13,
-      "18": 12,
-      "19": 12,
-      "15": 9,
-      "14": 9,
-      "13": 11,
-      "12": 16,
-      "11": 14,
-      "8": 15,
-      "9": 3,
-      "7": 16,
-      "6": 12,
-      "5": 9,
-      "4": 15,
-      "1": 15
     },
     "Website": {
       "25": 1,
