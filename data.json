@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T16:30:11.221444-07:00",
+  "generated_at": "2026-05-26T16:45:11.776931-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,20 +20,20 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 946,
+    "mtd_booked": 947,
     "on_pace": 828,
-    "remaining": 41,
-    "eom_projection": 1128,
+    "remaining": 40,
+    "eom_projection": 1129,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 276,
-      "showed": 149,
-      "qualified": 122
+      "showed": 150,
+      "qualified": 124
     },
     "external": {
-      "total": 670,
-      "showed": 260,
+      "total": 671,
+      "showed": 261,
       "qualified": 205
     }
   },
@@ -45,18 +45,18 @@
     },
     "Reactivation Email": {
       "total": 6,
-      "showed": 2,
-      "qualified": 0
+      "showed": 3,
+      "qualified": 1
+    },
+    "Low Ticket Funnel": {
+      "total": 79,
+      "showed": 49,
+      "qualified": 35
     },
     "Instagram": {
       "total": 204,
       "showed": 131,
       "qualified": 111
-    },
-    "Low Ticket Funnel": {
-      "total": 78,
-      "showed": 48,
-      "qualified": 35
     },
     "YouTube": {
       "total": 90,
@@ -66,7 +66,7 @@
     "Internal Webinar": {
       "total": 58,
       "showed": 24,
-      "qualified": 11
+      "qualified": 12
     },
     "X": {
       "total": 20,
@@ -138,6 +138,28 @@
       "15": 1,
       "7": 1
     },
+    "Low Ticket Funnel": {
+      "26": 2,
+      "25": 1,
+      "23": 1,
+      "24": 1,
+      "22": 2,
+      "21": 4,
+      "20": 5,
+      "19": 6,
+      "18": 3,
+      "17": 1,
+      "13": 7,
+      "15": 1,
+      "12": 6,
+      "11": 4,
+      "8": 4,
+      "7": 4,
+      "6": 4,
+      "5": 9,
+      "4": 6,
+      "1": 8
+    },
     "Instagram": {
       "26": 4,
       "22": 8,
@@ -158,28 +180,6 @@
       "5": 9,
       "4": 15,
       "1": 15
-    },
-    "Low Ticket Funnel": {
-      "25": 1,
-      "26": 1,
-      "23": 1,
-      "24": 1,
-      "22": 2,
-      "21": 4,
-      "20": 5,
-      "19": 6,
-      "18": 3,
-      "17": 1,
-      "13": 7,
-      "15": 1,
-      "12": 6,
-      "11": 4,
-      "8": 4,
-      "7": 4,
-      "6": 4,
-      "5": 9,
-      "4": 6,
-      "1": 8
     },
     "YouTube": {
       "26": 7,
