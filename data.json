@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T10:30:15.090380-07:00",
+  "generated_at": "2026-05-26T10:45:12.172869-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 947,
+    "mtd_booked": 949,
     "on_pace": 828,
-    "remaining": 40,
-    "eom_projection": 1129,
+    "remaining": 38,
+    "eom_projection": 1132,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,12 +32,17 @@
       "qualified": 121
     },
     "external": {
-      "total": 670,
+      "total": 672,
       "showed": 256,
       "qualified": 202
     }
   },
   "by_funnel": {
+    "Unknown (Needs Review)": {
+      "total": 8,
+      "showed": 3,
+      "qualified": 2
+    },
     "Reactivation Email": {
       "total": 7,
       "showed": 2,
@@ -52,11 +57,6 @@
       "total": 57,
       "showed": 23,
       "qualified": 11
-    },
-    "Unknown (Needs Review)": {
-      "total": 6,
-      "showed": 3,
-      "qualified": 2
     },
     "YouTube": {
       "total": 90,
@@ -125,6 +125,15 @@
     }
   },
   "by_funnel_day": {
+    "Unknown (Needs Review)": {
+      "8": 1,
+      "26": 2,
+      "21": 1,
+      "15": 1,
+      "13": 1,
+      "14": 1,
+      "1": 1
+    },
     "Reactivation Email": {
       "26": 5,
       "15": 1,
@@ -170,14 +179,6 @@
       "5": 1,
       "4": 1,
       "1": 2
-    },
-    "Unknown (Needs Review)": {
-      "26": 1,
-      "21": 1,
-      "15": 1,
-      "13": 1,
-      "14": 1,
-      "1": 1
     },
     "YouTube": {
       "26": 7,
