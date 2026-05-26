@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T15:45:09.696472-07:00",
+  "generated_at": "2026-05-26T16:00:17.102548-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -33,7 +33,7 @@
     },
     "external": {
       "total": 670,
-      "showed": 258,
+      "showed": 260,
       "qualified": 205
     }
   },
@@ -70,7 +70,7 @@
     },
     "X": {
       "total": 20,
-      "showed": 12,
+      "showed": 14,
       "qualified": 12
     },
     "Meta Ads": {
