@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T08:45:14.198989-07:00",
+  "generated_at": "2026-05-26T09:00:16.980320-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -38,8 +38,13 @@
     }
   },
   "by_funnel": {
+    "Unknown (Needs Review)": {
+      "total": 9,
+      "showed": 5,
+      "qualified": 4
+    },
     "Low Ticket Funnel": {
-      "total": 79,
+      "total": 78,
       "showed": 48,
       "qualified": 35
     },
@@ -52,11 +57,6 @@
       "total": 56,
       "showed": 22,
       "qualified": 11
-    },
-    "Unknown (Needs Review)": {
-      "total": 8,
-      "showed": 5,
-      "qualified": 4
     },
     "YouTube": {
       "total": 91,
@@ -120,9 +120,19 @@
     }
   },
   "by_funnel_day": {
+    "Unknown (Needs Review)": {
+      "26": 2,
+      "18": 1,
+      "21": 1,
+      "19": 1,
+      "15": 1,
+      "13": 1,
+      "14": 1,
+      "1": 1
+    },
     "Low Ticket Funnel": {
       "25": 1,
-      "26": 2,
+      "26": 1,
       "23": 1,
       "24": 1,
       "22": 2,
@@ -165,16 +175,6 @@
       "5": 1,
       "4": 1,
       "1": 2
-    },
-    "Unknown (Needs Review)": {
-      "26": 1,
-      "18": 1,
-      "21": 1,
-      "19": 1,
-      "15": 1,
-      "13": 1,
-      "14": 1,
-      "1": 1
     },
     "YouTube": {
       "26": 8,
