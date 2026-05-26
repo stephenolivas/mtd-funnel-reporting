@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T14:45:13.002629-07:00",
+  "generated_at": "2026-05-26T15:00:13.293982-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -34,7 +34,7 @@
     "external": {
       "total": 670,
       "showed": 258,
-      "qualified": 204
+      "qualified": 205
     }
   },
   "by_funnel": {
@@ -71,7 +71,7 @@
     "X": {
       "total": 20,
       "showed": 12,
-      "qualified": 11
+      "qualified": 12
     },
     "Meta Ads": {
       "total": 29,
