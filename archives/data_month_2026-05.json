@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T14:15:18.731165-07:00",
+  "generated_at": "2026-05-27T14:30:15.136187-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -33,15 +33,15 @@
     },
     "external": {
       "total": 686,
-      "showed": 268,
-      "qualified": 212
+      "showed": 269,
+      "qualified": 213
     }
   },
   "by_funnel": {
     "Low Ticket Funnel": {
       "total": 88,
-      "showed": 52,
-      "qualified": 38
+      "showed": 53,
+      "qualified": 39
     },
     "Reactivation Email": {
       "total": 10,
