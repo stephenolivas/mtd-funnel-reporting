@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T12:00:20.511586-07:00",
+  "generated_at": "2026-05-27T12:15:17.913291-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,33 +20,33 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 972,
+    "mtd_booked": 973,
     "on_pace": 860,
-    "remaining": 15,
-    "eom_projection": 1116,
+    "remaining": 14,
+    "eom_projection": 1117,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 288,
-      "showed": 153,
-      "qualified": 126
+      "showed": 154,
+      "qualified": 127
     },
     "external": {
-      "total": 684,
+      "total": 685,
       "showed": 266,
       "qualified": 211
     }
   },
   "by_funnel": {
-    "Reactivation Email": {
-      "total": 10,
-      "showed": 4,
-      "qualified": 1
-    },
     "Low Ticket Funnel": {
-      "total": 87,
+      "total": 88,
       "showed": 51,
       "qualified": 38
+    },
+    "Reactivation Email": {
+      "total": 10,
+      "showed": 5,
+      "qualified": 2
     },
     "Instagram": {
       "total": 208,
@@ -125,14 +125,8 @@
     }
   },
   "by_funnel_day": {
-    "Reactivation Email": {
-      "27": 4,
-      "26": 4,
-      "15": 1,
-      "7": 1
-    },
     "Low Ticket Funnel": {
-      "27": 8,
+      "27": 9,
       "26": 2,
       "25": 1,
       "23": 1,
@@ -153,6 +147,12 @@
       "5": 9,
       "4": 6,
       "1": 8
+    },
+    "Reactivation Email": {
+      "27": 4,
+      "26": 4,
+      "15": 1,
+      "7": 1
     },
     "Instagram": {
       "27": 4,
