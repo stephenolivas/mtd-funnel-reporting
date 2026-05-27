@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T08:00:19.427397-07:00",
+  "generated_at": "2026-05-27T08:15:13.758363-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -20,16 +20,16 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 971,
+    "mtd_booked": 972,
     "on_pace": 860,
-    "remaining": 16,
-    "eom_projection": 1115,
+    "remaining": 15,
+    "eom_projection": 1116,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 286,
-      "showed": 150,
-      "qualified": 124
+      "total": 287,
+      "showed": 151,
+      "qualified": 125
     },
     "external": {
       "total": 685,
@@ -69,9 +69,9 @@
       "qualified": 12
     },
     "Meta Ads": {
-      "total": 30,
-      "showed": 9,
-      "qualified": 9
+      "total": 31,
+      "showed": 10,
+      "qualified": 10
     },
     "X": {
       "total": 20,
@@ -230,7 +230,7 @@
     "Meta Ads": {
       "27": 1,
       "24": 1,
-      "21": 1,
+      "21": 2,
       "19": 4,
       "20": 1,
       "18": 1,
