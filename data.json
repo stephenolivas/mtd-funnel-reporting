@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T07:30:18.737995-07:00",
+  "generated_at": "2026-05-28T07:45:16.501987-07:00",
   "generated_tz": "PDT",
   "month": "2026-05",
   "month_label": "May 2026",
@@ -27,34 +27,29 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 301,
-      "showed": 155,
+      "total": 292,
+      "showed": 154,
       "qualified": 130
     },
     "external": {
-      "total": 700,
-      "showed": 275,
+      "total": 709,
+      "showed": 276,
       "qualified": 215
     }
   },
   "by_funnel": {
-    "Reactivation Email": {
-      "total": 16,
-      "showed": 5,
-      "qualified": 2
+    "Instagram": {
+      "total": 223,
+      "showed": 134,
+      "qualified": 113
     },
     "Linkedin": {
       "total": 6,
       "showed": 5,
       "qualified": 4
     },
-    "Instagram": {
-      "total": 217,
-      "showed": 133,
-      "qualified": 113
-    },
     "Low Ticket Funnel": {
-      "total": 92,
+      "total": 94,
       "showed": 57,
       "qualified": 41
     },
@@ -62,6 +57,11 @@
       "total": 101,
       "showed": 62,
       "qualified": 54
+    },
+    "Reactivation Email": {
+      "total": 7,
+      "showed": 4,
+      "qualified": 2
     },
     "Unknown (Needs Review)": {
       "total": 7,
@@ -79,7 +79,7 @@
       "qualified": 14
     },
     "X": {
-      "total": 21,
+      "total": 22,
       "showed": 16,
       "qualified": 13
     },
@@ -125,25 +125,10 @@
     }
   },
   "by_funnel_day": {
-    "Reactivation Email": {
-      "28": 6,
-      "27": 4,
-      "26": 4,
-      "15": 1,
-      "7": 1
-    },
-    "Linkedin": {
-      "28": 1,
-      "19": 1,
-      "12": 1,
-      "8": 1,
-      "6": 1,
-      "4": 1
-    },
     "Instagram": {
-      "28": 9,
-      "27": 4,
-      "26": 4,
+      "28": 11,
+      "27": 6,
+      "26": 5,
       "22": 8,
       "21": 9,
       "25": 2,
@@ -157,17 +142,25 @@
       "11": 14,
       "8": 15,
       "9": 3,
-      "7": 16,
+      "7": 17,
       "6": 12,
       "5": 9,
       "4": 15,
       "1": 15
     },
+    "Linkedin": {
+      "28": 1,
+      "19": 1,
+      "12": 1,
+      "8": 1,
+      "6": 1,
+      "4": 1
+    },
     "Low Ticket Funnel": {
-      "27": 10,
+      "27": 11,
       "26": 2,
       "25": 1,
-      "28": 3,
+      "28": 4,
       "23": 1,
       "24": 1,
       "22": 2,
@@ -209,6 +202,12 @@
       "4": 4,
       "6": 4,
       "1": 3
+    },
+    "Reactivation Email": {
+      "27": 1,
+      "26": 3,
+      "28": 2,
+      "15": 1
     },
     "Unknown (Needs Review)": {
       "8": 1,
@@ -260,6 +259,7 @@
       "1": 2
     },
     "X": {
+      "28": 1,
       "27": 1,
       "26": 2,
       "24": 2,
