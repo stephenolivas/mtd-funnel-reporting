@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T05:00:18.834695-07:00",
+  "generated_at": "2026-06-01T05:15:12.184693-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -29,19 +29,19 @@
     "inhouse": {
       "total": 14,
       "showed": 2,
-      "qualified": 0
+      "qualified": 1
     },
     "external": {
       "total": 15,
-      "showed": 0,
-      "qualified": 0
+      "showed": 1,
+      "qualified": 1
     }
   },
   "by_funnel": {
     "Instagram": {
       "total": 15,
-      "showed": 0,
-      "qualified": 0
+      "showed": 1,
+      "qualified": 1
     },
     "Reactivation Email": {
       "total": 7,
@@ -51,7 +51,7 @@
     "YouTube": {
       "total": 6,
       "showed": 2,
-      "qualified": 0
+      "qualified": 1
     },
     "Internal Webinar": {
       "total": 1,
