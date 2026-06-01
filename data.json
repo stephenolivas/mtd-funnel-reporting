@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T16:15:11.170476-07:00",
+  "generated_at": "2026-06-01T16:30:11.874064-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -28,13 +28,13 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 11,
-      "showed": 4,
-      "qualified": 2
+      "showed": 5,
+      "qualified": 3
     },
     "external": {
       "total": 16,
-      "showed": 12,
-      "qualified": 5
+      "showed": 13,
+      "qualified": 6
     }
   },
   "by_funnel": {
@@ -45,8 +45,8 @@
     },
     "Instagram": {
       "total": 15,
-      "showed": 11,
-      "qualified": 4
+      "showed": 12,
+      "qualified": 5
     },
     "Reactivation Email": {
       "total": 4,
@@ -65,8 +65,8 @@
     },
     "Internal Webinar": {
       "total": 1,
-      "showed": 0,
-      "qualified": 0
+      "showed": 1,
+      "qualified": 1
     }
   },
   "by_funnel_day": {
