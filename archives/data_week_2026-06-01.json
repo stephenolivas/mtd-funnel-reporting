@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T10:15:13.197718-07:00",
+  "generated_at": "2026-06-01T10:30:15.528270-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -34,14 +34,14 @@
     "external": {
       "total": 16,
       "showed": 4,
-      "qualified": 4
+      "qualified": 3
     }
   },
   "by_funnel": {
     "Instagram": {
       "total": 16,
       "showed": 4,
-      "qualified": 4
+      "qualified": 3
     },
     "Reactivation Email": {
       "total": 5,
