@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T11:15:19.180531-07:00",
+  "generated_at": "2026-06-02T11:30:23.726576-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -33,13 +33,13 @@
     },
     "external": {
       "total": 35,
-      "showed": 18,
-      "qualified": 8
+      "showed": 20,
+      "qualified": 9
     }
   },
   "by_funnel": {
     "Website": {
-      "total": 12,
+      "total": 13,
       "showed": 3,
       "qualified": 2
     },
@@ -50,8 +50,8 @@
     },
     "Instagram": {
       "total": 26,
-      "showed": 15,
-      "qualified": 7
+      "showed": 17,
+      "qualified": 8
     },
     "YouTube": {
       "total": 9,
@@ -59,11 +59,6 @@
       "qualified": 3
     },
     "Meta Ads": {
-      "total": 1,
-      "showed": 0,
-      "qualified": 0
-    },
-    "Reactivation Email": {
       "total": 1,
       "showed": 0,
       "qualified": 0
@@ -82,7 +77,7 @@
   "by_funnel_day": {
     "Website": {
       "2": 8,
-      "1": 4
+      "1": 5
     },
     "Low Ticket Funnel": {
       "2": 7,
@@ -98,9 +93,6 @@
     },
     "Meta Ads": {
       "2": 1
-    },
-    "Reactivation Email": {
-      "1": 1
     },
     "Linkedin": {
       "2": 1
