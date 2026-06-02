@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T07:15:17.221363-07:00",
+  "generated_at": "2026-06-02T07:30:18.366108-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -27,12 +27,12 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 25,
+      "total": 23,
       "showed": 8,
       "qualified": 4
     },
     "external": {
-      "total": 36,
+      "total": 38,
       "showed": 17,
       "qualified": 8
     }
@@ -44,14 +44,9 @@
       "qualified": 1
     },
     "Instagram": {
-      "total": 26,
+      "total": 28,
       "showed": 15,
       "qualified": 7
-    },
-    "Reactivation Email": {
-      "total": 12,
-      "showed": 1,
-      "qualified": 1
     },
     "Unknown (Needs Review)": {
       "total": 1,
@@ -62,6 +57,11 @@
       "total": 10,
       "showed": 5,
       "qualified": 2
+    },
+    "Reactivation Email": {
+      "total": 10,
+      "showed": 1,
+      "qualified": 1
     },
     "Meta Ads": {
       "total": 1,
@@ -90,12 +90,8 @@
       "1": 1
     },
     "Instagram": {
-      "2": 11,
+      "2": 13,
       "1": 15
-    },
-    "Reactivation Email": {
-      "2": 8,
-      "1": 4
     },
     "Unknown (Needs Review)": {
       "2": 1
@@ -103,6 +99,10 @@
     "YouTube": {
       "2": 5,
       "1": 5
+    },
+    "Reactivation Email": {
+      "2": 6,
+      "1": 4
     },
     "Meta Ads": {
       "2": 1
