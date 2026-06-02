@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T10:30:19.500036-07:00",
+  "generated_at": "2026-06-02T10:45:12.312913-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -28,7 +28,7 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 24,
-      "showed": 9,
+      "showed": 10,
       "qualified": 5
     },
     "external": {
@@ -39,7 +39,7 @@
   },
   "by_funnel": {
     "Reactivation Email": {
-      "total": 12,
+      "total": 10,
       "showed": 2,
       "qualified": 2
     },
@@ -55,17 +55,17 @@
     },
     "YouTube": {
       "total": 9,
-      "showed": 5,
+      "showed": 6,
       "qualified": 2
+    },
+    "Website": {
+      "total": 3,
+      "showed": 1,
+      "qualified": 0
     },
     "Meta Ads": {
       "total": 1,
       "showed": 0,
-      "qualified": 0
-    },
-    "Website": {
-      "total": 1,
-      "showed": 1,
       "qualified": 0
     },
     "Linkedin": {
@@ -81,7 +81,7 @@
   },
   "by_funnel_day": {
     "Reactivation Email": {
-      "2": 8,
+      "2": 6,
       "1": 4
     },
     "Low Ticket Funnel": {
@@ -96,11 +96,12 @@
       "2": 4,
       "1": 5
     },
+    "Website": {
+      "2": 2,
+      "1": 1
+    },
     "Meta Ads": {
       "2": 1
-    },
-    "Website": {
-      "1": 1
     },
     "Linkedin": {
       "2": 1
