@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-02T23:45:11.209720-07:00",
+  "generated_at": "2026-06-03T00:00:14.934301-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
-  "day": 2,
+  "day": 3,
   "month_days": 30,
   "goals": {
     "Low Ticket Funnel": 200,
@@ -20,48 +20,63 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 61,
-    "on_pace": 66,
-    "remaining": 926,
-    "eom_projection": 915,
+    "mtd_booked": 99,
+    "on_pace": 99,
+    "remaining": 888,
+    "eom_projection": 990,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 27,
-      "showed": 17,
-      "qualified": 14
+      "total": 40,
+      "showed": 18,
+      "qualified": 15
     },
     "external": {
-      "total": 34,
-      "showed": 29,
-      "qualified": 16
+      "total": 59,
+      "showed": 30,
+      "qualified": 17
     }
   },
   "by_funnel": {
     "Internal Webinar": {
-      "total": 5,
-      "showed": 4,
-      "qualified": 4
-    },
-    "Website": {
-      "total": 13,
+      "total": 10,
       "showed": 5,
-      "qualified": 4
+      "qualified": 5
+    },
+    "X": {
+      "total": 1,
+      "showed": 1,
+      "qualified": 1
+    },
+    "Unknown (Needs Review)": {
+      "total": 3,
+      "showed": 0,
+      "qualified": 0
     },
     "Low Ticket Funnel": {
-      "total": 8,
+      "total": 17,
       "showed": 7,
       "qualified": 3
     },
+    "YouTube": {
+      "total": 12,
+      "showed": 8,
+      "qualified": 6
+    },
+    "Website": {
+      "total": 16,
+      "showed": 5,
+      "qualified": 4
+    },
     "Instagram": {
-      "total": 25,
+      "total": 37,
       "showed": 21,
       "qualified": 12
     },
-    "YouTube": {
-      "total": 9,
-      "showed": 8,
-      "qualified": 6
+    "Meta Ads": {
+      "total": 2,
+      "showed": 0,
+      "qualified": 0
     },
     "Linkedin": {
       "total": 1,
@@ -72,23 +87,37 @@
   "by_funnel_day": {
     "Internal Webinar": {
       "2": 4,
+      "3": 5,
       "1": 1
     },
-    "Website": {
-      "2": 8,
-      "1": 5
+    "X": {
+      "3": 1
+    },
+    "Unknown (Needs Review)": {
+      "3": 3
     },
     "Low Ticket Funnel": {
+      "3": 9,
       "2": 7,
       "1": 1
     },
+    "YouTube": {
+      "3": 3,
+      "2": 4,
+      "1": 5
+    },
+    "Website": {
+      "2": 8,
+      "3": 3,
+      "1": 5
+    },
     "Instagram": {
+      "3": 12,
       "2": 10,
       "1": 15
     },
-    "YouTube": {
-      "2": 4,
-      "1": 5
+    "Meta Ads": {
+      "3": 2
     },
     "Linkedin": {
       "2": 1
