@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T15:00:15.639871-07:00",
+  "generated_at": "2026-06-03T15:15:11.014649-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -27,12 +27,12 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 37,
-      "showed": 19,
-      "qualified": 16
+      "total": 38,
+      "showed": 20,
+      "qualified": 17
     },
     "external": {
-      "total": 52,
+      "total": 51,
       "showed": 39,
       "qualified": 24
     }
@@ -54,9 +54,14 @@
       "qualified": 4
     },
     "Low Ticket Funnel": {
-      "total": 14,
+      "total": 13,
       "showed": 9,
       "qualified": 5
+    },
+    "Reactivation Scrapers": {
+      "total": 1,
+      "showed": 1,
+      "qualified": 1
     },
     "Meta Ads": {
       "total": 2,
@@ -91,9 +96,12 @@
       "1": 5
     },
     "Low Ticket Funnel": {
-      "2": 7,
+      "2": 6,
       "1": 1,
       "3": 6
+    },
+    "Reactivation Scrapers": {
+      "2": 1
     },
     "Meta Ads": {
       "3": 2
