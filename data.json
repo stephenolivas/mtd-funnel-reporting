@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T08:00:21.900704-07:00",
+  "generated_at": "2026-06-03T08:15:18.864861-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -33,15 +33,15 @@
     },
     "external": {
       "total": 60,
-      "showed": 31,
-      "qualified": 18
+      "showed": 32,
+      "qualified": 19
     }
   },
   "by_funnel": {
     "Instagram": {
       "total": 39,
-      "showed": 21,
-      "qualified": 12
+      "showed": 22,
+      "qualified": 13
     },
     "Internal Webinar": {
       "total": 10,
