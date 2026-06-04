@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T06:15:15.357386-07:00",
+  "generated_at": "2026-06-04T06:30:15.145420-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -54,7 +54,7 @@
       "qualified": 7
     },
     "Unknown (Needs Review)": {
-      "total": 3,
+      "total": 2,
       "showed": 0,
       "qualified": 0
     },
@@ -77,6 +77,11 @@
       "total": 1,
       "showed": 1,
       "qualified": 1
+    },
+    "Sales Reactivation": {
+      "total": 1,
+      "showed": 0,
+      "qualified": 0
     },
     "Meta Ads": {
       "total": 2,
@@ -104,7 +109,7 @@
       "1": 5
     },
     "Unknown (Needs Review)": {
-      "4": 3
+      "4": 2
     },
     "Linkedin": {
       "4": 1,
@@ -124,6 +129,9 @@
     },
     "Reactivation Scrapers": {
       "2": 1
+    },
+    "Sales Reactivation": {
+      "4": 1
     },
     "Meta Ads": {
       "3": 2
