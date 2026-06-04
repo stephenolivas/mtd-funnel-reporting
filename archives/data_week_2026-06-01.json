@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T14:00:14.357539-07:00",
+  "generated_at": "2026-06-04T14:15:09.551681-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -28,13 +28,13 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 61,
-      "showed": 33,
-      "qualified": 29
+      "showed": 34,
+      "qualified": 30
     },
     "external": {
       "total": 69,
       "showed": 53,
-      "qualified": 36
+      "qualified": 37
     }
   },
   "by_funnel": {
@@ -50,8 +50,8 @@
     },
     "Website": {
       "total": 21,
-      "showed": 9,
-      "qualified": 7
+      "showed": 10,
+      "qualified": 8
     },
     "YouTube": {
       "total": 16,
@@ -76,7 +76,7 @@
     "Unknown (Needs Review)": {
       "total": 1,
       "showed": 1,
-      "qualified": 0
+      "qualified": 1
     },
     "Reactivation Scrapers": {
       "total": 1,
