@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T06:45:12.644427-07:00",
+  "generated_at": "2026-06-04T07:00:15.709717-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -33,7 +33,7 @@
     },
     "external": {
       "total": 70,
-      "showed": 43,
+      "showed": 44,
       "qualified": 28
     }
   },
@@ -80,7 +80,7 @@
     },
     "Sales Reactivation": {
       "total": 1,
-      "showed": 0,
+      "showed": 1,
       "qualified": 0
     },
     "Meta Ads": {
