@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T06:00:16.491624-07:00",
+  "generated_at": "2026-06-04T06:15:15.357386-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -33,7 +33,7 @@
     },
     "external": {
       "total": 71,
-      "showed": 42,
+      "showed": 43,
       "qualified": 28
     }
   },
@@ -70,7 +70,7 @@
     },
     "Instagram": {
       "total": 44,
-      "showed": 32,
+      "showed": 33,
       "qualified": 21
     },
     "Reactivation Scrapers": {
