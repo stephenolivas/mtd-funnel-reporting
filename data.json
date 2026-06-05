@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T07:45:12.159000-07:00",
+  "generated_at": "2026-06-05T08:00:14.593941-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 74,
-      "showed": 43,
-      "qualified": 37
+      "showed": 44,
+      "qualified": 38
     },
     "external": {
       "total": 88,
@@ -45,8 +45,8 @@
     },
     "YouTube": {
       "total": 22,
-      "showed": 14,
-      "qualified": 13
+      "showed": 15,
+      "qualified": 14
     },
     "Internal Webinar": {
       "total": 22,
