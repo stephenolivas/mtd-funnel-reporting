@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-06T23:45:12.583581-07:00",
+  "generated_at": "2026-06-07T00:00:14.056481-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
-  "day": 6,
+  "day": 7,
   "month_days": 30,
   "goals": {
     "Low Ticket Funnel": 200,
@@ -21,9 +21,9 @@
   },
   "summary": {
     "mtd_booked": 162,
-    "on_pace": 197,
+    "on_pace": 230,
     "remaining": 825,
-    "eom_projection": 810,
+    "eom_projection": 694,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
