@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T04:45:12.892751-07:00",
+  "generated_at": "2026-06-08T05:00:14.939240-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -27,24 +27,24 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 91,
+      "total": 95,
       "showed": 49,
       "qualified": 42
     },
     "external": {
-      "total": 103,
+      "total": 99,
       "showed": 62,
       "qualified": 49
     }
   },
   "by_funnel": {
     "Website": {
-      "total": 35,
+      "total": 39,
       "showed": 14,
       "qualified": 11
     },
     "Unknown (Needs Review)": {
-      "total": 12,
+      "total": 8,
       "showed": 0,
       "qualified": 0
     },
@@ -101,7 +101,7 @@
   },
   "by_funnel_day": {
     "Website": {
-      "8": 8,
+      "8": 12,
       "4": 7,
       "2": 8,
       "5": 4,
@@ -109,7 +109,7 @@
       "1": 5
     },
     "Unknown (Needs Review)": {
-      "8": 10,
+      "8": 6,
       "5": 1,
       "6": 1
     },
