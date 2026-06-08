@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T04:30:12.751639-07:00",
+  "generated_at": "2026-06-08T04:45:12.892751-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -27,19 +27,24 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 89,
+      "total": 91,
       "showed": 49,
       "qualified": 42
     },
     "external": {
-      "total": 105,
+      "total": 103,
       "showed": 62,
       "qualified": 49
     }
   },
   "by_funnel": {
+    "Website": {
+      "total": 35,
+      "showed": 14,
+      "qualified": 11
+    },
     "Unknown (Needs Review)": {
-      "total": 14,
+      "total": 12,
       "showed": 0,
       "qualified": 0
     },
@@ -78,11 +83,6 @@
       "showed": 1,
       "qualified": 1
     },
-    "Website": {
-      "total": 33,
-      "showed": 14,
-      "qualified": 11
-    },
     "Sales Reactivation": {
       "total": 1,
       "showed": 1,
@@ -100,8 +100,16 @@
     }
   },
   "by_funnel_day": {
+    "Website": {
+      "8": 8,
+      "4": 7,
+      "2": 8,
+      "5": 4,
+      "3": 3,
+      "1": 5
+    },
     "Unknown (Needs Review)": {
-      "8": 12,
+      "8": 10,
       "5": 1,
       "6": 1
     },
@@ -149,14 +157,6 @@
     "Reactivation Scrapers": {
       "5": 1,
       "2": 1
-    },
-    "Website": {
-      "4": 7,
-      "8": 6,
-      "2": 8,
-      "5": 4,
-      "3": 3,
-      "1": 5
     },
     "Sales Reactivation": {
       "4": 1
