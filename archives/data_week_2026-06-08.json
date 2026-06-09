@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T08:30:18.655444-07:00",
+  "generated_at": "2026-06-09T08:45:15.535469-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -27,26 +27,26 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 111,
+      "total": 113,
       "showed": 65,
       "qualified": 58
     },
     "external": {
-      "total": 103,
+      "total": 101,
       "showed": 67,
       "qualified": 52
     }
   },
   "by_funnel": {
     "YouTube": {
-      "total": 35,
+      "total": 36,
       "showed": 23,
       "qualified": 22
     },
-    "Unknown (Needs Review)": {
-      "total": 4,
-      "showed": 0,
-      "qualified": 0
+    "Website": {
+      "total": 46,
+      "showed": 25,
+      "qualified": 22
     },
     "Instagram": {
       "total": 63,
@@ -63,15 +63,15 @@
       "showed": 18,
       "qualified": 13
     },
-    "Website": {
-      "total": 45,
-      "showed": 25,
-      "qualified": 22
-    },
     "Internal Webinar": {
       "total": 26,
       "showed": 15,
       "qualified": 12
+    },
+    "Unknown (Needs Review)": {
+      "total": 2,
+      "showed": 0,
+      "qualified": 0
     },
     "Linkedin": {
       "total": 4,
@@ -101,7 +101,7 @@
   },
   "by_funnel_day": {
     "YouTube": {
-      "9": 7,
+      "9": 8,
       "8": 4,
       "5": 7,
       "4": 6,
@@ -109,10 +109,14 @@
       "3": 2,
       "1": 5
     },
-    "Unknown (Needs Review)": {
-      "9": 2,
-      "6": 1,
-      "8": 1
+    "Website": {
+      "9": 5,
+      "8": 13,
+      "5": 5,
+      "4": 7,
+      "2": 8,
+      "3": 3,
+      "1": 5
     },
     "Instagram": {
       "9": 6,
@@ -136,15 +140,6 @@
       "1": 1,
       "3": 6
     },
-    "Website": {
-      "8": 13,
-      "9": 4,
-      "5": 5,
-      "4": 7,
-      "2": 8,
-      "3": 3,
-      "1": 5
-    },
     "Internal Webinar": {
       "8": 2,
       "9": 1,
@@ -153,6 +148,10 @@
       "3": 4,
       "2": 4,
       "1": 1
+    },
+    "Unknown (Needs Review)": {
+      "6": 1,
+      "8": 1
     },
     "Linkedin": {
       "5": 2,
