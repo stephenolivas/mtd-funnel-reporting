@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T11:00:19.188431-07:00",
+  "generated_at": "2026-06-10T11:15:13.846001-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -33,7 +33,7 @@
     },
     "external": {
       "total": 109,
-      "showed": 70,
+      "showed": 71,
       "qualified": 57
     }
   },
@@ -55,7 +55,7 @@
     },
     "Instagram": {
       "total": 74,
-      "showed": 49,
+      "showed": 50,
       "qualified": 39
     },
     "Reactivation Email": {
