@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T12:15:14.342996-07:00",
+  "generated_at": "2026-06-11T12:30:18.582232-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 244,
+    "mtd_booked": 243,
     "on_pace": 362,
-    "remaining": 743,
-    "eom_projection": 665,
+    "remaining": 744,
+    "eom_projection": 663,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,7 +32,7 @@
       "qualified": 77
     },
     "external": {
-      "total": 116,
+      "total": 115,
       "showed": 79,
       "qualified": 66
     }
@@ -47,11 +47,6 @@
       "total": 43,
       "showed": 34,
       "qualified": 31
-    },
-    "X": {
-      "total": 3,
-      "showed": 1,
-      "qualified": 1
     },
     "Unknown (Needs Review)": {
       "total": 2,
@@ -88,6 +83,11 @@
       "showed": 4,
       "qualified": 4
     },
+    "X": {
+      "total": 2,
+      "showed": 1,
+      "qualified": 1
+    },
     "Reactivation Scrapers": {
       "total": 2,
       "showed": 1,
@@ -121,11 +121,6 @@
       "3": 2,
       "2": 3,
       "1": 5
-    },
-    "X": {
-      "11": 1,
-      "4": 1,
-      "5": 1
     },
     "Unknown (Needs Review)": {
       "10": 1,
@@ -175,6 +170,10 @@
       "5": 2,
       "4": 1,
       "2": 1
+    },
+    "X": {
+      "4": 1,
+      "5": 1
     },
     "Reactivation Scrapers": {
       "5": 1,
