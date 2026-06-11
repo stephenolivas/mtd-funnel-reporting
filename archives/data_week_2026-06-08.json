@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T07:45:16.287369-07:00",
+  "generated_at": "2026-06-11T08:00:19.737652-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -20,16 +20,16 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 246,
+    "mtd_booked": 245,
     "on_pace": 362,
-    "remaining": 741,
-    "eom_projection": 671,
+    "remaining": 742,
+    "eom_projection": 668,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 128,
+      "total": 127,
       "showed": 83,
-      "qualified": 76
+      "qualified": 75
     },
     "external": {
       "total": 118,
@@ -39,9 +39,9 @@
   },
   "by_funnel": {
     "YouTube": {
-      "total": 44,
+      "total": 43,
       "showed": 32,
-      "qualified": 31
+      "qualified": 30
     },
     "X": {
       "total": 3,
@@ -102,7 +102,7 @@
   "by_funnel_day": {
     "YouTube": {
       "11": 6,
-      "10": 4,
+      "10": 3,
       "9": 8,
       "8": 4,
       "5": 6,
