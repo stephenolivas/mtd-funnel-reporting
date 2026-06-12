@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T16:45:14.344151-07:00",
+  "generated_at": "2026-06-11T17:00:17.672132-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -29,7 +29,7 @@
     "inhouse": {
       "total": 132,
       "showed": 93,
-      "qualified": 82
+      "qualified": 84
     },
     "external": {
       "total": 113,
@@ -76,7 +76,7 @@
     "Reactivation Scrapers": {
       "total": 6,
       "showed": 3,
-      "qualified": 1
+      "qualified": 3
     },
     "Internal Webinar": {
       "total": 25,
