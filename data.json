@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T17:00:15.063655-07:00",
+  "generated_at": "2026-06-12T17:15:19.871592-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -28,7 +28,7 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 144,
-      "showed": 97,
+      "showed": 98,
       "qualified": 87
     },
     "external": {
@@ -55,7 +55,7 @@
     },
     "YouTube": {
       "total": 48,
-      "showed": 38,
+      "showed": 39,
       "qualified": 34
     },
     "Unknown (Needs Review)": {
