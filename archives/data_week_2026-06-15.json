@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:30:24.448642-07:00",
+  "generated_at": "2026-06-16T13:45:25.066693-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -28,7 +28,7 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 167,
-      "showed": 112,
+      "showed": 113,
       "qualified": 101
     },
     "external": {
@@ -65,7 +65,7 @@
     },
     "Reactivation Scrapers": {
       "total": 13,
-      "showed": 5,
+      "showed": 6,
       "qualified": 6
     },
     "LTF - In-House": {
