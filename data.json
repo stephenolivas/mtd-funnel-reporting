@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T09:30:26.390980-07:00",
+  "generated_at": "2026-06-17T09:45:22.058877-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 189,
-      "showed": 122,
-      "qualified": 109
+      "showed": 123,
+      "qualified": 110
     },
     "external": {
       "total": 142,
@@ -60,8 +60,8 @@
     },
     "Website": {
       "total": 72,
-      "showed": 44,
-      "qualified": 40
+      "showed": 45,
+      "qualified": 41
     },
     "Low Ticket Funnel": {
       "total": 20,
