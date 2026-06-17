@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T11:15:29.692622-07:00",
+  "generated_at": "2026-06-17T11:30:32.198500-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 332,
+    "mtd_booked": 333,
     "on_pace": 559,
-    "remaining": 655,
-    "eom_projection": 586,
+    "remaining": 654,
+    "eom_projection": 588,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,21 +32,21 @@
       "qualified": 109
     },
     "external": {
-      "total": 142,
+      "total": 143,
       "showed": 104,
       "qualified": 88
     }
   },
   "by_funnel": {
+    "Unknown (Needs Review)": {
+      "total": 7,
+      "showed": 1,
+      "qualified": 0
+    },
     "Internal Webinar": {
       "total": 40,
       "showed": 20,
       "qualified": 16
-    },
-    "Unknown (Needs Review)": {
-      "total": 6,
-      "showed": 1,
-      "qualified": 0
     },
     "Instagram": {
       "total": 100,
@@ -63,10 +63,10 @@
       "showed": 45,
       "qualified": 41
     },
-    "Low Ticket Funnel": {
-      "total": 20,
-      "showed": 15,
-      "qualified": 11
+    "LTF - In-House": {
+      "total": 7,
+      "showed": 5,
+      "qualified": 5
     },
     "Reactivation Scrapers": {
       "total": 16,
@@ -83,15 +83,15 @@
       "showed": 43,
       "qualified": 38
     },
-    "LTF - In-House": {
-      "total": 6,
-      "showed": 4,
-      "qualified": 4
-    },
     "X": {
       "total": 2,
       "showed": 2,
       "qualified": 2
+    },
+    "Low Ticket Funnel": {
+      "total": 19,
+      "showed": 14,
+      "qualified": 10
     },
     "Reactivation Email": {
       "total": 1,
@@ -105,6 +105,13 @@
     }
   },
   "by_funnel_day": {
+    "Unknown (Needs Review)": {
+      "17": 1,
+      "16": 3,
+      "13": 1,
+      "10": 1,
+      "6": 1
+    },
     "Internal Webinar": {
       "17": 10,
       "16": 3,
@@ -116,12 +123,6 @@
       "3": 5,
       "2": 3,
       "1": 1
-    },
-    "Unknown (Needs Review)": {
-      "16": 3,
-      "13": 1,
-      "10": 1,
-      "6": 1
     },
     "Instagram": {
       "15": 9,
@@ -163,16 +164,12 @@
       "3": 3,
       "1": 5
     },
-    "Low Ticket Funnel": {
-      "17": 1,
-      "11": 1,
+    "LTF - In-House": {
+      "17": 3,
+      "15": 1,
       "10": 1,
-      "8": 2,
-      "9": 1,
-      "4": 6,
-      "5": 1,
-      "2": 3,
-      "3": 4
+      "4": 1,
+      "1": 1
     },
     "Reactivation Scrapers": {
       "17": 2,
@@ -210,16 +207,19 @@
       "2": 3,
       "1": 5
     },
-    "LTF - In-House": {
-      "17": 2,
-      "15": 1,
-      "10": 1,
-      "4": 1,
-      "1": 1
-    },
     "X": {
       "16": 1,
       "4": 1
+    },
+    "Low Ticket Funnel": {
+      "11": 1,
+      "10": 1,
+      "8": 2,
+      "9": 1,
+      "4": 6,
+      "5": 1,
+      "2": 3,
+      "3": 4
     },
     "Reactivation Email": {
       "9": 1
