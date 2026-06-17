@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T08:00:22.595958-07:00",
+  "generated_at": "2026-06-17T08:15:19.873485-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -20,16 +20,16 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 317,
+    "mtd_booked": 318,
     "on_pace": 559,
-    "remaining": 670,
-    "eom_projection": 559,
+    "remaining": 669,
+    "eom_projection": 561,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 182,
-      "showed": 118,
-      "qualified": 106
+      "total": 183,
+      "showed": 119,
+      "qualified": 107
     },
     "external": {
       "total": 135,
@@ -39,9 +39,9 @@
   },
   "by_funnel": {
     "Internal Webinar": {
-      "total": 34,
-      "showed": 18,
-      "qualified": 15
+      "total": 35,
+      "showed": 19,
+      "qualified": 16
     },
     "Reactivation Scrapers": {
       "total": 15,
@@ -106,7 +106,7 @@
   },
   "by_funnel_day": {
     "Internal Webinar": {
-      "17": 5,
+      "17": 6,
       "16": 3,
       "10": 1,
       "8": 2,
