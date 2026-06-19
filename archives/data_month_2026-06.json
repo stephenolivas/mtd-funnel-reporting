@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T06:15:15.836899-07:00",
+  "generated_at": "2026-06-19T06:30:15.317919-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -20,15 +20,15 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 362,
+    "mtd_booked": 363,
     "on_pace": 625,
-    "remaining": 625,
-    "eom_projection": 572,
+    "remaining": 624,
+    "eom_projection": 573,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 216,
-      "showed": 141,
+      "total": 217,
+      "showed": 142,
       "qualified": 128
     },
     "external": {
@@ -38,19 +38,19 @@
     }
   },
   "by_funnel": {
+    "Internal Webinar": {
+      "total": 59,
+      "showed": 35,
+      "qualified": 30
+    },
     "Meta Ads": {
       "total": 11,
       "showed": 7,
       "qualified": 6
     },
-    "Internal Webinar": {
-      "total": 58,
-      "showed": 35,
-      "qualified": 30
-    },
     "YouTube": {
       "total": 56,
-      "showed": 44,
+      "showed": 45,
       "qualified": 40
     },
     "Reactivation Scrapers": {
@@ -105,18 +105,8 @@
     }
   },
   "by_funnel_day": {
-    "Meta Ads": {
-      "19": 2,
-      "18": 1,
-      "12": 1,
-      "15": 1,
-      "16": 1,
-      "11": 1,
-      "10": 2,
-      "3": 2
-    },
     "Internal Webinar": {
-      "19": 4,
+      "19": 5,
       "17": 11,
       "18": 13,
       "16": 3,
@@ -128,6 +118,16 @@
       "3": 5,
       "2": 3,
       "1": 1
+    },
+    "Meta Ads": {
+      "19": 2,
+      "18": 1,
+      "12": 1,
+      "15": 1,
+      "16": 1,
+      "11": 1,
+      "10": 2,
+      "3": 2
     },
     "YouTube": {
       "19": 1,
