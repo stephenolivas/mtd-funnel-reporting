@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T10:00:17.605078-07:00",
+  "generated_at": "2026-06-19T10:15:13.669891-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -29,7 +29,7 @@
     "inhouse": {
       "total": 218,
       "showed": 144,
-      "qualified": 128
+      "qualified": 129
     },
     "external": {
       "total": 146,
@@ -66,7 +66,7 @@
     "Website": {
       "total": 73,
       "showed": 47,
-      "qualified": 43
+      "qualified": 44
     },
     "Unknown (Needs Review)": {
       "total": 4,
