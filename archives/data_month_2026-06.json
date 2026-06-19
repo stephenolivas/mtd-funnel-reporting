@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T15:00:13.479744-07:00",
+  "generated_at": "2026-06-19T15:15:11.259527-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -33,7 +33,7 @@
     },
     "external": {
       "total": 144,
-      "showed": 107,
+      "showed": 108,
       "qualified": 92
     }
   },
@@ -60,7 +60,7 @@
     },
     "Instagram": {
       "total": 108,
-      "showed": 79,
+      "showed": 80,
       "qualified": 67
     },
     "Website": {
