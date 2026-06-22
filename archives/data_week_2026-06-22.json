@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T01:15:13.506082-07:00",
+  "generated_at": "2026-06-22T01:30:15.556839-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -27,26 +27,31 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 231,
+      "total": 233,
       "showed": 148,
       "qualified": 132
     },
     "external": {
-      "total": 154,
+      "total": 152,
       "showed": 110,
       "qualified": 95
     }
   },
   "by_funnel": {
-    "Unknown (Needs Review)": {
-      "total": 5,
-      "showed": 0,
-      "qualified": 0
+    "Website": {
+      "total": 78,
+      "showed": 47,
+      "qualified": 44
     },
     "Instagram": {
       "total": 115,
       "showed": 82,
       "qualified": 70
+    },
+    "Unknown (Needs Review)": {
+      "total": 3,
+      "showed": 0,
+      "qualified": 0
     },
     "YouTube": {
       "total": 60,
@@ -62,11 +67,6 @@
       "total": 14,
       "showed": 9,
       "qualified": 7
-    },
-    "Website": {
-      "total": 76,
-      "showed": 47,
-      "qualified": 44
     },
     "Reactivation Scrapers": {
       "total": 17,
@@ -105,10 +105,23 @@
     }
   },
   "by_funnel_day": {
-    "Unknown (Needs Review)": {
-      "22": 3,
-      "16": 1,
-      "6": 1
+    "Website": {
+      "22": 4,
+      "18": 2,
+      "16": 7,
+      "12": 4,
+      "17": 2,
+      "15": 5,
+      "14": 1,
+      "11": 4,
+      "10": 4,
+      "9": 6,
+      "8": 11,
+      "5": 6,
+      "4": 7,
+      "2": 7,
+      "3": 3,
+      "1": 5
     },
     "Instagram": {
       "22": 4,
@@ -128,6 +141,11 @@
       "2": 11,
       "4": 7,
       "1": 16
+    },
+    "Unknown (Needs Review)": {
+      "22": 1,
+      "16": 1,
+      "6": 1
     },
     "YouTube": {
       "22": 1,
@@ -175,24 +193,6 @@
       "11": 1,
       "10": 2,
       "3": 2
-    },
-    "Website": {
-      "22": 2,
-      "18": 2,
-      "16": 7,
-      "12": 4,
-      "17": 2,
-      "15": 5,
-      "14": 1,
-      "11": 4,
-      "10": 4,
-      "9": 6,
-      "8": 11,
-      "5": 6,
-      "4": 7,
-      "2": 7,
-      "3": 3,
-      "1": 5
     },
     "Reactivation Scrapers": {
       "18": 1,
