@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T15:15:11.148815-07:00",
+  "generated_at": "2026-06-23T15:30:14.001549-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -27,12 +27,12 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 238,
+      "total": 241,
       "showed": 156,
       "qualified": 141
     },
     "external": {
-      "total": 157,
+      "total": 154,
       "showed": 112,
       "qualified": 97
     }
@@ -48,20 +48,15 @@
       "showed": 84,
       "qualified": 72
     },
-    "Unknown (Needs Review)": {
-      "total": 5,
-      "showed": 0,
-      "qualified": 0
+    "Website": {
+      "total": 83,
+      "showed": 51,
+      "qualified": 48
     },
     "LTF - In-House": {
       "total": 7,
       "showed": 5,
       "qualified": 5
-    },
-    "Website": {
-      "total": 80,
-      "showed": 51,
-      "qualified": 48
     },
     "X": {
       "total": 3,
@@ -82,6 +77,11 @@
       "total": 18,
       "showed": 7,
       "qualified": 9
+    },
+    "Unknown (Needs Review)": {
+      "total": 2,
+      "showed": 0,
+      "qualified": 0
     },
     "Linkedin": {
       "total": 6,
@@ -147,21 +147,8 @@
       "4": 7,
       "1": 16
     },
-    "Unknown (Needs Review)": {
-      "23": 3,
-      "16": 1,
-      "6": 1
-    },
-    "LTF - In-House": {
-      "23": 1,
-      "17": 2,
-      "15": 1,
-      "10": 1,
-      "4": 1,
-      "1": 1
-    },
     "Website": {
-      "23": 2,
+      "23": 5,
       "22": 4,
       "18": 2,
       "16": 7,
@@ -178,6 +165,14 @@
       "2": 7,
       "3": 3,
       "1": 5
+    },
+    "LTF - In-House": {
+      "23": 1,
+      "17": 2,
+      "15": 1,
+      "10": 1,
+      "4": 1,
+      "1": 1
     },
     "X": {
       "23": 1,
@@ -223,6 +218,10 @@
       "4": 2,
       "2": 2,
       "3": 1
+    },
+    "Unknown (Needs Review)": {
+      "16": 1,
+      "6": 1
     },
     "Linkedin": {
       "16": 1,
