@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T12:45:13.230622-07:00",
+  "generated_at": "2026-06-24T13:00:15.795864-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 244,
-      "showed": 157,
-      "qualified": 141
+      "showed": 158,
+      "qualified": 142
     },
     "external": {
       "total": 155,
@@ -40,8 +40,8 @@
   "by_funnel": {
     "Meta Ads": {
       "total": 13,
-      "showed": 10,
-      "qualified": 8
+      "showed": 11,
+      "qualified": 9
     },
     "Website": {
       "total": 85,
