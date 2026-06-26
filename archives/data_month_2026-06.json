@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T05:45:11.161317-07:00",
+  "generated_at": "2026-06-26T06:00:16.110102-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -33,8 +33,8 @@
     },
     "external": {
       "total": 163,
-      "showed": 119,
-      "qualified": 105
+      "showed": 120,
+      "qualified": 106
     }
   },
   "by_funnel": {
@@ -45,8 +45,8 @@
     },
     "LTF - In-House": {
       "total": 8,
-      "showed": 5,
-      "qualified": 5
+      "showed": 6,
+      "qualified": 6
     },
     "Website": {
       "total": 91,
