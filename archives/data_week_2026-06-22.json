@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-25T23:45:10.912022-07:00",
+  "generated_at": "2026-06-26T00:00:24.893249-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
-  "day": 25,
+  "day": 26,
   "month_days": 30,
   "goals": {
     "Low Ticket Funnel": 200,
@@ -20,26 +20,36 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 408,
-    "on_pace": 822,
-    "remaining": 579,
-    "eom_projection": 490,
+    "mtd_booked": 416,
+    "on_pace": 855,
+    "remaining": 571,
+    "eom_projection": 480,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 247,
-      "showed": 160,
+      "total": 252,
+      "showed": 161,
       "qualified": 145
     },
     "external": {
-      "total": 161,
-      "showed": 118,
-      "qualified": 104
+      "total": 164,
+      "showed": 119,
+      "qualified": 105
     }
   },
   "by_funnel": {
+    "Instagram": {
+      "total": 120,
+      "showed": 86,
+      "qualified": 74
+    },
+    "LTF - In-House": {
+      "total": 8,
+      "showed": 5,
+      "qualified": 5
+    },
     "Website": {
-      "total": 87,
+      "total": 91,
       "showed": 53,
       "qualified": 50
     },
@@ -47,6 +57,11 @@
       "total": 3,
       "showed": 0,
       "qualified": 0
+    },
+    "Reactivation Scrapers": {
+      "total": 19,
+      "showed": 8,
+      "qualified": 9
     },
     "Low Ticket Funnel": {
       "total": 21,
@@ -57,11 +72,6 @@
       "total": 1,
       "showed": 1,
       "qualified": 1
-    },
-    "Instagram": {
-      "total": 118,
-      "showed": 85,
-      "qualified": 73
     },
     "Meta Ads": {
       "total": 13,
@@ -78,11 +88,6 @@
       "showed": 49,
       "qualified": 43
     },
-    "LTF - In-House": {
-      "total": 7,
-      "showed": 5,
-      "qualified": 5
-    },
     "Linkedin": {
       "total": 7,
       "showed": 7,
@@ -92,11 +97,6 @@
       "total": 3,
       "showed": 3,
       "qualified": 3
-    },
-    "Reactivation Scrapers": {
-      "total": 18,
-      "showed": 7,
-      "qualified": 9
     },
     "Reactivation Email": {
       "total": 1,
@@ -110,10 +110,42 @@
     }
   },
   "by_funnel_day": {
+    "Instagram": {
+      "26": 2,
+      "25": 2,
+      "23": 2,
+      "22": 3,
+      "18": 3,
+      "15": 9,
+      "11": 7,
+      "10": 14,
+      "19": 3,
+      "17": 3,
+      "16": 2,
+      "12": 3,
+      "9": 5,
+      "8": 5,
+      "5": 8,
+      "6": 1,
+      "3": 14,
+      "2": 11,
+      "4": 7,
+      "1": 16
+    },
+    "LTF - In-House": {
+      "26": 1,
+      "23": 1,
+      "17": 2,
+      "15": 1,
+      "10": 1,
+      "4": 1,
+      "1": 1
+    },
     "Website": {
       "25": 1,
       "24": 4,
       "23": 4,
+      "26": 4,
       "22": 4,
       "18": 2,
       "16": 7,
@@ -136,6 +168,20 @@
       "16": 1,
       "6": 1
     },
+    "Reactivation Scrapers": {
+      "26": 1,
+      "19": 1,
+      "18": 1,
+      "17": 2,
+      "16": 2,
+      "15": 1,
+      "11": 1,
+      "9": 2,
+      "5": 3,
+      "4": 2,
+      "2": 2,
+      "3": 1
+    },
     "Low Ticket Funnel": {
       "25": 3,
       "11": 1,
@@ -148,27 +194,6 @@
     },
     "Google Ads": {
       "25": 1
-    },
-    "Instagram": {
-      "25": 2,
-      "23": 2,
-      "22": 3,
-      "18": 3,
-      "15": 9,
-      "11": 7,
-      "10": 14,
-      "19": 3,
-      "17": 3,
-      "16": 2,
-      "12": 3,
-      "9": 5,
-      "8": 5,
-      "5": 8,
-      "6": 1,
-      "3": 14,
-      "2": 11,
-      "4": 7,
-      "1": 16
     },
     "Meta Ads": {
       "24": 1,
@@ -221,14 +246,6 @@
       "2": 3,
       "1": 5
     },
-    "LTF - In-House": {
-      "23": 1,
-      "17": 2,
-      "15": 1,
-      "10": 1,
-      "4": 1,
-      "1": 1
-    },
     "Linkedin": {
       "24": 1,
       "16": 1,
@@ -241,19 +258,6 @@
       "23": 1,
       "16": 1,
       "4": 1
-    },
-    "Reactivation Scrapers": {
-      "19": 1,
-      "18": 1,
-      "17": 2,
-      "16": 2,
-      "15": 1,
-      "11": 1,
-      "9": 2,
-      "5": 3,
-      "4": 2,
-      "2": 2,
-      "3": 1
     },
     "Reactivation Email": {
       "9": 1
