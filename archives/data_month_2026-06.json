@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T08:00:16.722750-07:00",
+  "generated_at": "2026-06-29T08:15:10.561198-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -27,21 +27,21 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 264,
-      "showed": 165,
-      "qualified": 150
+      "total": 269,
+      "showed": 166,
+      "qualified": 151
     },
     "external": {
-      "total": 172,
-      "showed": 123,
-      "qualified": 108
+      "total": 167,
+      "showed": 122,
+      "qualified": 107
     }
   },
   "by_funnel": {
-    "Unknown (Needs Review)": {
-      "total": 9,
-      "showed": 1,
-      "qualified": 1
+    "Website": {
+      "total": 97,
+      "showed": 56,
+      "qualified": 52
     },
     "Meta Ads": {
       "total": 16,
@@ -68,15 +68,15 @@
       "showed": 88,
       "qualified": 75
     },
-    "Website": {
-      "total": 92,
-      "showed": 55,
-      "qualified": 51
-    },
     "LTF - In-House": {
       "total": 8,
       "showed": 6,
       "qualified": 6
+    },
+    "Unknown (Needs Review)": {
+      "total": 4,
+      "showed": 0,
+      "qualified": 0
     },
     "Reactivation Scrapers": {
       "total": 20,
@@ -110,11 +110,28 @@
     }
   },
   "by_funnel_day": {
-    "Unknown (Needs Review)": {
-      "29": 6,
-      "17": 1,
-      "16": 1,
-      "6": 1
+    "Website": {
+      "29": 7,
+      "25": 1,
+      "24": 4,
+      "23": 4,
+      "26": 3,
+      "22": 4,
+      "18": 2,
+      "16": 7,
+      "12": 4,
+      "17": 2,
+      "15": 5,
+      "14": 1,
+      "11": 4,
+      "10": 4,
+      "9": 6,
+      "8": 11,
+      "5": 6,
+      "4": 7,
+      "2": 7,
+      "3": 3,
+      "1": 5
     },
     "Meta Ads": {
       "29": 2,
@@ -204,29 +221,6 @@
       "4": 7,
       "1": 16
     },
-    "Website": {
-      "29": 2,
-      "25": 1,
-      "24": 4,
-      "23": 4,
-      "26": 3,
-      "22": 4,
-      "18": 2,
-      "16": 7,
-      "12": 4,
-      "17": 2,
-      "15": 5,
-      "14": 1,
-      "11": 4,
-      "10": 4,
-      "9": 6,
-      "8": 11,
-      "5": 6,
-      "4": 7,
-      "2": 7,
-      "3": 3,
-      "1": 5
-    },
     "LTF - In-House": {
       "26": 1,
       "23": 1,
@@ -235,6 +229,12 @@
       "10": 1,
       "4": 1,
       "1": 1
+    },
+    "Unknown (Needs Review)": {
+      "29": 1,
+      "17": 1,
+      "16": 1,
+      "6": 1
     },
     "Reactivation Scrapers": {
       "26": 1,
