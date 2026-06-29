@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T07:30:14.029194-07:00",
+  "generated_at": "2026-06-29T07:45:13.410572-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -27,21 +27,26 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 263,
+      "total": 264,
       "showed": 165,
       "qualified": 150
     },
     "external": {
-      "total": 173,
+      "total": 172,
       "showed": 123,
       "qualified": 108
     }
   },
   "by_funnel": {
     "Unknown (Needs Review)": {
-      "total": 10,
+      "total": 9,
       "showed": 1,
       "qualified": 1
+    },
+    "Meta Ads": {
+      "total": 16,
+      "showed": 11,
+      "qualified": 9
     },
     "YouTube": {
       "total": 65,
@@ -52,11 +57,6 @@
       "total": 70,
       "showed": 40,
       "qualified": 34
-    },
-    "Meta Ads": {
-      "total": 15,
-      "showed": 11,
-      "qualified": 9
     },
     "Linkedin": {
       "total": 8,
@@ -111,10 +111,24 @@
   },
   "by_funnel_day": {
     "Unknown (Needs Review)": {
-      "29": 7,
+      "29": 6,
       "17": 1,
       "16": 1,
       "6": 1
+    },
+    "Meta Ads": {
+      "29": 2,
+      "25": 1,
+      "24": 1,
+      "22": 1,
+      "19": 2,
+      "18": 1,
+      "12": 1,
+      "15": 1,
+      "16": 1,
+      "11": 1,
+      "10": 2,
+      "3": 2
     },
     "YouTube": {
       "29": 2,
@@ -157,20 +171,6 @@
       "2": 3,
       "3": 4,
       "1": 1
-    },
-    "Meta Ads": {
-      "29": 1,
-      "25": 1,
-      "24": 1,
-      "22": 1,
-      "19": 2,
-      "18": 1,
-      "12": 1,
-      "15": 1,
-      "16": 1,
-      "11": 1,
-      "10": 2,
-      "3": 2
     },
     "Linkedin": {
       "29": 1,
