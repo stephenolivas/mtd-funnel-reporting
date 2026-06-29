@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-28T23:45:11.460839-07:00",
+  "generated_at": "2026-06-29T00:00:16.429688-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
-  "day": 28,
+  "day": 29,
   "month_days": 30,
   "goals": {
     "Low Ticket Funnel": 200,
@@ -20,48 +20,63 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 418,
-    "on_pace": 921,
-    "remaining": 569,
-    "eom_projection": 448,
+    "mtd_booked": 436,
+    "on_pace": 954,
+    "remaining": 551,
+    "eom_projection": 451,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 254,
+      "total": 262,
       "showed": 165,
       "qualified": 149
     },
     "external": {
-      "total": 164,
-      "showed": 122,
+      "total": 174,
+      "showed": 123,
       "qualified": 108
     }
   },
   "by_funnel": {
+    "Unknown (Needs Review)": {
+      "total": 8,
+      "showed": 0,
+      "qualified": 0
+    },
+    "YouTube": {
+      "total": 65,
+      "showed": 50,
+      "qualified": 44
+    },
     "Internal Webinar": {
-      "total": 67,
+      "total": 70,
       "showed": 40,
       "qualified": 34
     },
+    "Meta Ads": {
+      "total": 15,
+      "showed": 11,
+      "qualified": 9
+    },
+    "Linkedin": {
+      "total": 8,
+      "showed": 7,
+      "qualified": 7
+    },
     "Instagram": {
-      "total": 120,
-      "showed": 88,
+      "total": 124,
+      "showed": 89,
       "qualified": 76
+    },
+    "Website": {
+      "total": 92,
+      "showed": 55,
+      "qualified": 51
     },
     "LTF - In-House": {
       "total": 8,
       "showed": 6,
       "qualified": 6
-    },
-    "Website": {
-      "total": 90,
-      "showed": 55,
-      "qualified": 51
-    },
-    "Unknown (Needs Review)": {
-      "total": 3,
-      "showed": 0,
-      "qualified": 0
     },
     "Reactivation Scrapers": {
       "total": 19,
@@ -77,21 +92,6 @@
       "total": 1,
       "showed": 1,
       "qualified": 1
-    },
-    "Meta Ads": {
-      "total": 14,
-      "showed": 11,
-      "qualified": 9
-    },
-    "YouTube": {
-      "total": 63,
-      "showed": 50,
-      "qualified": 44
-    },
-    "Linkedin": {
-      "total": 7,
-      "showed": 7,
-      "qualified": 7
     },
     "X": {
       "total": 3,
@@ -110,7 +110,37 @@
     }
   },
   "by_funnel_day": {
+    "Unknown (Needs Review)": {
+      "29": 5,
+      "17": 1,
+      "16": 1,
+      "6": 1
+    },
+    "YouTube": {
+      "29": 2,
+      "23": 4,
+      "22": 1,
+      "19": 1,
+      "18": 1,
+      "17": 1,
+      "20": 1,
+      "15": 1,
+      "16": 2,
+      "13": 2,
+      "11": 6,
+      "14": 1,
+      "10": 3,
+      "12": 3,
+      "9": 9,
+      "8": 4,
+      "5": 6,
+      "4": 6,
+      "3": 2,
+      "2": 4,
+      "1": 5
+    },
     "Internal Webinar": {
+      "29": 3,
       "26": 1,
       "25": 1,
       "22": 5,
@@ -128,7 +158,31 @@
       "3": 4,
       "1": 1
     },
+    "Meta Ads": {
+      "29": 1,
+      "25": 1,
+      "24": 1,
+      "22": 1,
+      "19": 2,
+      "18": 1,
+      "12": 1,
+      "15": 1,
+      "16": 1,
+      "11": 1,
+      "10": 2,
+      "3": 2
+    },
+    "Linkedin": {
+      "29": 1,
+      "24": 1,
+      "16": 1,
+      "15": 1,
+      "5": 2,
+      "4": 1,
+      "2": 1
+    },
     "Instagram": {
+      "29": 4,
       "26": 2,
       "25": 1,
       "23": 2,
@@ -150,16 +204,8 @@
       "4": 7,
       "1": 16
     },
-    "LTF - In-House": {
-      "26": 1,
-      "23": 1,
-      "17": 2,
-      "15": 1,
-      "10": 1,
-      "4": 1,
-      "1": 1
-    },
     "Website": {
+      "29": 2,
       "25": 1,
       "24": 4,
       "23": 4,
@@ -181,10 +227,14 @@
       "3": 3,
       "1": 5
     },
-    "Unknown (Needs Review)": {
-      "17": 1,
-      "16": 1,
-      "6": 1
+    "LTF - In-House": {
+      "26": 1,
+      "23": 1,
+      "17": 2,
+      "15": 1,
+      "10": 1,
+      "4": 1,
+      "1": 1
     },
     "Reactivation Scrapers": {
       "26": 1,
@@ -212,49 +262,6 @@
     },
     "Google Ads": {
       "25": 1
-    },
-    "Meta Ads": {
-      "25": 1,
-      "24": 1,
-      "22": 1,
-      "19": 2,
-      "18": 1,
-      "12": 1,
-      "15": 1,
-      "16": 1,
-      "11": 1,
-      "10": 2,
-      "3": 2
-    },
-    "YouTube": {
-      "23": 4,
-      "22": 1,
-      "19": 1,
-      "18": 1,
-      "17": 1,
-      "20": 1,
-      "15": 1,
-      "16": 2,
-      "13": 2,
-      "11": 6,
-      "14": 1,
-      "10": 3,
-      "12": 3,
-      "9": 9,
-      "8": 4,
-      "5": 6,
-      "4": 6,
-      "3": 2,
-      "2": 4,
-      "1": 5
-    },
-    "Linkedin": {
-      "24": 1,
-      "16": 1,
-      "15": 1,
-      "5": 2,
-      "4": 1,
-      "2": 1
     },
     "X": {
       "23": 1,
