@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T11:45:09.489309-07:00",
+  "generated_at": "2026-06-30T12:00:18.288641-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -34,7 +34,7 @@
     "external": {
       "total": 174,
       "showed": 129,
-      "qualified": 112
+      "qualified": 114
     }
   },
   "by_funnel": {
@@ -46,12 +46,12 @@
     "Instagram": {
       "total": 123,
       "showed": 92,
-      "qualified": 78
+      "qualified": 79
     },
     "Unknown (Needs Review)": {
       "total": 8,
       "showed": 1,
-      "qualified": 0
+      "qualified": 1
     },
     "LTF - In-House": {
       "total": 9,
