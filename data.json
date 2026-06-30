@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T11:00:19.127736-07:00",
+  "generated_at": "2026-06-30T11:15:11.176760-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -33,7 +33,7 @@
     },
     "external": {
       "total": 172,
-      "showed": 127,
+      "showed": 128,
       "qualified": 112
     }
   },
@@ -50,7 +50,7 @@
     },
     "Unknown (Needs Review)": {
       "total": 7,
-      "showed": 0,
+      "showed": 1,
       "qualified": 0
     },
     "LTF - In-House": {
