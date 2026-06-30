@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-29T23:45:09.136804-07:00",
+  "generated_at": "2026-06-30T00:00:15.148904-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
-  "day": 29,
+  "day": 30,
   "month_days": 30,
   "goals": {
     "Low Ticket Funnel": 200,
@@ -20,38 +20,63 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 435,
-    "on_pace": 954,
-    "remaining": 552,
-    "eom_projection": 450,
+    "mtd_booked": 454,
+    "on_pace": 987,
+    "remaining": 533,
+    "eom_projection": 454,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 269,
+      "total": 278,
       "showed": 174,
       "qualified": 156
     },
     "external": {
-      "total": 166,
-      "showed": 125,
-      "qualified": 110
+      "total": 176,
+      "showed": 127,
+      "qualified": 112
     }
   },
   "by_funnel": {
+    "Linkedin": {
+      "total": 9,
+      "showed": 9,
+      "qualified": 9
+    },
+    "Instagram": {
+      "total": 123,
+      "showed": 89,
+      "qualified": 76
+    },
+    "Unknown (Needs Review)": {
+      "total": 7,
+      "showed": 0,
+      "qualified": 0
+    },
+    "Sales Reactivation": {
+      "total": 2,
+      "showed": 2,
+      "qualified": 2
+    },
+    "Low Ticket Funnel": {
+      "total": 22,
+      "showed": 16,
+      "qualified": 14
+    },
+    "Meta Ads": {
+      "total": 18,
+      "showed": 12,
+      "qualified": 10
+    },
+    "Website": {
+      "total": 104,
+      "showed": 61,
+      "qualified": 56
+    },
     "Anthony X": {
       "total": 1,
       "showed": 1,
       "qualified": 1
-    },
-    "Website": {
-      "total": 97,
-      "showed": 61,
-      "qualified": 56
-    },
-    "Meta Ads": {
-      "total": 16,
-      "showed": 12,
-      "qualified": 10
     },
     "YouTube": {
       "total": 65,
@@ -63,35 +88,15 @@
       "showed": 41,
       "qualified": 33
     },
-    "Linkedin": {
-      "total": 8,
-      "showed": 8,
-      "qualified": 8
-    },
-    "Instagram": {
-      "total": 120,
-      "showed": 89,
-      "qualified": 76
-    },
     "LTF - In-House": {
       "total": 8,
       "showed": 6,
       "qualified": 6
     },
-    "Unknown (Needs Review)": {
-      "total": 3,
-      "showed": 0,
-      "qualified": 0
-    },
     "Reactivation Scrapers": {
       "total": 20,
       "showed": 8,
       "qualified": 11
-    },
-    "Low Ticket Funnel": {
-      "total": 21,
-      "showed": 16,
-      "qualified": 14
     },
     "Google Ads": {
       "total": 1,
@@ -107,18 +112,81 @@
       "total": 1,
       "showed": 1,
       "qualified": 1
-    },
-    "Sales Reactivation": {
-      "total": 1,
-      "showed": 1,
-      "qualified": 1
     }
   },
   "by_funnel_day": {
-    "Anthony X": {
-      "29": 1
+    "Linkedin": {
+      "30": 1,
+      "29": 1,
+      "24": 1,
+      "16": 1,
+      "15": 1,
+      "5": 2,
+      "4": 1,
+      "2": 1
+    },
+    "Instagram": {
+      "30": 3,
+      "29": 1,
+      "26": 2,
+      "25": 1,
+      "23": 2,
+      "22": 4,
+      "18": 3,
+      "15": 9,
+      "11": 7,
+      "10": 14,
+      "19": 3,
+      "17": 3,
+      "16": 2,
+      "12": 3,
+      "9": 5,
+      "8": 5,
+      "5": 8,
+      "6": 1,
+      "3": 13,
+      "2": 11,
+      "4": 7,
+      "1": 16
+    },
+    "Unknown (Needs Review)": {
+      "30": 4,
+      "17": 1,
+      "16": 1,
+      "6": 1
+    },
+    "Sales Reactivation": {
+      "30": 1,
+      "4": 1
+    },
+    "Low Ticket Funnel": {
+      "30": 1,
+      "25": 3,
+      "11": 1,
+      "10": 1,
+      "8": 2,
+      "4": 6,
+      "5": 1,
+      "2": 3,
+      "3": 4
+    },
+    "Meta Ads": {
+      "30": 2,
+      "29": 2,
+      "25": 1,
+      "24": 1,
+      "22": 1,
+      "19": 2,
+      "18": 1,
+      "12": 1,
+      "15": 1,
+      "16": 1,
+      "11": 1,
+      "10": 2,
+      "3": 2
     },
     "Website": {
+      "30": 7,
       "29": 8,
       "25": 1,
       "24": 4,
@@ -141,19 +209,8 @@
       "3": 3,
       "1": 5
     },
-    "Meta Ads": {
-      "29": 2,
-      "25": 1,
-      "24": 1,
-      "22": 1,
-      "19": 2,
-      "18": 1,
-      "12": 1,
-      "15": 1,
-      "16": 1,
-      "11": 1,
-      "10": 2,
-      "3": 2
+    "Anthony X": {
+      "29": 1
     },
     "YouTube": {
       "29": 2,
@@ -197,38 +254,6 @@
       "3": 4,
       "1": 1
     },
-    "Linkedin": {
-      "29": 1,
-      "24": 1,
-      "16": 1,
-      "15": 1,
-      "5": 2,
-      "4": 1,
-      "2": 1
-    },
-    "Instagram": {
-      "29": 1,
-      "26": 2,
-      "25": 1,
-      "23": 2,
-      "22": 4,
-      "18": 3,
-      "15": 9,
-      "11": 7,
-      "10": 14,
-      "19": 3,
-      "17": 3,
-      "16": 2,
-      "12": 3,
-      "9": 5,
-      "8": 5,
-      "5": 8,
-      "6": 1,
-      "3": 13,
-      "2": 11,
-      "4": 7,
-      "1": 16
-    },
     "LTF - In-House": {
       "26": 1,
       "23": 1,
@@ -237,11 +262,6 @@
       "10": 1,
       "4": 1,
       "1": 1
-    },
-    "Unknown (Needs Review)": {
-      "17": 1,
-      "16": 1,
-      "6": 1
     },
     "Reactivation Scrapers": {
       "26": 1,
@@ -257,16 +277,6 @@
       "4": 2,
       "2": 2
     },
-    "Low Ticket Funnel": {
-      "25": 3,
-      "11": 1,
-      "10": 1,
-      "8": 2,
-      "4": 6,
-      "5": 1,
-      "2": 3,
-      "3": 4
-    },
     "Google Ads": {
       "25": 1
     },
@@ -277,9 +287,6 @@
     },
     "Reactivation Email": {
       "9": 1
-    },
-    "Sales Reactivation": {
-      "4": 1
     }
   },
   "won_by_funnel": {}
