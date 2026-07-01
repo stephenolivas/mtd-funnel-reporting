@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T21:45:10.126073-07:00",
+  "generated_at": "2026-06-30T22:00:16.658674-07:00",
   "generated_tz": "PDT",
   "month": "2026-06",
   "month_label": "June 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 282,
-      "showed": 177,
-      "qualified": 162
+      "showed": 179,
+      "qualified": 163
     },
     "external": {
       "total": 174,
@@ -40,13 +40,13 @@
   "by_funnel": {
     "Internal Webinar": {
       "total": 76,
-      "showed": 42,
+      "showed": 43,
       "qualified": 34
     },
     "Website": {
       "total": 104,
-      "showed": 63,
-      "qualified": 61
+      "showed": 64,
+      "qualified": 62
     },
     "Instagram": {
       "total": 123,
