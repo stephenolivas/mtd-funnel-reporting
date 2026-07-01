@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T03:00:21.031810-07:00",
+  "generated_at": "2026-07-01T03:15:12.842548-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -33,7 +33,7 @@
     },
     "external": {
       "total": 2,
-      "showed": 0,
+      "showed": 1,
       "qualified": 0
     }
   },
@@ -50,7 +50,7 @@
     },
     "Unknown (Needs Review)": {
       "total": 1,
-      "showed": 0,
+      "showed": 1,
       "qualified": 0
     },
     "Website": {
