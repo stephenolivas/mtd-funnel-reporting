@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T12:15:11.951339-07:00",
+  "generated_at": "2026-07-02T12:30:19.123135-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -78,7 +78,7 @@
       "showed": 1,
       "qualified": 1
     },
-    "Low Ticket Funnel": {
+    "LTF - In-House": {
       "total": 1,
       "showed": 1,
       "qualified": 1
@@ -120,7 +120,7 @@
       "2": 4,
       "1": 1
     },
-    "Low Ticket Funnel": {
+    "LTF - In-House": {
       "2": 1
     },
     "Reactivation Scrapers": {
