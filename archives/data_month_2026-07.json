@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T18:15:14.187356-07:00",
+  "generated_at": "2026-07-03T18:30:16.220757-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -27,24 +27,24 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 45,
+      "total": 46,
       "showed": 16,
       "qualified": 17
     },
     "external": {
-      "total": 29,
+      "total": 28,
       "showed": 10,
       "qualified": 10
     }
   },
   "by_funnel": {
     "Unknown (Needs Review)": {
-      "total": 11,
+      "total": 10,
       "showed": 2,
       "qualified": 3
     },
     "Reactivation Scrapers": {
-      "total": 5,
+      "total": 6,
       "showed": 2,
       "qualified": 2
     },
@@ -91,12 +91,12 @@
   },
   "by_funnel_day": {
     "Unknown (Needs Review)": {
-      "3": 6,
+      "3": 5,
       "2": 3,
       "1": 2
     },
     "Reactivation Scrapers": {
-      "3": 2,
+      "3": 3,
       "2": 2,
       "1": 1
     },
