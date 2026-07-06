@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T12:00:34.652135-07:00",
+  "generated_at": "2026-07-06T12:15:11.474049-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -28,7 +28,7 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 54,
-      "showed": 20,
+      "showed": 21,
       "qualified": 21
     },
     "external": {
@@ -55,7 +55,7 @@
     },
     "Meta Ads": {
       "total": 7,
-      "showed": 2,
+      "showed": 3,
       "qualified": 3
     },
     "Internal Webinar": {
