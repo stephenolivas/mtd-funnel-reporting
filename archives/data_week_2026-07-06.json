@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T07:15:14.557006-07:00",
+  "generated_at": "2026-07-06T07:30:40.750950-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -38,20 +38,20 @@
     }
   },
   "by_funnel": {
-    "Unknown (Needs Review)": {
-      "total": 30,
-      "showed": 3,
-      "qualified": 6
+    "Instagram": {
+      "total": 18,
+      "showed": 4,
+      "qualified": 4
     },
     "YouTube": {
       "total": 5,
       "showed": 1,
       "qualified": 1
     },
-    "Instagram": {
-      "total": 17,
-      "showed": 4,
-      "qualified": 4
+    "Unknown (Needs Review)": {
+      "total": 29,
+      "showed": 3,
+      "qualified": 6
     },
     "Meta Ads": {
       "total": 6,
@@ -90,23 +90,23 @@
     }
   },
   "by_funnel_day": {
-    "Unknown (Needs Review)": {
-      "6": 4,
-      "5": 10,
+    "Instagram": {
+      "6": 6,
       "3": 5,
-      "4": 6,
       "2": 3,
-      "1": 2
+      "1": 4
     },
     "YouTube": {
       "6": 3,
       "2": 2
     },
-    "Instagram": {
-      "6": 5,
+    "Unknown (Needs Review)": {
+      "6": 3,
+      "5": 10,
       "3": 5,
+      "4": 6,
       "2": 3,
-      "1": 4
+      "1": 2
     },
     "Meta Ads": {
       "6": 1,
