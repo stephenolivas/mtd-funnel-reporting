@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T11:00:34.020627-07:00",
+  "generated_at": "2026-07-07T11:15:13.333022-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 71,
-      "showed": 24,
-      "qualified": 26
+      "showed": 25,
+      "qualified": 27
     },
     "external": {
       "total": 45,
@@ -70,8 +70,8 @@
     },
     "Reactivation Scrapers": {
       "total": 8,
-      "showed": 2,
-      "qualified": 2
+      "showed": 3,
+      "qualified": 3
     },
     "Unknown (Needs Review)": {
       "total": 16,
