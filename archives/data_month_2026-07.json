@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T11:45:10.466590-07:00",
+  "generated_at": "2026-07-08T12:00:35.505860-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -34,7 +34,7 @@
     "external": {
       "total": 53,
       "showed": 20,
-      "qualified": 21
+      "qualified": 22
     }
   },
   "by_funnel": {
@@ -71,7 +71,7 @@
     "Unknown (Needs Review)": {
       "total": 17,
       "showed": 3,
-      "qualified": 4
+      "qualified": 5
     },
     "Reactivation Scrapers": {
       "total": 8,
