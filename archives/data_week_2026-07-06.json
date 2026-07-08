@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T10:15:12.083578-07:00",
+  "generated_at": "2026-07-08T10:30:41.896810-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -28,20 +28,20 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 79,
-      "showed": 29,
+      "showed": 30,
       "qualified": 32
     },
     "external": {
       "total": 53,
-      "showed": 19,
-      "qualified": 20
+      "showed": 20,
+      "qualified": 21
     }
   },
   "by_funnel": {
     "Instagram": {
       "total": 27,
-      "showed": 10,
-      "qualified": 10
+      "showed": 11,
+      "qualified": 11
     },
     "Meta Ads": {
       "total": 10,
@@ -50,7 +50,7 @@
     },
     "Website": {
       "total": 30,
-      "showed": 12,
+      "showed": 13,
       "qualified": 11
     },
     "YouTube": {
