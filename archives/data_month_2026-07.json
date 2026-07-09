@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T12:00:21.962340-07:00",
+  "generated_at": "2026-07-09T12:15:14.386411-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -28,7 +28,7 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 89,
-      "showed": 40,
+      "showed": 41,
       "qualified": 42
     },
     "external": {
@@ -50,7 +50,7 @@
     },
     "YouTube": {
       "total": 19,
-      "showed": 10,
+      "showed": 11,
       "qualified": 12
     },
     "Reactivation Scrapers": {
