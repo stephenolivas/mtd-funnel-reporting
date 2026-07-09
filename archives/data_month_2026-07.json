@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T15:30:28.284431-07:00",
+  "generated_at": "2026-07-09T15:45:11.431366-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -28,7 +28,7 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 90,
-      "showed": 43,
+      "showed": 44,
       "qualified": 44
     },
     "external": {
@@ -40,7 +40,7 @@
   "by_funnel": {
     "YouTube": {
       "total": 20,
-      "showed": 11,
+      "showed": 12,
       "qualified": 12
     },
     "Unknown (Needs Review)": {
