@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T07:15:10.875873-07:00",
+  "generated_at": "2026-07-10T07:30:25.901117-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 95,
-      "showed": 43,
-      "qualified": 44
+      "showed": 44,
+      "qualified": 45
     },
     "external": {
       "total": 65,
@@ -45,8 +45,8 @@
     },
     "YouTube": {
       "total": 23,
-      "showed": 12,
-      "qualified": 12
+      "showed": 13,
+      "qualified": 13
     },
     "Unknown (Needs Review)": {
       "total": 20,
