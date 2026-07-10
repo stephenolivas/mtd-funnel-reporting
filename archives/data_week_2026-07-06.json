@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T09:15:10.548712-07:00",
+  "generated_at": "2026-07-10T09:30:22.509815-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -58,10 +58,10 @@
       "showed": 18,
       "qualified": 18
     },
-    "Reactivation Scrapers": {
-      "total": 9,
-      "showed": 4,
-      "qualified": 4
+    "Internal Webinar": {
+      "total": 19,
+      "showed": 8,
+      "qualified": 10
     },
     "Website": {
       "total": 32,
@@ -73,15 +73,15 @@
       "showed": 0,
       "qualified": 0
     },
-    "Internal Webinar": {
-      "total": 17,
-      "showed": 6,
-      "qualified": 8
-    },
     "LTF - In-House": {
       "total": 6,
       "showed": 4,
       "qualified": 4
+    },
+    "Reactivation Scrapers": {
+      "total": 7,
+      "showed": 2,
+      "qualified": 2
     },
     "X": {
       "total": 1,
@@ -130,12 +130,13 @@
       "2": 2,
       "1": 4
     },
-    "Reactivation Scrapers": {
+    "Internal Webinar": {
       "9": 1,
-      "4": 1,
-      "3": 4,
-      "2": 2,
-      "1": 1
+      "7": 1,
+      "6": 1,
+      "2": 5,
+      "3": 8,
+      "1": 3
     },
     "Website": {
       "9": 2,
@@ -150,18 +151,17 @@
     "Anthony X": {
       "10": 1
     },
-    "Internal Webinar": {
-      "7": 1,
-      "6": 1,
-      "2": 5,
-      "3": 7,
-      "1": 3
-    },
     "LTF - In-House": {
       "7": 2,
       "8": 1,
       "3": 2,
       "2": 1
+    },
+    "Reactivation Scrapers": {
+      "4": 1,
+      "3": 3,
+      "2": 2,
+      "1": 1
     },
     "X": {
       "2": 1
