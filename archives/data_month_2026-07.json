@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T04:15:11.313625-07:00",
+  "generated_at": "2026-07-10T04:30:21.823312-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 158,
+    "mtd_booked": 159,
     "on_pace": 318,
-    "remaining": 829,
-    "eom_projection": 490,
+    "remaining": 828,
+    "eom_projection": 493,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,9 +32,9 @@
       "qualified": 44
     },
     "external": {
-      "total": 64,
-      "showed": 26,
-      "qualified": 27
+      "total": 65,
+      "showed": 27,
+      "qualified": 28
     }
   },
   "by_funnel": {
@@ -54,9 +54,9 @@
       "qualified": 5
     },
     "Instagram": {
-      "total": 34,
-      "showed": 15,
-      "qualified": 15
+      "total": 35,
+      "showed": 16,
+      "qualified": 16
     },
     "Reactivation Scrapers": {
       "total": 9,
@@ -121,7 +121,7 @@
       "1": 2
     },
     "Instagram": {
-      "9": 3,
+      "9": 4,
       "10": 3,
       "8": 7,
       "7": 3,
