@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T20:00:20.804973-07:00",
+  "generated_at": "2026-07-09T20:15:09.633512-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -27,14 +27,14 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 89,
-      "showed": 43,
-      "qualified": 44
+      "total": 87,
+      "showed": 41,
+      "qualified": 42
     },
     "external": {
-      "total": 59,
-      "showed": 25,
-      "qualified": 26
+      "total": 61,
+      "showed": 27,
+      "qualified": 28
     }
   },
   "by_funnel": {
@@ -49,14 +49,9 @@
       "qualified": 4
     },
     "Instagram": {
-      "total": 31,
-      "showed": 15,
-      "qualified": 15
-    },
-    "Reactivation Scrapers": {
-      "total": 9,
-      "showed": 4,
-      "qualified": 4
+      "total": 33,
+      "showed": 17,
+      "qualified": 17
     },
     "Website": {
       "total": 32,
@@ -77,6 +72,11 @@
       "total": 6,
       "showed": 4,
       "qualified": 4
+    },
+    "Reactivation Scrapers": {
+      "total": 7,
+      "showed": 2,
+      "qualified": 2
     },
     "X": {
       "total": 1,
@@ -105,20 +105,13 @@
       "1": 2
     },
     "Instagram": {
-      "9": 3,
+      "9": 4,
       "8": 7,
       "7": 3,
       "6": 6,
-      "3": 5,
+      "3": 6,
       "2": 3,
       "1": 4
-    },
-    "Reactivation Scrapers": {
-      "9": 1,
-      "4": 1,
-      "3": 4,
-      "2": 2,
-      "1": 1
     },
     "Website": {
       "9": 2,
@@ -150,6 +143,12 @@
       "8": 1,
       "3": 2,
       "2": 1
+    },
+    "Reactivation Scrapers": {
+      "4": 1,
+      "3": 3,
+      "2": 2,
+      "1": 1
     },
     "X": {
       "2": 1
