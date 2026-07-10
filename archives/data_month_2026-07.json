@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T03:30:19.589371-07:00",
+  "generated_at": "2026-07-10T03:45:18.358232-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -20,14 +20,14 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 159,
+    "mtd_booked": 158,
     "on_pace": 318,
-    "remaining": 828,
-    "eom_projection": 493,
+    "remaining": 829,
+    "eom_projection": 490,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 95,
+      "total": 94,
       "showed": 43,
       "qualified": 44
     },
@@ -39,7 +39,7 @@
   },
   "by_funnel": {
     "Meta Ads": {
-      "total": 13,
+      "total": 12,
       "showed": 5,
       "qualified": 6
     },
@@ -96,7 +96,7 @@
   },
   "by_funnel_day": {
     "Meta Ads": {
-      "10": 3,
+      "10": 2,
       "8": 1,
       "9": 1,
       "7": 1,
