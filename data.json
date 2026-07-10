@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T09:00:20.162238-07:00",
+  "generated_at": "2026-07-10T09:15:10.548712-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -20,19 +20,19 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 161,
+    "mtd_booked": 159,
     "on_pace": 318,
-    "remaining": 826,
-    "eom_projection": 499,
+    "remaining": 828,
+    "eom_projection": 493,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 95,
+      "total": 94,
       "showed": 47,
       "qualified": 46
     },
     "external": {
-      "total": 66,
+      "total": 65,
       "showed": 30,
       "qualified": 30
     }
@@ -50,11 +50,11 @@
     },
     "YouTube": {
       "total": 23,
-      "showed": 16,
+      "showed": 17,
       "qualified": 14
     },
     "Instagram": {
-      "total": 34,
+      "total": 33,
       "showed": 18,
       "qualified": 18
     },
@@ -74,8 +74,8 @@
       "qualified": 0
     },
     "Internal Webinar": {
-      "total": 18,
-      "showed": 7,
+      "total": 17,
+      "showed": 6,
       "qualified": 8
     },
     "LTF - In-House": {
@@ -127,7 +127,7 @@
       "7": 3,
       "6": 6,
       "3": 5,
-      "2": 3,
+      "2": 2,
       "1": 4
     },
     "Reactivation Scrapers": {
@@ -153,7 +153,7 @@
     "Internal Webinar": {
       "7": 1,
       "6": 1,
-      "2": 6,
+      "2": 5,
       "3": 7,
       "1": 3
     },
