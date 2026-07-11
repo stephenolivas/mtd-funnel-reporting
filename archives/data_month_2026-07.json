@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T10:00:20.586853-07:00",
+  "generated_at": "2026-07-11T10:15:10.040305-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -29,7 +29,7 @@
     "inhouse": {
       "total": 99,
       "showed": 54,
-      "qualified": 50
+      "qualified": 51
     },
     "external": {
       "total": 54,
@@ -61,7 +61,7 @@
     "Reactivation Scrapers": {
       "total": 11,
       "showed": 5,
-      "qualified": 5
+      "qualified": 6
     },
     "Anthony X": {
       "total": 1,
