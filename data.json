@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T11:30:21.714765-07:00",
+  "generated_at": "2026-07-13T11:45:10.765170-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -38,8 +38,13 @@
     }
   },
   "by_funnel": {
+    "Instagram": {
+      "total": 40,
+      "showed": 22,
+      "qualified": 23
+    },
     "Unknown (Needs Review)": {
-      "total": 12,
+      "total": 11,
       "showed": 5,
       "qualified": 5
     },
@@ -57,11 +62,6 @@
       "total": 3,
       "showed": 2,
       "qualified": 2
-    },
-    "Instagram": {
-      "total": 39,
-      "showed": 22,
-      "qualified": 23
     },
     "Mike Newsletter": {
       "total": 1,
@@ -100,8 +100,19 @@
     }
   },
   "by_funnel_day": {
+    "Instagram": {
+      "13": 6,
+      "10": 4,
+      "9": 4,
+      "8": 6,
+      "7": 3,
+      "6": 6,
+      "3": 5,
+      "2": 2,
+      "1": 4
+    },
     "Unknown (Needs Review)": {
-      "13": 2,
+      "13": 1,
       "10": 1,
       "3": 4,
       "4": 2,
@@ -132,17 +143,6 @@
     "X": {
       "13": 2,
       "2": 1
-    },
-    "Instagram": {
-      "13": 5,
-      "10": 4,
-      "9": 4,
-      "8": 6,
-      "7": 3,
-      "6": 6,
-      "3": 5,
-      "2": 2,
-      "1": 4
     },
     "Mike Newsletter": {
       "13": 1
