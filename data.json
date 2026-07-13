@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T14:15:10.141440-07:00",
+  "generated_at": "2026-07-13T14:30:23.604213-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -20,26 +20,26 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 176,
+    "mtd_booked": 178,
     "on_pace": 414,
-    "remaining": 811,
-    "eom_projection": 420,
+    "remaining": 809,
+    "eom_projection": 424,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 111,
-      "showed": 60,
-      "qualified": 56
+      "total": 112,
+      "showed": 61,
+      "qualified": 57
     },
     "external": {
-      "total": 65,
+      "total": 66,
       "showed": 42,
       "qualified": 43
     }
   },
   "by_funnel": {
     "Instagram": {
-      "total": 39,
+      "total": 40,
       "showed": 24,
       "qualified": 25
     },
@@ -56,7 +56,7 @@
     "YouTube": {
       "total": 27,
       "showed": 21,
-      "qualified": 16
+      "qualified": 17
     },
     "X": {
       "total": 3,
@@ -94,8 +94,8 @@
       "qualified": 1
     },
     "Internal Webinar": {
-      "total": 17,
-      "showed": 5,
+      "total": 18,
+      "showed": 6,
       "qualified": 8
     },
     "LTF - In-House": {
@@ -109,7 +109,7 @@
       "13": 5,
       "10": 4,
       "9": 4,
-      "8": 6,
+      "8": 7,
       "7": 3,
       "6": 6,
       "3": 5,
@@ -184,7 +184,7 @@
     "Internal Webinar": {
       "7": 1,
       "6": 1,
-      "2": 5,
+      "2": 6,
       "3": 7,
       "1": 3
     },
