@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T10:00:23.808458-07:00",
+  "generated_at": "2026-07-13T10:15:12.069995-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 112,
-      "showed": 58,
-      "qualified": 55
+      "showed": 59,
+      "qualified": 56
     },
     "external": {
       "total": 64,
@@ -40,8 +40,8 @@
   "by_funnel": {
     "Website": {
       "total": 37,
-      "showed": 19,
-      "qualified": 14
+      "showed": 20,
+      "qualified": 15
     },
     "YouTube": {
       "total": 28,
