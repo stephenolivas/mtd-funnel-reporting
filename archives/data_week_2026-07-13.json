@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T12:15:10.052731-07:00",
+  "generated_at": "2026-07-13T12:30:23.064631-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -27,21 +27,21 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 112,
-      "showed": 61,
-      "qualified": 57
+      "total": 111,
+      "showed": 60,
+      "qualified": 56
     },
     "external": {
-      "total": 65,
-      "showed": 39,
-      "qualified": 40
+      "total": 66,
+      "showed": 40,
+      "qualified": 41
     }
   },
   "by_funnel": {
     "Instagram": {
-      "total": 40,
-      "showed": 23,
-      "qualified": 24
+      "total": 39,
+      "showed": 22,
+      "qualified": 23
     },
     "Unknown (Needs Review)": {
       "total": 11,
@@ -54,9 +54,9 @@
       "qualified": 16
     },
     "YouTube": {
-      "total": 28,
-      "showed": 22,
-      "qualified": 17
+      "total": 27,
+      "showed": 21,
+      "qualified": 16
     },
     "X": {
       "total": 3,
@@ -72,6 +72,11 @@
       "total": 18,
       "showed": 8,
       "qualified": 10
+    },
+    "Sales Reactivation": {
+      "total": 2,
+      "showed": 2,
+      "qualified": 2
     },
     "Linkedin": {
       "total": 4,
@@ -101,7 +106,7 @@
   },
   "by_funnel_day": {
     "Instagram": {
-      "13": 6,
+      "13": 5,
       "10": 4,
       "9": 4,
       "8": 6,
@@ -132,7 +137,7 @@
       "1": 2
     },
     "YouTube": {
-      "13": 5,
+      "13": 4,
       "10": 4,
       "9": 7,
       "8": 3,
@@ -157,6 +162,9 @@
       "6": 1,
       "2": 4,
       "1": 2
+    },
+    "Sales Reactivation": {
+      "13": 2
     },
     "Linkedin": {
       "13": 2,
