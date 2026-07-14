@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T10:45:14.355407-07:00",
+  "generated_at": "2026-07-14T11:00:30.452563-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 191,
+    "mtd_booked": 190,
     "on_pace": 446,
-    "remaining": 796,
-    "eom_projection": 423,
+    "remaining": 797,
+    "eom_projection": 421,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,7 +32,7 @@
       "qualified": 66
     },
     "external": {
-      "total": 67,
+      "total": 66,
       "showed": 42,
       "qualified": 43
     }
@@ -54,7 +54,7 @@
       "qualified": 18
     },
     "Instagram": {
-      "total": 42,
+      "total": 41,
       "showed": 25,
       "qualified": 26
     },
@@ -142,7 +142,7 @@
     },
     "Instagram": {
       "13": 5,
-      "14": 2,
+      "14": 1,
       "10": 4,
       "9": 4,
       "8": 7,
