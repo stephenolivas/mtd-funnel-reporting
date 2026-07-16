@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T12:15:10.534788-07:00",
+  "generated_at": "2026-07-16T12:30:22.149437-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -20,14 +20,14 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 222,
+    "mtd_booked": 223,
     "on_pace": 509,
-    "remaining": 765,
-    "eom_projection": 430,
+    "remaining": 764,
+    "eom_projection": 432,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 149,
+      "total": 150,
       "showed": 91,
       "qualified": 81
     },
@@ -39,7 +39,7 @@
   },
   "by_funnel": {
     "YouTube": {
-      "total": 34,
+      "total": 35,
       "showed": 27,
       "qualified": 21
     },
@@ -111,7 +111,7 @@
   },
   "by_funnel_day": {
     "YouTube": {
-      "16": 2,
+      "16": 3,
       "15": 2,
       "14": 3,
       "13": 4,
