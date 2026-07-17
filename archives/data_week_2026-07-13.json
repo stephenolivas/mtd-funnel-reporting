@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-16T23:45:11.055400-07:00",
+  "generated_at": "2026-07-17T00:00:18.114370-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
-  "day": 16,
+  "day": 17,
   "month_days": 31,
   "goals": {
     "Low Ticket Funnel": 200,
@@ -20,43 +20,58 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 222,
-    "on_pace": 509,
-    "remaining": 765,
+    "mtd_booked": 236,
+    "on_pace": 541,
+    "remaining": 751,
     "eom_projection": 430,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 149,
+      "total": 157,
       "showed": 91,
       "qualified": 81
     },
     "external": {
-      "total": 73,
+      "total": 79,
       "showed": 46,
       "qualified": 46
     }
   },
   "by_funnel": {
-    "YouTube": {
-      "total": 34,
-      "showed": 27,
-      "qualified": 21
-    },
     "Instagram": {
-      "total": 47,
+      "total": 49,
       "showed": 28,
       "qualified": 28
     },
-    "Website": {
-      "total": 50,
-      "showed": 34,
-      "qualified": 26
+    "YouTube": {
+      "total": 37,
+      "showed": 27,
+      "qualified": 21
+    },
+    "Unknown (Needs Review)": {
+      "total": 12,
+      "showed": 4,
+      "qualified": 4
     },
     "Internal Webinar": {
-      "total": 30,
+      "total": 32,
       "showed": 10,
       "qualified": 13
+    },
+    "Sales Reactivation": {
+      "total": 3,
+      "showed": 2,
+      "qualified": 2
+    },
+    "Meta Ads": {
+      "total": 22,
+      "showed": 13,
+      "qualified": 13
+    },
+    "Website": {
+      "total": 52,
+      "showed": 34,
+      "qualified": 26
     },
     "VSL": {
       "total": 1,
@@ -67,11 +82,6 @@
       "total": 7,
       "showed": 5,
       "qualified": 5
-    },
-    "Meta Ads": {
-      "total": 21,
-      "showed": 13,
-      "qualified": 13
     },
     "X": {
       "total": 3,
@@ -88,11 +98,6 @@
       "showed": 6,
       "qualified": 7
     },
-    "Sales Reactivation": {
-      "total": 2,
-      "showed": 2,
-      "qualified": 2
-    },
     "Linkedin": {
       "total": 4,
       "showed": 4,
@@ -102,27 +107,11 @@
       "total": 1,
       "showed": 1,
       "qualified": 1
-    },
-    "Unknown (Needs Review)": {
-      "total": 9,
-      "showed": 4,
-      "qualified": 4
     }
   },
   "by_funnel_day": {
-    "YouTube": {
-      "16": 2,
-      "15": 2,
-      "14": 3,
-      "13": 4,
-      "10": 4,
-      "9": 7,
-      "8": 3,
-      "7": 4,
-      "6": 3,
-      "2": 2
-    },
     "Instagram": {
+      "17": 2,
       "16": 4,
       "14": 2,
       "13": 5,
@@ -135,7 +124,55 @@
       "2": 2,
       "1": 4
     },
+    "YouTube": {
+      "17": 3,
+      "16": 2,
+      "15": 2,
+      "14": 3,
+      "13": 4,
+      "10": 4,
+      "9": 7,
+      "8": 3,
+      "7": 4,
+      "6": 3,
+      "2": 2
+    },
+    "Unknown (Needs Review)": {
+      "17": 3,
+      "3": 4,
+      "4": 2,
+      "2": 2,
+      "1": 1
+    },
+    "Internal Webinar": {
+      "17": 2,
+      "16": 5,
+      "15": 6,
+      "7": 1,
+      "6": 1,
+      "2": 6,
+      "3": 7,
+      "1": 4
+    },
+    "Sales Reactivation": {
+      "17": 1,
+      "13": 2
+    },
+    "Meta Ads": {
+      "17": 1,
+      "14": 5,
+      "13": 2,
+      "10": 4,
+      "8": 1,
+      "9": 1,
+      "11": 1,
+      "7": 1,
+      "6": 1,
+      "2": 4,
+      "1": 1
+    },
     "Website": {
+      "17": 2,
       "16": 3,
       "15": 7,
       "14": 2,
@@ -150,15 +187,6 @@
       "2": 6,
       "1": 2
     },
-    "Internal Webinar": {
-      "16": 5,
-      "15": 6,
-      "7": 1,
-      "6": 1,
-      "2": 6,
-      "3": 7,
-      "1": 4
-    },
     "VSL": {
       "9": 1
     },
@@ -168,18 +196,6 @@
       "8": 1,
       "3": 2,
       "2": 1
-    },
-    "Meta Ads": {
-      "14": 5,
-      "13": 2,
-      "10": 4,
-      "8": 1,
-      "9": 1,
-      "11": 1,
-      "7": 1,
-      "6": 1,
-      "2": 4,
-      "1": 1
     },
     "X": {
       "13": 2,
@@ -197,9 +213,6 @@
       "2": 3,
       "1": 1
     },
-    "Sales Reactivation": {
-      "13": 2
-    },
     "Linkedin": {
       "13": 2,
       "2": 1,
@@ -207,12 +220,6 @@
     },
     "Anthony X": {
       "10": 1
-    },
-    "Unknown (Needs Review)": {
-      "3": 4,
-      "4": 2,
-      "2": 2,
-      "1": 1
     }
   },
   "won_by_funnel": {}
