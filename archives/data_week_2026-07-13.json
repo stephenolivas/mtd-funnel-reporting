@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T05:15:09.640759-07:00",
+  "generated_at": "2026-07-17T05:30:14.607842-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 236,
+    "mtd_booked": 238,
     "on_pace": 541,
-    "remaining": 751,
-    "eom_projection": 430,
+    "remaining": 749,
+    "eom_projection": 434,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,12 +32,17 @@
       "qualified": 81
     },
     "external": {
-      "total": 79,
+      "total": 81,
       "showed": 46,
       "qualified": 46
     }
   },
   "by_funnel": {
+    "Unknown (Needs Review)": {
+      "total": 14,
+      "showed": 4,
+      "qualified": 4
+    },
     "Instagram": {
       "total": 49,
       "showed": 28,
@@ -47,11 +52,6 @@
       "total": 37,
       "showed": 27,
       "qualified": 21
-    },
-    "Unknown (Needs Review)": {
-      "total": 12,
-      "showed": 4,
-      "qualified": 4
     },
     "Internal Webinar": {
       "total": 32,
@@ -110,6 +110,14 @@
     }
   },
   "by_funnel_day": {
+    "Unknown (Needs Review)": {
+      "7": 2,
+      "17": 3,
+      "3": 4,
+      "4": 2,
+      "2": 2,
+      "1": 1
+    },
     "Instagram": {
       "17": 2,
       "16": 4,
@@ -136,13 +144,6 @@
       "7": 4,
       "6": 3,
       "2": 2
-    },
-    "Unknown (Needs Review)": {
-      "17": 3,
-      "3": 4,
-      "4": 2,
-      "2": 2,
-      "1": 1
     },
     "Internal Webinar": {
       "17": 2,
