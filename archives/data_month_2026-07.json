@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T07:45:11.110668-07:00",
+  "generated_at": "2026-07-20T08:00:18.888892-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -27,14 +27,14 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 164,
-      "showed": 95,
-      "qualified": 86
+      "total": 167,
+      "showed": 96,
+      "qualified": 87
     },
     "external": {
-      "total": 97,
+      "total": 94,
       "showed": 55,
-      "qualified": 56
+      "qualified": 55
     }
   },
   "by_funnel": {
@@ -44,14 +44,14 @@
       "qualified": 30
     },
     "Website": {
-      "total": 54,
-      "showed": 35,
-      "qualified": 29
+      "total": 57,
+      "showed": 36,
+      "qualified": 30
     },
     "Unknown (Needs Review)": {
-      "total": 26,
+      "total": 23,
       "showed": 8,
-      "qualified": 10
+      "qualified": 9
     },
     "Meta Ads": {
       "total": 26,
@@ -131,7 +131,7 @@
       "1": 4
     },
     "Website": {
-      "20": 1,
+      "20": 4,
       "17": 2,
       "16": 3,
       "15": 7,
@@ -150,7 +150,7 @@
     },
     "Unknown (Needs Review)": {
       "19": 2,
-      "20": 9,
+      "20": 6,
       "17": 4,
       "7": 2,
       "3": 4,
