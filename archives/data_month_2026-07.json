@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T05:30:12.106037-07:00",
+  "generated_at": "2026-07-20T05:45:13.818243-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -20,16 +20,16 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 263,
+    "mtd_booked": 262,
     "on_pace": 637,
-    "remaining": 724,
-    "eom_projection": 408,
+    "remaining": 725,
+    "eom_projection": 406,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 165,
-      "showed": 96,
-      "qualified": 87
+      "total": 164,
+      "showed": 95,
+      "qualified": 86
     },
     "external": {
       "total": 98,
@@ -69,9 +69,9 @@
       "qualified": 15
     },
     "YouTube": {
-      "total": 39,
-      "showed": 29,
-      "qualified": 22
+      "total": 38,
+      "showed": 28,
+      "qualified": 21
     },
     "Sales Reactivation": {
       "total": 3,
@@ -196,7 +196,7 @@
       "13": 4,
       "10": 4,
       "9": 7,
-      "8": 4,
+      "8": 3,
       "7": 4,
       "6": 3,
       "2": 2
