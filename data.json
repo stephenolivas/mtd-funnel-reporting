@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T16:15:17.384050-07:00",
+  "generated_at": "2026-07-21T16:30:10.227061-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -33,15 +33,15 @@
     },
     "external": {
       "total": 96,
-      "showed": 59,
-      "qualified": 59
+      "showed": 60,
+      "qualified": 60
     }
   },
   "by_funnel": {
     "Unknown (Needs Review)": {
       "total": 14,
-      "showed": 4,
-      "qualified": 4
+      "showed": 5,
+      "qualified": 5
     },
     "Instagram": {
       "total": 60,
