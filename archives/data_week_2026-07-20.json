@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T09:00:17.350526-07:00",
+  "generated_at": "2026-07-22T09:15:13.638453-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -27,17 +27,22 @@
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 203,
+      "total": 202,
       "showed": 114,
       "qualified": 103
     },
     "external": {
-      "total": 97,
+      "total": 98,
       "showed": 60,
       "qualified": 59
     }
   },
   "by_funnel": {
+    "Instagram": {
+      "total": 62,
+      "showed": 36,
+      "qualified": 37
+    },
     "YouTube": {
       "total": 45,
       "showed": 34,
@@ -49,13 +54,8 @@
       "qualified": 2
     },
     "Website": {
-      "total": 76,
+      "total": 75,
       "showed": 42,
-      "qualified": 37
-    },
-    "Instagram": {
-      "total": 61,
-      "showed": 36,
       "qualified": 37
     },
     "Meta Ads": {
@@ -110,6 +110,23 @@
     }
   },
   "by_funnel_day": {
+    "Instagram": {
+      "22": 2,
+      "21": 6,
+      "20": 4,
+      "17": 4,
+      "16": 4,
+      "14": 2,
+      "13": 4,
+      "10": 4,
+      "9": 4,
+      "8": 7,
+      "7": 4,
+      "6": 6,
+      "3": 5,
+      "2": 2,
+      "1": 4
+    },
     "YouTube": {
       "22": 4,
       "21": 2,
@@ -133,7 +150,7 @@
       "2": 1
     },
     "Website": {
-      "22": 8,
+      "22": 7,
       "21": 7,
       "20": 6,
       "19": 2,
@@ -152,23 +169,6 @@
       "3": 6,
       "2": 6,
       "1": 2
-    },
-    "Instagram": {
-      "22": 1,
-      "21": 6,
-      "20": 4,
-      "17": 4,
-      "16": 4,
-      "14": 2,
-      "13": 4,
-      "10": 4,
-      "9": 4,
-      "8": 7,
-      "7": 4,
-      "6": 6,
-      "3": 5,
-      "2": 2,
-      "1": 4
     },
     "Meta Ads": {
       "22": 2,
