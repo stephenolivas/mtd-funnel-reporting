@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:00:18.596042-07:00",
+  "generated_at": "2026-07-23T14:15:11.236711-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -28,7 +28,7 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 163,
-      "showed": 95,
+      "showed": 96,
       "qualified": 89
     },
     "external": {
@@ -50,7 +50,7 @@
     },
     "YouTube": {
       "total": 36,
-      "showed": 26,
+      "showed": 27,
       "qualified": 18
     },
     "Website": {
