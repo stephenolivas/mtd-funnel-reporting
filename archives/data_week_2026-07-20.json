@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T16:00:16.112708-07:00",
+  "generated_at": "2026-07-23T16:15:11.514697-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -29,12 +29,12 @@
     "inhouse": {
       "total": 163,
       "showed": 98,
-      "qualified": 91
+      "qualified": 92
     },
     "external": {
       "total": 84,
-      "showed": 53,
-      "qualified": 53
+      "showed": 54,
+      "qualified": 54
     }
   },
   "by_funnel": {
@@ -51,7 +51,7 @@
     "YouTube": {
       "total": 36,
       "showed": 27,
-      "qualified": 18
+      "qualified": 19
     },
     "Website": {
       "total": 56,
@@ -60,8 +60,8 @@
     },
     "Instagram": {
       "total": 54,
-      "showed": 31,
-      "qualified": 33
+      "showed": 32,
+      "qualified": 34
     },
     "Anthony X": {
       "total": 2,
