@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T10:15:14.338117-07:00",
+  "generated_at": "2026-07-29T10:30:13.157702-07:00",
   "generated_tz": "PDT",
   "month": "2026-07",
   "month_label": "July 2026",
@@ -29,7 +29,7 @@
     "inhouse": {
       "total": 190,
       "showed": 113,
-      "qualified": 106
+      "qualified": 107
     },
     "external": {
       "total": 118,
@@ -50,7 +50,7 @@
     },
     "Website": {
       "total": 72,
-      "showed": 43,
+      "showed": 44,
       "qualified": 44
     },
     "X": {
@@ -65,8 +65,8 @@
     },
     "YouTube": {
       "total": 43,
-      "showed": 35,
-      "qualified": 25
+      "showed": 34,
+      "qualified": 26
     },
     "Meta Ads": {
       "total": 31,
