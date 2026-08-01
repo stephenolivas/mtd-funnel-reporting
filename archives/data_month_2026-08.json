@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T05:30:13.929320-07:00",
+  "generated_at": "2026-08-01T05:45:13.387286-07:00",
   "generated_tz": "PDT",
   "month": "2026-08",
   "month_label": "August 2026",
@@ -20,14 +20,14 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 9,
+    "mtd_booked": 8,
     "on_pace": 32,
-    "remaining": 978,
-    "eom_projection": 279,
+    "remaining": 979,
+    "eom_projection": 248,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 4,
+      "total": 3,
       "showed": 0,
       "qualified": 0
     },
@@ -59,7 +59,7 @@
       "qualified": 0
     },
     "Website": {
-      "total": 2,
+      "total": 1,
       "showed": 0,
       "qualified": 0
     }
@@ -78,7 +78,7 @@
       "1": 3
     },
     "Website": {
-      "1": 2
+      "1": 1
     }
   },
   "won_by_funnel": {}
