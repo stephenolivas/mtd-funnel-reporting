@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T18:00:13.360651-07:00",
+  "generated_at": "2026-08-03T18:15:12.476640-07:00",
   "generated_tz": "PDT",
   "month": "2026-08",
   "month_label": "August 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 7,
-      "showed": 5,
-      "qualified": 5
+      "showed": 6,
+      "qualified": 6
     },
     "external": {
       "total": 12,
@@ -70,8 +70,8 @@
     },
     "Internal Webinar": {
       "total": 2,
-      "showed": 1,
-      "qualified": 1
+      "showed": 2,
+      "qualified": 2
     }
   },
   "by_funnel_day": {
