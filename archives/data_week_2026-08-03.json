@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T10:15:11.459203-07:00",
+  "generated_at": "2026-08-07T10:30:14.563490-07:00",
   "generated_tz": "PDT",
   "month": "2026-08",
   "month_label": "August 2026",
@@ -33,7 +33,7 @@
     },
     "external": {
       "total": 30,
-      "showed": 11,
+      "showed": 12,
       "qualified": 14
     }
   },
@@ -45,7 +45,7 @@
     },
     "Unknown (Needs Review)": {
       "total": 7,
-      "showed": 2,
+      "showed": 3,
       "qualified": 2
     },
     "Google Ads": {
