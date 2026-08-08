@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-07T23:45:11.998049-07:00",
+  "generated_at": "2026-08-08T00:00:13.715319-07:00",
   "generated_tz": "PDT",
   "month": "2026-08",
   "month_label": "August 2026",
-  "day": 7,
+  "day": 8,
   "month_days": 31,
   "goals": {
     "Low Ticket Funnel": 200,
@@ -20,53 +20,58 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 44,
-    "on_pace": 223,
-    "remaining": 943,
-    "eom_projection": 195,
+    "mtd_booked": 53,
+    "on_pace": 255,
+    "remaining": 934,
+    "eom_projection": 205,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 14,
-      "showed": 11,
-      "qualified": 11
+      "total": 16,
+      "showed": 12,
+      "qualified": 12
     },
     "external": {
-      "total": 30,
-      "showed": 16,
-      "qualified": 18
+      "total": 37,
+      "showed": 17,
+      "qualified": 19
     }
   },
   "by_funnel": {
-    "Instagram": {
-      "total": 17,
-      "showed": 7,
-      "qualified": 9
-    },
     "Unknown (Needs Review)": {
-      "total": 6,
+      "total": 8,
       "showed": 3,
       "qualified": 3
+    },
+    "Google Ads": {
+      "total": 6,
+      "showed": 5,
+      "qualified": 4
+    },
+    "Instagram": {
+      "total": 20,
+      "showed": 8,
+      "qualified": 10
     },
     "Webinar": {
       "total": 1,
       "showed": 1,
       "qualified": 1
     },
-    "Google Ads": {
-      "total": 5,
-      "showed": 5,
-      "qualified": 4
+    "Linkedin": {
+      "total": 1,
+      "showed": 0,
+      "qualified": 0
+    },
+    "Meta Ads": {
+      "total": 4,
+      "showed": 3,
+      "qualified": 3
     },
     "YouTube": {
       "total": 4,
       "showed": 4,
       "qualified": 4
-    },
-    "Meta Ads": {
-      "total": 3,
-      "showed": 2,
-      "qualified": 2
     },
     "LTF - In-House": {
       "total": 1,
@@ -79,7 +84,7 @@
       "qualified": 1
     },
     "Website": {
-      "total": 3,
+      "total": 4,
       "showed": 2,
       "qualified": 2
     },
@@ -90,7 +95,23 @@
     }
   },
   "by_funnel_day": {
+    "Unknown (Needs Review)": {
+      "8": 2,
+      "7": 1,
+      "5": 3,
+      "4": 1,
+      "1": 1
+    },
+    "Google Ads": {
+      "8": 1,
+      "6": 1,
+      "7": 1,
+      "5": 1,
+      "4": 1,
+      "3": 1
+    },
     "Instagram": {
+      "8": 3,
       "7": 3,
       "5": 2,
       "4": 3,
@@ -98,31 +119,22 @@
       "3": 4,
       "1": 3
     },
-    "Unknown (Needs Review)": {
-      "7": 1,
-      "5": 3,
-      "4": 1,
-      "1": 1
-    },
     "Webinar": {
       "7": 1
     },
-    "Google Ads": {
-      "6": 1,
+    "Linkedin": {
+      "8": 1
+    },
+    "Meta Ads": {
+      "8": 1,
       "7": 1,
-      "5": 1,
-      "4": 1,
+      "1": 1,
       "3": 1
     },
     "YouTube": {
       "4": 2,
       "5": 1,
       "1": 1
-    },
-    "Meta Ads": {
-      "7": 1,
-      "1": 1,
-      "3": 1
     },
     "LTF - In-House": {
       "5": 1
@@ -132,6 +144,7 @@
       "5": 1
     },
     "Website": {
+      "8": 1,
       "3": 1,
       "5": 1,
       "2": 1
