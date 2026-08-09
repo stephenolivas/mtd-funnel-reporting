@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-08T23:45:11.277758-07:00",
+  "generated_at": "2026-08-09T00:00:14.489770-07:00",
   "generated_tz": "PDT",
   "month": "2026-08",
   "month_label": "August 2026",
-  "day": 8,
+  "day": 9,
   "month_days": 31,
   "goals": {
     "Low Ticket Funnel": 200,
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 50,
-    "on_pace": 255,
-    "remaining": 937,
-    "eom_projection": 194,
+    "mtd_booked": 53,
+    "on_pace": 287,
+    "remaining": 934,
+    "eom_projection": 183,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,20 +32,20 @@
       "qualified": 12
     },
     "external": {
-      "total": 34,
-      "showed": 19,
+      "total": 37,
+      "showed": 20,
       "qualified": 21
     }
   },
   "by_funnel": {
     "Unknown (Needs Review)": {
-      "total": 8,
+      "total": 9,
       "showed": 5,
       "qualified": 5
     },
     "Instagram": {
-      "total": 18,
-      "showed": 8,
+      "total": 20,
+      "showed": 9,
       "qualified": 10
     },
     "Webinar": {
@@ -99,12 +99,14 @@
       "8": 2,
       "7": 1,
       "5": 3,
+      "9": 1,
       "4": 1,
       "1": 1
     },
     "Instagram": {
       "8": 1,
       "7": 3,
+      "9": 2,
       "5": 2,
       "4": 3,
       "2": 2,
