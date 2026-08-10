@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T11:30:13.505058-07:00",
+  "generated_at": "2026-08-10T11:45:18.202607-07:00",
   "generated_tz": "PDT",
   "month": "2026-08",
   "month_label": "August 2026",
@@ -20,19 +20,19 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 62,
+    "mtd_booked": 63,
     "on_pace": 318,
-    "remaining": 925,
-    "eom_projection": 192,
+    "remaining": 924,
+    "eom_projection": 195,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 22,
-      "showed": 12,
-      "qualified": 12
+      "showed": 13,
+      "qualified": 13
     },
     "external": {
-      "total": 40,
+      "total": 41,
       "showed": 22,
       "qualified": 23
     }
@@ -40,8 +40,8 @@
   "by_funnel": {
     "Meta Ads": {
       "total": 6,
-      "showed": 3,
-      "qualified": 3
+      "showed": 4,
+      "qualified": 4
     },
     "YouTube": {
       "total": 5,
@@ -64,7 +64,7 @@
       "qualified": 5
     },
     "Instagram": {
-      "total": 23,
+      "total": 24,
       "showed": 11,
       "qualified": 12
     },
@@ -132,7 +132,7 @@
     },
     "Instagram": {
       "8": 2,
-      "10": 2,
+      "10": 3,
       "7": 3,
       "9": 2,
       "5": 2,
