@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T05:00:17.508977-07:00",
+  "generated_at": "2026-08-12T05:15:12.457510-07:00",
   "generated_tz": "PDT",
   "month": "2026-08",
   "month_label": "August 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 72,
+    "mtd_booked": 73,
     "on_pace": 382,
-    "remaining": 915,
-    "eom_projection": 186,
+    "remaining": 914,
+    "eom_projection": 189,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,12 +32,17 @@
       "qualified": 19
     },
     "external": {
-      "total": 36,
+      "total": 37,
       "showed": 18,
       "qualified": 20
     }
   },
   "by_funnel": {
+    "Unknown (Needs Review)": {
+      "total": 2,
+      "showed": 1,
+      "qualified": 1
+    },
     "Internal Webinar": {
       "total": 9,
       "showed": 3,
@@ -87,14 +92,13 @@
       "total": 1,
       "showed": 0,
       "qualified": 1
-    },
-    "Unknown (Needs Review)": {
-      "total": 1,
-      "showed": 1,
-      "qualified": 1
     }
   },
   "by_funnel_day": {
+    "Unknown (Needs Review)": {
+      "12": 1,
+      "1": 1
+    },
     "Internal Webinar": {
       "12": 6,
       "7": 1,
@@ -159,9 +163,6 @@
     },
     "LTF - In-House": {
       "5": 1
-    },
-    "Unknown (Needs Review)": {
-      "1": 1
     }
   },
   "won_by_funnel": {}
