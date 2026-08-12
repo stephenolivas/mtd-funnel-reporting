@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T07:15:11.492847-07:00",
+  "generated_at": "2026-08-12T07:30:15.200689-07:00",
   "generated_tz": "PDT",
   "month": "2026-08",
   "month_label": "August 2026",
@@ -44,7 +44,7 @@
       "qualified": 4
     },
     "Internal Webinar": {
-      "total": 9,
+      "total": 8,
       "showed": 4,
       "qualified": 3
     },
@@ -52,6 +52,11 @@
       "total": 6,
       "showed": 4,
       "qualified": 4
+    },
+    "Reactivation Scrapers": {
+      "total": 5,
+      "showed": 2,
+      "qualified": 1
     },
     "Instagram": {
       "total": 26,
@@ -67,11 +72,6 @@
       "total": 10,
       "showed": 7,
       "qualified": 7
-    },
-    "Reactivation Scrapers": {
-      "total": 4,
-      "showed": 2,
-      "qualified": 1
     },
     "Linkedin": {
       "total": 1,
@@ -104,7 +104,7 @@
       "3": 1
     },
     "Internal Webinar": {
-      "12": 6,
+      "12": 5,
       "7": 1,
       "1": 1,
       "3": 1
@@ -115,6 +115,13 @@
       "4": 2,
       "5": 1,
       "1": 1
+    },
+    "Reactivation Scrapers": {
+      "12": 1,
+      "11": 1,
+      "8": 1,
+      "6": 1,
+      "5": 1
     },
     "Instagram": {
       "11": 2,
@@ -139,12 +146,6 @@
       "4": 1,
       "3": 1,
       "2": 1
-    },
-    "Reactivation Scrapers": {
-      "11": 1,
-      "8": 1,
-      "6": 1,
-      "5": 1
     },
     "Linkedin": {
       "8": 1
