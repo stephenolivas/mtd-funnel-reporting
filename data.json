@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T10:45:10.671413-07:00",
+  "generated_at": "2026-08-13T11:00:20.833078-07:00",
   "generated_tz": "PDT",
   "month": "2026-08",
   "month_label": "August 2026",
@@ -54,7 +54,7 @@
       "qualified": 5
     },
     "Meta Ads": {
-      "total": 9,
+      "total": 8,
       "showed": 5,
       "qualified": 5
     },
@@ -63,15 +63,15 @@
       "showed": 2,
       "qualified": 1
     },
+    "Internal Webinar": {
+      "total": 12,
+      "showed": 7,
+      "qualified": 6
+    },
     "Unknown (Needs Review)": {
       "total": 3,
       "showed": 3,
       "qualified": 3
-    },
-    "Internal Webinar": {
-      "total": 11,
-      "showed": 7,
-      "qualified": 6
     },
     "Instagram": {
       "total": 26,
@@ -117,7 +117,7 @@
       "3": 1
     },
     "Meta Ads": {
-      "13": 2,
+      "13": 1,
       "12": 1,
       "10": 2,
       "8": 1,
@@ -132,17 +132,17 @@
       "6": 1,
       "5": 1
     },
-    "Unknown (Needs Review)": {
-      "13": 2,
-      "1": 1
-    },
     "Internal Webinar": {
+      "13": 2,
       "12": 6,
-      "13": 1,
       "7": 1,
       "4": 1,
       "1": 1,
       "3": 1
+    },
+    "Unknown (Needs Review)": {
+      "13": 2,
+      "1": 1
     },
     "Instagram": {
       "11": 2,
