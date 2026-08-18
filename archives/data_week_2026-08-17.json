@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T04:45:12.551672-07:00",
+  "generated_at": "2026-08-18T05:00:15.204632-07:00",
   "generated_tz": "PDT",
   "month": "2026-08",
   "month_label": "August 2026",
@@ -20,14 +20,14 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 103,
+    "mtd_booked": 104,
     "on_pace": 573,
-    "remaining": 884,
-    "eom_projection": 177,
+    "remaining": 883,
+    "eom_projection": 179,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 57,
+      "total": 58,
       "showed": 38,
       "qualified": 34
     },
@@ -38,15 +38,15 @@
     }
   },
   "by_funnel": {
+    "YouTube": {
+      "total": 11,
+      "showed": 8,
+      "qualified": 7
+    },
     "Unknown (Needs Review)": {
       "total": 4,
       "showed": 2,
       "qualified": 1
-    },
-    "YouTube": {
-      "total": 10,
-      "showed": 8,
-      "qualified": 7
     },
     "Website": {
       "total": 19,
@@ -95,20 +95,20 @@
     }
   },
   "by_funnel_day": {
-    "Unknown (Needs Review)": {
-      "18": 1,
-      "14": 1,
-      "17": 1,
-      "1": 1
-    },
     "YouTube": {
-      "18": 2,
+      "18": 3,
       "15": 1,
       "13": 1,
       "11": 1,
       "10": 1,
       "4": 2,
       "5": 1,
+      "1": 1
+    },
+    "Unknown (Needs Review)": {
+      "18": 1,
+      "14": 1,
+      "17": 1,
       "1": 1
     },
     "Website": {
