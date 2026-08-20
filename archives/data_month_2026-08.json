@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T09:30:12.709081-07:00",
+  "generated_at": "2026-08-20T09:45:11.491167-07:00",
   "generated_tz": "PDT",
   "month": "2026-08",
   "month_label": "August 2026",
@@ -28,8 +28,8 @@
     "closed_won_mtd": 0,
     "inhouse": {
       "total": 76,
-      "showed": 46,
-      "qualified": 41
+      "showed": 48,
+      "qualified": 43
     },
     "external": {
       "total": 53,
@@ -65,8 +65,8 @@
     },
     "Internal Webinar": {
       "total": 22,
-      "showed": 12,
-      "qualified": 11
+      "showed": 14,
+      "qualified": 13
     },
     "LTF - In-House": {
       "total": 3,
