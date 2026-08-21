@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-20T23:45:11.147032-07:00",
+  "generated_at": "2026-08-21T00:00:21.936637-07:00",
   "generated_tz": "PDT",
   "month": "2026-08",
   "month_label": "August 2026",
-  "day": 20,
+  "day": 21,
   "month_days": 31,
   "goals": {
     "Low Ticket Funnel": 200,
@@ -20,24 +20,29 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 127,
-    "on_pace": 637,
-    "remaining": 860,
-    "eom_projection": 197,
+    "mtd_booked": 133,
+    "on_pace": 669,
+    "remaining": 854,
+    "eom_projection": 196,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 76,
-      "showed": 48,
-      "qualified": 43
+      "total": 78,
+      "showed": 49,
+      "qualified": 44
     },
     "external": {
-      "total": 51,
-      "showed": 24,
-      "qualified": 24
+      "total": 55,
+      "showed": 25,
+      "qualified": 25
     }
   },
   "by_funnel": {
+    "Unknown (Needs Review)": {
+      "total": 8,
+      "showed": 2,
+      "qualified": 2
+    },
     "Google Ads": {
       "total": 9,
       "showed": 5,
@@ -49,14 +54,14 @@
       "qualified": 12
     },
     "YouTube": {
-      "total": 15,
-      "showed": 13,
-      "qualified": 11
+      "total": 17,
+      "showed": 14,
+      "qualified": 12
     },
-    "Unknown (Needs Review)": {
-      "total": 5,
+    "LTF - In-House": {
+      "total": 4,
       "showed": 2,
-      "qualified": 2
+      "qualified": 3
     },
     "Instagram": {
       "total": 32,
@@ -67,11 +72,6 @@
       "total": 22,
       "showed": 14,
       "qualified": 13
-    },
-    "LTF - In-House": {
-      "total": 3,
-      "showed": 1,
-      "qualified": 2
     },
     "Reactivation Scrapers": {
       "total": 9,
@@ -95,6 +95,13 @@
     }
   },
   "by_funnel_day": {
+    "Unknown (Needs Review)": {
+      "21": 3,
+      "20": 2,
+      "19": 1,
+      "17": 1,
+      "1": 1
+    },
     "Google Ads": {
       "20": 1,
       "19": 1,
@@ -123,6 +130,7 @@
     },
     "YouTube": {
       "20": 3,
+      "21": 2,
       "19": 2,
       "18": 2,
       "15": 1,
@@ -133,11 +141,11 @@
       "5": 1,
       "1": 1
     },
-    "Unknown (Needs Review)": {
-      "20": 2,
+    "LTF - In-House": {
+      "21": 1,
       "19": 1,
-      "17": 1,
-      "1": 1
+      "14": 1,
+      "5": 1
     },
     "Instagram": {
       "20": 1,
@@ -167,11 +175,6 @@
       "4": 1,
       "1": 1,
       "3": 1
-    },
-    "LTF - In-House": {
-      "19": 1,
-      "14": 1,
-      "5": 1
     },
     "Reactivation Scrapers": {
       "19": 3,
