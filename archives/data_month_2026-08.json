@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T10:00:17.571457-07:00",
+  "generated_at": "2026-08-21T10:15:10.176465-07:00",
   "generated_tz": "PDT",
   "month": "2026-08",
   "month_label": "August 2026",
@@ -20,10 +20,10 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 131,
+    "mtd_booked": 132,
     "on_pace": 669,
-    "remaining": 856,
-    "eom_projection": 193,
+    "remaining": 855,
+    "eom_projection": 195,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
@@ -32,7 +32,7 @@
       "qualified": 45
     },
     "external": {
-      "total": 48,
+      "total": 49,
       "showed": 24,
       "qualified": 24
     }
@@ -68,6 +68,11 @@
       "showed": 14,
       "qualified": 13
     },
+    "Unknown (Needs Review)": {
+      "total": 2,
+      "showed": 1,
+      "qualified": 1
+    },
     "Reactivation Scrapers": {
       "total": 9,
       "showed": 2,
@@ -87,11 +92,6 @@
       "total": 1,
       "showed": 0,
       "qualified": 0
-    },
-    "Unknown (Needs Review)": {
-      "total": 1,
-      "showed": 1,
-      "qualified": 1
     }
   },
   "by_funnel_day": {
@@ -170,6 +170,10 @@
       "1": 1,
       "3": 1
     },
+    "Unknown (Needs Review)": {
+      "14": 1,
+      "1": 1
+    },
     "Reactivation Scrapers": {
       "19": 3,
       "13": 1,
@@ -194,9 +198,6 @@
     },
     "Side Hustle Nation": {
       "10": 1
-    },
-    "Unknown (Needs Review)": {
-      "1": 1
     }
   },
   "won_by_funnel": {}
