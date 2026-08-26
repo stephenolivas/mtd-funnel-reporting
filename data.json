@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T12:45:12.826161-07:00",
+  "generated_at": "2026-08-26T13:00:13.596843-07:00",
   "generated_tz": "PDT",
   "month": "2026-08",
   "month_label": "August 2026",
@@ -73,15 +73,10 @@
       "showed": 3,
       "qualified": 1
     },
-    "Unknown (Needs Review)": {
-      "total": 2,
-      "showed": 2,
-      "qualified": 2
-    },
     "LTF - In-House": {
-      "total": 4,
-      "showed": 2,
-      "qualified": 3
+      "total": 5,
+      "showed": 3,
+      "qualified": 4
     },
     "Linkedin": {
       "total": 2,
@@ -92,6 +87,11 @@
       "total": 1,
       "showed": 0,
       "qualified": 0
+    },
+    "Unknown (Needs Review)": {
+      "total": 1,
+      "showed": 1,
+      "qualified": 1
     }
   },
   "by_funnel_day": {
@@ -200,11 +200,8 @@
       "6": 1,
       "5": 1
     },
-    "Unknown (Needs Review)": {
-      "22": 1,
-      "1": 1
-    },
     "LTF - In-House": {
+      "22": 1,
       "21": 1,
       "19": 1,
       "14": 1,
@@ -216,6 +213,9 @@
     },
     "Side Hustle Nation": {
       "10": 1
+    },
+    "Unknown (Needs Review)": {
+      "1": 1
     }
   },
   "won_by_funnel": {}
