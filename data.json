@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T14:45:10.927698-07:00",
+  "generated_at": "2026-08-26T15:00:19.278882-07:00",
   "generated_tz": "PDT",
   "month": "2026-08",
   "month_label": "August 2026",
@@ -20,26 +20,26 @@
     "WWWS": 1
   },
   "summary": {
-    "mtd_booked": 172,
+    "mtd_booked": 171,
     "on_pace": 828,
-    "remaining": 815,
-    "eom_projection": 205,
+    "remaining": 816,
+    "eom_projection": 204,
     "total_goal": 987,
     "closed_won_mtd": 0,
     "inhouse": {
-      "total": 111,
+      "total": 110,
       "showed": 63,
       "qualified": 59
     },
     "external": {
       "total": 61,
       "showed": 34,
-      "qualified": 34
+      "qualified": 33
     }
   },
   "by_funnel": {
     "Internal Webinar": {
-      "total": 37,
+      "total": 36,
       "showed": 20,
       "qualified": 20
     },
@@ -66,7 +66,7 @@
     "Instagram": {
       "total": 40,
       "showed": 20,
-      "qualified": 21
+      "qualified": 20
     },
     "LTF - In-House": {
       "total": 5,
@@ -96,7 +96,7 @@
   },
   "by_funnel_day": {
     "Internal Webinar": {
-      "26": 10,
+      "26": 9,
       "25": 4,
       "24": 1,
       "19": 4,
